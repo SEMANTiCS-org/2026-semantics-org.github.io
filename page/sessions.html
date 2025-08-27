@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>SEMANTICS-2025</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="../css/scrolling-nav.css" rel="stylesheet">
+	<link href="../css/style.css" rel="stylesheet">
+	<link href="../css/speakers.css" rel="stylesheet">
+	<link rel="icon" href="../img/semantics-logo-browser.ico">
+
+	<!-- Mark down -->
+	<script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
+
+	<!-- jQuery -->
+	<script src="../vendor/jquery/jquery.min.js"></script>
+
+	<!-- Custom JS -->
+	<script src="../js/getconf.js"></script>
+	<script src="../js/pcontent.js"></script>
+	<script src="../js/pcsv.js"></script>
+
+	<style>
+		h4 {
+			line-height: revert-layer !important;
+		}
+
+		td p:not(:has(img)) {
+			padding: 0 50px 0 50px;
+			color: gray;
+		}
+
+
+		th {
+			padding: 0px;
+			overflow: hidden;
+		}
+
+		table {
+			width: 100% !important;
+			/* background-color: rgb(230, 230, 230);
+			border-radius: 18px !important; */
+		}
+
+		th img {
+			width: 150px;
+			display: block;
+			margin: 0 auto;
+
+		}
+
+		img:not(table img) {
+			width: 200px;
+		}
+
+		table {
+			border-collapse: separate;
+			border-spacing: 10px;
+
+			overflow: hidden;
+		}
+
+		@media (min-width: 768px) {
+			table {
+				width: 100%;
+			}
+
+			th {
+				width: 33.33% !important;
+
+			}
+		}
+
+
+		th {
+			background-color: rgb(230, 230, 230);
+			border-radius: 18px !important;
+			border: 1px solid #ccc;
+		}
+	</style>
+
+</head>
+
+<body id="page-top">
+
+	<div id="nav-placeholder"></div>
+
+	<script>
+		$(function () {
+			$("#nav-placeholder").load("nav.html", function () {
+				apply_conf_onfunc(update_nav, false);
+			});
+			$("#page-footer").load("footer.html", function () {
+				apply_conf_onfunc(update_footer, false);
+			});
+		});
+	</script>
+
+	<section>
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div id="ks_browser" class="col-lg-12 mx-auto"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<footer id="page-footer"></footer>
+
+	<!-- JS Dependencies -->
+	<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+	<script src="../js/scrolling-nav.js"></script>
+	<script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
+	<script src="../js/mammoth.browser.min.js"></script>
+
+	<!-- Main logic -->
+	<script>
+		const queryString = window.location.search;
+		const urlParams = new URLSearchParams(queryString);
+		const page = urlParams.get('page');
+
+		let docs = [page];
+		let header = "";
+		if (page === "invited" || page === "keynote" || page === null) {
+			docs = [
+				"Keynote_GeorgGottlob",
+				"Keynote_HengJi",
+				"InvitedSpeaker_MichaelFarber",
+				"InvitedSpeaker_FelixSasaki"
+			];
+		}
+
+		get_doc(docs, "", header);
+
+		function get_doc(all_docxPath, docs_html, header) {
+			const docxPath = 'https://docs.google.com/document/d/' + all_docxPath.shift() + '/export?format=docx';
+			fetch(docxPath)
+				.then(res => res.arrayBuffer())
+				.then(arrayBuffer => {
+					const options = {
+						arrayBuffer: arrayBuffer,
+						styleMap: [
+							"p[style-name='Tiltle'] => h1",
+							"p[style-name='Table'] => table > thead > tr > th:fresh"
+						]
+					};
+
+					return mammoth.convertToHtml(options).then(result => {
+						docs_html += result.value + "<br><br><br>";
+						if (all_docxPath.length === 0) {
+							populate_container(docs_html, header);
+						} else {
+							get_doc(all_docxPath, docs_html, header);
+						}
+					});
+				})
+				.catch(error => {
+					console.error('Error loading DOCX file:', error);
+				});
+		}
+
+		function populate_container(docs_html, header) {
+			const container = document.getElementById('ks_browser');
+			container.innerHTML = "<h1>" + header + "</h1>" + docs_html;
+
+		}
+	</script>
+	<script>
+		document.querySelectorAll("th").forEach(th => {
+			if (th.querySelector("p > img")) {
+				th.style.padding = "50px";
+			}
+		});
+	</script>
+
+</body>
+
+</html>

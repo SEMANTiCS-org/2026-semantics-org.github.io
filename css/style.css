@@ -1,0 +1,496 @@
+:root {
+	--nav-bg-color: #33075c;
+	--nav-bg-color-semantics: rgb(64,71,87);
+	--nav-bg-color-semantics-two: rgb(64,71,87);
+	--nav-bg-color-semantics-orange: rgb(236,142,48);
+	--nav-bg-color-opacque: rgba(51, 7, 92,0.5);
+  --main-bg-color: rgb(236,142,48);
+	--section-bg-color: rgb(255,215,129);
+	--section-bg-color-alt: rgb(237,237,237);
+  --main-bg-color-opacque: rgba(236,142,48,0.7);
+}
+
+body{
+	font-family: 'Lato', sans-serif;
+}
+h2{
+	font-weight: normal;
+	font-size: 1.3em;
+}
+section{
+	padding-top: 50px;
+}
+footer{
+	vertical-align: middle !important;
+	padding: 2%;
+	background: var(--nav-bg-color-semantics);
+}
+footer .footer-content{
+	margin: auto;
+	width: 60%;
+}
+footer .footer-content div{
+	padding: 10px;
+}
+footer .footer-content a{
+	color: lightgray;
+}
+footer .footer-content .footer-second{
+	border-top: solid 1px gray;
+	color: gray;
+	padding: 30px;
+}
+footer .footer-content .footer-credits{
+	color: gray;
+	padding: 0px;
+	border: none;
+	font-size: 0.6em;
+}
+footer .footer-credits.gen-page div{
+	display: none;
+}
+footer .footer-second a{
+	color: gray;
+}
+footer .footer-second a:hover{
+	color: white;
+}
+
+.mobile-only{
+	display: none;
+}
+
+
+#topHeader{
+	background: white;
+	padding: 0px;
+	padding-bottom: 10px;
+	padding-top: 10px;
+}
+#topHeader .container{
+	padding-top: 5px !important;
+}
+#topHeader .social-tag{
+	color: gray;
+	margin-right: 10px;
+}
+#topHeader #social_logos{
+	float:right;
+}
+#topHeader #social_logos i{
+	font-size: 1.3em;
+	filter: grayscale(1);
+	opacity: 0.5;
+	transition: 0.7s;
+}
+#topHeader #social_logos i:hover{
+	opacity: 1;
+	filter: grayscale(0);
+}
+
+nav{
+	background: var(--nav-bg-color-semantics);
+}
+nav .dropdown-menu{
+	background: var(--nav-bg-color-semantics);
+}
+nav a{
+	font-size: 0.88em;
+	margin-right: 15px;
+	color: white !important;
+	transition: 0.7s;
+}
+nav a:hover{
+	color: var(--nav-bg-color-semantics-orange) !important;
+	background: initial !important;
+}
+header .title{
+	color: white;
+	/*background-color: rgba(0,0,0,0.3);*/
+	font-family: Gill Sans, sans-serif;
+	width: 400px !important;
+}
+header .title .decoline{
+	margin: 20px;
+}
+header .container{
+	vertical-align: middle!important;
+	padding-top: 60px;
+}
+header.bg-light {
+    background-image: url("../img/bg1_Vienna.jpg");
+    background-color: white !important;
+    background-repeat: no-repeat;
+    background-size: cover;
+    min-height: 450px;
+}
+@media (min-width: 1024px) {
+    header.bg-light {
+        background-image: 
+            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
+            url("../img/bg1_Vienna.jpg"); 
+		background-attachment: fixed; 
+    }
+}
+header .logo{
+	text-align: center !important;
+}
+header .logo img{
+	max-width: 400px;
+}
+#section_intro{
+	padding-bottom: 0px;
+}
+#intro{
+	margin-top: 20px;
+	margin-bottom: 50px;
+}
+.orgs .org{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+.sponsors .sponsor {
+    /*text-align: center;
+    margin: 0 auto;
+    padding: 5px;*/
+}
+.sponsor-header {
+	padding: 10px;
+	border-bottom: solid 2px var(--main-bg-color);
+}
+.sponsor-img{
+  /*max-width: 150px;
+  max-height:80px;
+  width: auto;
+  height: auto;*/
+}
+.col-4{
+	max-width: none!important;
+}
+.kss .ks{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+.persons .person{
+	text-align: center;
+	margin: 0 auto;
+	padding: 5px;
+}
+.person-info{
+	color: gray;
+	font-size: 0.9em;
+}
+.person-talk{
+	font-size: 0.9em;
+}
+.person-role{
+	color: var(--nav-bg-color-semantics-orange);
+	font-size: 0.8em;
+}
+#psc_members{
+	margin-bottom: 30px;
+}
+.psc-mem{
+	margin-top: 20px;
+}
+.group-title{
+	margin-top: 40px;
+	border-bottom: solid 2px var(--nav-bg-color-semantics-orange);
+}
+
+.theme-row{
+	padding-top : 40px !important;
+	background-color: var(--section-bg-color);
+}
+.theme-row-alt{
+	background-color: var(--section-bg-color-alt);
+}
+.theme-row-nav{
+	background-color: var(--nav-bg-color-semantics);
+}
+.collapsed-section{
+	padding: 0px;
+	padding-top: 10px;
+	padding-bottom: 40px;
+}
+
+.slot {
+	background-color:#16166b;
+	color: white;
+	text-align: center;
+}
+
+.keynote {
+	background-color:#f0a5a5;
+	color: white;
+	text-align: center;
+}
+
+.image-profile {
+	text-align: center!important;
+	max-width: 150px !important;
+	min-width: 50px;
+	border-radius: 18px;
+  object-fit: cover;
+  width: 30vw;
+  aspect-ratio: 1/1;
+}
+#quotes .image-profile{
+	width: 95px;
+	height: 95px;
+	object-fit: cover;
+}
+
+.side-container {
+	background-color: var(--section-bg-color);
+	padding: 15px;
+	border-radius: 1%;
+	border: solid 0.5px lightgray;
+	font-size: 0.85em
+}
+.side-container .side{
+	/* border-style: double;
+	border-color: #000078;*/
+	margin-bottom: 30px !important;
+}
+.side h5 {
+	padding: 3px;
+	border-bottom: solid 2px var(--main-bg-color);
+}
+
+.title-section {
+	padding: 3px;
+	width: 30%;
+	margin: auto;
+	border-bottom: solid 2px var(--main-bg-color);
+}
+.section{
+	margin-top: 50px;
+}
+.section-content{
+	padding-top: 4%;
+	margin: auto;
+}
+.org img{
+	max-width: 90%;
+	/*filter: grayscale(1);*/
+}
+.ks img{
+	max-width: 100%;
+}
+.ks img.image-profile-type{
+	display: none;
+	max-width: 22%;
+	position:absolute;
+	right: 25px;
+	top: 10px;
+}
+.ks.s-lti img.image-profile-type{
+	display: initial!important;
+}
+.org img:hover{
+	filter: grayscale(0);
+}
+
+header {
+    padding: 0px 0 5px;
+}
+
+.tableh {
+	background: #085680;
+	color: white;
+	text-align: center;
+
+}
+
+#quotes{
+	padding: 20px;
+}
+@media (min-width: 992px) {
+#section_quotes{
+	height: 320px;
+}
+}
+.carousel-indicators{
+	position: unset;
+}
+
+#quotes .person-info{
+	color: gray;
+	font-size: 0.75em;
+}
+#quotes .person-quote{
+	font-size: 0.9em;
+}
+
+.news-img{
+	flex-shrink: 0;
+	max-width: 100%;
+	max-height: 150px;
+	display: block;
+	margin: 0 auto;
+	padding-bottom: 10px;
+}
+
+.news-link{
+	padding-top: 5px;
+	padding-bottom: 20px;
+}
+
+#news_list{
+	/*background: var(--section-bg-color-alt);*/
+	padding: 10px;
+	/*height: 600px;*/
+	/*overflow:auto;*/
+	/*border-radius: 5px;*/
+	/*border: solid 0.5px lightgray;*/
+}
+#news_list .row{
+	padding-left: 10px;
+	padding-right: 10px;
+	padding-top: 5px;
+	font-size: 0.9em;
+}
+.news-abs{
+	display: -webkit-box;
+  overflow: hidden;
+  -webkit-line-clamp: 5;
+  -webkit-box-orient: vertical;
+}
+.container-img-news{
+	min-height: 150px;
+}
+
+@media (min-width: 992px) {
+	.logo {
+		margin: auto;
+	}
+	#front {
+		padding-top: 80px;
+	}
+	.role-profile {
+		text-align: right!important;
+	}
+	.profile-details {
+		text-align: left!important;
+	}
+	.profile {
+		padding-top: 50px!important;
+	}
+
+}
+
+@media (max-width: 992px) {
+
+	.mobile-only{
+		display: initial;
+	}
+
+	.logo {
+		text-align: center!important;
+		max-width: 80% !important;
+	}
+	#logo_semantics{
+		max-width: 100% ;
+	}
+	.title {
+		text-align: center!important;
+	}
+	.role-profile {
+		text-align: center!important;
+	}
+	.profile-details {
+		text-align: center!important;
+	}
+	.profile {
+		padding-top: 25px!important;
+	}
+
+	#section_intro {
+		/*min-height: 400px;*/
+	}
+
+	#venue_section .row.section-content .mx-auto{
+		text-align: center!important;
+	}
+
+	.social-icons{
+		display: block ;
+	}
+
+	header .title .decoline{
+		display: none;
+	}
+
+	.footer-main .mx-auto{
+		width: 100%;
+		text-align: center;
+	}
+	.footer-second{
+		text-align: center;
+	}
+	.person-quote{
+		margin-top: 10px;
+		text-align: center !important;
+	}
+	section .title-section{
+		width: 80%;
+	}
+	.navbar-nav{
+		padding-top: 10px;
+	}
+	.dropdown-menu{
+		border: none;
+		border-radius: 0px;
+		border-left: solid 2px white !important;
+		text-align: left;
+		padding-left: 1em;
+		font-size: 0.97em
+	}
+	.dropdown-item{
+		white-space: normal;
+	}
+
+	.dropdown-menu hr{
+		width: 100% !important;
+		border: dotted 0.5px
+	}
+	#logo_lti{
+		width: 38%;
+	}
+	.ks {
+		padding-top: 20px !important;
+	}
+	.ks img.image-profile-type{
+		top: 30px;
+		right: 40px;
+	}
+	.sponsor{
+		padding: 5px !important;
+	}
+	.org{
+		padding: 15px!important;
+	}
+}
+.disabled-link {
+	pointer-events: none;
+	background-color: gray;
+	color: #444444;
+	text-decoration: none;
+	}
+.social{
+	width: 20px;
+}
+/* no bootstrap Bluesky icon yet, see https://github.com/twbs/icons/issues/1886#issuecomment-2561243934 */
+.bi-bluesky::before {
+    content: "";
+    background-color: currentColor;
+    -webkit-mask: url("../img/icons/bluesky.svg") no-repeat 50% 50%;
+    mask: url("../img/icons/bluesky.svg") no-repeat 50% 50%;
+    -webkit-mask-size: cover;
+    mask-size: cover;
+    height: 18px;
+    width: 18px;
+}

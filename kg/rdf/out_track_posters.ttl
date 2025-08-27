@@ -1,0 +1,1388 @@
+@prefix ns1: <https://w3id.org/okn/semantics/voc#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_135> a schema:ScholarlyArticle ;
+    schema:abstract """Interacting with knowledge graphs (KGs) is challenging for non-technical users with information needs who are unfamiliar with SPARQL and the underlying KG schema. Previous KG question answering systems require ground-truth pairs of questions and SPARQL queries or fine tuning (Large) Language Models (LLMs) for a specific KG, which is time-consuming and demands deep expertise. In this poster, we propose a framework for exploring KGs by generating SPARQL queries using LLMs solely in response
+to given questions in a zero-shot setting for non-technical end users, without the need for ground-truth pairs of questions and queries or fine-tuning LLMs. We present an example implementation based on the framework and share preliminary experimental results, indicating that exploring a KG using LLM-generated SPARQL queries with reasonable complexity is possible in such a challenging setting.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_420>,
+        <https://w3id.org/okn/semantics/i/Author_470>,
+        <https://w3id.org/okn/semantics/i/Author_471>,
+        <https://w3id.org/okn/semantics/i/Author_472>,
+        <https://w3id.org/okn/semantics/i/Author_473> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_135_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """SPARQL
+Large Language Models
+Question Answering
+Knowledge Graphs""" ;
+    schema:name "Toward Exploring Knowledge Graphs with LLMs" ;
+    ns1:authorString "Guangyuan Piao, Mike Mountantonakis, Panagiotis Papadakos, Pournima Sonawane and Aidan Omahony" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_138> a schema:ScholarlyArticle ;
+    schema:abstract "We report on an ongoing learning analytics project at the University of Liège, in which we want to analyze student interactions on Cytomine for a histology course. Cytomine provides tools for medical image annotation and an API that has been used for learning analytics. The problem, however, is that the data obtained from Cytomine has implicit semantics and requires many data preprocessing and integration steps. This poster presents the prototype KG we have built to address these problems. The KG adopts PROV-O to distinguish activities from their outcomes, addressing some of the issues faced in the past. We also demonstrate that the KG can be used in Jupyter notebooks, though learning analytics is left for future work. It did demonstrate that the data analysis process has become more declarative and transparent, as data is analyzed starting from SPARQL queries. We focused on one project in Cytomine, and future work consists of integrating additional projects. We also plan to investigate the development of more self-contained KG generation techniques as we have no direct access to the Cytomine application." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_369>,
+        <https://w3id.org/okn/semantics/i/Author_477>,
+        <https://w3id.org/okn/semantics/i/Author_478>,
+        <https://w3id.org/okn/semantics/i/Author_479>,
+        <https://w3id.org/okn/semantics/i/Author_480>,
+        <https://w3id.org/okn/semantics/i/Author_481>,
+        <https://w3id.org/okn/semantics/i/Author_482> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """KG Construction
+Learning Analytics
+Ontology Engineering""" ;
+    schema:name "Facilitating Learning Analytics in Histology Courses with Knowledge Graphs" ;
+    ns1:authorString "Jimmy Walraff, Adreas Coco, Guillaume Delporte, Merlin Michel, Allyson Fries, Valérie Defaweux and Christophe Debruyne" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_143> a schema:ScholarlyArticle ;
+    schema:abstract "This article presents an addon to the popular Enterprise Architect (EA) tool that lets modellers import existing ontologies into EA as classes and export class models to ontologies. The addon implements the SEMIC guidelines that standardise the UML-RDF mapping. The tool has been tested against some large UML diagrams from the railway domain and the generated outputs (RDF and UML) demonstrate the usefulness of EA-RDF both from UML experts and ontology developers. This approach bridges the gap between ontologies and IT engineering in UML; modellers at ease in UML but unfamiliar with triples can now easily access existing ontologies and publish their models as triples." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_492>,
+        <https://w3id.org/okn/semantics/i/Author_493> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """UML diagrams
+RDF
+OWL
+Ontology
+Enterprise Architect
+Model Based Systems Engineering""" ;
+    schema:name "EA-to-RDF: Pain-Free integration of RDF and UML" ;
+    ns1:authorString "Bob Janssen and Ghislain Atemezing" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_153> a schema:ScholarlyArticle ;
+    schema:abstract "This paper argues, based on lessons learned in developing several in-use Linked Open Data (LOD) services and applications, that biggest challenges of re-using LOD are missing data schemas, quality of data, and trust on the correctness of data with respect to the real world. To encourage data publishers to address the issues, three more stars are proposed for the classical 5-star model coined by Tim Berners-Lee. The proposed model is supported by the Linked Data Finland platform, a living lab environment in use supporting LOD publication for data-driven research and application development." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_174>,
+        <https://w3id.org/okn/semantics/i/Author_510> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_153_7> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Linked open data
+Semantic web
+5-star open data
+Publishing model""" ;
+    schema:name "8-star Linked Open Data Model: Extending the 5-star Model for Better Reuse, Quality, and Trust of Data" ;
+    ns1:authorString "Eero Hyvönen and Jouni Tuominen" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_154> a schema:ScholarlyArticle ;
+    schema:abstract """Maintaining accuracy and completeness of RDF knowledge graphs is an important but challenging task. As constraints checking can only spot outliers, knowledge graphs would need to be checked against reference data to obtain a reliable assessment. But this is often impossible due to the lack of suitable reference data. An alternative is the comparison with other, overlapping knowledge graphs that possibly contain incorrect data, too. This can spot potentially incorrect values in the maintained knowledge graph. As knowledge graphs might evolve over time, this comparison must be done regularly. However, the regular comparison of data is an exhausting and error prone task, if done manually.
+
+We present ABECTO, a command line tool for the automatic comparison of multiple possibly incorrect RDF knowledge graphs to monitor their accuracy and completeness. In our demonstration, we will showcase its application in a Continuous Integration scenario for the regular automatic check of the quality of a maintained knowledge graph.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_511> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_154_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_154_5_1>,
+        <https://w3id.org/okn/semantics/i/Demo_154_7>,
+        <https://w3id.org/okn/semantics/i/Demo_154_7_1>,
+        <https://w3id.org/okn/semantics/i/Ontology_154_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_154_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Continuous Integration
+Knowledge Graph Engineering
+Knowledge Graph Quality
+Ontology Engineering
+Ontology Quality""" ;
+    schema:name "Continuous Knowledge Graph Quality Assessment through Comparison using ABECTO" ;
+    ns1:authorString "Jan Martin Keil" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_155> a schema:ScholarlyArticle ;
+    schema:abstract "We report on an exploratory study using Large Language Models (LLMs) to generate Comma-Separated Values (CSV) files, which are subsequently transformed into Resource Description Framework (RDF) using the RDF Mapping Language (RML). Prior studies have shown that LLMs sometimes have problems generating valid and well-formed RDF from unstructured texts, i.e., issues with RDF, not the contents. We wanted to test whether the generation of CSV led to fewer issues and whether this would be a viable option for allowing domain experts to be actively part of the Knowledge Graph (KG) population process by allowing them to use familiar tools. We have built a prototype illustrating this idea, and the results seem promising for further study. The initial prototype uses zero-shot training and is built on GPT-4. The prototype takes the unstructured text and the CSV file's structure as input and uses the latter to generate prompts to fill in the cells' values. Future work includes analyzing the effect of different prompting strategies. The limitation, however, is that such an approach only works for projects where domain experts work with spreadsheets for pre-existing mappings." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_369>,
+        <https://w3id.org/okn/semantics/i/Author_512>,
+        <https://w3id.org/okn/semantics/i/Author_513>,
+        <https://w3id.org/okn/semantics/i/Author_514>,
+        <https://w3id.org/okn/semantics/i/Author_515>,
+        <https://w3id.org/okn/semantics/i/Author_516> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """KG Construction
+LLMs
+End-user Involvement""" ;
+    schema:name "Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML" ;
+    ns1:authorString "Jan Maushagen, Sara Sepehri, Audrey Sanctorum, Tamara Vanhaecke, Olga De Troyer and Christophe Debruyne" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_156> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose:
+Finding scholarly articles is a time-consuming and cumbersome activity, yet crucial for conducting science. Due to the growing number of scholarly articles, new scholarly search systems are needed to effectively assist researchers in finding relevant literature. 
+
+Methodology:
+We take a neuro-symbolic approach to scholarly search and exploration by leveraging state-of-the-art components, including semantic search, Large Language Models (LLMs), and Knowledge Graphs (KGs). The semantic search component composes a set of relevant articles. From this set of articles, information is extracted and presented to the user. 
+
+Findings:
+The presented system, called ORKG ASK (Assistant for Scientific Knowledge), provides a production-ready search and exploration system. Our preliminary evaluation indicates that our proposed approach is indeed suitable for the task of scholarly information retrieval. 
+
+Value:
+With ORKG ASK, we present a next-generation scholarly search and exploration system and make it available online. Additionally, the system components are open source with a permissive license. """ ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_227>,
+        <https://w3id.org/okn/semantics/i/Author_228>,
+        <https://w3id.org/okn/semantics/i/Author_517> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_156_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_156_4>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_156_4_1> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Neuro-symbolic AI
+Large Language Models
+Scholarly Knowledge Graphs
+Scholarly Search System""" ;
+    schema:name "ORKG ASK: a Neuro-symbolic Scholarly Search and Exploration System" ;
+    ns1:authorString "Allard Oelen, Mohamad Yaser Jaradeh and Sören Auer" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_157> a schema:ScholarlyArticle ;
+    schema:abstract "Complex ontology matching is a process to match complex structures in ontologies. While many matching tools tackle simple ontology matching, complex ontology matching is still rare. However, one entity in one ontology can be similar to a complex structure (1-to-n) or even complex structures can be on both sides (m-to-n). Therefore, the application, e.g., data integration, must consider complex correspondences within ontology alignment. Our poster paper presents a pattern-based approach where particular SPARQL queries correspond to a specific pattern, e.g., Class by Attribute Type (CAT), for its detection. SPARQL queries are anchored to entities from simple correspondences on input. Complex correspondence candidates are verbalized to be validated by the Large Language Model (LLM). Further, we provide a zero-shot prompting preliminary experiment and evaluation. The poster paper is equipped with the Jupyter notebook for automation of the pipeline and the full report of the experiment at: https://github.com/OndrejZamazal/ComplexOntologyMatching-SEMANTiCS2024" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_133> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_157_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Ontology
+Ontology Matching
+Complex Ontology Matching
+Large Language Model
+Knowledge Graph""" ;
+    schema:name "Towards Pattern-based Complex Ontology Matching using SPARQL and LLM" ;
+    ns1:authorString "Ondřej Zamazal" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_159> a schema:ScholarlyArticle ;
+    schema:abstract """Nieuwe Instituut (NI) houses the Dutch National Collection of Architecture and Urban Planning. This collection consists of about 4 million objects, including design drawings, 3D models, and photographs. As part of the program Disclosing Architecture, which is now in its sixth and final year, the Linked Open Data (LOD) project aims to share the richness of data within the collection with the public through semantic web technologies. This project will ultimately facilitate the exchange of cultural heritage data with related national and international institutions. Currently, Nieuwe Instituut (NI)’s collection management system contains inconsistent records due to changes in registration guidelines and the
+migration from older collection management tools. Without documentation of these guidelines, it is impossible to establish consistent rules for the entire dataset. Yet, clean data is crucial for effectively showcasing NI’s collection to the public. In response, this paper introduces the Data Cleaning Initiative (DCI), a series of steps planned for the year 2024. The primary goal of this initiative is to clean and enrich the collection data at NI.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_520>,
+        <https://w3id.org/okn/semantics/i/Author_521> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_159_5> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Linked Open Data
+Cultural Heritage
+Data Quality
+Entity Linking
+Entity Resolution""" ;
+    schema:name "A systematic approach towards higher quality linked open data at Nieuwe Instituut" ;
+    ns1:authorString "Nora Abdelmageed and Lois Hutubessy" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_161> a schema:ScholarlyArticle ;
+    schema:abstract """We demonstrate a system architecture for seamless and sovereign business-to-business (B2B) data sharing using the Solid Protocol. We highlight two core system components: The Rights Delegation Proxy allows organizations to internally manage and enforce access policies on requests from their employees to external data providers. The Data Provision Proxy allows organizations to share data from an external data provider in a privacy-preserving manner. Organizations define and enforce the policies for internal
+and external data sharing themselves, thereby maintaining sovereignty in enterprise collaboration.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_232>,
+        <https://w3id.org/okn/semantics/i/Author_387>,
+        <https://w3id.org/okn/semantics/i/Author_527>,
+        <https://w3id.org/okn/semantics/i/Author_528>,
+        <https://w3id.org/okn/semantics/i/Author_529>,
+        <https://w3id.org/okn/semantics/i/Author_530>,
+        <https://w3id.org/okn/semantics/i/Author_531>,
+        <https://w3id.org/okn/semantics/i/Author_59> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_161_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_161_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Solid Protocol
+Dataspaces
+Data Value Chains
+Zero Trust
+Data Sovereignty""" ;
+    schema:name "Data-Sovereign Enterprise Collaboration using the Solid Protocol" ;
+    ns1:authorString "Thorsten Kastner, Christoph Braun, Andreas Both, Dustin Yeboah, Sebastian Josef Schmid, Daniel Schraudner, Tobias Käfer and Andreas Harth" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_163> a schema:ScholarlyArticle ;
+    schema:abstract """The Helmholtz Association is actively digitizing research outcomes to drive progress and innovation. The large amounts of digital data and metadata are heterogeneous with respect to their formats as well as their semantic descriptions used for creation, storage, and exchange. A semantic frame of reference is required to facilitate interoperability throughout the Helmholtz digital ecosystem. 
+This paper presents the Helmholtz Digitization Ontology (HDO), which is intended to serve exactly that purpose. HDO is a mid-level ontology that contains concepts representing digital assets relevant to the Helmholtz digital ecosystem, data creation, management, and exchange. HDO is developed within the framework of the Helmholtz Metadata Collaboration (HMC) with contributors from various scientific backgrounds. This leads to intrinsic harmonization of the output across these domains. Based on that, HDO serves as a harmonized and machine-actionable institutional reference that represents digital assets and procedures pertinent to their handling within Helmholtz.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_36>,
+        <https://w3id.org/okn/semantics/i/Author_536>,
+        <https://w3id.org/okn/semantics/i/Author_537>,
+        <https://w3id.org/okn/semantics/i/Author_538>,
+        <https://w3id.org/okn/semantics/i/Author_539>,
+        <https://w3id.org/okn/semantics/i/Author_540>,
+        <https://w3id.org/okn/semantics/i/Author_541>,
+        <https://w3id.org/okn/semantics/i/Author_542>,
+        <https://w3id.org/okn/semantics/i/Author_543> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Ontology_163_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_163_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Metadata
+Metadata Management
+Data Management
+FAIR
+Harmonization
+OWL
+Bilingual ontology""" ;
+    schema:name "The Helmholtz Digitization Ontology: Representing Digital Assets in the Helmholtz Digital Ecosystem" ;
+    ns1:authorString "Said Fathalla, Gerrit Günther, Leon Steinmeier, Christine Lemster, Dorothee Kottmeier, Lakxmi Sivapatham, Pier Luigi Buttigieg, Volker Hofmann and Stefan Sandfeld" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_166> a schema:ScholarlyArticle ;
+    schema:abstract "The pursuit of corporate greenhoue gas neutrality has become increasingly critical due to heightened sustainability expectations, rising energy and CO2e costs, and stricter regulatory requirements. Key drivers, such as the mandated reduction of greenhouse gas emissions by 65% by 2030 compared to 1990 levels and the goal of achieving climate neutrality by 2045, necessitate immediate action toward decarbonization. In this paper, we introduce PcfWebUI, a data-driven tool developed to support companies in their decarbonization journey. PcfWebUI is built on real company data integrated into a knowledge graph, enabling efficient tracking and management of product carbon footprints (PCF), facilitating strategic planning and accurate monitoring to help companies meet stringent climate targets and progress toward climate neutrality. A demo of our system is publicly available at https://climatebowl.demo.dice-research.org/." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_343>,
+        <https://w3id.org/okn/semantics/i/Author_547>,
+        <https://w3id.org/okn/semantics/i/Author_548>,
+        <https://w3id.org/okn/semantics/i/Author_549> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_166_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_166_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Knowledge Graphs
+PCF Tracking
+Energy Efficiency""" ;
+    schema:name "PCFWebUI: Data-driven WebUI for holistic decarbonization based on PCF-Tracking" ;
+    ns1:authorString "Ajay Kumar, Marius Naumann, Kevin Henne and Mohamed Ahmed Sherif" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_168> a schema:ScholarlyArticle ;
+    schema:abstract "Linked Data is commonly regarded as an unfriendly data structure to be directly used by application developers. The (often unknown) triple-based structure of RDF graphs causes developers to struggle to extract the triples of interest and translate them into the object-like structure needed for their application. A generic, composable and reusable way to look into RDF graphs as plain objects would remove an important barrier for integrating Linked Data in all facets of application logic. We propose RDF Lens, a library based on ideas from the Haskell lens library that allows for composable and reusable data extraction units, called lenses. Value is shown by implementing a lens that generates a new lens based on a SHACL shape that extracts the semantic data into the desired plain object. Abstracting data extraction at the lens level allows for mixed extraction: using both custom extraction and declarative extraction, which could increase ease of use and reusability. The current implementation is a proof of concept that defines how to extract data from an RDF graph in JavaScript applications but does not allow (yet) writing or altering linked data with the same lenses. Future work would allow for creating and updating Linked Data in the same elegant way." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_20>,
+        <https://w3id.org/okn/semantics/i/Author_220>,
+        <https://w3id.org/okn/semantics/i/Author_96> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_168_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """RDF
+SHACL
+Functional programming
+Lenses
+JavaScript
+Haskell""" ;
+    schema:name "Linking application and semantic data with RDF Lens" ;
+    ns1:authorString "Arthur Vercruysse, Julian Rojas and Pieter Colpaert" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_169> a schema:ScholarlyArticle ;
+    schema:abstract "Current AI systems, including smart search engines and recommendation systems tools for streamlining literature reviews, and interactive question-answering platforms, are becoming indispensable for researchers to navigate and understand the vast landscape of scientific knowledge. Taxonomies and ontologies of research topics are key to this process, but manually creating them is costly and often leads to outdated results. This poster paper shows the use of SciBERT model to automatically generate research topic ontologies. Our model excels at identifying semantic relationships between research topics, outperforming traditional methods. This approach promises to streamline the creation of accurate and up-to-date ontologies, enhancing the effectiveness of AI tools for researchers." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_552>,
+        <https://w3id.org/okn/semantics/i/Author_553>,
+        <https://w3id.org/okn/semantics/i/Author_554>,
+        <https://w3id.org/okn/semantics/i/Author_555>,
+        <https://w3id.org/okn/semantics/i/Author_556>,
+        <https://w3id.org/okn/semantics/i/Author_84>,
+        <https://w3id.org/okn/semantics/i/Author_99> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_169_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Research Topics
+Ontology Generation
+Language Models
+Knowledge Graph Generation
+SciBERT""" ;
+    schema:name "Classifying Scientific Topic Relationships with SciBERT" ;
+    ns1:authorString "Alessia Pisu, Livio Pompianu, Angelo Salatino, Francesco Osborne, Daniele Riboni, Enrico Motta and Diego Reforgiato Recupero" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_170> a schema:ScholarlyArticle ;
+    schema:abstract "The Virtual Record Treasury of Ireland (VRTI) is an initiative to digitally recreate the contents of the Irish central archive which was destroyed during the Civil War. The project has created a Knowledge Graph (KG) to facilitate information discovery and reasoning over the recovered items.  However, complex queries must be created to retrieve data in the KG, which require a high level of technical expertise. In this paper, we explore the application of Large Language Models (LLMs) to facilitate searching of the VRTI-KG by users who lack this technical expertise and to decrease workload for those who do not. The VRTI-ChatGPT framework is proposed which uses ChatGPT to interpret requests from users and to facilitate the creation of queries which can be executed on the KG." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_132>,
+        <https://w3id.org/okn/semantics/i/Author_253>,
+        <https://w3id.org/okn/semantics/i/Author_254>,
+        <https://w3id.org/okn/semantics/i/Author_255>,
+        <https://w3id.org/okn/semantics/i/Author_256>,
+        <https://w3id.org/okn/semantics/i/Author_82> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_170_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_170_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """KG Search
+User Interface
+ChatGPT""" ;
+    schema:name "Facilitating Search of the Virtual Record Treasury of Ireland Knowledge Graph using ChatGPT" ;
+    ns1:authorString "Alex Randles, Declan O'Sullivan, Lucy McKenna, Beyza Yaman, Lynn Kilgallon and Peter Crooks" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_172> a schema:ScholarlyArticle ;
+    schema:abstract "This paper aims to uncover security vulnerabilities when using SHACL for data validation in knowledge graphs and enhance security awareness in SHACL and knowledge graph technologies. We employ a knowledge graph developed in a prior study to illustrate potential security issues. While our knowledge graph does not rely on actual data involving users, our study is informed by the well-documented social security domain. This use case is used to identify and illustrate vulnerabilities. The main vulnerability identified is SHACL’s inability to distinguish user input from historical information in the knowledge graph, resulting in two potential exploits: validation bypass and data leakage. This study improves our understanding of security risks in SHACL and knowledge graph technologies, providing valuable insights for practitioners and researchers in this underexplored area in literature." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_368>,
+        <https://w3id.org/okn/semantics/i/Author_369> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_172_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Knowledge Graphs
+SHACL
+Security""" ;
+    schema:name "Unveiling SHACL Security Issues: Data Leakage and Validation Bypass" ;
+    ns1:authorString "Davan Chiem Dao and Christophe Debruyne" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_173> a schema:ScholarlyArticle ;
+    schema:abstract """The upcoming EU AI Act requires providers of high-risk AI systems to define and communicate the system's intended purpose -- a key and complex concept upon which many of the Act's obligations rely. To assist with expressing the intended purposes and uses, along with precluded uses as regulated by the AI Act, we extend the Open Digital Rights Language (ODRL) with a profile to express the AI Use Policy (AIUP).   
+This open approach to declaring use policies enables explicit and transparent expression of the conditions under which an AI system can be used, benefiting AI application markets beyond the immediate needs of high-risk AI compliance in the EU.  AIUP is available online at https://w3id.org/aiup under the CC-BY-4.0 license.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_205>,
+        <https://w3id.org/okn/semantics/i/Author_265>,
+        <https://w3id.org/okn/semantics/i/Author_33>,
+        <https://w3id.org/okn/semantics/i/Author_85> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Ontology_173_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_173_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """AI Act
+ODRL
+AI use policy
+AI risk management
+regulatory enforcement
+trustworthy AI""" ;
+    schema:name "AIUP: an ODRL Profile for Expressing AI Use Policies to Support the EU AI Act" ;
+    ns1:authorString "Delaram Golpayegani, Beatriz Esteves, Harshvardhan J. Pandit and Dave Lewis" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_175> a schema:ScholarlyArticle ;
+    schema:abstract """ Effective knowledge representation plays a pivotal role in harnessing the full potential of domain-specific information. Through tools like Infinity Maps, domain knowledge can be easily captured in a visual manner. However, translating these visually intuitive representations to formal, machine-processable formats often necessitates expert knowledge, thereby creating a significant barrier between domain experts and knowledge engineers. While domain experts possess deep understanding of their respective domains, they often lack the formalisation skills required to transform this knowledge into machine-readable formats. Conversely, knowledge engineers can design and implement sophisticated knowledge graphs, but may not have access to the domain-specific expertise necessary for effective knowledge representation.
+  To address this challenge, we propose a novel approach that leverages SHACL (Shape Constraint Language) rules to transform visual domain knowledge expressed as Infinity Maps into knowledge graphs. Our method enables domain experts to define their knowledge structures using familiar Infinity Map representations, which are then transformed into standardised knowledge graphs compliant with the SHACL standard.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_112>,
+        <https://w3id.org/okn/semantics/i/Author_233>,
+        <https://w3id.org/okn/semantics/i/Author_234>,
+        <https://w3id.org/okn/semantics/i/Author_235>,
+        <https://w3id.org/okn/semantics/i/Author_558>,
+        <https://w3id.org/okn/semantics/i/Author_559>,
+        <https://w3id.org/okn/semantics/i/Author_560>,
+        <https://w3id.org/okn/semantics/i/Author_561>,
+        <https://w3id.org/okn/semantics/i/Author_562> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Knowledge Graphs
+Infinity Maps
+Visual Domain Knowledge
+Graph Transformation
+RDF
+SHACL
+SHACL Rules
+Semantic Web""" ;
+    schema:name "Towards SHACL-based Knowledge Graph Transformation of Visual Domain Knowledge" ;
+    ns1:authorString "Simon Steyskal, Stefan Bischof, Josiane Xavier Parreira, Erwin Filtz, Michael Baumgart, David Gruber, Maximilian Liebetreu, Florian Rötzer and Stephan Strommer" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_176> a schema:ScholarlyArticle ;
+    schema:abstract "Greenhouse Gas (GHG) accounting is traditionally a lengthy and manual process that requires the expertise of experienced environmental scientists; due to the recognition of the climate crisis through upcoming regulations on GHG accounting around the planet, the demand for tools that can support these environmental experts and accelerate their work is growing considerably at the moment. GHG accounting is merely one application of automated support tools that require the preservation of expert knowledge in a machine-readable and machine-understandable format; across fields, this is highly relevant for automating processes that today can only be performed by individuals with specialized training. In this paper, we present SAKE, a Semantic Authoring and Annotation tool for Knowledge Extraction that allows domain experts with no proficiency in semantic technologies annotating domain-specific PDF files, creating a Knowledge Graph with instances of standardized (or new) ontologies. The resulting Knowledge Graph can then be integrated into systems to automate specialized processes. SAKE has been developed together with domain experts in the field of environmental science and is currently used in the scope of a joint project on GHG accounting." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_565>,
+        <https://w3id.org/okn/semantics/i/Author_566>,
+        <https://w3id.org/okn/semantics/i/Author_567> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_176_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_176_4>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_176_4_1> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Semantic Authoring Tool
+Expert Knowledge Extraction
+PDF Annotator
+RDFa
+Knowledge Graph
+Semantic Web Tool""" ;
+    schema:name "SAKE: A Semantic Authoring and Annotation Tool for Knowledge Extraction" ;
+    ns1:authorString "Jan Grau, Kimberly Garcia and Simon Mayer" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_177> a schema:ScholarlyArticle ;
+    schema:abstract "European countries have the highest proportion of people over the age of 50. This implies that age-related diseases, such as cardiovascular diseases, diabetes, cholesterol and dementia, are becoming increasingly common in our aging societies. Additionally, it can be observed that health systems are overburdened due to a lack of medical specialists, resources and capacities. To get an appointment with a medical specialist, patients have to wait up to several months. These circumstances imply that necessary health checks and detection of health risks cannot be carried out in a sufficient manner. Furthermore, the personalisation of medical treatments can hardly be guaranteed. To tackle these problems and enable preventive measures and interventions, a round-the-clock health monitoring, prediction of health risks, and personalised treatment would be necessary. This paper presents Auto Generative Health Reports (AutoGenHR), a work in progress that allows the automated generation of health reports based on acquired context data from round-the-clock monitoring of patients in their domestic environment. In the proposed approach health reports are generated by means of dynamically created knowledge graphs representing patients and context information, and a language model fine-tuned for generating health reports. In this way an early detection of health risks and prevention of avoidable deaths is to be achieved, while patients can stay in their domestic environments without overstretching the capacities of the health system." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_568> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_177_7>,
+        <https://w3id.org/okn/semantics/i/Ontology_177_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_177_4>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_177_4_1> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Virtual Agents
+Knowledge Graphs
+Large Language Models
+Transformer Neural Networks
+Wearables
+Digital Twins""" ;
+    schema:name "AutoGenHR: Automated Generation of Health Reports for Patients at Home" ;
+    ns1:authorString "Nicole Merkle" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_180> a schema:ScholarlyArticle ;
+    schema:abstract "The NFDI4DataScience (NFDI4DS) project aims to enhance the accessibility and interoperability of research data within Data Science (DS) and Artificial Intelligence (AI) by connecting digital artifacts and ensuring they adhere to FAIR (Findable, Accessible, Interoperable, and Reusable) principles. To this end, this poster introduces the NFDI4DS Ontology, which describes resources in DS and AI and models the structure of the NFDI4DS consortium.   Built upon the NFDICore ontology and mapped to the Basic Formal Ontology (BFO), this ontology serves as the foundation for the NFDI4DS knowledge graph currently under development." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_102>,
+        <https://w3id.org/okn/semantics/i/Author_127>,
+        <https://w3id.org/okn/semantics/i/Author_137>,
+        <https://w3id.org/okn/semantics/i/Author_43>,
+        <https://w3id.org/okn/semantics/i/Author_572> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_180_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_180_5_1>,
+        <https://w3id.org/okn/semantics/i/Ontology_180_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_180_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Data Science
+Artificial Intelligence
+Ontology
+Knowledge Graph
+NFDI4DS""" ;
+    schema:name "NFDI4DSO: Towards a BFO Compliant Ontology for Data Science" ;
+    ns1:authorString "Genet Asefa Gesese, Jörg Waitelonis, Zongxiong Chen, Sonja Schimmler and Harald Sack" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_181> a schema:ScholarlyArticle ;
+    schema:abstract "This paper presents GECKO, a knowledge graph-based statistical question answering system currently in beta deployment. GECKO aims to facilitate the retrieval of single statistical values from an extensive database containing over a billion values across more than 4,000 tables. The system integrates a comprehensive framework including data augmentation, entity retrieval, and large language model(LLM)-based query generation. A key feature of the beta deployment is the collection of user feedback, which is critical for improving system performance and accuracy. This feedback mechanism allows users to report issues directly, ensuring continuous improvement based on real-world use." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_557>,
+        <https://w3id.org/okn/semantics/i/Author_573>,
+        <https://w3id.org/okn/semantics/i/Author_574> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_181_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_181_4>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_181_4_1> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Knowledge Graph Question Answering
+Constrained query generation
+Official statistics""" ;
+    schema:name "GECKO: A Question Answering System for Official Statistics" ;
+    ns1:authorString "Lucas Lageweg, Jonas Kouwenhoven and Benno Kruit" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_182> a schema:ScholarlyArticle ;
+    schema:abstract "Mapping Workbench (MWB) facilitates the transformation of XML data into RDF using the RML mapping language, based on a sound test-driven methodology. This paper presents MWB as a comprehensive solution for Semantic Engineers and Data Modellers, offering efficient data mapping, management and validation against ontologies and data shapes. We discuss MWB's key features, the mapping process, and its potential impact on the fields of knowledge graph construction, semantic data interoperability and data integration in general." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_427>,
+        <https://w3id.org/okn/semantics/i/Author_428>,
+        <https://w3id.org/okn/semantics/i/Author_430>,
+        <https://w3id.org/okn/semantics/i/Author_431>,
+        <https://w3id.org/okn/semantics/i/Author_432> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_182_7> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """XML
+RML
+RDF
+OWL
+Data Mapping
+Data Transformation
+Knowledge Graph Construction""" ;
+    schema:name "Mapping Workbench: A collaborative platform for mapping complex XML data to RDF" ;
+    ns1:authorString "Eugeniu Costetchi, Jana Ahmad, Csongor I. Nyulas, Rashif Rahman and Dumitru Prijilevschi" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_184> a schema:ScholarlyArticle ;
+    schema:abstract "We demonstrate a method for visual creation of schema-backed federated queries that involves options for schema summary visualizations and context-aware auto-completion of queries, based on schemas of multiple data sets. The method is implemented in the ViziQuer tool context, based on the collection of multiple stored data schemas, including ones for DBPedia and Wikidata. The environment for schema visualization and visual federated query creation is available online as a playground and as a local open-source installation." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_406>,
+        <https://w3id.org/okn/semantics/i/Author_408>,
+        <https://w3id.org/okn/semantics/i/Author_409>,
+        <https://w3id.org/okn/semantics/i/Author_410>,
+        <https://w3id.org/okn/semantics/i/Author_411>,
+        <https://w3id.org/okn/semantics/i/Author_414> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_184_5>,
+        <https://w3id.org/okn/semantics/i/Demo_184_7>,
+        <https://w3id.org/okn/semantics/i/Demo_184_7_1>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_184_4>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_184_4_1> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Data schema
+Schema visualization
+SPARQL
+Federated visual queries""" ;
+    schema:name "Towards Visual Federated SPARQL Queries" ;
+    ns1:authorString "Kārlis Čerāns, Uldis Bojars, Julija Ovcinnikova, Lelde Lace, Mikus Grasmanis and Arturs Sprogis" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_187> a schema:ScholarlyArticle ;
+    schema:abstract "In this paper, we aim to address the problem of explainability as a broad research area for the specific case of component-based systems. As we will tackle this problem from the data perspective, we'll utilize two different types of data, namely SPARQL and RDF triples. As a goal of this data-driven explainability, we want to provide a greater and deeper understanding of the system and its process. To achieve this, we present a demonstrator to create explanations for component-based Question Answering systems. There, the explanations are created with the use of different generative AI systems and for comparison based on templates. We publish this as an open-sourced web application online, which is freely available to all users." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_385>,
+        <https://w3id.org/okn/semantics/i/Author_387>,
+        <https://w3id.org/okn/semantics/i/Author_577> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Demo_187_7>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_187_4>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_187_4_1> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_3> ;
+    schema:keywords """Explainability
+Component-based Systems
+Natural-Language Generation
+Large Language Models""" ;
+    schema:name "Post-Hoc Insights: Natural-Language Explanations for AI-Enhanced/-Integrated Software Systems" ;
+    ns1:authorString "Dennis Schiese, Aleksandr Perevalov and Andreas Both" .
+
+<https://w3id.org/okn/semantics/i/Author_102> a schema:Person ;
+    schema:affiliation "Fraunhofer FOKUS, Berlin, Germany",
+        "Technische Universität Berlin" ;
+    schema:familyName "Schimmler" ;
+    schema:givenName "Sonja" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_112> a schema:Person ;
+    schema:affiliation "Siemens AG Austria",
+        "Siemens AG Österreich" ;
+    schema:familyName "Steyskal" ;
+    schema:givenName "Simon" ;
+    schema:nationality "Austria" ;
+    schema:url "http://www.steyskal.at"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_127> a schema:Person ;
+    schema:affiliation "FIZ Karlsruhe, Leibniz Institute for Information Infrastructure & KIT Karlsruhe" ;
+    schema:familyName "Waitelonis" ;
+    schema:givenName "Jörg" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_132> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin." ;
+    schema:familyName "Yaman" ;
+    schema:givenName "Beyza" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_133> a schema:Person ;
+    schema:affiliation "Prague University of Economics and Business" ;
+    schema:familyName "Zamazal" ;
+    schema:givenName "Ondřej" ;
+    schema:nationality "Czechia" ;
+    schema:url "http://nb.vse.cz/~svabo/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_137> a schema:Person ;
+    schema:affiliation "FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur, AIFB Institute, KIT",
+        "FIZ Karlsruhe, Leibniz Institute for Information Infrastructure & KIT Karlsruhe" ;
+    schema:familyName "Sack" ;
+    schema:givenName "Harald" ;
+    schema:nationality "Germany" ;
+    schema:url "http://www.aifb.kit.edu/web/Harald_Sack/en"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_174> a schema:Person ;
+    schema:affiliation "Aalto University and University of Helsinki (HELDIG)" ;
+    schema:familyName "Hyvönen" ;
+    schema:givenName "Eero" ;
+    schema:nationality "Finland" ;
+    schema:url "http://seco.cs.aalto.fi/u/eahyvone/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_20> a schema:Person ;
+    schema:affiliation "Ghent University – imec" ;
+    schema:familyName "Colpaert" ;
+    schema:givenName "Pieter" ;
+    schema:nationality "Belgium" ;
+    schema:url "https://pietercolpaert.be/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_205> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin",
+        "Trinity College Dublin" ;
+    schema:familyName "Lewis" ;
+    schema:givenName "Dave",
+        "David" ;
+    schema:nationality "Ireland" ;
+    schema:url "http://www.cs.tcd.ie/Dave.Lewis"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_220> a schema:Person ;
+    schema:affiliation "Ghent University" ;
+    schema:familyName "Vercruysse" ;
+    schema:givenName "Arthur" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_227> a schema:Person ;
+    schema:affiliation "TIB Leibniz Information Center Science & Technology and University of Hannover",
+        "TIB – Leibniz Information Centre for Science and Technology, Hannover, Germany" ;
+    schema:familyName "Auer" ;
+    schema:givenName "Soren",
+        "Sören" ;
+    schema:nationality "Germany" ;
+    schema:url "https://tib.eu/auer"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_228> a schema:Person ;
+    schema:affiliation "TIB - Leibniz Information Centre for Science and Technology",
+        "TIB – Leibniz Information Centre for Science and Technology, Hannover, Germany" ;
+    schema:familyName "Oelen" ;
+    schema:givenName "Allard" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_232> a schema:Person ;
+    schema:affiliation "Friedrich Alexander University Erlangen-Nuremberg",
+        "Friedrich-Alexander University (FAU), Nuremberg",
+        "Friedrich-Alexander-Universität Erlangen-Nürnberg and Fraunhofer IIS" ;
+    schema:familyName "Harth" ;
+    schema:givenName "Andreas" ;
+    schema:nationality "Germany" ;
+    schema:url "http://harth.org/andreas/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_233> a schema:Person ;
+    schema:affiliation "Siemens AG Österreich" ;
+    schema:familyName "Bischof" ;
+    schema:givenName "Stefan" ;
+    schema:nationality "Austria" ;
+    schema:url "https://www.stefanbischof.at/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_234> a schema:Person ;
+    schema:affiliation "Siemens AG Österreich" ;
+    schema:familyName "Filtz" ;
+    schema:givenName "Erwin" ;
+    schema:nationality "Austria" ;
+    schema:url "http://www.filtz.net"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_235> a schema:Person ;
+    schema:affiliation "Siemens AG Österreich" ;
+    schema:familyName "Xavier Parreira" ;
+    schema:givenName "Josiane" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_253> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin." ;
+    schema:familyName "Randles" ;
+    schema:givenName "Alex" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_254> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin." ;
+    schema:familyName "McKenna" ;
+    schema:givenName "Lucy" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_255> a schema:Person ;
+    schema:affiliation "Trinity College Dublin" ;
+    schema:familyName "Kilgallon" ;
+    schema:givenName "Lynn" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_256> a schema:Person ;
+    schema:affiliation "Trinity College Dublin" ;
+    schema:familyName "Crooks" ;
+    schema:givenName "Peter" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_265> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin" ;
+    schema:familyName "Golpayegani" ;
+    schema:givenName "Delaram" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_33> a schema:Person ;
+    schema:affiliation "Ghent University",
+        "Ghent University - imec" ;
+    schema:familyName "Esteves" ;
+    schema:givenName "Beatriz" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_343> a schema:Person ;
+    schema:affiliation "Paderborn University, Data Science Group" ;
+    schema:familyName "Sherif" ;
+    schema:givenName "Mohamed Ahmed" ;
+    schema:nationality "Germany" ;
+    schema:url "https://dice-research.org/MohamedAhmedSherif"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_36> a schema:Person ;
+    schema:affiliation "Forschungszentrum Jülich GmbH, Institute for Advanced Simulation (IAS-9), Jülich, Germany" ;
+    schema:familyName "Fathalla" ;
+    schema:givenName "Said" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_368> a schema:Person ;
+    schema:affiliation "Université de Liège" ;
+    schema:familyName "Chiem Dao" ;
+    schema:givenName "Davan" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_385> a schema:Person ;
+    schema:affiliation "Leipzig University of Applied Sciences" ;
+    schema:familyName "Schiese" ;
+    schema:givenName "Dennis" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_406> a schema:Person ;
+    schema:affiliation "Institute of Mathematics and Computer Science, University of Latvia" ;
+    schema:familyName "Lace" ;
+    schema:givenName "Lelde" ;
+    schema:nationality "Latvia" .
+
+<https://w3id.org/okn/semantics/i/Author_408> a schema:Person ;
+    schema:affiliation "Institute of Mathematics and Computer Science, University of Latvia" ;
+    schema:familyName "Grasmanis" ;
+    schema:givenName "Mikus" ;
+    schema:nationality "Latvia" .
+
+<https://w3id.org/okn/semantics/i/Author_409> a schema:Person ;
+    schema:affiliation "Institute of Mathematics and Computer Science, University of Latvia" ;
+    schema:familyName "Sprogis" ;
+    schema:givenName "Arturs" ;
+    schema:nationality "Latvia" .
+
+<https://w3id.org/okn/semantics/i/Author_410> a schema:Person ;
+    schema:affiliation "Institute of Mathematics and Computer Science, University of Latvia" ;
+    schema:familyName "Ovcinnikova" ;
+    schema:givenName "Julija" ;
+    schema:nationality "Latvia" .
+
+<https://w3id.org/okn/semantics/i/Author_411> a schema:Person ;
+    schema:affiliation "IMCS – University of Latvia" ;
+    schema:familyName "Bojars" ;
+    schema:givenName "Uldis" ;
+    schema:nationality "Latvia" .
+
+<https://w3id.org/okn/semantics/i/Author_414> a schema:Person ;
+    schema:affiliation "Institute of Mathematics and Computer Science, University of Latvia" ;
+    schema:familyName "Čerāns" ;
+    schema:givenName "Kārlis" ;
+    schema:nationality "Latvia" .
+
+<https://w3id.org/okn/semantics/i/Author_420> a schema:Person ;
+    schema:affiliation "Dell Technologies" ;
+    schema:familyName "O Mahony",
+        "Omahony" ;
+    schema:givenName "Aidan" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_427> a schema:Person ;
+    schema:affiliation "Meaningfy" ;
+    schema:familyName "Costetchi" ;
+    schema:givenName "Eugeniu" ;
+    schema:nationality "Luxembourg" ;
+    schema:url "http://costezki.ro"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_428> a schema:Person ;
+    schema:affiliation "Meaningfy" ;
+    schema:familyName "Nyulas" ;
+    schema:givenName "Csongor",
+        "Csongor I." ;
+    schema:nationality "Luxembourg" .
+
+<https://w3id.org/okn/semantics/i/Author_43> a schema:Person ;
+    schema:affiliation "FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur & KIT Karlsruhe" ;
+    schema:familyName "Gesese" ;
+    schema:givenName "Genet Asefa" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_430> a schema:Person ;
+    schema:affiliation "Meaningfy" ;
+    schema:familyName "Prijilevschi" ;
+    schema:givenName "Dumitru" ;
+    schema:nationality "Luxembourg" .
+
+<https://w3id.org/okn/semantics/i/Author_431> a schema:Person ;
+    schema:affiliation "Meaningfy" ;
+    schema:familyName "Rahman" ;
+    schema:givenName "Rashif" ;
+    schema:nationality "Luxembourg" ;
+    schema:url "https://rashif.net/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_432> a schema:Person ;
+    schema:affiliation "Meaningfy" ;
+    schema:familyName "Ahmad" ;
+    schema:givenName "Jana" ;
+    schema:nationality "Luxembourg" .
+
+<https://w3id.org/okn/semantics/i/Author_470> a schema:Person ;
+    schema:affiliation "Dell Technologies" ;
+    schema:familyName "Piao" ;
+    schema:givenName "Guangyuan" ;
+    schema:nationality "Ireland" ;
+    schema:url "http://parklize.github.io"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_471> a schema:Person ;
+    schema:affiliation "W3C, ERCIM" ;
+    schema:familyName "Mountantonakis" ;
+    schema:givenName "Mike" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_472> a schema:Person ;
+    schema:affiliation "W3C, ERCIM" ;
+    schema:familyName "Papadakos" ;
+    schema:givenName "Panagiotis" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_473> a schema:Person ;
+    schema:affiliation "Dell Technologies" ;
+    schema:familyName "Sonawane" ;
+    schema:givenName "Pournima" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_477> a schema:Person ;
+    schema:affiliation "University of Liège" ;
+    schema:familyName "Walraff" ;
+    schema:givenName "Jimmy" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_478> a schema:Person ;
+    schema:affiliation "University of Liège" ;
+    schema:familyName "Coco" ;
+    schema:givenName "Adreas" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_479> a schema:Person ;
+    schema:affiliation "University of Liège" ;
+    schema:familyName "Delporte" ;
+    schema:givenName "Guillaume" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_480> a schema:Person ;
+    schema:affiliation "University of Liège" ;
+    schema:familyName "Michel" ;
+    schema:givenName "Merlin" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_481> a schema:Person ;
+    schema:affiliation "University of Liège" ;
+    schema:familyName "Fries" ;
+    schema:givenName "Allyson" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_482> a schema:Person ;
+    schema:affiliation "University of Liège" ;
+    schema:familyName "Defaweux" ;
+    schema:givenName "Valérie" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_492> a schema:Person ;
+    schema:affiliation "oint Informatievoorziening Commando, Ministry of Defense" ;
+    schema:familyName "Janssen" ;
+    schema:givenName "Bob" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_493> a schema:Person ;
+    schema:affiliation "ERA",
+        "European Union Agency for Railways (ERA)" ;
+    schema:familyName "Atemezing" ;
+    schema:givenName "Ghislain" ;
+    schema:nationality "France" ;
+    schema:url "http://www.atemezing.org"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_510> a schema:Person ;
+    schema:affiliation "University of Helsinki" ;
+    schema:familyName "Tuominen" ;
+    schema:givenName "Jouni" ;
+    schema:nationality "Finland" ;
+    schema:url "http://seco.cs.aalto.fi/u/jwtuomin/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_511> a schema:Person ;
+    schema:affiliation "German Aerospace Center (DLR), Institute of Data Science, Jena" ;
+    schema:familyName "Keil" ;
+    schema:givenName "Jan Martin" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_512> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Brussel" ;
+    schema:familyName "Maushagen" ;
+    schema:givenName "Jan" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_513> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Brussel" ;
+    schema:familyName "Sepehri" ;
+    schema:givenName "Sara" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_514> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Brussel" ;
+    schema:familyName "Sanctorum" ;
+    schema:givenName "Audrey" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_515> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Brussel" ;
+    schema:familyName "Vanhaecke" ;
+    schema:givenName "Tamara" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_516> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Brussel" ;
+    schema:familyName "De Troyer" ;
+    schema:givenName "Olga" ;
+    schema:nationality "Belgium" .
+
+<https://w3id.org/okn/semantics/i/Author_517> a schema:Person ;
+    schema:affiliation "L3S Research Center, Leibniz University Hannover" ;
+    schema:familyName "Jaradeh" ;
+    schema:givenName "Mohamad Yaser" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_520> a schema:Person ;
+    schema:affiliation "Nieuwe Instituut" ;
+    schema:familyName "Abdelmageed" ;
+    schema:givenName "Nora" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_521> a schema:Person ;
+    schema:affiliation "Nieuwe Instituut" ;
+    schema:familyName "Hutubessy" ;
+    schema:givenName "Lois" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_527> a schema:Person ;
+    schema:affiliation "DATEV eG" ;
+    schema:familyName "Kastner" ;
+    schema:givenName "Thorsten" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_528> a schema:Person ;
+    schema:affiliation "Karlsruhe Institute of Technology (KIT)" ;
+    schema:familyName "Braun" ;
+    schema:givenName "Christoph" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_529> a schema:Person ;
+    schema:affiliation "DATEV eG" ;
+    schema:familyName "Yeboah" ;
+    schema:givenName "Dustin" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_530> a schema:Person ;
+    schema:affiliation "Friedrich-Alexander University (FAU), Nuremberg" ;
+    schema:familyName "Schmid" ;
+    schema:givenName "Sebastian Josef" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_531> a schema:Person ;
+    schema:affiliation "Friedrich-Alexander University (FAU), Nuremberg" ;
+    schema:familyName "Schraudner" ;
+    schema:givenName "Daniel" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_536> a schema:Person ;
+    schema:affiliation "Helmoltz-Zentrum Berlin für Materialien und Energie, Berlin, Germany" ;
+    schema:familyName "Günther" ;
+    schema:givenName "Gerrit" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_537> a schema:Person ;
+    schema:affiliation "Helmholtz Center Dresden Rossendorf, Dresden, Germany" ;
+    schema:familyName "Steinmeier" ;
+    schema:givenName "Leon" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_538> a schema:Person ;
+    schema:affiliation "GEOMAR Helmholtz-Zentrum für Ozeanforschung, Kiel, Germany" ;
+    schema:familyName "Lemster" ;
+    schema:givenName "Christine" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_539> a schema:Person ;
+    schema:affiliation "Helmholtz-Zentrum für Polar und Meeresforschung  and GEOMAR Helmholtz-Zentrum für Ozeanforschung, Germany" ;
+    schema:familyName "Kottmeier" ;
+    schema:givenName "Dorothee" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_540> a schema:Person ;
+    schema:affiliation "Deutsches Zentrum für Luft und Raumfahrt, Cologne, Germany" ;
+    schema:familyName "Sivapatham" ;
+    schema:givenName "Lakxmi" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_541> a schema:Person ;
+    schema:affiliation "GEOMAR Helmholtz-Zentrum für Ozeanforschung, Kiel, Germany" ;
+    schema:familyName "Luigi Buttigieg" ;
+    schema:givenName "Pier" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_542> a schema:Person ;
+    schema:affiliation "Forschungszentrum Jülich GmbH, Institute for Advanced Simulation (IAS-9), Jülich, Germany" ;
+    schema:familyName "Hofmann" ;
+    schema:givenName "Volker" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_543> a schema:Person ;
+    schema:affiliation "Forschungszentrum Jülich GmbH, Institute for Advanced Simulation (IAS-9), Jülich, Germany" ;
+    schema:familyName "Sandfeld" ;
+    schema:givenName "Stefan" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_547> a schema:Person ;
+    schema:affiliation "Paderborn University, Data Science Group" ;
+    schema:familyName "Kumar" ;
+    schema:givenName "Ajay" ;
+    schema:nationality "Germany" ;
+    schema:url "https://dice-research.org/AjayKumar"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_548> a schema:Person ;
+    schema:affiliation "Paderborn University, Department of Energy System Technologies, Warburger Straße 100, D-33098 Paderborn, Germany" ;
+    schema:familyName "Naumann" ;
+    schema:givenName "Marius" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_549> a schema:Person ;
+    schema:affiliation "Paderborn University, Department of Energy System Technologies, Warburger Straße 100, D-33098 Paderborn, Germany" ;
+    schema:familyName "Henne" ;
+    schema:givenName "Kevin" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_552> a schema:Person ;
+    schema:affiliation "University of Cagliari" ;
+    schema:familyName "Pisu" ;
+    schema:givenName "Alessia" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_553> a schema:Person ;
+    schema:affiliation "University of Cagliari" ;
+    schema:familyName "Pompianu" ;
+    schema:givenName "Livio" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_554> a schema:Person ;
+    schema:affiliation "University of Cagliari" ;
+    schema:familyName "Riboni" ;
+    schema:givenName "Daniele" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_555> a schema:Person ;
+    schema:affiliation "The Open University" ;
+    schema:familyName "Motta" ;
+    schema:givenName "Enrico" ;
+    schema:nationality "United Kingdom" .
+
+<https://w3id.org/okn/semantics/i/Author_556> a schema:Person ;
+    schema:affiliation "University of Cagliari" ;
+    schema:familyName "Reforgiato Recupero" ;
+    schema:givenName "Diego" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_557> a schema:Person ;
+    schema:affiliation "VU Amsterdam",
+        "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Kruit" ;
+    schema:givenName "Benno" ;
+    schema:nationality "Netherlands" ;
+    schema:url "http://bennokruit.nl"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_558> a schema:Person ;
+    schema:affiliation "AIT Austrian Institute of Technology GmbH" ;
+    schema:familyName "Baumgart" ;
+    schema:givenName "Michael" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_559> a schema:Person ;
+    schema:affiliation "AIT Austrian Institute of Technology GmbH" ;
+    schema:familyName "Gruber" ;
+    schema:givenName "David" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_560> a schema:Person ;
+    schema:affiliation "AIT Austrian Institute of Technology GmbH" ;
+    schema:familyName "Liebetreu" ;
+    schema:givenName "Maximilian" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_561> a schema:Person ;
+    schema:affiliation "AIT Austrian Institute of Technology GmbH" ;
+    schema:familyName "Rötzer" ;
+    schema:givenName "Florian" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_562> a schema:Person ;
+    schema:affiliation "AIT Austrian Institute of Technology GmbH" ;
+    schema:familyName "Strommer" ;
+    schema:givenName "Stephan" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_565> a schema:Person ;
+    schema:affiliation "University of St. Gallen" ;
+    schema:familyName "Grau" ;
+    schema:givenName "Jan" ;
+    schema:nationality "Switzerland" .
+
+<https://w3id.org/okn/semantics/i/Author_566> a schema:Person ;
+    schema:affiliation "University of St. Gallen" ;
+    schema:familyName "Garcia" ;
+    schema:givenName "Kimberly" ;
+    schema:nationality "Switzerland" .
+
+<https://w3id.org/okn/semantics/i/Author_567> a schema:Person ;
+    schema:affiliation "University of St. Gallen" ;
+    schema:familyName "Mayer" ;
+    schema:givenName "Simon" ;
+    schema:nationality "Switzerland" .
+
+<https://w3id.org/okn/semantics/i/Author_568> a schema:Person ;
+    schema:affiliation "Karlsruhe Institue of Technology (KIT)" ;
+    schema:familyName "Merkle" ;
+    schema:givenName "Nicole" ;
+    schema:nationality "Germany" ;
+    schema:url "https://www.iai.kit.edu/english/2154_4249.php"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_572> a schema:Person ;
+    schema:affiliation "Fraunhofer FOKUS, Berlin, Germany" ;
+    schema:familyName "Chen" ;
+    schema:givenName "Zongxiong" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_573> a schema:Person ;
+    schema:affiliation "Centraal Bureau voor de Statistiek" ;
+    schema:familyName "Lageweg" ;
+    schema:givenName "Lucas" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_574> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Kouwenhoven" ;
+    schema:givenName "Jonas" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_577> a schema:Person ;
+    schema:affiliation "Leipzig University of Applied Sciences" ;
+    schema:familyName "Perevalov" ;
+    schema:givenName "Aleksandr" ;
+    schema:nationality "Germany" ;
+    schema:url "http://perevalov.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_59> a schema:Person ;
+    schema:affiliation "Institute AIFB, Karlsruhe Institute of Technology (KIT), Kaiserstr. 12, 76131 Karlsruhe, Germany",
+        "Karlsruhe Institute of Technology (KIT)" ;
+    schema:familyName "Käfer" ;
+    schema:givenName "Tobias" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_82> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin.",
+        "Trinity College Dublin" ;
+    schema:familyName "O'Sullivan" ;
+    schema:givenName "Declan" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_84> a schema:Person ;
+    schema:affiliation "The Open University" ;
+    schema:familyName "Osborne" ;
+    schema:givenName "Francesco" ;
+    schema:nationality "United Kingdom" .
+
+<https://w3id.org/okn/semantics/i/Author_85> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Dublin City University",
+        "ADAPT Centre, School of Computing, Dublin City University" ;
+    schema:familyName "Pandit" ;
+    schema:givenName "Harshvardhan J." ;
+    schema:nationality "Ireland" ;
+    schema:url "https://harshp.com/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_96> a schema:Person ;
+    schema:affiliation "Ghent University" ;
+    schema:familyName "Rojas" ;
+    schema:givenName "Julian",
+        "Julián" ;
+    schema:nationality "Belgium" ;
+    schema:url "https://julianrojas.org/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_99> a schema:Person ;
+    schema:affiliation "The Open University" ;
+    schema:familyName "Salatino" ;
+    schema:givenName "Angelo" ;
+    schema:nationality "United Kingdom" .
+
+<https://w3id.org/okn/semantics/i/Dataset_154_5> a schema:Dataset ;
+    schema:description "This is a ABECTO execution plan to compare space travel data from Wikidata and DBpedia and the according results." ;
+    schema:identifier "https://doi.org/10.5281/zenodo.7843823"^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "Wikidata and DBpedia Space Travel Data Comparison with ABECTO" ;
+    schema:url "https://doi.org/10.5281/zenodo.7843823" .
+
+<https://w3id.org/okn/semantics/i/Dataset_154_5_1> a schema:Dataset ;
+    schema:description "This is an ABECTO execution plan to compare and evaluate the knowledge graphs OM 2, QUDT 2, SWEET 3 and Wikidata containig data about units of measurement, and the according results." ;
+    schema:identifier "https://doi.org/10.5281/zenodo.7843835 "^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "Units of Measurement Data Comparison with ABECTO" ;
+    schema:url "https://doi.org/10.5281/zenodo.7843835 " .
+
+<https://w3id.org/okn/semantics/i/Dataset_159_5> a schema:Dataset ;
+    schema:description "Knowledge graph for the POC of The Other Interface." ;
+    schema:name "Collectie Data Knowledge Graph" ;
+    schema:url "https://collectiedata.hetnieuweinstituut.nl/the-other-interface/knowledge-graph" .
+
+<https://w3id.org/okn/semantics/i/Dataset_180_5> a schema:Dataset ;
+    schema:name "NFDI4DS SHMARQL" ;
+    schema:url "https://nfdi.fiz-karlsruhe.de/4ds/shmarql" .
+
+<https://w3id.org/okn/semantics/i/Dataset_180_5_1> a schema:Dataset ;
+    schema:name "NFDI4DS SPARQL Endpoint" ;
+    schema:url "https://nfdi.fiz-karlsruhe.de/4ds/sparql" .
+
+<https://w3id.org/okn/semantics/i/Dataset_184_5> a schema:Dataset ;
+    schema:name "ViziQuer playground schema database" ;
+    schema:url "https://viziquer.lumii.lv/dss/resources/vq_playground.pgsql.gz" .
+
+<https://w3id.org/okn/semantics/i/Demo_153_7> a schema:Demo ;
+    schema:description "This site is the Living Laboratory of the Linked Data Finland research initiative, conducted by the Semantic Computing Research Group at Aalto University in collaboration with University of Helsinki and a large consortium of Finnish public organizations and companies." ;
+    schema:name "Linked Data Finland" ;
+    schema:url "https://ldf.fi" .
+
+<https://w3id.org/okn/semantics/i/Demo_154_7> a schema:Demo ;
+    schema:description "This demonstration showcases the use of ABECTO in a CI pipeline to monitor the quality of an RDF knowledge graph." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "Demonstration: Continuous Knowledge Graph Quality Assessment through Comparison using ABECTO" ;
+    schema:url "https://github.com/fusion-jena/abecto-ci-demo" .
+
+<https://w3id.org/okn/semantics/i/Demo_154_7_1> a schema:Demo ;
+    schema:name "abecto-ci-demo-example" ;
+    schema:url "https://github.com/fusion-jena/abecto-ci-demo-example" .
+
+<https://w3id.org/okn/semantics/i/Demo_156_7> a schema:Demo ;
+    schema:name "ORKG" ;
+    schema:url "https://ask.orkg.org/" .
+
+<https://w3id.org/okn/semantics/i/Demo_161_7> a schema:Demo ;
+    schema:name "MANDAT" ;
+    schema:url "https://drive.google.com/file/d/1Be-fR0OdE2OCI0tcthXRjFjoKKGJyYAq/view?usp=sharing" .
+
+<https://w3id.org/okn/semantics/i/Demo_166_7> a schema:Demo ;
+    schema:name "Climate Bowl" ;
+    schema:url "https://climatebowl.demo.dice-research.org" .
+
+<https://w3id.org/okn/semantics/i/Demo_170_7> a schema:Demo ;
+    schema:description "Explore the Knowledge Graph for Irish History using free text questions" ;
+    schema:name "Discover using free text" ;
+    schema:url "https://vrti-graph.adaptcentre.ie/gpt-search" .
+
+<https://w3id.org/okn/semantics/i/Demo_176_7> a schema:Demo ;
+    schema:name "SAKE: A Semantic Authoring and Annotation Tool for Knowledge Extraction" ;
+    schema:url "https://www.youtube.com/watch?v=6Jndj_rsfMU" .
+
+<https://w3id.org/okn/semantics/i/Demo_177_7> a schema:Demo ;
+    schema:name "AutoGenHR Demo Application" ;
+    schema:url "https://nmerkle.github.io/HoloBot.html" .
+
+<https://w3id.org/okn/semantics/i/Demo_181_7> a schema:Demo ;
+    schema:name "GECKO" ;
+    schema:url "https://gecko.cbs.nl" .
+
+<https://w3id.org/okn/semantics/i/Demo_182_7> a schema:Demo ;
+    schema:name "Mapping Workbench" ;
+    schema:url "https://mw.staging.meaningfy.ws/" .
+
+<https://w3id.org/okn/semantics/i/Demo_184_7> a schema:Demo ;
+    schema:name "ViziQuer App" ;
+    schema:url "https://viziquer.app" .
+
+<https://w3id.org/okn/semantics/i/Demo_184_7_1> a schema:Demo ;
+    schema:name "ViziQuer App Instructions" ;
+    schema:url "https://github.com/LUMII-Syslab/viziquer/tree/development/doc/demo/fed_queries" .
+
+<https://w3id.org/okn/semantics/i/Demo_187_7> a schema:Demo ;
+    schema:name "Qanary Explanation Demo" ;
+    schema:url "http://demos.swe.htwk-leipzig.de:40119/" .
+
+<https://w3id.org/okn/semantics/i/License/GNU%20AFFERO%20GENERAL%20PUBLIC%20LICENSE%203.0> a schema:CreativeWork ;
+    schema:name "GNU AFFERO GENERAL PUBLIC LICENSE 3.0" ;
+    schema:url "https://www.gnu.org/licenses/agpl-3.0.en.html" .
+
+<https://w3id.org/okn/semantics/i/Ontology_154_6> a schema:Ontology ;
+    schema:description "The ABECTO Vocabulary (AV) is a vocabulary for the description of execution plans and results of the ABox Evaluation and Comparison Tool for Ontologies (ABECTO)." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "ABECTO Vocabulary" ;
+    schema:url "http://w3id.org/abecto/vocabulary" .
+
+<https://w3id.org/okn/semantics/i/Ontology_163_6> a schema:Ontology ;
+    schema:description "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "Helmholtz Digitisation Ontology" ;
+    schema:url "https://purls.helmholtz-metadaten.de/hob/hdo.owl" .
+
+<https://w3id.org/okn/semantics/i/Ontology_173_6> a schema:Ontology ;
+    schema:name "AI Intended Uses Policy ODRL Profile" ;
+    schema:url "https://w3id.org/aiup" .
+
+<https://w3id.org/okn/semantics/i/Ontology_177_6> a schema:Ontology ;
+    schema:name "Holomatik Ontology" ;
+    schema:url "https://github.com/nmerkle/holomatik-ai/blob/main/Holomatik-Ontology.ttl" .
+
+<https://w3id.org/okn/semantics/i/Ontology_180_6> a schema:Ontology ;
+    schema:description "The NFDI4DS ontology (nfdi4dso) is an ontology describing various resources all resources (datasets, data providers, persons, projects and other entities) within the domain of NFDI4DataScience. nfdi4dso is a module that builds upon the NFDIcore Ontology (https://ise-fizkarlsruhe.github.io/nfdicore/2.0.0/) and maintains alignment with the Basic Formal Ontology (BFO)." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "NFDI4DS Ontology" ;
+    schema:url "https://ise-fizkarlsruhe.github.io/NFDI4DS-Ontology/" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_135_4> a schema:SoftwareSourceCode ;
+    schema:name "LLM4SPARQL" ;
+    schema:url "https://github.com/parklize/LLM4SPARQL" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_154_4> a schema:SoftwareSourceCode ;
+    schema:description "ABox Evaluation and Comparison Tool for Ontologies" ;
+    schema:identifier "https://doi.org/10.5281/zenodo.11522479"^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/Apache%202.0> ;
+    schema:name "ABECTO" ;
+    schema:url "https://doi.org/10.5281/zenodo.11522479" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_156_4> a schema:SoftwareSourceCode ;
+    schema:description "Frontend repository of ORKG Ask, as deployed on https://ask.orkg.org" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "ORKG Ask Frontend" ;
+    schema:url "https://gitlab.com/TIBHannover/orkg/orkg-ask/frontend" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_156_4_1> a schema:SoftwareSourceCode ;
+    schema:description "This is the backend that serves the ORKG-Ask app, as deployed under https://api.ask.orkg.org." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "ORKG Ask Backend" ;
+    schema:url "https://gitlab.com/TIBHannover/orkg/orkg-ask/backend" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_157_4> a schema:SoftwareSourceCode ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "Complex Ontology Matching" ;
+    schema:url "https://github.com/OndrejZamazal/ComplexOntologyMatching-SEMANTiCS2024/" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_161_4> a schema:SoftwareSourceCode ;
+    schema:description "Methods for exchanging company-related data in trust-based data ecosystems" ;
+    schema:name "MANDAT",
+        "delegation-proxy" ;
+    schema:url "https://github.com/mandat-project",
+        "https://github.com/mandat-project/delegation-proxy" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_163_4> a schema:SoftwareSourceCode ;
+    schema:description "The Helmholtz Digitisation Ontology (HDO) provides precise and comprehensive semantics of the concepts and practices used to manage digital assets such as research data. It is developed in alignment with the practices and conventions of the OBO Foundry and released as a machine readable artifact with high semantic expressiveness. HDO is semantically top-level aligned with the basic formal ontology (BFO: https://basic-formal-ontology.org/). HDO is developed by the Helmholtz Metadata Collaboration (HMC: (https://helmholtz-metadaten.de/en)" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "Helmholtz Digitisation Ontology (HDO)" ;
+    schema:url "https://codebase.helmholtz.cloud/hmc/hmc-public/hob/hdo" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_166_4> a schema:SoftwareSourceCode ;
+    schema:license <https://w3id.org/okn/semantics/i/License/GNU%20AFFERO%20GENERAL%20PUBLIC%20LICENSE%203.0> ;
+    schema:name "ClimateBowl-KGConverter" ;
+    schema:url "https://github.com/dice-group/ClimateBowl-KGConverter" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_168_4> a schema:SoftwareSourceCode ;
+    schema:description "Look into a dataset with RDF-Lens. Here the term Lens, is the same concept of Haskell lenses available in this well known library. A lens looks at a point in a dataset, for RDF-Lens this usually is looking at a Term inside a store. Lenses can be combined to from a point, look furthur inside the dataset, as long as the types allow for it." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "RDF-Lens" ;
+    schema:url "https://github.com/ajuvercr/rdf-lens" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_169_4> a schema:SoftwareSourceCode ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "LeveragingLMforGeneratingOntologies" ;
+    schema:url "https://github.com/aleessiap/LeveragingLMforGeneratingOntologies" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_170_4> a schema:SoftwareSourceCode ;
+    schema:description "A repository containing supplementary information related to the VRTI-ChatGPT framework." ;
+    schema:name "VRTI-ChatGPT" ;
+    schema:url "https://github.com/alex-randles/VRTI-ChatGPT" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_172_4> a schema:SoftwareSourceCode ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "shaclExploits" ;
+    schema:url "https://github.com/Ikeragnell/shaclExploits" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_173_4> a schema:SoftwareSourceCode ;
+    schema:description "AI Intended Uses Policy ODRL Profile" ;
+    schema:name "aiup" ;
+    schema:url "https://github.com/DelaramGlp/aiup" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_176_4> a schema:SoftwareSourceCode ;
+    schema:description "A Semantic Authoring and Annotation Tool for Knowledge Extraction" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/Apache%202.0> ;
+    schema:name "SAKE" ;
+    schema:url "https://github.com/jangrau13/semantics2024_sake" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_176_4_1> a schema:SoftwareSourceCode ;
+    schema:description "Extends PDF.js" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/Apache%202.0> ;
+    schema:name "PDF.js" ;
+    schema:url "https://github.com/jangrau13/pdf.js" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_177_4> a schema:SoftwareSourceCode ;
+    schema:description "An application that allows the automated generation of health reports." ;
+    schema:name "AutoGenHR" ;
+    schema:url "https://github.com/nmerkle/holomatik-ai" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_177_4_1> a schema:SoftwareSourceCode ;
+    schema:name "HoloBot" ;
+    schema:url "https://github.com/nmerkle/nmerkle.github.io/blob/master/HoloBot.html" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_180_4> a schema:SoftwareSourceCode ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "NFDI4DS Ontology Code Repository" ;
+    schema:url "https://github.com/ISE-FIZKarlsruhe/NFDI4DS-Ontology/tree/develop-1.0.1" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_181_4> a schema:SoftwareSourceCode ;
+    schema:name "GECKO" ;
+    schema:url "https://github.com/lagewel001/GECKO" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_181_4_1> a schema:SoftwareSourceCode ;
+    schema:description "Enhancing Knowledge Graph QA through constrained Dynamic Decoding and Low Rank Adaptation" ;
+    schema:name "Enhancing Graph QA" ;
+    schema:url "https://github.com/Jonaskouwenhoven/Thesis-Enhancing-Graph-QA" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_184_4> a schema:SoftwareSourceCode ;
+    schema:description "The aim of the ViziQuer project is to provide visual/diagrammatic environment for ontology-based data query definition and execution." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "ViziQuer" ;
+    schema:url "https://github.com/LUMII-Syslab/viziquer" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_184_4_1> a schema:SoftwareSourceCode ;
+    schema:description "The Data Shape Server serves a stored knowledge graph schema information (e.g., the classes, the properties and their connections) to a client that can use it, e.g., in autocompletion of SPARQL queries over the data set with the corresponding schema. The Data Shape Server is used in the context of ViziQuer tool (https://github.com/LUMII-Syslab/viziquer) to support auto-completion of visual queries over RDF databases." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "Data Shape Server" ;
+    schema:url "https://github.com/LUMII-Syslab/data-shape-server" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_187_4> a schema:SoftwareSourceCode ;
+    schema:description "In this demo, we present an approach for post-hoc explainability within component-based AI-enhanced software systems, i.e. the explainability of the behavior of components in general (not limited to AI models). To do this, we rely on the system’s data that was processed and/or is reflecting the intermediate processing steps. Accordingly, (post-hoc) explanations are created for each component, regardless of whether or not it is a black-box component." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "Qanary Explainability" ;
+    schema:url "https://github.com/WSE-research/qanary-explainability-frontend" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_187_4_1> a schema:SoftwareSourceCode ;
+    schema:description "Question Answering components following the Qanary methodology mostly create outputs (e.g., a query builder component typically generates RDF data or SPARQL queries, respectively ) and store them as new annotations to an RDF graph in the triplestore." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "Qanary Explanation Service" ;
+    schema:url "https://github.com/WSE-research/qanary-explanation-service" .
+
+<https://w3id.org/okn/semantics/i/Author_387> a schema:Person ;
+    schema:affiliation "DATEV eG" ;
+    schema:familyName "Both" ;
+    schema:givenName "Andreas" ;
+    schema:nationality "Germany" ;
+    schema:url "http://www.andreasboth.de/en"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_369> a schema:Person ;
+    schema:affiliation "University of Liège",
+        "Université de Liège" ;
+    schema:familyName "Debruyne",
+        "Debryune" ;
+    schema:givenName "Christophe" ;
+    schema:nationality "Belgium" ;
+    schema:url "http://www.christophedebruyne.be"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/License/Apache%202.0> a schema:CreativeWork ;
+    schema:name "Apache 2.0" ;
+    schema:url "https://www.apache.org/licenses/LICENSE-2.0" .
+
+<https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> a schema:CreativeWork ;
+    schema:name "CC0 1.0 Universal" ;
+    schema:url "https://creativecommons.org/publicdomain/zero/1.0/" .
+
+<https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> a schema:CreativeWork ;
+    schema:name "CC BY 4.0 International" ;
+    schema:url "https://creativecommons.org/licenses/by/4.0/legalcode" .
+
+<https://w3id.org/okn/semantics/i/License/MIT%20License> a schema:CreativeWork ;
+    schema:name "MIT License" ;
+    schema:url "http://choosealicense.com/licenses/mit/" .
+
+<https://w3id.org/okn/semantics/i/Track_3> a schema:Event ;
+    schema:name "Semantics2024 Posters and Demos Track" .
+

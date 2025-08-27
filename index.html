@@ -1,0 +1,329 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+	<meta name="description" content="">
+	<meta name="author" content="">
+
+	<title>SEMANTICS-2025</title>
+
+	<!-- Bootstrap core CSS -->
+	<link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+	<!-- Custom styles for this template -->
+	<link href="css/scrolling-nav.css" rel="stylesheet">
+
+	<link href="css/style.css" rel="stylesheet">
+	<link href="css/index.css" rel="stylesheet">
+	<link rel="icon" href="img/semantics-logo-browser.ico">
+
+	<!-- Mark down -->
+	<script type="module" src="vendor/zero-md-v2/zero-md.min.js"></script>
+
+	<script src="vendor/jquery/jquery.min.js"></script>
+
+	<script src="js/getconf.js"></script>
+	<script src="js/pcontent.js"></script>
+	<script src="js/pcsv.js"></script>
+</head>
+
+<body id="page-top">
+	<div id="nav-placeholder"></div>
+
+	<script>
+		$(function () {
+			$("#nav-placeholder").load("page/nav.html", function functionName() { apply_conf_onfunc(update_nav, true); });
+			//$("#sidecol").load("page/side.html");
+			$("#page-footer").load("page/footer.html", function functionName() { apply_conf_onfunc(update_footer, true); });
+		});
+	</script>
+
+	<header class="bg-light">
+		<div id="front" class="container">
+			<div class="row">
+				<div class="col mx-auto title">
+					<h4 style="text-align: center;"><span class="decoline">––––</span>Vienna, September 03 - 05,
+						2025<span class="decoline">––––</span></h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col mx-auto logo">
+					<img id="logo_semantics" src="img/semantics-logo-white.png" width="125%" height="auto"
+						style="padding:10px" alt="">
+					<!--<img id="logo_lti" src="img/LTILogoByLine.png" width="22%" height="auto" style="padding:10px" alt="">-->
+				</div>
+			</div>
+			<div class="row">
+				<div class="col mx-auto title">
+					<h4 style="text-align: center;">21st International Conference on Semantic Systems</h4>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col mx-auto">
+					<div style="text-align: center; margin-top: 50px;"><a
+							href="https://2025-eu.semantics.cc/page/registration" type="button" class="btn btn-primary"
+							style="font-size: 1.2em;">REGISTER</a></div>
+				</div>
+			</div>
+		</div>
+	</header>
+
+	<section class="theme-row collapsed-section" id="section_intro">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+
+							<div class="row">
+								<div class="col-lg-12 mx-auto">
+									<h4 class="title-section text-center">SEMANTiCS 2025</h4>
+								</div>
+							</div>
+
+							<div class="row" id="home_about">
+								<div id="intro" class="col-lg-10 mx-auto text-center">
+									<zero-md src="content/home.md">
+										<template>
+											<link href="css/md-style.css" rel="stylesheet" />
+										</template>
+									</zero-md>
+								</div>
+							</div>
+
+						</div>
+						<!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+
+	<section class="theme-row-alt collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+							<div id="keynote_list" class="section">
+								<div class="row">
+									<div class="col-lg-12 mx-auto">
+										<h4 class="text-center">CONFERENCE KEYNOTES & INVITED SPEAKERS
+										</h4>
+										<div class="title-section text-center">
+										</div>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+
+							<div id="news" class="section">
+								<div class="row">
+									<div class="col-lg-12 mx-auto">
+										<h4 class="title-section text-center">BLOG POSTS & NEWS</h4>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="theme-row collapsed-section" id="section_quotes">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+							<div class="row" id="home_about2">
+								<div id="quotes" class="col-lg-6 mx-auto"></div>
+							</div>
+						</div>
+						<!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="theme-row-alt collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+
+							<div id="sponsors_list" class="section">
+								<div class="row justify-content-center">
+									<div id="s_gold" class="col-lg-5 mx-auto"></div>
+									<div id="s_silver" class="col-lg-5 mx-auto"></div>
+								</div>
+								<div class="row justify-content-center">
+									<div id="s_bronze" class="col-lg-5 mx-auto"></div>
+									<div id="s_startup" class="col-lg-5 mx-auto"></div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+							<div id="partners_list" class="section">
+								<div class="row">
+									<div class="col-lg-12 mx-auto">
+										<h4 class="title-section text-center">PARTNERS</h4>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="theme-row-alt collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div class="row">
+						<div class="col-lg-12 mx-auto">
+							<div id="org_list" class="section">
+								<div class="row">
+									<div class="col-lg-12 mx-auto">
+										<h4 class="title-section text-center">ORGANIZED BY</h4>
+									</div>
+								</div>
+							</div>
+
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div id="venue_section" class="section">
+						<div class="row">
+							<div class="col-lg-12 mx-auto">
+								<h4 class="title-section text-center">CONFERENCE VENUE</h4>
+							</div>
+						</div>
+
+						<div class="row section-content">
+							<div class="col-lg-6 mx-auto text-right align-self-center">
+								<div style="vertical-align: middle">
+									<p>Venue<br>
+										<strong>Hilton Vienna Waterfront</strong><br>
+										<span>Handelskai 269, 1020</span>
+										Vienna, Austria
+									</p>
+									<!-- <p><a target="_blank"
+											href="https://www.hilton.com/en/attend-my-event/viehahi-asema-a8c0c685-9f6e-4d60-83c0-ad8e7d866430/">Book
+											a Room</a></p> -->
+									<!--<p>Contact<br><strong>VU&nbsp;University Amsterdam</strong><br>
+												Faculty of Sciences<br>
+												Department of Computer Science<br>
+												De Boelelaan 1081<br>
+												NL-1081 HV Amsterdam<br>
+												The Netherlands
+											</p> -->
+								</div>
+							</div>
+							<div class="col-sm-12 col-md-6">
+								<p class="rteright">
+									<iframe frameborder="0" height="270" scrolling="no"
+										src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3759.8033983171977!2d16.42026342561535!3d48.21465752301391!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x476d0724d8121f89%3A0xeae50bac2ca07d42!2sHilton%20Vienna%20Waterfront!5e0!3m2!1sen!2s!4v1731147527126!5m2!1sen!2s"
+										style="border:0; border-radius: 18px;" width="270"></iframe>
+								</p>
+							</div>
+						</div>
+
+						<div id="map"></div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<section class="theme-row-alt collapsed-section">
+		<div class="container">
+			<div class="row">
+				<div class="col-lg-12 mx-auto">
+					<div id="publisher_section" class="section">
+						<div class="row">
+							<div class="col-lg-12 mx-auto">
+								<h4 class="title-section text-center">CONFERENCE PUBLISHER</h4>
+							</div>
+						</div>
+						<div class="row section-content">
+							<div class="col-lg-6 mx-auto text-right align-self-center">
+								<div style="text-align: center;">
+									<a href="https://www.iospress.com/" target="_blank"><img id="logo_publisher"
+											src="img/IOS.png" width="200px" height="auto" style="padding:10px"
+											alt=""></a>
+								</div>
+							</div>
+						</div>
+					</div>
+				</div>
+			</div>
+		</div>
+	</section>
+	<!-- Footer -->
+	<footer id="page-footer"></footer>
+	<script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+	<script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+	<!-- Custom JavaScript for this theme -->
+	<script src="js/scrolling-nav.js"></script>
+	<script src="vendor/jquery-csv/jquery.csv.min.js"></script>
+	<script>
+		apply_conf_onfunc(build_quotes, true);
+		apply_conf_onfunc(build_news, true);
+		apply_conf_onfunc(build_organizers_list, true);
+		apply_conf_onfunc(build_partners_list, true);
+		apply_conf_onfunc(build_sponsors_list, true);
+		apply_conf_onfunc(build_ks, true);
+
+		// build google map
+		// Online guide: https://www.webucator.com/article/how-to-create-a-google-map-object-with-the-maps-ja/
+		// ---------------
+
+		function initMap() {
+			var mapOptions = {
+				zoom: 8,
+				center: new google.maps.LatLng(44, -110),
+				mapTypeId: 'satellite'
+			};
+			var map = new google.maps.Map(document.getElementById('map'), mapOptions);
+		}
+	</script>
+	<!--<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC8FDP8EzjyFfC4Hy-OcNIxiUaeElEyF8&callback=initMap"></script> -->
+</body>
+
+</html>

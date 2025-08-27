@@ -1,0 +1,1308 @@
+@prefix ns1: <https://w3id.org/okn/semantics/voc#> .
+@prefix schema: <https://schema.org/> .
+@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_18> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose: A previous paper proposed the usage of SHACL to assess the FAIRness of software repositories. Following this call to action, this paper introduces and discusses the changes made to QUARE, a SHACL-based tool for validating GitHub repositories against sets of quality criteria, to facilitate this task.
+Methodology: An operationalization of the abstract FAIR best practices from previous work is devised to enable a FAIRness assessment based on concrete quality criteria. Afterwards, a SHACL shapes graph implementing these constraints is introduced, followed by a discussion of the efficient generation of suitable RDF representations for GitHub repositories. Improvements regarding the usability of QUARE are examined, as well. An evaluation on the FAIRness of 223 GitHub repositories and on the runtime performance of the assessment is conducted.
+Findings: Trending repositories comply with fewer FAIR best practices than repositories expected to be FAIR on average. However, the latter still exhibit deficiencies, for example, regarding the correct application of semantic versioning. The low average runtime of the FAIRness assessment of respectively 3.94 and 6.20 seconds per repository permits the integration of QuaRe in, e.g., CI/CD pipelines.
+Value: The FAIR principles are often mentioned as a measure to tackle the reproducibility crisis, which continues to have a significant impact on science. To implement these principles in practice, it is crucial to provide tools that facilitate the automated assessment of the FAIRness of software repositories. The enhanced version of QUARE introduced in this paper represents our proposal for this demand.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_171>,
+        <https://w3id.org/okn/semantics/i/Author_172>,
+        <https://w3id.org/okn/semantics/i/Author_173> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_18_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """FAIR software
+GitHub repositories
+SHACL""" ;
+    schema:name "Assessing the FAIRness of Software Repositories using RDF and SHACL" ;
+    ns1:authorString "Tobias Hummel, Leon Martin and Andreas Henrich" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_19> a schema:ScholarlyArticle ;
+    schema:abstract """This paper concerns the problem of searching legislative documents in
+an international cross-broader multilingual setting. Here, legal documents are orig-
+inally published in different countries using different local languages, and the end-users search for the documents using their own languages. Furthermore, different
+country-specific semantic keyword and classification systems for indexing the con-
+tents may have been used. Cross-border services are needed, e.g., when moving
+from one country to another and looking for regulations for immigration, heath
+care, education, etc. To address the challenge, a cross-border solution based on
+Linked Open Data and Semantic Web technologies is presented, and a proof-of-
+concept system was designed and implemented, using consolidated laws of Finland
+and Estonia and EU directives as a case study. The demonstrator includes a seman-
+tic portal and a LOD service. Based on the so-called Sampo Model, the main nov-
+elty of the FINESTLAWSAMPO demonstrator presented is the provision of hetero-
+geneous cross-country, multilingual, distributed legal data through multiple appli-
+cation perspectives for faceted searching and exploring the data as well as for data
+analysis in legal informatics.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_174>,
+        <https://w3id.org/okn/semantics/i/Author_175>,
+        <https://w3id.org/okn/semantics/i/Author_176>,
+        <https://w3id.org/okn/semantics/i/Author_177>,
+        <https://w3id.org/okn/semantics/i/Author_178> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_19_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_19_6>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_19_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Linked data
+Law
+Multilingual
+Semantic portal
+Data service""" ;
+    schema:name "A model and case study for searching and reading cross-border multilingual legislation on the Semantic Web" ;
+    ns1:authorString "Eero Hyvönen, Hien Cao, Rafael Leal, Heikki Rantala and Aki Hietanen" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_2> a schema:ScholarlyArticle ;
+    schema:abstract """Background: The increasing demand for advanced image understanding, particularly in detecting abstract concepts (AC) in images, presents a multifaceted challenge both technically and ethically for humans and machines alike. This demand highlights the necessity for innovative and more interpretable approaches that reconcile traditional deep vision methods with the nuanced knowledge required to interpret images at such high semantic levels.
+
+Objective: To bridge the gap between deep vision and situated perceptual paradigms, this study aims to establish a situated knowledge graph (KG) for a deeper understanding of abstract concept (AC) evocation in cultural images. Leveraging this knowledge, the objective is to enhance performance and interpretability in AC image classification.
+
+Methods: We construct the ARTstract Knowledge Graph (AKG), capturing perceptual semantics from over 14,000 cultural images labeled with ACs. We extract perceptual semantic units using off-the-shelf models and integrate them into the AKG, enriching it with high-level linguistic frames. For AC-based image classification, we adopt a hybrid approach, integrating knowledge graphs and visual transformers. Specifically, we compute knowledge graph embeddings (KGE) on AKG and fuse them with visual transformer embeddings. For interpretability, we conduct post-hoc qualitative analyses by probing model similarities with training instances.
+
+Results: Our hybrid methods outperform existing techniques in abstract concept (AC) image classification. Through post hoc interpretability analyses, we reveal the deep visual model's proficiency in capturing low-level visual attributes, contrasting with our method's efficacy in representing abstract and semantic scene elements.
+
+Conclusion: Our results demonstrate the synergy and complementarity between KGE embeddings' situated perceptual knowledge and deep visual model's sensory-perceptual understanding, showcasing the potential of neuro-symbolic methods for robust image representation in intricate visual comprehension tasks. All the materials and code are available at https://anonymous.4open.science/r/Stitching-Gaps-B339/.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_138>,
+        <https://w3id.org/okn/semantics/i/Author_139>,
+        <https://w3id.org/okn/semantics/i/Author_140> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_2_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Abstract Concepts
+Neuro-Symbolic AI
+Interpretability
+Situated Knowledge
+Knowledge Graph Embeddings
+Vision Transformers
+Image Classification""" ;
+    schema:name "Stitching Gaps: Fusing Situated Perceptual Knowledge with Vision Transformers for High-Level Image Classification" ;
+    ns1:authorString "Delfina Sol Martinez Pandiani, Nicolas Lazzari and Valentina Presutti" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_24> a schema:ScholarlyArticle ;
+    schema:abstract """Entity Linking is crucial for numerous downstream tasks, such as question answering, knowledge graph population, and general knowledge extraction. A frequently overlooked aspect of entity linking is the potential encounter with entities not yet present in a target knowledge graph. Although some recent studies have addressed this issue, they primarily utilize full-text knowledge bases or depend on external information.
+However, these resources are not available in most use cases. In this work, we solely rely on the information within a knowledge graph and assume no external information is accessible.
+
+To investigate the challenge of identifying and disambiguating entities absent from the knowledge graph, we introduce a comprehensive silver-standard benchmark dataset that covers texts from 1999 to 2022. 
+Based on our novel dataset, we develop an approach using pre-trained language models and knowledge graph embeddings without the need for a parallel full-text corpus.
+Moreover, by assessing the influence of knowledge graph embeddings on the given task, we show that implementing a sequential entity linking approach, which considers the whole sentence, can outperform clustering techniques that handle each mention separately in specific instances.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_121>,
+        <https://w3id.org/okn/semantics/i/Author_170> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_24_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """entity linking
+out-of-KG
+nil entities""" ;
+    schema:name "Entity Linking with Out-of-Knowledge-Graph Entity Detection and Clustering using only Knowledge Graphs" ;
+    ns1:authorString "Cedric Möller and Ricardo Usbeck" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_26> a schema:ScholarlyArticle ;
+    schema:abstract "To advance the adoption of linked data in the context of the Dutch Federated Data System (Dutch synonym: FDS), it is necessary to have robust access control for native linked data sources. For this purpose, research was initiated to assess whether it is feasible to implement access controls on linked data sources in this context. A four-phase design science research methodology is applied. The first phase defines both the question guiding this research and the context in which the research was conducted. The second phase includes a review of the state-of-the-art and an evaluation of the existing approaches to access control could support the FDS use case. Having determined that no existing approaches completely fulfil the requirements of the FDS use case, the third phase describes a prototype enforcement mechanism designed and developed as part of this research. The fourth and final phase evaluates this protype with respect to its feasibility to support the requirements of the FDS context. At present, there are no standardized solutions for securing native linked data sources. Existing literature and industry examples from the Netherlands and Europe highlight several potential solution directions for access control on SPARQL endpoints. These solution directions are used as inspiration for the development of a prototype enforcement mechanism. This prototype shows potential when applied to the Dutch Federated Data System and suggests a more generic approach could be taken when applying these controls to a broader context. Further research, testing and standardization efforts are required to bring such an approach to maturity. Any linked data ecosystem containing closed information requires a robust approach to access control. This research contributes to the existing literature on approaches taken to such access controls and highlights the increasing need for, and the feasibility of implementing, these controls in governmental contexts. Bringing such a solution to maturity would support wider adoption of linked data technologies in this context." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_193>,
+        <https://w3id.org/okn/semantics/i/Author_194>,
+        <https://w3id.org/okn/semantics/i/Author_195>,
+        <https://w3id.org/okn/semantics/i/Author_196>,
+        <https://w3id.org/okn/semantics/i/Author_197>,
+        <https://w3id.org/okn/semantics/i/Author_37> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_26_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Secured SPARQL Endpoints
+Federated Querying
+Authorization Ontology
+Linked Data""" ;
+    schema:name "Securing Linked Data: Authorisation Ontology and Enforcement Mechanisms in the Dutch Federated Data System Context" ;
+    ns1:authorString "Alexandra Rowland, Hans Schevers, Erwin Folmer, Sven Mol, Janneke Michielsen and Marc van Andel" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_30> a schema:ScholarlyArticle ;
+    schema:abstract """Traditional dataset retrieval systems rely on metadata for indexing, rather than on the underlying data values. However, high-quality metadata creation and enrichment often require manual annotations, which is a labour-intensive and challenging process to automate. In this study, we propose a method to support metadata enrichment using topic annotations generated by three Large Language Models (LLMs): ChatGPT-3.5, GoogleBard, and GoogleGemini. Our analysis focusses on classifying column headers based on domain-specific topics from the Consortium of European Social Science Data Archives (CESSDA), a Linked Data controlled vocabulary. Our approach operates in a zero-shot setting, integrating the controlled topic vocabulary directly within the input prompt. This integration serves as a Retrieval-Augmented Generation (RAG) approach, with the aim of improving the results of the topic classification task.
+
+We evaluated the performance of the LLMs in terms of internal consistency, inter-machine alignment, and agreement with human classification. Additionally, we investigate the impact of contextual information (i.e., dataset description) on the classification outcomes. Our findings suggest that ChatGPT and GoogleGemini outperform GoogleBard in terms of internal consistency as well as LLM-human-alignment. Interestingly, we found that contextual information had no significant impact on LLM performance. 
+
+This work proposes a novel approach that leverages LLMs for topic classification of column headers using a controlled vocabulary, presenting a practical application of LLMs and RAG systems within the Semantic Web domain. This approach has the potential to facilitate automated metadata enrichment, thereby enhancing dataset retrieval and the Findability, Accessibility, Interoperability, and Reusability (FAIR) of research data on the Web.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_207>,
+        <https://w3id.org/okn/semantics/i/Author_208>,
+        <https://w3id.org/okn/semantics/i/Author_209>,
+        <https://w3id.org/okn/semantics/i/Author_210> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/ORKGPaper_30_8>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_30_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Large Language Models
+Metadata
+FAIR Guiding Principles
+Retrieval Augmented Generation
+Linked Data""" ;
+    schema:name "Zero-shot Topic Classification of Column Headers: Leveraging LLMs for Metadata Enrichment" ;
+    ns1:authorString "Margherita Martorana, Tobias Kuhn, Lise Stork and Jacco van Ossenbruggen" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_35> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose:    
+With increasing size of Resource Description Framework (RDF) graphs, the resulting graph structures can become too large to be managed on a single compute node, lacking the necessary resources to execute a partitioning of the graph -- in particular, when the partitioning method relies on global graph information for which the entire graph has to be loaded into the main memory. This paper introduces a window-based streaming partitioning technique to obtain distributed RDF graphs, overcoming the memory limitations of traditional partitioning methods.
+Methodology:
+We evaluated our approach, UniPart, by comparing it with established graph partitioning algorithms such as METIS, LDG, and WStream. The comparison focused on key metrics, including the proportion of edge cuts.
+Findings:
+Through practical assessments using the LUBM dataset, our algorithm demonstrated strong performance in load balance, execution time, and memory usage. Notably, under the DFS streaming order, UniPart achieved a 20\\% reduction in edge-cut ratio compared to LDG.
+Value:
+UniPart operates without the need for global graph information, making it exceptionally suited for dynamic environments with unbounded streams and unpredictable data sizes. 
+
+
+
+""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_223>,
+        <https://w3id.org/okn/semantics/i/Author_224>,
+        <https://w3id.org/okn/semantics/i/Author_225> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_35_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """RDF
+Workload Awareness
+Triple Store
+Graph Partitioning""" ;
+    schema:name "UniPart: Optimizing Streaming Graph Partitioning towards Universal Adaption in RDF Triple Stores" ;
+    ns1:authorString "Wenhui Yang, Ahmed Al-Ghezi and Lena Wiese" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_38> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose: The Smart Readiness Indicator (SRI) is an energy rating scheme
+targeted at buildings to evaluate their capacity to integrate and benefit from smart
+technologies for enhanced energy efficiency and overall performance. Existing tools
+for SRI assessment and rating do not provide a standard format for data exchange.
+However, there are several scenarios in which a FAIR, standardised data format is
+beneficial, such as data exchange between building tools, comparison of different
+assessments, or computing statistics about buildings.
+Methodology: We propose the Semantic Smart Readiness Indicator framework,
+consisting of an SRI information model and a SPARQL-based SRI score calculation.
+We follow the Linked Open Terms ontology engineering method by specifying the
+use case from which the requirements and competency questions are derived. We
+reuse existing ontologies and extend them to create the SRI ontology. Findings:
+The model is published according to the FAIR principles. Moreover, it is flexible to
+accommodate specific SRI requirements, and can be aligned with existing semantic
+building models to facilitate data linking and exchange. The score calculation, in
+turn, is composed of multiple SPARQL queries defined over the model.
+Value: In this paper, we describe our proposed framework, the ontology engineering
+process, and the evaluation of both the model and the SPARQL-based SRI calculation. All the resources are openly available for reuse.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_233>,
+        <https://w3id.org/okn/semantics/i/Author_234>,
+        <https://w3id.org/okn/semantics/i/Author_235> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Ontology_38_6> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Smart Readiness Indicator
+Smart building
+Ontology engineering""" ;
+    schema:name "Semantic Smart Readiness Indicator Framework" ;
+    ns1:authorString "Stefan Bischof, Erwin Filtz and Josiane Xavier Parreira" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_50> a schema:ScholarlyArticle ;
+    schema:abstract "This paper presents how relations or associations between entities such as persons in cultural heritage knowledge graphs can be searched and analyzed using faceted search and visualizations. Faceted search using well formed ontologies allows search and comparison of relative numbers in associations of groups of entities, such as artists from different countries, and reveal patterns in the data. This papers presents examples of how this can be done in practice, and how the associations can be conceptualized in different ways that affect the performance of the search, and how the associations can be analyzed. The concept of faceted association  search is examined in this paper through case studies including searching relations in Finish and European Biographies, relations in Union List of Artist Names (ULAN), and relations formed by links between Wikipedia pages of persons." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_174>,
+        <https://w3id.org/okn/semantics/i/Author_177>,
+        <https://w3id.org/okn/semantics/i/Author_271>,
+        <https://w3id.org/okn/semantics/i/Author_272> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_50_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_50_5_1>,
+        <https://w3id.org/okn/semantics/i/Dataset_50_5_2> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Relational search
+Association search
+Cultural heritage
+Biographies
+Knowledge graphs""" ;
+    schema:name "Representing and searching associations in cultural heritage knowledge graphs using faceted search" ;
+    ns1:authorString "Heikki Rantala, Petri Leskinen, Lilli Peura and Eero Hyvönen" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_53> a schema:ScholarlyArticle ;
+    schema:abstract "Knowledge Graphs (KGs) are relational knowledge bases that represent facts as a set of labelled nodes and the labelled relations between them. Their machine learning counterpart, Knowledge Graph Embeddings (KGEs), learn to predict new facts based on the data contained in a KG -- the so-called link prediction task. To date, almost all forms of link prediction for KGs rely on some form of embedding model, and KGEs hold state-of-the-art status for link prediction. In this paper, we present TWIG-I (Topologically-Weighted Intelligence Generation for Inference), a novel link prediction system that can represent the features of a KG in latent space without using node or edge embeddings. We show that TWIG-I can increase performance on the link prediction relative to KGE models, including a 35 base-point increase in MRR performance on FB15k-237 over the strongest baseline; this represents a 100% relative increase in performance. Unlike KGEs, TWIG-I can be natively used for transfer learning across KGs, even across KGs that come from different knowledge domains. We show that using transfer learning with TWIG-I can lead to notable increases in performance both over KGE baselines and over TWIG-I models trained without finetuning. With finetuning, TWIG-I is able to achieve a 44 base-point increase in MRR over the standard benchmark KG FB15k-237 relative to the strongest baseline, which corresponds to a 126% relative increase in predictive performance." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_275>,
+        <https://w3id.org/okn/semantics/i/Author_277>,
+        <https://w3id.org/okn/semantics/i/Author_278>,
+        <https://w3id.org/okn/semantics/i/Author_82> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_53_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Link Prediction
+Knowledge Graph Embeddings
+Graph Topology""" ;
+    schema:name "TWIG-I: Embedding-Free Link Prediction and Cross-KG Transfer Learning using a Small Neural Architecture" ;
+    ns1:authorString "Jeffrey Sardina, Alok Debnath, John D. Kelleher and Declan O'Sullivan" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_55> a schema:ScholarlyArticle ;
+    schema:abstract "The OperaSampo is a Linked Open Data (LOD) service and semantic portal for searching, browsing, and analyzing information related to historical opera and music theatre performances performed in Finland during 1830–1960. The key data originates from the Reprises database of the Sibelius Academy, Finland. This paper presents the process of transforming the original data into LOD and the data model created for it, data maintenance, as well as the portal and data service for utilizing the data. The novelty of OperaSampo lays on its focus on studying data about the musical performances and persons involved in different roles using faceted search and browsing combined seamlessly with data-analytic tools for Digital Humanities research. The service was published for open use in October 2023." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_174>,
+        <https://w3id.org/okn/semantics/i/Author_177>,
+        <https://w3id.org/okn/semantics/i/Author_283>,
+        <https://w3id.org/okn/semantics/i/Author_284> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_55_5>,
+        <https://w3id.org/okn/semantics/i/Dataset_55_5_1>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_55_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Cultural Heritage
+Linked Data
+User Interfaces
+Portals""" ;
+    schema:name "Historical Opera and Music Theatre Performances on the Semantic Web: OperaSampo 1830–1960" ;
+    ns1:authorString "Annastiina Ahola, Eero Hyvönen, Heikki Rantala and Anne Kauppala" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_59> a schema:ScholarlyArticle ;
+    schema:abstract "The interoperability of domain ontologies, developed by domain experts, necessitates their alignment before attempting to match them. Within these ontologies, defined concepts often encounter an ambiguity problem stemming from the use of natural language. This interoperability issue raises the underlying ontology matching (OM) challenge. OM might be defined as the identification of correspondences or relationships between two or more entities, such as classes or properties among two or more ontologies. Rule-based ontology matching approaches, e.g., LogMap and AML have not outperformed machine learning based matchers on the Ontology Alignment Evaluation Initiative (OAEI) benchmark datasets, especially on the OAEI Conference Track since 2020. Supervised machine or deep learning approaches produce the best results but require labeled training datasets. In the era of Large Language Models (LLMs), robust zero-shot prompting of LLMs can also return convincing responses. While prompt generation requires prompt template engineering by domain experts, contextual information about the concepts to be aligned can be retrieved by leveraging graph search algorithms. In this work, we explore how graph search algorithms, namely (i) random walk and (ii) tree traversal can be utilized to retrieve the contextual information to be incorporated into prompt templates. Through these algorithms, our approach refrains from considering all triples connected with a concept to be aligned in its contextual information creation. Our experiments show that including the retrieved contextual information in prompt templates improves the matcher's performance. Additionally, our approach outperforms previous works leveraging zero-shot prompting." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_102>,
+        <https://w3id.org/okn/semantics/i/Author_297>,
+        <https://w3id.org/okn/semantics/i/Author_298> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_59_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Graph Search
+Prompt Generation
+Ontology Matching
+Zero-Shot Prompting""" ;
+    schema:name "Exploring  Prompt Generation Utilizing Graph Search Algorithms for Ontology Matching" ;
+    ns1:authorString "Julian Sampels, Sefika Efeoglu and Sonja Schimmler" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_60> a schema:ScholarlyArticle ;
+    schema:abstract """Machine learning (ML) is becoming increasingly important in healthcare decision-making, requiring highly interpretable insights from predictive models. Although integrating ML models with knowledge graphs (KGs) holds promise, conveying model outcomes to domain experts remains challenging, hindering usability despite accuracy. We propose semantically describing predictive model insights to overcome communication barriers. Our pipeline predicts lung cancer relapse likelihood, providing oncologists with patient-centric explanations based on input characteristics. Consequently, domain experts gain insights into both the characteristics of classified lung cancer patients and their relevant population. These insights, along with model decisions, are semantically described in natural language to enhance understanding, particularly for interpretable models like LIME
+and SHAP. Our approach, SemDesLC, documents ML model pipelines into KGs, and fulfills the needs of three types of users: KG builders, analysts, and consumers. Experts’ opinions indicate that semantic descriptions are effective for elucidating relapse determinants. SemDesLC is openly accessible on Figshare, promoting transparency and collaboration in leveraging ML for healthcare decision support.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_299>,
+        <https://w3id.org/okn/semantics/i/Author_300>,
+        <https://w3id.org/okn/semantics/i/Author_301>,
+        <https://w3id.org/okn/semantics/i/Author_302>,
+        <https://w3id.org/okn/semantics/i/Author_303>,
+        <https://w3id.org/okn/semantics/i/Author_304> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_60_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Knowledge Graphs
+Machine Learning
+Interpretability""" ;
+    schema:name "Semantically Describing Predictive Models for Interpretable Insights into Lung Cancer Relapse" ;
+    ns1:authorString "Yashrajsinh Chudasama, Disha Purohit, Philipp D. Rohde, Enrique Iglesias, Maria Torrente and Maria-Esther Vidal" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_61> a schema:ScholarlyArticle ;
+    schema:abstract "The increasing numbers of available data sources have led to increased data redundancy and hence novel challenges for federations. Typically, federation engines query all endpoints that provide relevant data for a given query. However, considering the overlap, a subset of these sources might already be sufficient to obtain a complete answer. Further, we deliberately might not wish to include all sources in the evaluation and make a decision based the reliability of a source. We therefore present ORAQL (an Overlap and Reliability Aware Query Processing Layer), an approach that exploits statistics capturing the overlap between sources to choose a subset of the available sources in the federation to compute a complete answer while minimizing redundant answers. Moreover, a user-provided reliability goal is taken into account. Hence, we propose an approach based on a majority vote over multiple sources to increase the reliability of the query result. For this work, we focus on TPF interfaces, since they are the least expressive interfaces and hence our approach can easily be adopted for more expressive interfaces, e.g. SPARQL endpoints. The presented methods to capture the overlap between sources of a federation have shown to generate useful overlap profiles with a maximum deviation of less than five percent. Even if the identification of redundant data is NP-hard we presented an approximation with a significant reduction in requested endpoints. Further, we have shown that ORAQL is granularly tunable towards reliability and can beat a state-of-the-art baseline system in terms of coverage and reliability." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_305>,
+        <https://w3id.org/okn/semantics/i/Author_306>,
+        <https://w3id.org/okn/semantics/i/Author_307> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_61_5>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_61_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Overlapping Data Sources
+Reliability
+TPF Interface
+Federation""" ;
+    schema:name "Overlap and Quality Aware Query Processor for Federations of Triple Fragment Interfaces" ;
+    ns1:authorString "Tobias Zeimetz, Katja Hose and Ralf Schenkel" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_63> a schema:ScholarlyArticle ;
+    schema:abstract "Relational graph convolutional networks (RGCNs) have been successful in learning from knowledge graphs. However, training on large-scale knowledge graphs becomes challenging due to the exponential growth of the neighborhood size across the network layers. Moreover, knowledge graphs have multiple relations, and often, the literals can have multimodal content; these properties make it extra challenging to scale up the training of RGCNs to large-scale graphs. Graph sampling techniques have been shown to be effective in scaling learning to large graphs by reducing the number of processed nodes and lowering memory usage. However, only a few studies have focused on sampling for knowledge graphs. In this work, we introduce ReWise, a relation-wise sampling framework that includes a family of sampling methods designed for knowledge graphs. Our experiments demonstrate that sampling reduces memory usage up to 50% lower than the case without sampling while maintaining the same classification accuracy and, in some cases, outperforming it. Additionally, we show that our sampling strategy is compatible with the multimodal RGCN, showing the same behavior as RGCNs." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_103>,
+        <https://w3id.org/okn/semantics/i/Author_310>,
+        <https://w3id.org/okn/semantics/i/Author_311> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_63_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Machine learning for knowledge graphs
+Relational graph convolutional network
+Scalability
+Sampling""" ;
+    schema:name "ReWise: A Relation-Wise Sampling Framework for Relational Graph Convolutional Networks" ;
+    ns1:authorString "Taraneh Younesian, Peter Bloem and Stefan Schlobach" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_64> a schema:ScholarlyArticle ;
+    schema:abstract "Sustainability reporting by Small and Medium Enterprises (SMEs) is gaining importance. SMEs form the backbone of European industries, and their customers rely on them to ensure regulatory compliance. In preparing sustainability reports, a combination of standards is commonly used, which encompasses overlapping yet distinct requirements on sustainability indicators. Different standards categorize shared indicators under varying topics, while they also mandate unique indicators to assess identical sustainability phenomena. This poses challenges for SMEs in reporting against multiple standards. Considerable human efforts are demanded to determine the interconnected requirements across different standards. Additionally, reporting on overlapping indicators for new standards results in significant redundant work. Mapping of indicators between different standards allows the semantic interoperability of standards by indicating matching and distinct requirements, aiding in addressing these challenges. Therefore, this paper focuses on developing an ontology for mapping indicators from two significant standards, GRI and ESRS. We introduce the Sustainability Reporting Standards Ontology (RSO). RSO formally represents environmental indicators in GRI and ESRS, emphasizing indicator requirements such as unit, quantity, and measurement variables. RSO is implemented in the RDF/OWL format and will be made available online. Furthermore, we provide an ontology-based mapping between indicators, supported by concrete examples that illustrate the interconnections between them." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_181>,
+        <https://w3id.org/okn/semantics/i/Author_182>,
+        <https://w3id.org/okn/semantics/i/Author_312> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_64_5>,
+        <https://w3id.org/okn/semantics/i/Ontology_64_6> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Sustainability Reporting
+Environmental Indicator
+Ontology Engineering
+Semantic Interoperability
+Standards Mapping""" ;
+    schema:name "Towards Digital Sustainability Reporting: An Ontology for Mapping of Indicators in GRI and ESRS" ;
+    ns1:authorString "Yuchen Zhou, Yuan Cao and Alexander Perzylo" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_65> a schema:ScholarlyArticle ;
+    schema:abstract "One problem related to the exploitation of knowledge graphs, in particular when processing with machine learning methods, is the scaling up problem. We propose here a method to significantly reduce the size of the used graphs to focus on a useful part in a given usage context. We define the notion of context graph as an extract from one or more general knowledge bases (such as DBpedia, Wikidata, Yago) that contains the set of information relevant to a specific domain while preserving the properties of the original graph. We validate the approach on a DBpedia excerpt for entities related to the Data\\&Musée project and the KORE reference set according to two aspects: the coverage of the context graph and the preservation of the similarity between its entities. The results show that the use of context graphs makes the exploitation of large knowledge bases more manageable and efficient while preserving the properties of the initial graph." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_313>,
+        <https://w3id.org/okn/semantics/i/Author_314> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Knowledge base
+Context graph
+Similarity
+DBpedia
+Joconde database""" ;
+    schema:name "Towards Efficient Exploitation of Large Knowledge Bases by Context Graphs" ;
+    ns1:authorString "Nada Mimouni and Jean-Claude Moissinac" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_67> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose: This study investigates the verbalization of answers generated by knowledge graph question answering (KGQA) systems using large language models. In user-centric applications, such as dialogue systems and voice assistants, answer verbalization is an essential step to enhance the quality of interactions.
+Methodology: We experimented with multiple large language models to verbalize answers from knowledge-based question-answering systems. In particular, we fine-tuned the LLM models based on different inputs, including SPARQL queries and triples to determine which model performs best for answer verbalization.
+Findings: We found that fine-tuning language models and introducing additional knowledge such as SPARQL queries, achieve state-of-the-art results in verbalizing answers from KGQA systems.
+Value: Our approach can be used to generate verbalizations of answers from different kinds of KGQA systems for dialogue systems or voice assistants.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_318>,
+        <https://w3id.org/okn/semantics/i/Author_319>,
+        <https://w3id.org/okn/semantics/i/Author_320>,
+        <https://w3id.org/okn/semantics/i/Author_321> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_67_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """KGQA
+Verbalization
+Question Answering""" ;
+    schema:name "Enhancing Answers Verbalization using Large Language Models" ;
+    ns1:authorString "Daniel Vollmers, Parth Sharma, Hamada Zahera and Axel-Cyrille Ngonga Ngomo" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_75> a schema:ScholarlyArticle ;
+    schema:abstract """This paper presents an exploratory study that investigates the use of various Large Language Models (LLMs) for the task of taxonomy expansion. 
+Our objective is to enhance the taxonomical structure by querying LLMs for (1) child taxons and (2) alternative labels of existing taxons. Beginning with an incomplete taxonomy, we explore the most effective ways to prompt LLMs exploiting explicit and shared knowledge captured in manually curated taxonomies to provide context for the task at hand. We experiment with different prompting templates, well-recognized taxonomies (EuroVoc, STW, UNESCO), and popular language models (Claude, Claude3, Llama2).
+Our results suggest feasibility of solving of the proposed task with the modern LLMs and human oversight. Moreover, we observe certain patterns and trends in the performance of the models, noting that it was not possible to identify a single best configuration that would fit all models.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_291>,
+        <https://w3id.org/okn/semantics/i/Author_292>,
+        <https://w3id.org/okn/semantics/i/Author_339>,
+        <https://w3id.org/okn/semantics/i/Author_340>,
+        <https://w3id.org/okn/semantics/i/Author_341> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/ORKGComparison_75_8>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_75_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Large Language Models
+Prompt Engineering
+Taxonomy Expansion""" ;
+    schema:name "Investigate the Impact of Contextual Information on LLMs for Taxonomy Expansion" ;
+    ns1:authorString "Artem Revenko, Anna Breit, Salma Mahmoud, Mark Szabo and Tomas Knap" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_76> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose:
+Sparql is a highly expressive query language for knowledge graphs; yet, formulating precise Sparql queries can be challenging for users non-expert users. A potential solution is translating natural questions into Sparql queries, known as Sparql generation. This paper addresses the challenges of translating natural language questions into Sparql queries for different knowledge graphs.
+
+Methodology: 
+We propose CoT-Sparql, our approach to generate Sparql queries from input questions. Our approach employs Chain-of-thoughts prompting that guides large language models through intermediate reasoning steps and facilitates generating precise Sparql queries. Furthermore, our approach incorporates entities and relations from the input question, and one-shot example in the prompt to provide additional context during the query generation process.
+
+Findings: 
+We conducted several experiments on benchmark datasets and showed that our approach outperforms the state-of-the-art methods by a large margin. Our approach achieves a significant improvement in F1 score of 4.4% and 3.0% for the QALD-10 and QALD-9 datasets, respectively.
+
+Value: 
+Our CoT-Sparql approach contributes to the semantic web community by simplifying access to knowledge graphs for non-expert users. In particular, CoT-Sparql enable non-expert end-users to query knowledge graphs in natural languages, where CoT-Sparql converts user natural languages queries into Sparql queries, which can be executed via the knowledge graph’s Sparql endpoint.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_320>,
+        <https://w3id.org/okn/semantics/i/Author_321>,
+        <https://w3id.org/okn/semantics/i/Author_342>,
+        <https://w3id.org/okn/semantics/i/Author_343>,
+        <https://w3id.org/okn/semantics/i/Author_344> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """SPARQL Generation
+Large Language Models
+Chain of Thoughts Prompting""" ;
+    schema:name "Generating Sparql from Natural Language Using Chain-of-Thoughts Prompting" ;
+    ns1:authorString "Hamada Zahera, Manzoor Ali, Mohamed Ahmed Sherif, Diego Moussallem and Axel-Cyrille Ngonga Ngomo" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_77> a schema:ScholarlyArticle ;
+    schema:abstract "Compliance with legal documents related to industrial maintenance is the company's obligation to oversee, maintain, and repair its equipments. As legal documents endlessly evolve, companies are in favour of automatically processing these texts to facilitate the analysis and compliance. The automatic process involves first, in this pipeline, the extraction of legal entities. However, state-of-the-art approaches, like rule-based, Bi-LSTM or BERT for legal entity extraction have so far required a sufficient amount of data to be effective. Creating these training dataset however is a time-consuming task requiring input from domain experts. In this paper, we bootstrap the legal entity extraction by levering Large Language Models and a semantic model in order to reduce the involvement of the domain experts. We develop the industrial perspective by detailing the technical implementation choices. Consequently, we present our roadmap for an end-to-end pipeline designed expressly for the extraction of legal rules while limiting the involvement of experts." ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_334>,
+        <https://w3id.org/okn/semantics/i/Author_345>,
+        <https://w3id.org/okn/semantics/i/Author_346>,
+        <https://w3id.org/okn/semantics/i/Author_347> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_77_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Legal Entity Extraction
+Semantic Model
+Large Language Models""" ;
+    schema:name "Leveraging Semantic Model and LLM for Bootstrapping a Legal Entity Extraction: An Industrial Use Case" ;
+    ns1:authorString "Julien Breton, Mokhtar Boumedyen Billami, Max Chevalier and Cassia Trojahn" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_79> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose: The purpose of this paper is to develop the first deepfake domain ontology that could assist common individuals in understanding the growing concerns of AI-manipulated digital media and researchers in domain knowledge integration and inference. For a foundational ontology, authors focused on structuring knowledge related to a deepfake attack, like the vulnerable entity, deepfake creator, attack goal, medium, generation technique, consequences, preventive measures, etc. The authors implemented knowledge graphs to evaluate ontology’s effectiveness in helping understand and infer deepfake event data.
+
+Methodology: The authors used knowledge engineering methodology with 7 steps, including ontology scope determination, existing ontologies evaluation, and classes, properties, and relations definitions. The authors utilized Protégé Desktop and the W3C Web Ontology Development Language for ontology creation, the WIDOCO tool for ontology documentation, and OOPS for ontology validation. The authors developed a small-size deepfake events knowledge base to implement knowledge graphs, where the developed ontology defined the nodes and relations. GraphDB, a graph database, was used for knowledge graph implementation.
+
+Findings: The manual literature review from prominent research publications, like IOS Press, IEEE Proceedings, CEUR-WS, etc., and evaluation of existing ontologies like DBpedia, MLOnto, and SEiCS helped identify 19 core entities and 28 relations describing the deepfake domain. The authors created SWRL rules that helped infer additional information from the deepfake attack knowledgebase via knowledge graphs application, such as various ways a particular entity can be affected by a deepfake, mediums used for attacks, and online security measures victims can adopt.
+
+Value: Advanced AI-based Deepfakes are a threat to social, political, and economic structure via cases of defamation, political influence, financial fraud, harassment, etc. The developed ontology could be used to promote domain understanding and as a framework to build cybersecurity systems with better knowledge inference (semantic reasoning). The ontology can be extended iteratively with new domain advancements. As a next step, we plan on adopting NLP approaches for automating domain entity research and deepfake event knowledge base population.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_349>,
+        <https://w3id.org/okn/semantics/i/Author_350> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_79_5> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """deepfakes
+ontology development
+knowledge graphs""" ;
+    schema:name "A Foundational Ontology of Deepfake Attacks and Knowledge Graph Application" ;
+    ns1:authorString "Faiza Khalid and Oğuzhan Menemencioğlu" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_82> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose: The first objective of this research is to represent an event with 5W1H characteristics (who, what, where, when, why, and how) through ontologies. The second objective is to propose an approach for enriching an event knowledge graph (EKG) based on this ontology using EvCBR, a outperforming case-based reasoning algorithm found in the literature. Furthermore, we have studied the impact of each W (Who, Where, and When) on the performance of EvCBR on the Wikipedia Causal Event dataset. 
+
+Methodology:  We proposed the XPEventCore ontology to represent 5W1H characteristics of events by integrating multiple event ontologies (SEM and FARO) and introduced new object properties for representing Cause and Method to answer “Why” and “How” questions. We adopted this XPEventCore ontology for a specific use case (the MR4AP Wikipedia dataset), and populated our EKG. Furthermore, we adapted EvCBR, a case-based reasoning approach, to enrich this EKG.
+
+Findings: XPEventCore ontology provides a structured and adaptable foundation for capturing the essential facets of an event. It can be adapted to any domain (like MR4AP Wikipedia dataset) and populated to generate EKGs. Then, we applied the EvCBR, and subsequent analysis revealed that reasoning had a significant impact. Notably, the EvCBR outperformed both the with and without reasoning approaches on the dataset. 
+
+Originality: XPEventCore ontology is the first ontology that represents an event with 5W1H characteristics.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_336>,
+        <https://w3id.org/okn/semantics/i/Author_357>,
+        <https://w3id.org/okn/semantics/i/Author_358>,
+        <https://w3id.org/okn/semantics/i/Author_359>,
+        <https://w3id.org/okn/semantics/i/Author_360> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/SoftwareSourceCode_82_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Event Knowledge Graph
+5W1H
+Event Ontology
+Case-based reasoning
+Knowledge graph enrichment""" ;
+    schema:name "Ontology based Event Knowledge Graph enrichment using case based reasoning" ;
+    ns1:authorString "Rajesh Piryani, Nathalie Aussenac-Gilles, Nathalie Hernandez, Cédric Lopez and Camille Pradel" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_84> a schema:ScholarlyArticle ;
+    schema:abstract """Purpose: Annotating is considered a 'scholarly primitive' among different fields in the humanities. Nevertheless, the debate on digital annotations has mostly focused on the annotation of textual data, whereas existing models for representing annotations of images still lack sufficient semantic richness to anchor the annotation itself to multiple conceptual levels. We address the challenge of defining a data model to overcome the problem of ‘semantic deficit’ in this application domain. Finally, we implement an annotation client for testing multi-level semantic annotations. 
+
+Methodology: To define a data model for representing digital annotations, we analysed applications which support annotation images through IIIF protocol, focusing on digital representations of palimpsests. We then extended the Web Annotation Data Model by introducing domain standards such as LRMer, CIDOC-CRM, and HiCo. We also validated the model through SPARQL queries corresponding to five competency questions to report on satisfiability. Finally, we developed a prototype annotation client as a plugin for Mirador to evaluate its performances in real-world scenarios. 
+
+Findings: The results indicate that our model can effectively disambiguate between a target image and multiple conceptual levels of the entity itself, proving to be decisive in the representation of entities that coexist in the same material item (e.g., palimpsests). Additionally, the model allows users to describe annotations as interpretative acts, incorporating scholarly criteria and multiple viewpoints. An interface plugin enables scholars without technical expertise to create structured annotations that comply with the model. 
+
+Value: The proposed approach facilitates the detailed management of the relationships between digital resources and their annotations, improving interoperability and information accessibility in the Semantic Web domain. Future developments will concern further extensions of the model, considering information about versioning, provenance, and authoritativeness of the digital annotations on images, as well as support for meta-annotations and iconological levels of interpretation.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_363>,
+        <https://w3id.org/okn/semantics/i/Author_364>,
+        <https://w3id.org/okn/semantics/i/Author_365>,
+        <https://w3id.org/okn/semantics/i/Author_366> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/Dataset_84_5>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_84_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Semantic Annotations
+Digital Images
+Cultural Heritage
+Knowledge Representation
+Digital Hermeneutics""" ;
+    schema:name "What do we Annotate when we Annotate? Towards a Multi-Level Approach to Semantic Annotations" ;
+    ns1:authorString "Maria Francesca Bocchi, Carlo Teo Pedretti, Francesca Tomasi and Fabio Vitali" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_87> a schema:ScholarlyArticle ;
+    schema:abstract """"Purpose: This study aimed to improve the organization and integration of heterogeneous medieval manuscript data across the Mosaico and Progetto Irneiro platforms. It addresses the challenges, such as the need for more standardization in data formats, metadata schemas, and inconsistent data quality, by developing a new ontology that supports the multifaceted analysis of medieval manuscripts. This analysis includes factors such as the historical context, physical characteristics, textual information, and artistic features.
+
+Methodology: The MeLOn methodology is used to develop the Medieval Manuscript Data Integration Ontology (MMDIO), which extends the MeMO ontology. This process involves analyzing existing structures, identifying gaps, integrating elements from other ontologies, and creating new data classes and relationships. Protégé was used to design and validate schemas, GraphDB to test functionality and interoperability, Graffoo to visualize data, and LODE for publishing. Consequently, this comprehensive process significantly enhanced the data integration for the Mosaico and Irneiro systems.
+
+Findings: The use of MMDIO substantially enhanced the organization, accessibility, and uniformity of metadata formats on both platforms. However, it can now handle complex queries and integrate multiple types of manuscript data to facilitate a more comprehensive and organized approach in medieval manuscript research.
+
+Value: The proposed MMDIO framework advances digital humanities research by increasing data semantic richness and interoperability, establishing the foundation for future research in cultural heritage preservation. Moreover, it demonstrates the value of adapted frameworks for handling complex data environments in particular research fields.\"""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_370>,
+        <https://w3id.org/okn/semantics/i/Author_371> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/ORKGComparison_87_8>,
+        <https://w3id.org/okn/semantics/i/Ontology_87_6> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Data Integration
+Digital Resource Collection
+Medieval Manuscript Data Integration Ontology (MMDIO)
+MeLOn Methodology
+Heterogeneous Platforms
+Semantic Richness""" ;
+    schema:name "An Ontological Framework for Integrating the Heterogeneous Medieval Manuscript Resources: A Case Study of Progetto Irnerio and Mosaico" ;
+    ns1:authorString "Faria Ferooz and Monica Palmirani" .
+
+<https://w3id.org/okn/semantics/2024/i/Paper_88> a schema:ScholarlyArticle ;
+    schema:abstract """Traditionally, querying knowledge graphs is free of charge, however, ensuring availability of data and service incurs costs to knowledge graphs
+providers. The Delayed-Answer Auction (DAA) model has been proposed to fund the maintenance of knowledge graphs endpoints, by allowing customers to sponsor entities in the Knowledge Graph so query results that include them are delivered in priority. However, implementing DAA with a time to first results acceptable for data consumers is challenging because it requires reordering results according to bid values.
+ In this paper, we present an approach to enable DAA with low impact on query execution performance.
+Our approach relies on (i) reindex sponsored entities by bid value to ensure they are processed first (ii) Web preemption to ensure delayed answering. Experimental results demonstrate that our approach significantly outperforms a baseline execution in terms of time to deliver the first results.""" ;
+    schema:author <https://w3id.org/okn/semantics/i/Author_372>,
+        <https://w3id.org/okn/semantics/i/Author_373>,
+        <https://w3id.org/okn/semantics/i/Author_374>,
+        <https://w3id.org/okn/semantics/i/Author_47> ;
+    schema:hasPart <https://w3id.org/okn/semantics/i/ORKGComparison_88_8>,
+        <https://w3id.org/okn/semantics/i/SoftwareSourceCode_88_4> ;
+    schema:isPartOf <https://w3id.org/okn/semantics/i/Track_2> ;
+    schema:keywords """Web of Data
+Data Monetisation
+Auction models
+Knowledge Graphs
+Query Processing""" ;
+    schema:name "Enabling Delayed-Answer Auctions for RDF Knowledge Graphs Monetisation" ;
+    ns1:authorString "Hala Skaf-Molli, Pascal Molli, Luis-Daniel Ibanez and Abraham Bernstein" .
+
+<https://w3id.org/okn/semantics/i/Author_102> a schema:Person ;
+    schema:affiliation "Fraunhofer FOKUS, Berlin, Germany",
+        "Technische Universität Berlin" ;
+    schema:familyName "Schimmler" ;
+    schema:givenName "Sonja" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_103> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Schlobach" ;
+    schema:givenName "Stefan" ;
+    schema:nationality "Netherlands" ;
+    schema:url "http://www.few.vu.nl/~schlobac/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_121> a schema:Person ;
+    schema:affiliation "Leuphana University Lüneburg, Germany",
+        "Leuphana University of Lüneburg",
+        "Leuphana Universität Lüneburg" ;
+    schema:familyName "Usbeck" ;
+    schema:givenName "Ricardo" ;
+    schema:nationality "Germany" ;
+    schema:url "https://www.leuphana.de/aix"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_138> a schema:Person ;
+    schema:affiliation "Universita di Bologna" ;
+    schema:familyName "Martinez Pandiani" ;
+    schema:givenName "Delfina Sol" ;
+    schema:nationality "Italy" ;
+    schema:url "http://www.humandigitalist.com"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_139> a schema:Person ;
+    schema:affiliation "University of Bologna" ;
+    schema:familyName "Lazzari" ;
+    schema:givenName "Nicolas" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_140> a schema:Person ;
+    schema:affiliation "University of Bologna" ;
+    schema:familyName "Presutti" ;
+    schema:givenName "Valentina" ;
+    schema:nationality "Italy" ;
+    schema:url "https://www.unibo.it/sitoweb/valentina.presutti"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_170> a schema:Person ;
+    schema:affiliation "University of Hamburg",
+        "Universität Hamburg" ;
+    schema:familyName "Möller" ;
+    schema:givenName "Cedric" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_171> a schema:Person ;
+    schema:affiliation "University of Bamberg" ;
+    schema:familyName "Hummel" ;
+    schema:givenName "Tobias" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_172> a schema:Person ;
+    schema:affiliation "University of Bamberg" ;
+    schema:familyName "Martin" ;
+    schema:givenName "Leon" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_173> a schema:Person ;
+    schema:affiliation "University of Bamberg" ;
+    schema:familyName "Henrich" ;
+    schema:givenName "Andreas" ;
+    schema:nationality "Germany" ;
+    schema:url "http://www.uni-bamberg.de/minf/team/henrich/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_175> a schema:Person ;
+    schema:affiliation "Aalto University" ;
+    schema:familyName "Cao" ;
+    schema:givenName "Hien" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/Author_176> a schema:Person ;
+    schema:affiliation "University of Helsinki" ;
+    schema:familyName "Leal" ;
+    schema:givenName "Rafael" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/Author_178> a schema:Person ;
+    schema:affiliation "Ministry of Justice" ;
+    schema:familyName "Hietanen" ;
+    schema:givenName "Aki" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/Author_181> a schema:Person ;
+    schema:affiliation "fortiss – Research Institute of the Free State of Bavaria",
+        "fortiss – Research Institute of the Free State of Bavaria, Guerickestrasse 25, Munich, 80805, Germany" ;
+    schema:familyName "Perzylo" ;
+    schema:givenName "Alexander" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_182> a schema:Person ;
+    schema:affiliation "fortiss – Research Institute of the Free State of Bavaria",
+        "fortiss – Research Institute of the Free State of Bavaria, Guerickestrasse 25, Munich, 80805, Germany" ;
+    schema:familyName "Cao" ;
+    schema:givenName "Yuan" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_193> a schema:Person ;
+    schema:affiliation "Kadaster" ;
+    schema:familyName "Rowland" ;
+    schema:givenName "Alexandra" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_194> a schema:Person ;
+    schema:affiliation "Kadaster" ;
+    schema:familyName "Schevers" ;
+    schema:givenName "Hans" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_195> a schema:Person ;
+    schema:affiliation "Kadaster, University of Twente" ;
+    schema:familyName "Mol" ;
+    schema:givenName "Sven" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_196> a schema:Person ;
+    schema:affiliation "Kadaster" ;
+    schema:familyName "Michielsen" ;
+    schema:givenName "Janneke" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_197> a schema:Person ;
+    schema:affiliation "Kadaster" ;
+    schema:familyName "van Andel" ;
+    schema:givenName "Marc" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_207> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Martorana" ;
+    schema:givenName "Margherita" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_208> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Kuhn" ;
+    schema:givenName "Tobias" ;
+    schema:nationality "Netherlands" ;
+    schema:url "http://www.tkuhn.org"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_209> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Stork" ;
+    schema:givenName "Lise" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_210> a schema:Person ;
+    schema:affiliation "VU Amsterdam" ;
+    schema:familyName "van Ossenbruggen" ;
+    schema:givenName "Jacco" ;
+    schema:nationality "Netherlands" ;
+    schema:url "https://ucds.cs.vu.nl/people/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_223> a schema:Person ;
+    schema:affiliation "Fraunhofer Institute for Toxicology and Experimental Medicine, Hannover, Germany" ;
+    schema:familyName "Yang" ;
+    schema:givenName "Wenhui" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_224> a schema:Person ;
+    schema:affiliation "Goethe University Frankfurt" ;
+    schema:familyName "Al-Ghezi" ;
+    schema:givenName "Ahmed" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_225> a schema:Person ;
+    schema:affiliation "Fraunhofer Institute for Toxicology and Experimental Medicine (ITEM)" ;
+    schema:familyName "Wiese" ;
+    schema:givenName "Lena" ;
+    schema:nationality "Germany" ;
+    schema:url "http://wiese.free.fr"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_233> a schema:Person ;
+    schema:affiliation "Siemens AG Österreich" ;
+    schema:familyName "Bischof" ;
+    schema:givenName "Stefan" ;
+    schema:nationality "Austria" ;
+    schema:url "https://www.stefanbischof.at/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_234> a schema:Person ;
+    schema:affiliation "Siemens AG Österreich" ;
+    schema:familyName "Filtz" ;
+    schema:givenName "Erwin" ;
+    schema:nationality "Austria" ;
+    schema:url "http://www.filtz.net"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_235> a schema:Person ;
+    schema:affiliation "Siemens AG Österreich" ;
+    schema:familyName "Xavier Parreira" ;
+    schema:givenName "Josiane" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_271> a schema:Person ;
+    schema:affiliation "Aalto University" ;
+    schema:familyName "Leskinen" ;
+    schema:givenName "Petri" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/Author_272> a schema:Person ;
+    schema:affiliation "Aalto University" ;
+    schema:familyName "Peura" ;
+    schema:givenName "Lilli" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/Author_275> a schema:Person ;
+    schema:affiliation "Trinity College Dublin" ;
+    schema:familyName "Sardina" ;
+    schema:givenName "Jeffrey" ;
+    schema:nationality "Ireland" ;
+    schema:url "https://medium.com/@jeffrey.sardina"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_277> a schema:Person ;
+    schema:affiliation "Trinity College Dublin" ;
+    schema:familyName "Debnath" ;
+    schema:givenName "Alok" ;
+    schema:nationality "Ireland" ;
+    schema:url "https://orcid.org/0000-0002-1270-369X"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_278> a schema:Person ;
+    schema:affiliation "Trinity College Dublin" ;
+    schema:familyName "Kelleher" ;
+    schema:givenName "John D." ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Author_283> a schema:Person ;
+    schema:affiliation "Semantic Computing Research Group (SeCo), Aalto University" ;
+    schema:familyName "Ahola" ;
+    schema:givenName "Annastiina" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/Author_284> a schema:Person ;
+    schema:affiliation "University of the Arts, Helsinki" ;
+    schema:familyName "Kauppala" ;
+    schema:givenName "Anne" ;
+    schema:nationality "Finland" ;
+    schema:url "https://www.uniarts.fi/en/people/anne-kauppala/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_291> a schema:Person ;
+    schema:affiliation "Semantic Web Company" ;
+    schema:familyName "Breit" ;
+    schema:givenName "Anna" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_292> a schema:Person ;
+    schema:affiliation "Semantic Web Company GmbH" ;
+    schema:familyName "Revenko" ;
+    schema:givenName "Artem" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_297> a schema:Person ;
+    schema:affiliation "Technische Universität Berlin" ;
+    schema:familyName "Sampels" ;
+    schema:givenName "Julian" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_298> a schema:Person ;
+    schema:affiliation "Technische Universität Berlin" ;
+    schema:familyName "Efeoglu" ;
+    schema:givenName "Sefika" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_299> a schema:Person ;
+    schema:affiliation "TIB Leibniz Information Centre for Science and Technology, Hannover, Germany" ;
+    schema:familyName "Chudasama" ;
+    schema:givenName "Yashrajsinh" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_300> a schema:Person ;
+    schema:affiliation "TIB Leibniz Information Centre for Science and Technology, Hannover, Germany" ;
+    schema:familyName "Purohit" ;
+    schema:givenName "Disha" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_301> a schema:Person ;
+    schema:affiliation "TIB Leibniz Information Centre for Science and Technology, Hannover, Germany" ;
+    schema:familyName "Rohde" ;
+    schema:givenName "Philipp D." ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_302> a schema:Person ;
+    schema:affiliation "L3S Research Center, Hannover, Germany" ;
+    schema:familyName "Iglesias" ;
+    schema:givenName "Enrique" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_303> a schema:Person ;
+    schema:affiliation "HospitalUniversitarioPuertadeHierro-Majadahonda, Spain" ;
+    schema:familyName "Torrente" ;
+    schema:givenName "Maria" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_304> a schema:Person ;
+    schema:affiliation "TIB Leibniz Information Centre for Science and Technology, Hannover, Germany" ;
+    schema:familyName "Vidal" ;
+    schema:givenName "Maria-Esther" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_305> a schema:Person ;
+    schema:affiliation "Trier University" ;
+    schema:familyName "Zeimetz" ;
+    schema:givenName "Tobias" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_306> a schema:Person ;
+    schema:affiliation "TU Wien" ;
+    schema:familyName "Hose" ;
+    schema:givenName "Katja" ;
+    schema:nationality "Austria" ;
+    schema:url "http://www.katja-hose.de/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_307> a schema:Person ;
+    schema:affiliation "Trier University" ;
+    schema:familyName "Schenkel" ;
+    schema:givenName "Ralf" ;
+    schema:nationality "Germany" ;
+    schema:url "https://www.uni-trier.de/index.php?id=17320&L=2"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_310> a schema:Person ;
+    schema:affiliation "Vrije Universiteit" ;
+    schema:familyName "Younesian" ;
+    schema:givenName "Taraneh" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_311> a schema:Person ;
+    schema:affiliation "Vrije Universiteit Amsterdam" ;
+    schema:familyName "Bloem" ;
+    schema:givenName "Peter" ;
+    schema:nationality "Netherlands" ;
+    schema:url "http://www.peterbloem.nl"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_312> a schema:Person ;
+    schema:affiliation "fortiss – Research Institute of the Free State of Bavaria, Guerickestrasse 25, Munich, 80805, Germany" ;
+    schema:familyName "Zhou" ;
+    schema:givenName "Yuchen" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_313> a schema:Person ;
+    schema:affiliation "CEDRIC lab - CNAM Conservatoire National des Arts et Métiers Paris" ;
+    schema:familyName "Mimouni" ;
+    schema:givenName "Nada" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_314> a schema:Person ;
+    schema:affiliation "Telecom Paris" ;
+    schema:familyName "Moissinac" ;
+    schema:givenName "Jean-Claude" ;
+    schema:nationality "France" ;
+    schema:url "https://www.telecom-paris.fr/jean-claude-moissinac"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_318> a schema:Person ;
+    schema:affiliation "Paderborn University" ;
+    schema:familyName "Vollmers" ;
+    schema:givenName "Daniel" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_319> a schema:Person ;
+    schema:affiliation "Paderborn University" ;
+    schema:familyName "Sharma" ;
+    schema:givenName "Parth" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_334> a schema:Person ;
+    schema:affiliation "IRIT",
+        "UT2J & IRIT" ;
+    schema:familyName "Trojahn" ;
+    schema:givenName "Cassia" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_336> a schema:Person ;
+    schema:affiliation "CNRS/IRIT",
+        "IRIT CNRS" ;
+    schema:familyName "Aussenac-Gilles" ;
+    schema:givenName "Nathalie" ;
+    schema:nationality "France" ;
+    schema:url "http://www.irit.fr/~Nathalie.Aussenac-Gilles"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_339> a schema:Person ;
+    schema:affiliation "Semantic Web Company" ;
+    schema:familyName "Mahmoud" ;
+    schema:givenName "Salma" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_340> a schema:Person ;
+    schema:affiliation "Semantic Web Company" ;
+    schema:familyName "Szabo" ;
+    schema:givenName "Mark" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_341> a schema:Person ;
+    schema:affiliation "Semantic Web Company" ;
+    schema:familyName "Knap" ;
+    schema:givenName "Tomas" ;
+    schema:nationality "Austria" .
+
+<https://w3id.org/okn/semantics/i/Author_342> a schema:Person ;
+    schema:affiliation "Paderborn University" ;
+    schema:familyName "Ali" ;
+    schema:givenName "Manzoor" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_343> a schema:Person ;
+    schema:affiliation "Paderborn University, Data Science Group" ;
+    schema:familyName "Sherif" ;
+    schema:givenName "Mohamed Ahmed" ;
+    schema:nationality "Germany" ;
+    schema:url "https://dice-research.org/MohamedAhmedSherif"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_344> a schema:Person ;
+    schema:affiliation "Paderborn University" ;
+    schema:familyName "Moussallem" ;
+    schema:givenName "Diego" ;
+    schema:nationality "Germany" ;
+    schema:url "https://dice-research.org/DiegoMoussallem"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_345> a schema:Person ;
+    schema:affiliation "IRIT" ;
+    schema:familyName "Breton" ;
+    schema:givenName "Julien" ;
+    schema:nationality "France" ;
+    schema:url "https://www.irit.fr/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_346> a schema:Person ;
+    schema:affiliation "Berger-Levrault" ;
+    schema:familyName "Billami" ;
+    schema:givenName "Mokhtar Boumedyen" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_347> a schema:Person ;
+    schema:affiliation "IRIT" ;
+    schema:familyName "Chevalier" ;
+    schema:givenName "Max" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_349> a schema:Person ;
+    schema:affiliation "Karabuk University" ;
+    schema:familyName "Khalid" ;
+    schema:givenName "Faiza" ;
+    schema:nationality "Turkey" .
+
+<https://w3id.org/okn/semantics/i/Author_350> a schema:Person ;
+    schema:affiliation "Karabük University" ;
+    schema:familyName "Menemencioğlu" ;
+    schema:givenName "Oğuzhan" ;
+    schema:nationality "Turkey" ;
+    schema:url "http://oguzhan.menemencioglu.info/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_357> a schema:Person ;
+    schema:affiliation "IRIT - Equipe MELODI Universite Paul Sabatier" ;
+    schema:familyName "Piryani" ;
+    schema:givenName "Rajesh" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_358> a schema:Person ;
+    schema:affiliation "IRIT" ;
+    schema:familyName "Hernandez" ;
+    schema:givenName "Nathalie" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_359> a schema:Person ;
+    schema:affiliation "Emvista" ;
+    schema:familyName "Lopez" ;
+    schema:givenName "Cédric" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_360> a schema:Person ;
+    schema:affiliation "Geotrend" ;
+    schema:familyName "Pradel" ;
+    schema:givenName "Camille" ;
+    schema:nationality "France" .
+
+<https://w3id.org/okn/semantics/i/Author_363> a schema:Person ;
+    schema:affiliation "Alma Mater Studiorum - Università di Bologna" ;
+    schema:familyName "Bocchi" ;
+    schema:givenName "Maria Francesca" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_364> a schema:Person ;
+    schema:affiliation "La Sapienza University of Rome" ;
+    schema:familyName "Pedretti" ;
+    schema:givenName "Carlo Teo" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_365> a schema:Person ;
+    schema:affiliation "Alma Mater Studiorum - Università di Bologna" ;
+    schema:familyName "Tomasi" ;
+    schema:givenName "Francesca" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_366> a schema:Person ;
+    schema:affiliation "Alma Mater Studiorum - Università di Bologna" ;
+    schema:familyName "Vitali" ;
+    schema:givenName "Fabio" ;
+    schema:nationality "Italy" .
+
+<https://w3id.org/okn/semantics/i/Author_37> a schema:Person ;
+    schema:affiliation "Kadaster, HAN University of Applied Sciences" ;
+    schema:familyName "Folmer" ;
+    schema:givenName "Erwin" ;
+    schema:nationality "Netherlands" .
+
+<https://w3id.org/okn/semantics/i/Author_370> a schema:Person ;
+    schema:affiliation "CIRSFID-ALMA-AI, University of Bologna, Itlay" ;
+    schema:familyName "Ferooz" ;
+    schema:givenName "Faria" ;
+    schema:nationality "Italy" ;
+    schema:url "https://www.unibo.it/sitoweb/faria.ferooz2"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_371> a schema:Person ;
+    schema:affiliation "CIRSFID-ALMA-AI, University of Bologna, Itlay" ;
+    schema:familyName "Palmirani" ;
+    schema:givenName "Monica" ;
+    schema:nationality "Italy" ;
+    schema:url "https://www.unibo.it/sitoweb/monica.palmirani"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_372> a schema:Person ;
+    schema:affiliation "University of Nantes - LS2N" ;
+    schema:familyName "Skaf-Molli" ;
+    schema:givenName "Hala" ;
+    schema:nationality "France" ;
+    schema:url "http://pagesperso.ls2n.fr/~skaf-h"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_373> a schema:Person ;
+    schema:affiliation "University of Nantes - LS2N" ;
+    schema:familyName "Molli" ;
+    schema:givenName "Pascal" ;
+    schema:nationality "France" ;
+    schema:url "https://sites.google.com/view/pascal-molli"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_374> a schema:Person ;
+    schema:affiliation "University of Zurich" ;
+    schema:familyName "Bernstein" ;
+    schema:givenName "Abraham" ;
+    schema:nationality "Switzerland" .
+
+<https://w3id.org/okn/semantics/i/Author_47> a schema:Person ;
+    schema:affiliation "University of Southampton" ;
+    schema:familyName "Ibanez" ;
+    schema:givenName "Luis-Daniel" ;
+    schema:nationality "United Kingdom" .
+
+<https://w3id.org/okn/semantics/i/Author_82> a schema:Person ;
+    schema:affiliation "ADAPT Centre, Trinity College Dublin.",
+        "Trinity College Dublin" ;
+    schema:familyName "O'Sullivan" ;
+    schema:givenName "Declan" ;
+    schema:nationality "Ireland" .
+
+<https://w3id.org/okn/semantics/i/Dataset_19_5> a schema:Dataset ;
+    schema:description "Finnish and Estonian legal statutes. Finnish data is derived from Semantic Finlex and LawSampo, while the original Estonian data is downloaded from Riigiteataja service." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "FinEstLawSampo" ;
+    schema:url "https://www.ldf.fi/dataset/finestlaw" .
+
+<https://w3id.org/okn/semantics/i/Dataset_19_6> a schema:Dataset ;
+    schema:description "Finnish and Estonian Legislation on the Semantic Web" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "FINEST-LawSampo" ;
+    schema:url "https://finestlaw.demo.seco.cs.aalto.fi/en" .
+
+<https://w3id.org/okn/semantics/i/Dataset_50_5> a schema:Dataset ;
+    schema:description "Search relations in the InTaVia knowledge graph" ;
+    schema:name " InTaViaSampo" ;
+    schema:url "https://intaviasampo.demo.seco.cs.aalto.fi/en/" .
+
+<https://w3id.org/okn/semantics/i/Dataset_50_5_1> a schema:Dataset ;
+    schema:description "Searching for relations in the Getty ULAN Knowledge Graph." ;
+    schema:name "ULAN Relations" ;
+    schema:url "rhttps://ulansampo.demo.seco.cs.aalto.fi/en/" .
+
+<https://w3id.org/okn/semantics/i/Dataset_50_5_2> a schema:Dataset ;
+    schema:description "InTaVia data enriched with Wikipedia links" ;
+    schema:name "InTaPedia–Sampo" ;
+    schema:url "https://intapedia.demo.seco.cs.aalto.fi/en/" .
+
+<https://w3id.org/okn/semantics/i/Dataset_55_5> a schema:Dataset ;
+    schema:description "Opera and music theatre performances in Finland 1830–1960" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "OperaSampo" ;
+    schema:url "https://www.ldf.fi/dataset/operasampo" .
+
+<https://w3id.org/okn/semantics/i/Dataset_55_5_1> a schema:Dataset ;
+    schema:description "Opera and music theatre performances in Finland 1830–1960" ;
+    schema:name "OperaSampo" ;
+    schema:url "https://oopperasampo.fi/en/" .
+
+<https://w3id.org/okn/semantics/i/Dataset_61_5> a schema:Dataset ;
+    schema:name "ORAQL data" ;
+    schema:url "https://shorturl.at/fN067" .
+
+<https://w3id.org/okn/semantics/i/Dataset_64_5> a schema:Dataset ;
+    schema:description "RSO is designed for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "Sustainability Reporting Standard Ontology" ;
+    schema:url "https://github.com/tesmachina/RSO" .
+
+<https://w3id.org/okn/semantics/i/Dataset_79_5> a schema:Dataset ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "Deepfake Attack Knowledgebase" ;
+    schema:url "https://github.com/DeepfakeAttackOntology/DeepfakeAttackKnowledgebase" .
+
+<https://w3id.org/okn/semantics/i/Dataset_84_5> a schema:Dataset ;
+    schema:identifier "https://doi.org/10.5281/zenodo.11188142"^^xsd:anyURI ;
+    schema:name "Multi-Level Annotation Ontology" ;
+    schema:url "https://doi.org/10.5281/zenodo.11188142" .
+
+<https://w3id.org/okn/semantics/i/License/CC%20BY-NC-SA%204.0> a schema:CreativeWork ;
+    schema:name "CC BY-NC-SA 4.0" ;
+    schema:url "https://creativecommons.org/licenses/by-nc-sa/4.0/" .
+
+<https://w3id.org/okn/semantics/i/ORKGComparison_75_8> a schema:ORKGComparison ;
+    schema:description "Comparing research papers that tackle the problem of taxonomy expansion" ;
+    schema:identifier "https://doi.org/10.48366/R722259"^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "Comparison on Taxonomy expansion " ;
+    schema:url "https://orkg.org/comparison/R722259" .
+
+<https://w3id.org/okn/semantics/i/ORKGComparison_87_8> a schema:ORKGComparison ;
+    schema:description "Advancing the Study of Medieval Manuscripts: A Comparative Analysis of Ontological Frameworks with a Focus on Integrating Heterogeneous Data Sources " ;
+    schema:identifier "https://doi.org/10.48366/R721525"^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "Comparison on ontological frameworks" ;
+    schema:url "https://orkg.org/comparison/R721525" .
+
+<https://w3id.org/okn/semantics/i/ORKGComparison_88_8> a schema:ORKGComparison ;
+    schema:description "Comparison of Related Work of \"Enabling Delayed-Answer Auctions for RDF Knowledge Graphs Monetisation\" " ;
+    schema:identifier "https://doi.org/10.48366/R722823"^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "Comparison on related work" ;
+    schema:url "https://orkg.org/comparison/R722823" .
+
+<https://w3id.org/okn/semantics/i/ORKGPaper_30_8> a schema:ORKGPaper ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "ORKG Paper" ;
+    schema:url "https://orkg.org/paper/R703708/R703713" .
+
+<https://w3id.org/okn/semantics/i/Ontology_38_6> a schema:Ontology ;
+    schema:description "Semantic Smart Readiness Indicator Framework" ;
+    schema:identifier "https://zenodo.org/doi/10.5281/zenodo.10047286"^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "Smart Readiness Indicator Vocabulary" ;
+    schema:url "https://github.com/stefanbischof/sri" .
+
+<https://w3id.org/okn/semantics/i/Ontology_64_6> a schema:Ontology ;
+    schema:description "RSO is designed for mapping quantitative environmental indicators from the two significant sustainability reporting standards, GRI and ESRS." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "Sustainability Reporting Standard Ontology" ;
+    schema:url "https://tesmachina.github.io/rso.github.io/" .
+
+<https://w3id.org/okn/semantics/i/Ontology_87_6> a schema:Ontology ;
+    schema:description "MMDIO, an OWL 2 DL ontology, provides a detailed structure to represent medieval manuscript information from diverse sources." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> ;
+    schema:name "MMDIO" ;
+    schema:url "https://figshare.com/s/37cb2af111d2c5dc2230" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_18_4> a schema:SoftwareSourceCode ;
+    schema:description "QuaRe is a single-page application that allows users to test if GitHub repositories of interest comply with certain quality criteria that they should fulfill according to the type of project in the repository." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> ;
+    schema:name "QuaRe" ;
+    schema:url "https://github.com/uniba-mi/quare" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_19_4> a schema:SoftwareSourceCode ;
+    schema:description "Based on Sampo-UI – A framework for building semantic portal user interfaces" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "User interface for LawSampo Portal" ;
+    schema:url "https://github.com/SemanticComputing/finest-lawsampo-web-app" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_24_4> a schema:SoftwareSourceCode ;
+    schema:description "EL with OOKG Detection and Clustering" ;
+    schema:name "EL with OOKG Detection and Clustering" ;
+    schema:url "https://github.com/cedricmoeller/ELwithOOKGDetectionClustering" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_26_4> a schema:SoftwareSourceCode ;
+    schema:description "Lock-Unlock Project: 'lock the data, unlock the potential'" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "Lock-Unlock Docs" ;
+    schema:url "https://github.com/kadaster-labs/lock-unlock-docs" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_2_4> a schema:SoftwareSourceCode ;
+    schema:description "Code and resources for creating the ARTstract Knowledge Graph (AKG) and performing abstract concept (AC) image classification by integrating situated perceptual knowledge. The project aims to enhance image classification by leveraging perceptual semantic units and contextual information embedded in the AKG." ;
+    schema:name "ARTstract-KG Creation and AC Image Classification" ;
+    schema:url "https://github.com/delfimpandiani/Stitching-Gaps" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_30_4> a schema:SoftwareSourceCode ;
+    schema:description "Topic classification of short sentences using LLMs" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> ;
+    schema:name "LLMs-topic-classification" ;
+    schema:url "https://github.com/ritamargherita/LLMs-topic-classification" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_35_4> a schema:SoftwareSourceCode ;
+    schema:identifier "UniPart is a window-based streaming partitioning method tailored for distributed RDF graphs. It operates without the need for global graph information, making it exceptionally suited for dynamic environments with unbounded streams and unpredictable data sizes."^^xsd:anyURI ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "UniPart" ;
+    schema:url "https://github.com/wenhuiyang23/UniPart" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_53_4> a schema:SoftwareSourceCode ;
+    schema:description "Topologically-Weighted Intelligence Generation for Inference (TWIG-I) is an embedding-free, graph-structure-based link predictor build to work on knowledge graphs. To put it simply, TWIG-I models the link prediction task as a regression task." ;
+    schema:license <https://w3id.org/okn/semantics/i/License/CC%20BY-NC-SA%204.0> ;
+    schema:name "TWIG-I" ;
+    schema:url "https://github.com/Jeffrey-Sardina/TWIG-I" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_55_4> a schema:SoftwareSourceCode ;
+    schema:description "Adapted from Sampo-UI, a framework for developing user interfaces for semantic portals" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "OperaSampo" ;
+    schema:url "https://github.com/SemanticComputing/operasampo-web-app" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_59_4> a schema:SoftwareSourceCode ;
+    schema:description "Graph Search Algorithm Based Prompt Generation for Ontology Matching" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> ;
+    schema:name "Ontology Matching" ;
+    schema:url "https://anonymous.4open.science/r/OntoMatch-SemanticsConf" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_60_4> a schema:SoftwareSourceCode ;
+    schema:description "Semantically Describing Predictive Models for Interpretable Insights into Lung Cancer Relapse" ;
+    schema:license <https://w3id.org/okn/semantics/i/License/MIT%20License> ;
+    schema:name "SemDesLC Code" ;
+    schema:url "https://figshare.com/s/442d575a8e88d450ea85" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_61_4> a schema:SoftwareSourceCode ;
+    schema:description "An Overlap and Reliability Aware Query Processing Layer" ;
+    schema:name "ORAQL" ;
+    schema:url "https://github.com/dbis-trier-university/ORAQL" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_63_4> a schema:SoftwareSourceCode ;
+    schema:name "ReWise" ;
+    schema:url "https://github.com/TYounesian/ReWise" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_67_4> a schema:SoftwareSourceCode ;
+    schema:identifier "https://doi.org/10.5281/zenodo.11185539"^^xsd:anyURI ;
+    schema:name "QA Answer Verbalization" ;
+    schema:url "https://zenodo.org/records/11185539" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_75_4> a schema:SoftwareSourceCode ;
+    schema:name "Taxonomy Expansion experiments" ;
+    schema:url "https://anonymous.4open.science/r/te_experiments-7DB5" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_77_4> a schema:SoftwareSourceCode ;
+    schema:name "Legal Entity Extraction" ;
+    schema:url "https://gitlab.irit.fr/ala/legal-entity-extraction" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_82_4> a schema:SoftwareSourceCode ;
+    schema:name "XPEventCore ontolgy and KG Enrichment" ;
+    schema:url "https://github.com/rpiryani/xpEventCore" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_84_4> a schema:SoftwareSourceCode ;
+    schema:description "mirador-multi-level-annotations is a Mirador 3 plugin that adds annotation creation tools to the user interface." ;
+    schema:name "mirador-multi-level-annotations" ;
+    schema:url "https://github.com/friendlynihilist/mirador-multi-level-annotations" .
+
+<https://w3id.org/okn/semantics/i/SoftwareSourceCode_88_4> a schema:SoftwareSourceCode ;
+    schema:description "This is the source code for the delayed auction implementation experiments." ;
+    schema:name "auction-pap" ;
+    schema:url "https://anonymous.4open.science/r/auction-pap-E464/README.md" .
+
+<https://w3id.org/okn/semantics/i/Author_320> a schema:Person ;
+    schema:affiliation "Paderborn University" ;
+    schema:familyName "Zahera" ;
+    schema:givenName "Hamada" ;
+    schema:nationality "Germany" .
+
+<https://w3id.org/okn/semantics/i/Author_321> a schema:Person ;
+    schema:affiliation "Paderborn University" ;
+    schema:familyName "Ngonga Ngomo" ;
+    schema:givenName "Axel-Cyrille" ;
+    schema:nationality "Germany" ;
+    schema:url "http://cs.upb.de/ds"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/License/GNU%20General%20Public%20License%20v3.0> a schema:CreativeWork ;
+    schema:name "GNU General Public License v3.0" ;
+    schema:url "http://choosealicense.com/licenses/gpl-3.0/" .
+
+<https://w3id.org/okn/semantics/i/Author_174> a schema:Person ;
+    schema:affiliation "Aalto University and University of Helsinki (HELDIG)" ;
+    schema:familyName "Hyvönen" ;
+    schema:givenName "Eero" ;
+    schema:nationality "Finland" ;
+    schema:url "http://seco.cs.aalto.fi/u/eahyvone/"^^xsd:anyURI .
+
+<https://w3id.org/okn/semantics/i/Author_177> a schema:Person ;
+    schema:affiliation "Aalto University" ;
+    schema:familyName "Rantala" ;
+    schema:givenName "Heikki" ;
+    schema:nationality "Finland" .
+
+<https://w3id.org/okn/semantics/i/License/MIT%20License> a schema:CreativeWork ;
+    schema:name "MIT License" ;
+    schema:url "http://choosealicense.com/licenses/mit/" .
+
+<https://w3id.org/okn/semantics/i/License/CC0%201.0%20Universal> a schema:CreativeWork ;
+    schema:name "CC0 1.0 Universal" ;
+    schema:url "https://creativecommons.org/publicdomain/zero/1.0/" .
+
+<https://w3id.org/okn/semantics/i/License/CC%20BY%204.0%20International> a schema:CreativeWork ;
+    schema:name "CC BY 4.0 International" ;
+    schema:url "https://creativecommons.org/licenses/by/4.0/legalcode" .
+
+<https://w3id.org/okn/semantics/i/Track_2> a schema:Event ;
+    schema:name "Semantics2024 Research Track" .
+

@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+    <meta name="description" content="">
+    <meta name="author" content="">
+
+    <title>SEMANTICS-2025</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+
+    <!-- Custom styles for this template -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet">
+
+    <link href="../css/style.css" rel="stylesheet">
+    <link href="../css/accepted_papers_posters.css" rel="stylesheet">
+    <link rel="icon" href="../img/semantics-logo-browser.ico">
+
+    <!-- Mark down -->
+    <script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <script src="../js/getconf.js"></script>
+    <script src="../js/pcontent.js"></script>
+    <style>
+        .custom-link {
+            color: #fefefe;
+            text-decoration: none;
+            transition: color 0.3s, border-bottom 0.3s;
+        }
+
+        .custom-link:hover {
+            color: #fefefe;
+        }
+    </style>
+
+</head>
+
+<body id="page-top">
+
+    <div id="nav-placeholder">
+
+    </div>
+
+    <script>
+        $(function () {
+            $("#nav-placeholder").load("nav.html", function functionName() { apply_conf_onfunc(update_nav, false); });
+            $("#page-footer").load("footer.html", function functionName() { apply_conf_onfunc(update_footer, false); });
+        });
+    </script>
+
+    <section>
+        <div class="container">
+            <div id="papers-container" class="row"></div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer id="page-footer"></footer>
+
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="../js/scrolling-nav.js"></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.4.1/papaparse.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            Papa.parse("../content/papers.csv", {
+                download: true,
+                header: true,
+                complete: function (results) {
+                    const container = $("#papers-container");
+                    results.data.forEach(paper => {
+                        if (!paper.title) return;
+                        const card = `
+                <div class="col-lg-4 mb-4">
+                    <div class="card">
+                        <img class="card-img-top" src="${paper.image_url}" alt="${paper.title}">
+                        <div class="card-body">
+                            <p class="card-text"><u>${paper.title}</u>.<br>${paper.author}<br>
+                            <i><strong>URL: <a href="${paper.url}" target="_blank">${paper.url}</a></strong></i></p>
+                            <ul>
+                                <li><strong>Code</strong>: 
+                                    <a href="${paper.code_url}" target="_blank">${paper.code_url}</a>
+                                    (<span><a href="#" class="custom-link">${paper.license}</a></span>)
+                                </li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+                `;
+                        container.append(card);
+                    });
+                }
+            });
+        });
+    </script>
+
+
+</body>
+
+</html>

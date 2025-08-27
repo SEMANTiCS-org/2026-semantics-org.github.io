@@ -1,0 +1,613 @@
+submission,first_name,last_name,email,country,affiliation,Web_page,person,corresponding?
+1,Andre,Valdestilhas,andre.valdestilhas@bam.de,Germany,AKSW,http://aksw.org/AndreValdestilhas.html,134,yes
+1,Huanyu,Li,huanyu.li@liu.se,Sweden,"Linköping University",http://huanyuli.se,135,yes
+1,Patrick,Lambrix,Patrick.Lambrix@liu.se,Sweden,"Linköping University",http://www.ida.liu.se/~patla00/,136,yes
+1,Harald,Sack,harald.sack@kit.edu,Germany,"FIZ Karlsruhe, Leibniz Institute for Information Infrastructure & KIT Karlsruhe",http://www.aifb.kit.edu/web/Harald_Sack/en,137,yes
+2,"Delfina Sol","Martinez Pandiani",delfinasol.martinez2@unibo.it,Italy,"Universita di Bologna",http://www.humandigitalist.com,138,yes
+2,Nicolas,Lazzari,nicolas.lazzari3@unibo.it,Italy,"University of Bologna",,139,no
+2,Valentina,Presutti,valentina.presutti@unibo.it,Italy,"University of Bologna",https://www.unibo.it/sitoweb/valentina.presutti,140,no
+3,Peter,Crocker,peter.crocker@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,141,no
+3,Valerio,Cocchi,valerio.cocchi@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,142,no
+3,Thomas,Vout,tom.vout@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,143,yes
+4,Eric,Baker,baker.eric@live.com,"United States",Glotsip,http://glotsip.tumblr.com,144,yes
+5,Edlira,Vakaj,edlira.vakaj@bcu.ac.uk,"United Kingdom","Birmingham City University",,145,yes
+6,Vinay,Neekhra,vinay.neekhra@research.iiit.ac.in,India,"IIIT Hyderabad",,146,yes
+7,Marco,Brattinga,marco.brattinga@ordina.nl,Netherlands,Ordina,,13,yes
+8,"Prof Dr. Martin",Ley,martin.ley@pantopix.com,Germany,PANTOPIX,,147,yes
+8,Maximilian,Gärber,maximilian.gaerber@pantopix.com,Germany,PANTOPIX,,148,yes
+8,Maraike,Heim,maraike.heim@pantopix.com,Germany,PANTOPIX,https://www.pantopix.com,149,yes
+9,Beatriz,Esteves,beatriz.esteves@ugent.be,Belgium,"Ghent University - imec",,33,yes
+9,"Harshvardhan J.",Pandit,harshvardhan.pandit@adaptcentre.ie,Ireland,"ADAPT Centre, School of Computing, Dublin City University",https://harshp.com/,85,yes
+9,Ruben,Verborgh,ruben.verborgh@ugent.be,Belgium,"Ghent University - imec",,150,yes
+10,Hermann,Bense,hb@bense.com,Germany,"bense.com GmbH, Dortmund, Germany",http://www.ontology4.us,151,yes
+11,"Bill Gates","Happi Happi",billhappi@gmail.com,France,"University of Montpellier / IRD / Diade",,152,yes
+11,"Géraud Fokou",Pelap,geraud.fokou@univ-dschang.org,Cameroon,"University of Dschang",,153,no
+11,Danai,Symeonidou,danai.symeonidou@inrae.fr,France,INRAE,,154,no
+11,Pierre,Larmande,pierre.larmande@ird.fr,France,"University of Montpellier / IRD / DIADE",,155,no
+12,"Bill Gates","Happi Happi",billhappi@gmail.com,France,"University of Montpellier / IRD / Diade",,152,yes
+13,Theodor,Chirvasuta,theodor.chirvasuta@tno.nl,Netherlands,TNO,,156,no
+13,Anelia,Kurteva,a.kurteva@tudelft.nl,Netherlands,"TU Delft",,58,yes
+13,Wout,Hofman,wout.hofman@tno.nl,Netherlands,TNO,,157,no
+13,Boriana,Rukanova,b.d.rukanova@tudelft.nl,Netherlands,"TU Delft",,158,no
+13,Yao-Hua,Tan,y.tan@tudelft.nl,Netherlands,"TU Delft",,159,no
+14,Simran,Yadav,Simran270902@gmail.com,India,AKTU,,160,yes
+14,Tanisha,Jindal,jindaltanisha06@gmail.com,India,AKTU,,161,yes
+14,Shubham,Gupta,shubhcs01@gmail.com,India,AKTU,,162,yes
+14,Yashdeep,Singh,backbugkaught@gmail.com,India,AKTU,,163,yes
+15,Emirhan,Balcı,emirbalci360@gmail.com,Turkey,"Adana Alparslan Turkes Science and Technology Uni.",,164,yes
+15,Esra,Saraç,e.srsrc@gmail.com,Turkey,"Adana Alparslan Turkes Science and Technology Uni.",,165,no
+16,Kurt,Junghanns,junghanns@infai.org,Germany,"Institut für Angewandte Informatik e. V.",https://cc-eti.org/kurt-junghanns/,166,yes
+16,Sabine,Gründer-Fahrer,gruender-fahrer@infai.org,Germany,"Institut für Angewandte Informatik e. V.",,167,no
+16,Michael,Martin,martin@infai.org,Germany,"Institut für Angewandte Informatik e. V.",,168,no
+17,Xi,Yan,xi.yan@uni-hamburg.de,Germany,"Universität Hamburg",,169,yes
+17,Cedric,Möller,cedric.moeller@uni-hamburg.de,Germany,"Universität Hamburg",,170,yes
+17,Ricardo,Usbeck,ricardo.usbeck@leuphana.de,Germany,"Leuphana Universität Lüneburg",,121,yes
+18,Tobias,Hummel,tobias.hummel@stud.uni-bamberg.de,Germany,"University of Bamberg",,171,no
+18,Leon,Martin,leon.martin@uni-bamberg.de,Germany,"University of Bamberg",,172,yes
+18,Andreas,Henrich,andreas.henrich@uni-bamberg.de,Germany,"University of Bamberg",http://www.uni-bamberg.de/minf/team/henrich/,173,no
+19,Eero,Hyvönen,eero.hyvonen@aalto.fi,Finland,"Aalto University and University of Helsinki (HELDIG)",http://seco.cs.aalto.fi/u/eahyvone/,174,yes
+19,Hien,Cao,hien.cao@aalto.fi,Finland,"Aalto University",,175,yes
+19,Rafael,Leal,rafael.leal@aalto.fi,Finland,"University of Helsinki",,176,yes
+19,Heikki,Rantala,heikki.rantala@aalto.fi,Finland,"Aalto University",,177,yes
+19,Aki,Hietanen,aki.hietanen@om.fi,Finland,"Ministry of Justice",,178,yes
+20,Michiel,Fierens,michiel.fierens@kuleuven.be,Belgium,"Doctoral Researcher",https://orcid.org/0000-0002-9721-2389,179,yes
+21,Yuchen,Zhou,yzhou@fortiss.org,Germany,"fortiss – Research Institute of the Free State of Bavaria",,180,yes
+21,Alexander,Perzylo,perzylo@fortiss.org,Germany,"fortiss – Research Institute of the Free State of Bavaria",,181,no
+21,Yuan,Cao,cao@fortiss.org,Germany,"fortiss – Research Institute of the Free State of Bavaria",,182,no
+22,Felix,Engel,Felix.Engel@tib.eu,Germany,"German National Library of Science and Technology",,183,yes
+22,Mark,Vanin,Mark.Vanin@tib.eu,Germany,"German National Library of Science and Technology",,184,no
+22,Nenad,Krdzavac,Nenad.Krzdavac@tib.eu,Germany,"German National Library of Science and Technology",,185,no
+23,Sachin,Yadav,st185750@stud.uni-stuttgart.de,Germany,"University of Stuttgart",,186,yes
+23,Tejaswi,Choppa,st180670@stud.uni-stuttgart.de,Germany,"University of Stuttgart",,187,yes
+23,Dominik,Schlechtweg,dominik.schlechtweg@ims.uni-stuttgart.de,Germany,"University of Stuttgart",,188,yes
+24,Cedric,Möller,cedric.moeller@icloud.com,Germany,"University of Hamburg",,170,yes
+24,Ricardo,Usbeck,ricardo.usbeck@leuphana.de,Germany,"Leuphana University Lüneburg, Germany",https://www.leuphana.de/aix,121,yes
+25,Paul,Moosmann,paul.moosmann@fit.fraunhofer.de,Germany,"Fraunhofer FIT",,189,yes
+25,Johannes,Theissen-Lipp,theissen-lipp@dbis.rwth-aachen.de,Germany,"RWTH Aachen",,190,yes
+25,Christina,Gillmann,christina.gillmann@fit.fraunhofer.de,Germany,"Fraunhofer FIT",,191,no
+25,Christoph,Lange,christoph.lange-bever@fit.fraunhofer.de,Germany,"Fraunhofer FIT",,192,no
+26,Alexandra,Rowland,lexi.rowland@kadaster.nl,Netherlands,Kadaster,,193,yes
+26,Hans,Schevers,hans.schevers@kadaster.nl,Netherlands,Kadaster,,194,yes
+26,Erwin,Folmer,erwin.folmer@han.nl,Netherlands,"Kadaster, HAN University of Applied Sciences",,37,no
+26,Sven,Mol,sven.mol@kadaster.nl,Netherlands,"Kadaster, University of Twente",,195,no
+26,Janneke,Michielsen,janneke.michielsen@kadaster.nl,Netherlands,Kadaster,,196,no
+26,Marc,"van Andel",marc.vanandel@kadaster.nl,Netherlands,Kadaster,,197,no
+27,Sebastian,"Sklarß",sebastian.sklarss@init.de,Germany,"init AG",,198,yes
+28,"Jose Emilio","Labra Gayo",labra@uniovi.es,Spain,"Universidad de Oviedo",http://labra.weso.es,199,yes
+28,Eric,Prud'Hommeaux,eric+easychair@w3.org,"United States",W3C,http://www.w3.org/People/Eric/,200,yes
+28,Iovka,Boneva,iovka.boneva@univ-lille.fr,France,"University Lille",,201,yes
+28,Andra,Waagmeester,andra@micelio.be,Belgium,Micelio,,202,yes
+28,Katherine,Thornton,katherine.thornton@yale.edu,"United States","Yale University",,203,yes
+29,Kuruvilla,"George Aiyankovil",georgeak@tcd.ie,Ireland,"Trinity College Dublin",,204,yes
+29,David,Lewis,dave.lewis@tcd.ie,Ireland,"Trinity College Dublin",,205,yes
+29,Julio,Hernandez,julio.hernandez@adaptcentre.ie,Ireland,"Adapt Center, Ireland",,206,yes
+30,Margherita,Martorana,m.martorana@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,207,yes
+30,Tobias,Kuhn,kuhntobias@gmail.com,Netherlands,"Vrije Universiteit Amsterdam",http://www.tkuhn.org,208,no
+30,Lise,Stork,l.stork@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,209,no
+30,Jacco,"van Ossenbruggen",jacco.van.ossenbruggen@vu.nl,Netherlands,"VU Amsterdam",https://ucds.cs.vu.nl/people/,210,no
+31,Barry,Nouwt,barry.nouwt@tno.nl,Netherlands,TNO,,211,no
+31,Han,Kruiger,,Netherlands,TNO,,212,no
+31,Fábio,Coelho,fabio.a.coelho@inesctec.pt,Portugal,"INESC TEC & University of Minho",,213,no
+31,Sophie,Lathouwers,sophie.lathouwers@tno.nl,Netherlands,TNO,http://www.sophielathouwers.nl,214,yes
+31,"Klaas Andries","de Graaf",klaas_andries.degraaf@tno.nl,Netherlands,TNO,,215,no
+31,Kit,Buurman,kit.buurman@tno.nl,Netherlands,TNO,,216,no
+31,Jack,Verhoosel,jack.verhoosel@tno.nl,Netherlands,TNO,,217,no
+32,Pieter,Colpaert,pieter.colpaert@ugent.be,Belgium,"Ghent University – imec",https://pietercolpaert.be/,20,yes
+32,Gertjan,Filarski,gertjan@filarski.com,Netherlands,"Against Opacity",https://gertjan.filarski.com/,218,yes
+32,Anastasia,Sofou,anastasia.sofou@ext.ec.europa.eu,Belgium,SEMIC,,219,yes
+33,Arthur,Vercruysse,arthur.vercruysse@ugent.be,Belgium,"Ghent University",,220,yes
+33,Julián,Rojas,julianandres.rojasmelendez@ugent.be,Belgium,"Ghent University",https://julianrojas.org/,96,yes
+33,Pieter,Colpaert,pieter.colpaert@ugent.be,Belgium,"Ghent University – imec",https://pietercolpaert.be/,20,yes
+34,Rik,O,rik.opgenoort@crow.nl,Netherlands,"Stichting CROW",http://rix.fyi,221,yes
+34,Sander,Stolk,sanderstolk@semmtech.nl,Netherlands,Semmtech,https://semmtech.com/,222,yes
+35,Wenhui,Yang,wenhui.yang@item.fraunhofer.de,Germany,"Fraunhofer Institute for Toxicology and Experimental Medicine, Hannover, Germany",,223,yes
+35,Ahmed,Al-Ghezi,alghezi@cs.uni-frankfurt.de,Germany,"Goethe University Frankfurt",,224,yes
+35,Lena,Wiese,lena.wiese@udo.edu,Germany,"Fraunhofer Institute for Toxicology and Experimental Medicine (ITEM)",http://wiese.free.fr,225,yes
+36,Azanzi,Jiomekong,fidel.jiomekong@facsciences-uy1.cm,Cameroon,"University of Yaounde I, Yaounde, Cameroon",,226,yes
+36,Sanju,Tiwari,tiwarisanju18@ieee.org,India,"BVICAM New Delhi India",,118,yes
+36,Soren,Auer,Auer@tib.eu,Germany,"TIB – Leibniz Information Centre for Science and Technology, Hannover, Germany",,227,yes
+36,Allard,Oelen,allard.oelen@gmail.com,Germany,"TIB – Leibniz Information Centre for Science and Technology, Hannover, Germany",,228,no
+37,Rene,Dorsch,rene.dorsch@iis.fraunhofer.de,Germany,"Fraunhofer IIS",,229,yes
+37,Michael,Freund,michael.freund@iis.fraunhofer.de,Germany,"Fraunhofer IIS",,230,no
+37,"Kiara Marnitt","Ascencion Arevalo",kiaramarnitt.ascencionarevalo@th-nuernberg.de,Germany,"Technische Hochschule Georg Simon Ohm",,231,no
+37,Andreas,Harth,andreas.harth@fau.de,Germany,"Friedrich Alexander University Erlangen-Nuremberg",,232,no
+38,Stefan,Bischof,bischof.stefan@siemens.com,Austria,"Siemens AG Österreich",https://www.stefanbischof.at/,233,yes
+38,Erwin,Filtz,erwin.filtz@siemens.com,Austria,"Siemens AG Österreich",http://www.filtz.net,234,yes
+38,Josiane,"Xavier Parreira",josiane.parreira@siemens.com,Austria,"Siemens AG Österreich",,235,yes
+39,Sander,Stolk,sanderstolk@semmtech.nl,Netherlands,Semmtech,https://semmtech.com,222,yes
+39,Anouk,"van Otterlo",Anouk@based.co.nl,Netherlands,Based,,236,yes
+39,Quint,Netten,Quint@based.co.nl,Netherlands,Based,,237,no
+39,Alexander,Worp,alexander.worp@waternet.nl,Netherlands,Waternet,,238,no
+39,Arjan,Toet,arjan.toet@waternet.nl,Netherlands,Waternet,,239,no
+40,Jiayu,Ma,s8233612@stud.uni-frankfurt.de,Germany,"Goethe University Frankfurt, Frankfurt a. M.",,240,yes
+40,Gabriele,Marcantonio,s3577080@stud.uni-frankfurt.de,Germany,"Goethe University Frankfurt, Frankfurt a. M.",,241,yes
+40,"Jero Mario",Schäfer,jeschaef@cs.uni-frankfurt.de,Germany,"Institute of Computer Science - Goethe-Universität Frankfurt",,242,yes
+40,Lena,Wiese,lena.wiese@udo.edu,Germany,"Fraunhofer Institute for Toxicology and Experimental Medicine (ITEM)",http://wiese.free.fr,225,yes
+41,Dalia,Varanka,dvaranka@usgs.gov,"United States","U.S. Geological Survey",,243,yes
+41,Emily,Abbott,eabbott@contractor.usgs.gov,"United States","Colorado School of Mines under Contract to the U.S. Geological Survey",,244,no
+42,Roderick,"van der Weerdt",r.p.vander.weerdt@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,245,yes
+42,Victor,"de Boer",v.de.boer@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,246,no
+42,Laura,Daniele,laura.daniele@TNO.nl,Netherlands,TNO,,25,no
+42,Ronald,Siebes,r.siebes@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,247,no
+42,Frank,"van Harmelen",Frank.van.Harmelen@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,248,no
+43,Robert,David,robert.david@semantic-web.com,Austria,"Semantic Web Company, WU Vienna",,249,yes
+43,Albin,Ahmeti,albin.ahmeti@semantic-web.com,Austria,"Semantic Web Company, TU Vienna",,250,no
+43,Geni,Bushati,genibushati23@gmail.com,Austria,"University of Innsbruck",,251,no
+43,Amar,Tauqeer,amar.tauqeer@wur.nl,Austria,"University of Innsbruck, Wageningen University & Research",,113,no
+43,Anna,Fensel,anna.fensel@wur.nl,Netherlands,"Wageningen University & Research",,252,no
+44,Alex,Randles,alex.randles@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,253,yes
+44,Declan,O'Sullivan,declan.osullivan@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,82,no
+44,Lucy,McKenna,lucy.mckenna@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,254,no
+44,Beyza,Yaman,beyza.yaman@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,132,no
+44,Lynn,Kilgallon,kilgalll@tcd.ie,Ireland,"Trinity College Dublin",,255,no
+44,Peter,Crooks,pcrooks@tcd.ie,Ireland,"Trinity College Dublin",,256,no
+45,Thamer,Mecharnia,t.mecharnia@gmail.com,France,"LORIA, Universit ́e de Lorraine, CNRS, INRIA 54506, Vandœuvre-l`es-Nancy, France",,257,yes
+45,Mathieu,D'Aquin,mathieu.daquin@loria.fr,France,"LORIA, Universit ́e de Lorraine, CNRS, INRIA 54506, Vandœuvre-l`es-Nancy, France",,258,yes
+45,Liudmyla,Klochko,liudmyla.klochko@loria.fr,France,"Université de Lorraine, CNRS, LEMTA, 54000 Nancy, France",,259,yes
+46,Francesca,Chiusaroli,f.chiusaroli@unimc.it,Italy,"University of Macerata",https://docenti.unimc.it/f.chiusaroli,260,yes
+46,Federico,Sangati,federico.sangati@oist.jp,Japan,"OIST Graduate University",https://groups.oist.jp/cnru/members,261,yes
+46,Johanna,Monti,jmonti@unior.it,Italy,"University of Naples L'Orientale",https://unifind.unior.it/individual?uri=http%3A%2F%2Firises.unior.it%2Fresource%2Fperson%2F2569,262,yes
+46,"Maria Laura",Pierucci,marialaura.pierucci@unimc.it,Italy,"University of Macerata",https://docenti.unimc.it/m.pierucci6,263,yes
+46,Tiberio,Uricchio,t.uricchio@unimc.it,Italy,"University of Macerata",https://docenti.unimc.it/tiberio.uricchio,264,yes
+47,Delaram,Golpayegani,sgolpays@tcd.ie,Ireland,"ADAPT Centre, Trinity College Dublin",,265,yes
+47,Beatriz,Esteves,beatriz.Esteves@ugent.be,Belgium,"Ghent University",,33,no
+47,"Harshvardhan J.",Pandit,harshvardhan.pandit@adaptcentre.ie,Ireland,"ADAPT Centre, School of Computing, Dublin City University",https://harshp.com/,85,no
+47,Dave,Lewis,dave.lewis@tcd.ie,Ireland,"Trinity College Dublin",http://www.cs.tcd.ie/Dave.Lewis,205,yes
+48,Shruti,Ambre,shruti.ambre@stud.uni-goettingen.de,Germany,"Georg-August-Universität Göttingen",,266,yes
+48,"Kiara Marnitt","Ascencion Arevalo",kiaramarnitt.ascencionarevalo@th-nuernberg.de,Germany,"Technische Hochschule Nürnberg Georg Simon Ohm",https://orcid.org/0000-0002-4158-9478,231,yes
+49,Abdullah,Majali,majaliabdullah@live.com,Jordan,"Princess Sumaya University for Technology",,267,yes
+49,Refa'T,Alloush,ref20200122@std.psut.edu.jo,Jordan,"Princess Sumaya University for Technology",,268,yes
+49,Zaid,Khreis,khreiszaidd@gmail.com,Jordan,"Princess Sumaya University for Technology",,269,yes
+49,Omar,Qawasmeh,omar_qawasmeh@hotmail.com,Jordan,"Princess Sumaya University for Technology",,270,yes
+50,Heikki,Rantala,heikki.rantala@aalto.fi,Finland,"Aalto University",,177,yes
+50,Petri,Leskinen,petri.leskinen@aalto.fi,Finland,"Aalto University",,271,yes
+50,Lilli,Peura,lilli.peura@aalto.fi,Finland,"Aalto University",,272,yes
+50,Eero,Hyvönen,eero.hyvonen@aalto.fi,Finland,"Aalto University and University of Helsinki (HELDIG)",http://seco.cs.aalto.fi/u/eahyvone/,174,yes
+51,Rita,Hijazi,rita.hijazi@etu.univ-amu.fr,France,"Aix-Marseille University",,273,yes
+51,Bernard,Espinasse,bernard.espinasse@lis-lab.fr,France,"Aix-Marseille University",,274,no
+52,Jeffrey,Sardina,jeffrey.sardina@gmail.com,Ireland,"Trinity College Dublin",https://medium.com/@jeffrey.sardina,275,yes
+52,John,Kelleher,john.d.kelleher@tudublin.ie,Ireland,"Technological University Dublin",https://orcid.org/0000-0001-6462-3248,276,no
+52,Declan,O'Sullivan,declan.osullivan@cs.tcd.ie,Ireland,"Trinity College Dublin",,82,no
+53,Jeffrey,Sardina,jeffrey.sardina@gmail.com,Ireland,"Trinity College Dublin",https://medium.com/@jeffrey.sardina,275,yes
+53,Alok,Debnath,DEBNATHA@tcd.ie,Ireland,"Trinity College Dublin",https://orcid.org/0000-0002-1270-369X,277,no
+53,"John D.",Kelleher,John.Kelleher@tcd.ie,Ireland,"Trinity College Dublin",,278,no
+53,Declan,O'Sullivan,declan.osullivan@cs.tcd.ie,Ireland,"Trinity College Dublin",,82,no
+54,Wouter,Lubbers,wouterlubbers@semmtech.nl,Netherlands,Semmtech,,279,yes
+54,Utku,Sivacilar,utkusivacilar@semmtech.nl,Netherlands,Semmtech,,280,yes
+54,Dennis,"van Loo",dennis.vanloo@arcadis.com,Netherlands,Arcadis,,281,no
+54,Sam,Ubels,sam.ubels@arcadis.com,Netherlands,Arcadis,,282,no
+55,Annastiina,Ahola,annastiina.ahola@aalto.fi,Finland,"Semantic Computing Research Group (SeCo), Aalto University",,283,yes
+55,Eero,Hyvönen,eero.hyvonen@aalto.fi,Finland,"Aalto University and University of Helsinki (HELDIG)",http://seco.cs.aalto.fi/u/eahyvone/,174,yes
+55,Heikki,Rantala,heikki.rantala@aalto.fi,Finland,"Aalto University",,177,yes
+55,Anne,Kauppala,anne.kauppala@uniarts.fi,Finland,"University of the Arts, Helsinki",https://www.uniarts.fi/en/people/anne-kauppala/,284,yes
+56,Alessia,Antelmi,alessia.antelmi@unito.it,Italy,"Università degli Studi di Torino",https://alessant.github.io/,285,yes
+56,Vincenzo,Offertucci,v.offertucci@studenti.unisa.it,Italy,"Dipartimento di Informatica, Università degli Studi di Salerno",,286,no
+56,"Maria Angela",Pellegrino,mariaangelapellegrino94@gmail.com,Italy,"Università degli Studi di Salerno",,287,yes
+57,Hamid,Ahaggach,hamid.ahaggach@u-bourgogne.fr,France,"LIB Laboratory, Dijon",,288,yes
+57,Lylia,Abrouk,lylia.abrouk@u-bourgogne.fr,France,"LIB Laboratory, Dijon  / MISTEA, University of Burgundy and Montpellier",,289,yes
+57,Eric,Lebon,elebon@syartec.com,France,Syartec,,290,yes
+58,Anna,Breit,anna.breit@semantic-web.com,Austria,"Semantic Web Company",,291,yes
+58,Artem,Revenko,artreven@gmail.com,Austria,"Semantic Web Company GmbH",,292,yes
+58,Victor,Mireles,syats.vm@gmail.com,Austria,"Semantic Web Company",,293,no
+58,Majlinda,Llugiqi,majlinda.llugiqi@wu.ac.at,Austria,"WU Vienna",,294,no
+58,"Fajar J.",Ekaputra,fajar.ekaputra@wu.ac.at,Austria,"Vienna University of Economics and Business (WU)",https://semantic-systems.org,31,no
+58,Laura,Waltersdorfer,Laura.Waltersdorfer@tuwien.ac.at,Austria,"Tu Wien",,295,no
+58,Heiko,Paulheim,heiko@informatik.uni-mannheim.de,Germany,"University of Mannheim",http://www.heikopaulheim.com/,296,no
+59,Julian,Sampels,uni@juliansampels.de,Germany,"Technische Universität Berlin",,297,yes
+59,Sefika,Efeoglu,sefika.efeoglu@tu-berlin.de,Germany,"Technische Universität Berlin",,298,yes
+59,Sonja,Schimmler,sonja.schimmler@tu-berlin.de,Germany,"Technische Universität Berlin",,102,yes
+60,Yashrajsinh,Chudasama,yashrajsinh.chudasama@tib.eu,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,299,yes
+60,Disha,Purohit,disha.purohit@tib.eu,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,300,yes
+60,"Philipp D.",Rohde,philipp.rohde@tib.eu,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,301,yes
+60,Enrique,Iglesias,iglesias@l3s.de,Germany,"L3S Research Center, Hannover, Germany",,302,yes
+60,Maria,Torrente,mtorrente80@gmail.com,Germany,"HospitalUniversitarioPuertadeHierro-Majadahonda, Spain",,303,yes
+60,Maria-Esther,Vidal,maria.vidal@tib.eu,Germany,"TIB Leibniz Information Centre for Science and Technology, Hannover, Germany",,304,yes
+61,Tobias,Zeimetz,zeimetz@uni-trier.de,Germany,"Trier University",,305,yes
+61,Katja,Hose,katja.hose@tuwien.ac.at,Austria,"TU Wien",http://www.katja-hose.de/,306,no
+61,Ralf,Schenkel,schenkel@uni-trier.de,Germany,"Trier University",https://www.uni-trier.de/index.php?id=17320&L=2,307,no
+62,Pasquale,Esposito,pasesposito@unisa.it,Italy,"University of Salerno",,308,yes
+62,"Maria Angela",Pellegrino,mapellegrino@unisa.it,Italy,"University of Salerno",,287,yes
+62,Vittorio,Scarano,vitsca@unisa.it,Italy,"University of Salerno",,309,yes
+63,Taraneh,Younesian,t.younesian@vu.nl,Netherlands,"Vrije Universiteit",,310,yes
+63,Peter,Bloem,p@peterbloem.nl,Netherlands,"Vrije Universiteit Amsterdam",http://www.peterbloem.nl,311,yes
+63,Stefan,Schlobach,schlobac@few.vu.nl,Netherlands,"Vrije Universiteit Amsterdam",http://www.few.vu.nl/~schlobac/,103,yes
+64,Yuchen,Zhou,yuchenz0604@gmail.com,Germany,"fortiss – Research Institute of the Free State of Bavaria, Guerickestrasse 25, Munich, 80805, Germany",,312,yes
+64,Yuan,Cao,cao@fortiss.org,Germany,"fortiss – Research Institute of the Free State of Bavaria, Guerickestrasse 25, Munich, 80805, Germany",,182,no
+64,Alexander,Perzylo,perzylo@fortiss.org,Germany,"fortiss – Research Institute of the Free State of Bavaria, Guerickestrasse 25, Munich, 80805, Germany",,181,no
+65,Nada,Mimouni,nada.mimouni@cnam.fr,France,"CEDRIC lab - CNAM Conservatoire National des Arts et Métiers Paris",,313,yes
+65,Jean-Claude,Moissinac,jean-claude.moissinac@telecom-paris.fr,France,"Telecom Paris",https://www.telecom-paris.fr/jean-claude-moissinac,314,no
+66,Achim,Reiz,achim.reiz@uni-rostock.de,Germany,"Rostock University",,315,yes
+66,Henrik,Dibowski,henrik.dibowski@de.bosch.com,Germany,"Robert Bosch GmbH",,316,yes
+66,Irlan,"Gonzalez Grangel",Irlan.GrangelGonzalez@de.bosch.com,Germany,"Robert Bosch GmbH",,317,yes
+67,Daniel,Vollmers,daniel.vollmers@uni-paderborn.de,Germany,"Paderborn University",,318,yes
+67,Parth,Sharma,parthsharma2695@gmail.com,Germany,"Paderborn University",,319,no
+67,Hamada,Zahera,hamadazahera@gmail.com,Germany,"Paderborn University",,320,yes
+67,Axel-Cyrille,"Ngonga Ngomo",axel.ngonga@upb.de,Germany,"Paderborn University",http://cs.upb.de/ds,321,yes
+68,"Adrian M.P.",Brasoveanu,adrian.brasoveanu@modul.ac.at,Austria,"Modul University Vienna GmbH",,322,yes
+68,"Lyndon J.B.",Nixon,lyndon.nixon@modul.ac.at,Austria,"Modul University Vienna GmbH",,81,yes
+68,Albert,Weichselbraun,albert.weichselbraun@fhgr.ch,Austria,FHGR,,323,yes
+68,Arno,Scharl,scharl@weblyzard.com,Austria,"Modul University Vienna GmbH",,324,yes
+69,Lars-Peter,Meyer,lpmeyer@infai.org,Germany,"Institut für Angewandte Informatik e. V. / Leipzig University",,325,yes
+69,Johannes,Frey,frey@informatik.uni-leipzig.de,Germany,"Institut für Angewandte Informatik e. V. / Leipzig University",,326,yes
+69,Felix,Brei,brei@infai.org,Germany,"Institut für Angewandte Informatik e. V.",,327,yes
+69,Natanael,Arndt,arndt@informatik.uni-leipzig.de,Germany,"Institut für Angewandte Informatik e. V.",http://aksw.org/NatanaelArndt,8,yes
+70,"Tasneem Tazeen",Rashid,tasneem.tazeen.rashid@iais.fraunhofer.de,Germany,"Research assistamt, Fraunhofer IAIS",,328,yes
+70,Abderrahmane,Khiat,abderrahmane.khiat@iais.fraunhofer.de,Germany,"Team Lead, Fraunhofer IAIS",,329,yes
+71,"Tasneem Tazeen",Rashid,tasneem.tazeen.rashid@iais.fraunhofer.de,Germany,"Research assistant, Fraunhofer IAIS",,328,yes
+71,Abderrahmane,Khiat,abderrahmane.khiat@iais.fraunhofer.de,Germany,"Team Lead, Fraunhofer IAIS",,329,yes
+71,"Mirette Magdy Michel",Elias,mirette.magdy.michel.elias@iais.fraunhofer.de,Germany,"Team Lead, Fraunhofer IAIS",,330,yes
+71,Maryam,Baghishani,maryam.baghishani@iais.fraunhofer.de,Germany,"Student aissistant, Fraunhofer IAIS",,331,no
+71,"Md Anisur Rahman",Akash,akashanisurrahman@gmail.com,Germany,"Student aissistant, Fraunhofer IAIS",,332,no
+72,"Mirette Magdy Michel",Elias,mirette.magdy.michel.elias@iais.fraunhofer.de,Germany,"Team Lead, Fraunhofer IAIS",,330,yes
+72,Maryam,Baghishani,maryam.baghishani@iais.fraunhofer.de,Germany,"Student Assistant, Fraunhofer IAIS",,331,yes
+72,Abderrahmane,Khiat,abderrahmane.khiat@iais.fraunhofer.de,Germany,"Team Lead, Fraunhofer IAIS",,329,no
+72,"Tasneem Tazeen",Rashid,tasneem.tazeen.rashid@iais.fraunhofer.de,Germany,"Research Assistant, Fraunhofer IAIS",,328,no
+73,Antoine,Dupuy,antoine.dupuy@irit.fr,France,"Université Toulouse 2 Jean Jaurès",,333,yes
+73,Cassia,Trojahn,Cassia.Trojahn@irit.fr,France,"UT2J & IRIT",,334,yes
+73,Christophe,Baehr,christophe.baehr@meteo.fr,France,CNRM,,335,yes
+73,Nathalie,Aussenac-Gilles,nathalie.aussenac-gilles@irit.fr,France,CNRS/IRIT,,336,yes
+74,Cédric,Tarbouriech,cedric.tarbouriech@sorbonne-universite.fr,France,"UMR 8167, Sorbonne University",,337,yes
+74,Anne-Valérie,Pont-Boulay,anne-valerie.pont-boulay@sorbonne-universite.fr,France,"UMR 8167, Sorbonne University",,338,yes
+74,Victoria,Eyharabide,maria-victoria.eyharabide@sorbonne-universite.fr,France,"STIH, Sorbonne University",,34,yes
+75,Artem,Revenko,artreven@gmail.com,Austria,"Semantic Web Company GmbH",,292,yes
+75,Anna,Breit,anna.breit@semantic-web.com,Austria,"Semantic Web Company",,291,yes
+75,Salma,Mahmoud,salma.mahmoud@semantic-web.com,Austria,"Semantic Web Company",,339,no
+75,Mark,Szabo,mark.szabo@semantic-web.com,Austria,"Semantic Web Company",,340,no
+75,Tomas,Knap,tomas.knap@semantic-web.com,Austria,"Semantic Web Company",,341,no
+76,Hamada,Zahera,hamadazahera@gmail.com,Germany,"Paderborn University",,320,yes
+76,Manzoor,Ali,manzoor@campus.uni-paderborn.de,Germany,"Paderborn University",,342,yes
+76,"Mohamed Ahmed",Sherif,mohamed.sherif@upb.de,Germany,"Paderborn University, Data Science Group",https://dice-research.org/MohamedAhmedSherif,343,yes
+76,Diego,Moussallem,diego.moussallem@upb.de,Germany,"Paderborn University",https://dice-research.org/DiegoMoussallem,344,yes
+76,Axel-Cyrille,"Ngonga Ngomo",axel.ngonga@upb.de,Germany,"Paderborn University",http://cs.upb.de/ds,321,yes
+77,Julien,Breton,julien.breton@berger-levrault.com,France,IRIT,https://www.irit.fr/,345,yes
+77,"Mokhtar Boumedyen",Billami,mb.billami@berger-levrault.com,France,Berger-Levrault,,346,no
+77,Max,Chevalier,max.chevalier@irit.fr,France,IRIT,,347,no
+77,Cassia,Trojahn,cassia.trojahn@irit.fr,France,IRIT,,334,no
+78,Stefano,Casadei,scasadei@yahoo.com,France,N/A,,348,yes
+79,Faiza,Khalid,faiza.khalid5@yahoo.com,Turkey,"Karabuk University",,349,no
+79,"Oğuzhan","Menemencioğlu",omenemencioglu@karabuk.edu.tr,Turkey,"Karabük University",http://oguzhan.menemencioglu.info/,350,yes
+80,Björn,Ludwig,ludwigb@hsu-hh.de,Germany,"Helmut Schmidt University",,351,yes
+80,Maria,Maleshkova,maria.maleshkova@hsu-hh.de,Germany,"Helmut Schmidt University",,352,yes
+80,Oliver,Niggemann,oliver.niggemann@hsu-hh.de,Germany,"Helmut Schmidt University",https://www.hsu-hh.de/imb/en/,353,yes
+81,Aida,Usmanova,aidausmanova99@gmail.com,Germany,"Leuphana University of Lüneburg",,354,yes
+81,Junbo,Huang,junbo.hunag@uni-hamburg.de,Germany,"University of Hamburg",,355,yes
+81,Debayan,Banerjee,debayan.banerjee@leuphana.de,Germany,"Leuphana University of Lüneburg",,356,yes
+81,Ricardo,Usbeck,ricardo.usbeck@leuphana.de,Germany,"Leuphana University of Lüneburg",,121,yes
+82,Rajesh,Piryani,rajesh.piryani@gmail.com,France,"IRIT - Equipe MELODI Universite Paul Sabatier",,357,yes
+82,Nathalie,Aussenac-Gilles,aussenac@irit.fr,France,"IRIT CNRS",http://www.irit.fr/~Nathalie.Aussenac-Gilles,336,yes
+82,Nathalie,Hernandez,hernande@irit.fr,France,IRIT,,358,yes
+82,Cédric,Lopez,cedric.lopez@emvista.com,France,Emvista,,359,yes
+82,Camille,Pradel,cpradel@chapsvision.com,France,Geotrend,,360,yes
+83,Alvin,Demeyer,alvin.demeyer@vlaanderen.be,Belgium,"Flanders Chancellery and Foreign Office",,361,yes
+83,Aad,Versteden,aad.versteden@redpencil.io,Belgium,RedPencil.io,,362,yes
+84,"Maria Francesca",Bocchi,mariafbocchi@gmail.com,Italy,"Alma Mater Studiorum - Università di Bologna",,363,yes
+84,"Carlo Teo",Pedretti,carloteo.pedretti@uniroma1.it,Italy,"La Sapienza University of Rome",,364,yes
+84,Francesca,Tomasi,francesca.tomasi@unibo.it,Italy,"Alma Mater Studiorum - Università di Bologna",,365,no
+84,Fabio,Vitali,fabio.vitali@unibo.it,Italy,"Alma Mater Studiorum - Università di Bologna",,366,no
+85,Michelle,McGee,wordfxorg@gmail.com,"United States",WordFX,http://michellemcgee.com,367,yes
+86,Davan,"Chiem Dao",davan.chiemdao@uliege.be,Belgium,"Université de Liège",,368,yes
+86,Christophe,Debryune,c.debruyne@uliege.be,Belgium,"Université de Liège",,369,no
+87,Faria,Ferooz,fariaferooz611@gmail.com,Italy,"CIRSFID-ALMA-AI, University of Bologna, Itlay",https://www.unibo.it/sitoweb/faria.ferooz2,370,yes
+87,Monica,Palmirani,monica.palmirani@unibo.it,Italy,"CIRSFID-ALMA-AI, University of Bologna, Itlay",https://www.unibo.it/sitoweb/monica.palmirani,371,no
+88,Hala,Skaf-Molli,Hala.Skaf@univ-nantes.fr,France,"University of Nantes - LS2N",http://pagesperso.ls2n.fr/~skaf-h,372,yes
+88,Pascal,Molli,Pascal.Molli@univ-nantes.fr,France,"University of Nantes - LS2N",https://sites.google.com/view/pascal-molli,373,no
+88,Luis-Daniel,Ibanez,L.D.Ibanez@soton.ac.uk,"United Kingdom","University of Southampton",,47,no
+88,Abraham,Bernstein,bernstein@ifi.uzh.ch,Switzerland,"University of Zurich",,374,no
+89,Michael,Schulze,michael.schulze@dfki.de,Germany,"TU Kaiserslautern/DFKI GmbH",,375,yes
+89,Markus,Schröder,markus.schroeder@dfki.de,Germany,"DFKI GmbH",,104,no
+89,Christian,Jilek,christian.jilek@dfki.de,Germany,"DFKI GmbH",,376,no
+89,Christian,Zeyen,christian.zeyen@dfki.de,Germany,"DFKI GmbH, University of Trier",,377,no
+89,Heiko,Maus,heiko.maus@dfki.de,Germany,"German Research Center for AI (DFKI)",https://www.dfki.de/~maus/,378,no
+89,Andreas,Dengel,dengel@dfki.uni-kl.de,Germany,"German Research Center for Artificial Intelligence",http://www.dfki.de,379,no
+90,Victoria,Eyharabide,maria-victoria.eyharabide@sorbonne-universite.fr,France,"STIH, Sorbonne University",,34,yes
+91,Insaf,Nahri,insaf.nahri@cstb.fr,France,"LISPEN EA 7515, Arts et Métiers Institute of Technology, 13100 Aix-en-Provence, France",,380,yes
+91,Romain,Pinquié,romain.pinquie@grenoble-inp.fr,France,"Univ. Grenoble Alpes, CNRS, Grenoble INP, G-SCOP, Grenoble, France",,381,no
+91,Philippe,Veron,philippe.veron@ensam.eu,France,"LISPEN EA 7515, Arts et Métiers Institute of Technology, 13100 Aix-en-Provence, France",,382,no
+91,Nicolas,Bus,nicolas.bus@cstb.fr,France,"Information System and Applications Division, CSTB, Sophia Antipolis, 06560, France",,383,no
+91,Mathieu,Thorel,mathieu.thorel@cstb.fr,France,"Information System and Applications Division, CSTB, Sophia Antipolis, 06560, France",,384,no
+92,Dennis,Schiese,dennis.schiese@stud.htwk-leipzig.de,Germany,"Leipzig University of Applied Sciences",,385,yes
+92,Aleksandr,Perevalov,aleksandr.perevalov@htwk-leipzig.de,Germany,"Leipzig University of Applied Sciences",http://perevalov.com,386,yes
+92,Andreas,Both,contact@andreasboth.de,Germany,"DATEV eG",http://www.andreasboth.de/en,387,yes
+93,Nadia,Bebeshina,clairet@lirmm.fr,France,MeetDeal,,388,yes
+94,Shenghui,Wang,shenghui.wang@utwente.nl,Netherlands,"University of Twente",,128,yes
+94,Jiangpengchen,Kang,jpckang@outlook.com,Netherlands,"University of Twente",,389,no
+95,Vodelina,Samatova,vsamato@ncsu.edu,"United States","North Carolina State University",,390,yes
+95,Nodirbek,Korchiev,nkorchi@ncsu.edu,"United States","North Carolina State University",,391,yes
+95,Sogolsadat,Mansouri,smansou2@ncsu.edu,"United States","North Carolina State University",,392,yes
+95,Kemafor,Anyanwu,kogan@ncsu.edu,"United States","North Carolina State University",,393,yes
+96,Andres,Gutierrez,andres@comake.io,"United States","Comake, Inc.",,394,yes
+96,Adler,Faulkner,adler@comake.io,"United States","Comake, Inc.",,395,yes
+97,"Harshvardhan J.",Pandit,harshvardhan.pandit@adaptcentre.ie,Ireland,"ADAPT Centre, School of Computing, Dublin City University",https://harshp.com/,85,yes
+97,Iain,Henderson,iain@jlinc.com,"United Kingdom",JLINC,,396,no
+98,Romana,Pernisch,r.pernisch@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",http://pernisch.ch,90,yes
+98,Stefan,Schlobach,schlobac@few.vu.nl,Netherlands,"Vrije Universiteit Amsterdam",http://www.few.vu.nl/~schlobac/,103,yes
+98,Rinke,Hoekstra,r.hoekstra@elsevier.com,Netherlands,Elsevier,http://www.rinkehoekstra.nl,397,yes
+99,Martin,Siefkes,martin.siefkes@phil.tu-chemnitz.de,Germany,"Technische Universität Chemnitz",,398,yes
+99,Julia,Pfeiffer,julia.pfeiffer@phil.tu-chemnitz.de,Germany,"Technische Universität Chemnitz",,399,yes
+100,Maximilian,Weigand,maximilian.weigand@hsu-hh.de,Germany,"Helmut-Schmidt-Universität / Universität der Bundeswehr Hamburg",,400,yes
+100,Alexander,Fay,,Germany,"Ruhr-Universität Bochum",,401,no
+101,Ritten,Roothaert,h.m.roothaert@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,402,yes
+101,Stefan,Schlobach,k.s.schlobach@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,103,no
+102,Marko,Harasic,marko.harasic@fokus.fraunhofer.de,Germany,"Fraunhofer FOKUS",,403,yes
+102,Roman,Laas,roman.laas@fokus.fraunhofer.de,Germany,"Fraunhofer FOKUS",,404,no
+102,Thomas,Hoppe,thomas.hoppe@fokus.fraunhofer.de,Germany,"Fraunhofer FOKUS",,405,no
+103,Lelde,Lace,Lelde.Lace@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,406,yes
+103,Aiga,Romane,Aiga.Romane@inbox.lv,Latvia,LUMII,,407,yes
+103,Mikus,Grasmanis,mikus.grasmanis@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,408,yes
+103,Arturs,Sprogis,arturs.sprogis@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,409,yes
+103,Julija,Ovcinnikova,Julija.Ovcinnikova@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,410,yes
+103,Uldis,Bojars,captsolo@gmail.com,Latvia,"IMCS – University of Latvia",,411,yes
+103,Jana,Fedotova,jp12055@students.lu.lv,Latvia,"University of Latvia",,412,no
+103,Igors,"Karmiņins",ik18155@students.lu.lv,Latvia,"University of Latvia",,413,no
+103,"Kārlis","Čerāns",karlis.cerans@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,414,yes
+104,Shruti,Dhavalikar,shrutid@sahaj.ai,India,"Sahaj AI Software",,415,yes
+104,Karthika,Vijayan,karthikav@sahaj.ai,India,"Sahaj AI Software",,416,yes
+105,Rouaa,Wannous,rouaa.wannous@univ-lr.fr,France,l3i,,417,yes
+105,Marwa,Boulakbech,marwa.boulakbech@univ-lr.fr,France,"la rochelle",,418,yes
+106,Giancarlo,Frison,giancarlo.frison@sap.com,Germany,SAP,https://gfrison.com,419,yes
+107,Aidan,"O Mahony",aidan.omahony@dell.com,Ireland,"Dell Technologies",,420,yes
+108,David,"de Best",david.debest@tno.nl,Netherlands,"TNO Soesterberg",,421,yes
+108,"Klaas Andries","de Graaf",klaas_andries.degraaf@tno.nl,Netherlands,"TNO Soesterberg",,215,yes
+108,Jack,Verhoosel,jack.verhoosel@tno.nl,Netherlands,"TNO Soesterberg",,217,yes
+108,Paolo,"de Heer",paolo.deheer@tno.nl,Netherlands,"TNO Delft",,422,yes
+108,Yvon,Gankema,yvon.gankema@tno.nl,Netherlands,"TNO Delft",,423,yes
+108,Seymour,Lubbers,seymour.lubbers@tno.nl,Netherlands,"TNO Delft",,424,yes
+108,Marcel,"van Vliet",marcel.vanvliet@tno.nl,Netherlands,"TNO Delft",,425,yes
+109,Arjen,Santema,arjen.santema@kadaster.nl,Netherlands,"Kadaster / NORA expert group datamanagement",,426,yes
+110,Eugeniu,Costetchi,eugen@meaningfy.ws,Luxembourg,Meaningfy,http://costezki.ro,427,yes
+110,Csongor,Nyulas,csongor.nyulas@meaningfy.ws,Luxembourg,Meaningfy,,428,no
+110,Nicolae,Plessco,nicolae.plesco@meaningfy.ws,Luxembourg,Meaningfy,,429,no
+110,Dumitru,Prijilevschi,dumitru.prijilevschi@meaningfy.ws,Luxembourg,Meaningfy,,430,no
+110,Rashif,Rahman,rashif.rahman@meaningfy.ws,Luxembourg,Meaningfy,,431,no
+110,Jana,Ahmad,jana.ahmad@meaningfy.ws,Luxembourg,Meaningfy,,432,no
+111,Jesse,Bakker,jesse.bakker@kadaster.nl,Netherlands,Kadaster,,433,yes
+111,Pano,Maria,pano@skemu.com,Netherlands,Skemu,https://skemu.com/,434,no
+112,Wouter,Beek,wouter@triply.cc,Netherlands,"Triply B.V.",https://triplydb.com/wouter,435,yes
+112,Flores,Bakker,f.bakker@minfin.nl,Netherlands,"Ministerie van Financiën",,436,no
+113,Wouter,Beek,wouter@triply.cc,Netherlands,"Triply B.V.",https://triplydb.com/wouter,435,yes
+113,Enno,Meijers,enno.meijers@kb.nl,Netherlands,"National Library | Dutch Digital Heritage Network",https://netwerkdigitaalerfgoed.nl,437,no
+113,Gertjan,Filarski,gertjan@filarski.com,Netherlands,"Dutch National Museum of World Cultures",https://leiden.wereldmuseum.nl,218,no
+114,Tom,"De Nies",tom.de.nies@redpencil.io,Belgium,redpencil.io,,438,yes
+114,Alvin,Demeyer,alvin.demeyer@vlaanderen.be,Belgium,"Flanders Chancellery and Foreign Office",,361,no
+115,Daan,"Di Scala",daan.discala@tno.nl,Netherlands,TNO,,439,yes
+115,David,"de Best",david.debest@tno.nl,Netherlands,TNO,,421,no
+115,Jack,Verhoosel,jack.verhoosel@tno.nl,Netherlands,TNO,,217,yes
+116,Amir,Laadhar,amir.laadhar@pantopix.com,Germany,"PANTOPIX GmbH & Co. KG",,440,yes
+116,Nikhil,Acharya,nikhil.acharya@pantopix.com,Germany,"PANTOPIX GmbH & Co. KG",,441,yes
+117,Wouter,Beek,wouter@triply.cc,Netherlands,"Triply B.V.",https://triplydb.com/wouter,435,yes
+117,Linda,"van den Brink",l.vandenbrink@geonovum.nl,Netherlands,Geonovum,https://www.geonovum.nl,442,no
+117,Elena,Slavco,elena.slavco@triply.cc,Netherlands,"Triply B.V.",https://triplydb.com/elenaslavco,443,no
+118,Pauline,Armary,pauline_armary@etu.u-bourgogne.fr,France,"Anabasis Assets, Université de Bourgogne",,444,yes
+118,Brice,Sommacal,sommacal@anabasis-assets.com,France,"Anabasis Assets",,445,yes
+119,Wouter,Beek,wouter@triply.cc,Netherlands,"Triply B.V.",https://triplydb.com/wouter,435,yes
+119,Rob,Jacobs,rob.jacobs@axiell.com,Netherlands,"Axiell Collections Netherlands",https://www.axiell.com/nl,446,no
+119,Mark,Lindeman,mark@lindeman.nu,Netherlands,Self-employed,https://triplydb.com/mark-lindeman,447,no
+119,Mark,"den Elzen",m.denelzen@axiell.com,Netherlands,"Axiell Netherlands",https://www.axiell.com/nl,448,no
+120,Alvin,Demeyer,alvin.demeyer@vlaanderen.be,Belgium,"Flanders Chancellery and Foreign Office",,361,yes
+121,Alvin,Demeyer,alvin.demeyer@vlaanderen.be,Belgium,"Flanders Chancellery and Foreign Office",,361,yes
+121,Aad,Versteden,aad.versteden@redpencil.io,Belgium,RedPencil.io,,362,yes
+122,Joakim,Nilsson,joakim.nilsson@capgemini.com,Sweden,Capgemini,https://www.linkedin.com/in/joakim-nilsson-866169180/,449,yes
+123,Lorenzo,Lazzari,llazzari@ecovadis.com,Spain,EcoVadis,,450,yes
+123,Carlos,"Villacampa Calvo",cvillacampacalvo@ecovadis.com,Spain,EcoVadis,,451,yes
+123,Svenja,Schoe,sschoe@ecovadis.com,Mauritius,EcoVadis,,452,no
+123,Geoffrey,Carbonnel,gcarbonnel@ecovadis.com,Spain,EcoVadis,,453,no
+123,Sophia,Katrenko,skatrenko@ecovadis.com,Netherlands,EcoVadis,,454,yes
+123,Frank,Soetebeer,fsoetebeer@ecovadis.com,Germany,EcoVadis,,455,no
+124,Robert,David,robert.david@semantic-web.com,Austria,"Semantic Web Company",,249,yes
+124,Anna,Kernerman,anna@lexicala.com,Israel,"Lexicala by K Dictionaries",https://lexicala.com/,456,no
+124,Ilan,Kernerman,ilan@lexicala.com,Israel,"Lexicala by K Dictionaries",,457,no
+124,Assaf,Siani,assaf@lexicala.com,Israel,"Lexicala by K Dictionaries",,458,no
+125,Gertjan,Filarski,gertjan@filarski.com,Netherlands,"Filarski Consultancy",,218,yes
+125,Cindy,Zalm,cindy.zalm@wereldmuseum.nl,Netherlands,Wereldmuseum,,459,yes
+125,Wouter,Beek,wouter@triply.cc,Netherlands,Triply,,435,yes
+126,Aad,Versteden,aad.versteden@redpencil.io,Belgium,redpencil.io,,362,yes
+126,Niels,Vandekeybus,niels.vandekeybus@redpencil.io,Belgium,redpencil.io,,460,yes
+126,Felix,"Ruiz de Arcaute",felix.ruizdearcaute@redpencil.io,Belgium,redpencil.io,,461,yes
+127,Jans,Aasman,jans.aasman@franz.com,"United States","Franz Inc.",https://franz.com,462,yes
+128,Robert,David,robert.david@semantic-web.com,Austria,"Semantic Web Company",,249,yes
+128,Axel,"Weißenfeld",axel.weissenfeld@ait.ac.at,Austria,"AIT Austrian Institute of Technology",,463,no
+128,Petar,Ivanov,petar.ivanov@ontotext.com,Bulgaria,Ontotext,,464,no
+128,Vladimir,Alexiev,vladimir.alexiev@ontotext.com,Bulgaria,Ontotext,,465,no
+129,Robert,David,robert.david@semantic-web.com,Austria,"Semantic Web Company",,249,yes
+129,Martin,Kaltenböck,martin.kaltenboeck@semantic-web.com,Austria,"Semantic Web Company",,466,yes
+130,Mohammed,Rasheed,mhameed001@ikasle.ehu.eus,Iraq,"University of the Basque Country - UPV/EHU",,467,yes
+130,Marina,Aguado,marina.aguado@ehu.eus,Spain,"UPV/EHU, Basque Country University",,468,no
+131,Peter,Crocker,peter.crocker@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,141,no
+131,Thomas,Vout,tom.vout@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,143,yes
+131,Philip,Foster,philip.foster@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,469,yes
+132,Peter,Crocker,peter.crocker@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,141,no
+132,Thomas,Vout,tom.vout@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,143,yes
+132,Philip,Foster,philip.foster@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,469,yes
+133,Peter,Crocker,peter.crocker@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,141,no
+133,Thomas,Vout,tom.vout@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,143,yes
+133,Philip,Foster,philip.foster@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,469,yes
+134,Peter,Crocker,peter.crocker@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,141,no
+134,Thomas,Vout,tom.vout@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,143,yes
+134,Philip,Foster,philip.foster@oxfordsemantic.tech,"United Kingdom","Oxford Semantic Technologies",,469,yes
+135,Guangyuan,Piao,parklize@gmail.com,Ireland,"Dell Technologies",http://parklize.github.io,470,yes
+135,Mike,Mountantonakis,mike.mountantonakis@ercim.eu,France,"W3C, ERCIM",,471,no
+135,Panagiotis,Papadakos,panagiotis.papadakos@ercim.eu,France,"W3C, ERCIM",,472,no
+135,Pournima,Sonawane,pournima.sonawane@dell.com,Ireland,"Dell Technologies",,473,no
+135,Aidan,Omahony,aidan.omahony@dell.com,Ireland,"Dell Technologies",,420,no
+136,L,"van Bergen",l_van_bergen@belastingdienst.nl,Netherlands,"De Belastingdienst (Knowledge and Information Modelling)",,474,yes
+136,Nicole,Groot-Nibbelink,nj.groot.nibbelink@belastingdienst.nl,Netherlands,"De Belastingdienst (Knowledge and Information Modelling)",,475,yes
+137,Yassir,Sellami,yassir.sellami@gaia-x.eu,Belgium,"Gaia-X AISBL",,476,yes
+138,Jimmy,Walraff,Jimmy.Walraff@student.uliege.be,Belgium,"University of Liège",,477,no
+138,Adreas,Coco,Andreas.Coco@student.uliege.be,Belgium,"University of Liège",,478,no
+138,Guillaume,Delporte,Guillaume.Delporte@student.uliege.be,Belgium,"University of Liège",,479,no
+138,Merlin,Michel,merlin.michel@student.uliege.be,Belgium,"University of Liège",,480,no
+138,Allyson,Fries,Allyson.Fries@uliege.be,Belgium,"University of Liège",,481,no
+138,Valérie,Defaweux,Valerie.Defaweux@uliege.be,Belgium,"University of Liège",,482,no
+138,Christophe,Debruyne,christophe.debruyne@gmail.com,Belgium,"University of Liège",http://www.christophedebruyne.be,369,yes
+139,Aad,Versteden,aad.versteden@redpencil.io,Belgium,redpencil.io,,362,yes
+139,Erika,Pauwels,erika.pauwels@redpencil.io,Belgium,redpencil.io,,483,yes
+140,Harold,Selman,harold.selman@ordina.nl,Netherlands,"Sopra Steria Benelux",,484,yes
+140,Paul,Verhaar,paul.verhaar@ordina.nl,Netherlands,"Sopra Steria Benelux",,485,yes
+140,Pauline,"van Nies",pauline.van.nies@ordina.nl,Netherlands,"Sopra Steria Benelux",,486,yes
+141,Maya,Sappelli,maya.sappelli@han.nl,Netherlands,"HAN university of Applied Sciences",,487,yes
+141,Hans,Fugers,hans.fugers@Alliander.com,Netherlands,Alliander,,488,yes
+141,Bart,Kleijngeld,bart.kleijngeld@alliander.com,Netherlands,Alliander,,489,yes
+141,Marijn,Siebel,Marijn.Siebel@han.nl,Netherlands,"HAN university of Applied Sciences",,490,yes
+142,Elvin,Dechesne,elvin.dechesne@ordina.nl,Netherlands,"Waterschap Limburg",https://www.linkedin.com/in/elvindechesne/,491,yes
+143,Bob,Janssen,bob_janssen@yahoo.com,Netherlands,"oint Informatievoorziening Commando, Ministry of Defense",,492,yes
+143,Ghislain,Atemezing,ghislain.atemezing@gmail.com,France,ERA,http://www.atemezing.org,493,yes
+144,Martin,Trajkov,martin.trajkov@semantic-web.com,Austria,"Strategic Partner Manager at Semantic Web Company",https://www.poolparty.biz/,494,yes
+145,Maarten,Duhoux,maarten.duhoux@era.europa.eu,France,"European Union Agency for Railways (ERA)",,495,yes
+145,Ghislain,Atemezing,ghislain.atemezing@era.europa.eu,France,"European Union Agency for Railways (ERA)",http://www.atemezing.org,493,yes
+145,Christopher,Carr,christopher.carr@era.europa.eu,France,"European Union Agency for Railways (ERA)",,496,no
+146,Sebastian,Gabler,sebastian.gabler@semantic-web.com,Austria,"Sematic Web Company",http://poolparty.biz,497,yes
+147,Cornelis,Bouter,cornelis.bouter@tno.nl,Netherlands,TNO,,498,yes
+147,Laura,Daniele,laura.daniele@tno.nl,Netherlands,TNO,,25,yes
+148,Harold,Selman,harold.selman@ordina.nl,Netherlands,"Sopra Steria Benelux",,484,yes
+148,Paul,Verhaar,paul.verhaar@ordina.nl,Netherlands,"Sopra Steria Benelux",,485,yes
+148,Pauline,"van Nies",pauline.van.nies@ordina.nl,Netherlands,"Sopra Steria Benelux",,486,yes
+149,Lokesh,Sharma,lokesh.sharma@elevait.de,Germany,Elevait,https://www.elevait.de/,499,yes
+149,Martin,Voigt,martin.voigt@elevait.de,Germany,Elevait,https://www.elevait.de/,500,yes
+150,Jelte,Bootsma,jelte.bootsma@tno.nl,Netherlands,TNO,,501,yes
+150,Linda,Oosterheert,linda.oosterheert@tno.nl,Netherlands,TNO,,502,yes
+150,Cornelis,Bouter,cornelis.bouter@tno.nl,Netherlands,TNO,,498,yes
+151,Franz,Krause,franz.krause@uni-mannheim.de,Germany,"University of Mannheim",,503,yes
+151,Heiko,Paulheim,heiko@informatik.uni-mannheim.de,Germany,"University of Mannheim",,296,no
+151,Bernhard,Moser,bernhard.moser@scch.at,Austria,"Software Competence Center Hagenberg",,504,no
+152,Jan,Voskuil,jan.voskuil@taxonic.com,Netherlands,Taxonic,http://www.taxonic.com,505,yes
+152,Marc,van,marc.opijnen@koop.overheid.nl,Netherlands,KOOP,http://koop.overheid.nl,506,no
+152,Hans,Overbeek,hans.overbeek@koop.overheid.nl,Netherlands,KOOP,http://koop.overheid.nl,507,no
+152,Theun,Fleer,theun.fleer@koop.overheid.nl,Netherlands,KOOP,http://koop.overheid.nl,508,no
+152,Wessel,Schollmeijer,wessel.schollmeijer@koop.overheid.nl,Netherlands,KOOP,http://koop.overheid.nl,509,no
+153,Eero,Hyvönen,eero.hyvonen@aalto.fi,Finland,"Aalto University and University of Helsinki (HELDIG)",http://seco.cs.aalto.fi/u/eahyvone/,174,yes
+153,Jouni,Tuominen,jouni.tuominen@aalto.fi,Finland,"University of Helsinki",http://seco.cs.aalto.fi/u/jwtuomin/,510,yes
+154,"Jan Martin",Keil,jan_martin.keil@dlr.de,Germany,"German Aerospace Center (DLR), Institute of Data Science, Jena",,511,yes
+155,Jan,Maushagen,Jan.Maushagen@vub.be,Belgium,"Vrije Universiteit Brussel",,512,no
+155,Sara,Sepehri,Sara.Sepehri@vub.be,Belgium,"Vrije Universiteit Brussel",,513,no
+155,Audrey,Sanctorum,Audrey.Sanctorum@vub.be,Belgium,"Vrije Universiteit Brussel",,514,no
+155,Tamara,Vanhaecke,Tamara.Vanhaecke@vub.be,Belgium,"Vrije Universiteit Brussel",,515,no
+155,Olga,"De Troyer",Olga.DeTroyer@vub.be,Belgium,"Vrije Universiteit Brussel",,516,no
+155,Christophe,Debruyne,christophe.debruyne@gmail.com,Belgium,"Université de Liège",http://www.christophedebruyne.be,369,yes
+156,Allard,Oelen,allard.oelen@gmail.com,Germany,"TIB - Leibniz Information Centre for Science and Technology",,228,yes
+156,"Mohamad Yaser",Jaradeh,yaser.jaradeh@gmail.com,Germany,"L3S Research Center, Leibniz University Hannover",,517,no
+156,Sören,Auer,auer@l3s.de,Germany,"TIB Leibniz Information Center Science & Technology and University of Hannover",https://tib.eu/auer,227,no
+157,"Ondřej",Zamazal,ondrej.zamazal@vse.cz,Czechia,"Prague University of Economics and Business",http://nb.vse.cz/~svabo/,133,yes
+158,Gordon,Fletcher,g.fletcher@salford.ac.uk,"United Kingdom","University of Salford",,518,yes
+158,Adnan,Bayyat,a.k.bayyat1@salford.ac.uk,"United Kingdom","University of Salford",,519,no
+159,Nora,Abdelmageed,n.abdelmageed@nieuweinstituut.nl,Netherlands,"Nieuwe Instituut",,520,yes
+159,Lois,Hutubessy,l.hutubessy@nieuweinstituut.nl,Netherlands,"Nieuwe Instituut",,521,no
+160,Wout,Hofman,wout.hofman@tno.nl,Netherlands,"senior research scientist, TNO",,157,no
+160,Boriana,Rukanova,B.D.Rukanova@tudelft.nl,Netherlands,"Delft University of Technology",,158,yes
+160,Jolien,Ubacht,j.ubacht@tudelft.nl,Netherlands,"Delft University of Technology, Faculty of Technology, Policy & Management, dept. ESS/ICT",http://www.tudelft.nl,522,no
+160,"Yao Hua",Tan,y.tan@tudelft.nl,Netherlands,"Delft University of Technology",,159,no
+160,Elmer,Rietveld,elmer.rietveld@tno.nl,Netherlands,TNO,https://www.researchgate.net/profile/Elmer_Rietveld,523,no
+160,Jelmer,Lennartz,jelmer.lennartz@tno.nl,Netherlands,"TNO Climate, Air & Sustainability",,524,no
+160,Wirawan,Agahari,w.agahari@tudelft.nl,Netherlands,"Delft University of Technology",,525,no
+160,Theodor,Chirvasuta,theodor.chirvasuta@tno.nl,Netherlands,TNO,,156,no
+160,Jonathan,Schmid,J.Schmid@student.tudelft.nl,Netherlands,"Delft University of Technology",,526,no
+161,Thorsten,Kastner,thorsten.kastner@datev.de,Germany,"DATEV eG",,527,yes
+161,Christoph,Braun,braun@kit.edu,Germany,"Karlsruhe Institute of Technology (KIT)",,528,yes
+161,Andreas,Both,andreas.both@datev.de,Germany,"DATEV eG",,387,yes
+161,Dustin,Yeboah,Dustin.Yeboah@datev.de,Germany,"DATEV eG",,529,yes
+161,"Sebastian Josef",Schmid,sebastian.schmid@fau.de,Germany,"Friedrich-Alexander University (FAU), Nuremberg",,530,yes
+161,Daniel,Schraudner,daniel.schraudner@fau.de,Germany,"Friedrich-Alexander University (FAU), Nuremberg",,531,yes
+161,Tobias,Käfer,tobias.kaefer@kit.edu,Germany,"Karlsruhe Institute of Technology (KIT)",,59,yes
+161,Andreas,Harth,andreas.harth@fau.de,Germany,"Friedrich-Alexander University (FAU), Nuremberg",,232,yes
+162,Lukas,Cladders,lukas.cladders@init.de,Germany,"]init[ AG",https://www.init.de/,532,yes
+162,Cornelia,"Strauß",cornelia.strauss@init.de,Germany,"]init[ AG",https://www.init.de/,533,no
+162,David,Edwards,david.edwards@init.de,Germany,"]init[ AG",https://www.init.de/,534,no
+162,Sebastian,"Sklarß",sebastian.sklarss@init.de,Germany,"]init[ AG",https://www.init.de/,198,no
+162,Daniel,Brenn,daniel.brenn@init.de,Germany,"]init[ AG",https://www.init.de/,535,no
+163,Said,Fathalla,sm_fathalla@alex-sci.edu.eg,Germany,"Forschungszentrum Jülich GmbH, Institute for Advanced Simulation (IAS-9), Jülich, Germany",,36,yes
+163,Gerrit,Günther,gerrit.guenther@helmholtz-berlin.de,Germany,"Helmoltz-Zentrum Berlin für Materialien und Energie, Berlin, Germany",,536,no
+163,Leon,Steinmeier,l.steinmeier@hzdr.de,Germany,"Helmholtz Center Dresden Rossendorf, Dresden, Germany",,537,no
+163,Christine,Lemster,clemster@geomar.de,Germany,"GEOMAR Helmholtz-Zentrum für Ozeanforschung, Kiel, Germany",,538,no
+163,Dorothee,Kottmeier,dorothee.kottmeier@pangaea.de,Germany,"Helmholtz-Zentrum für Polar und Meeresforschung  and GEOMAR Helmholtz-Zentrum für Ozeanforschung, Germany",,539,no
+163,Lakxmi,Sivapatham,lakxmi.sivapatham@dlr.de,Germany,"Deutsches Zentrum für Luft und Raumfahrt, Cologne, Germany",,540,no
+163,Pier,"Luigi Buttigieg",pbuttigi@mpi-bremen.de,Germany,"GEOMAR Helmholtz-Zentrum für Ozeanforschung, Kiel, Germany",,541,no
+163,Volker,Hofmann,v.hofmann@fz-juelich.de,Germany,"Forschungszentrum Jülich GmbH, Institute for Advanced Simulation (IAS-9), Jülich, Germany",,542,no
+163,Stefan,Sandfeld,s.sandfeld@fz-juelich.de,Germany,"Forschungszentrum Jülich GmbH, Institute for Advanced Simulation (IAS-9), Jülich, Germany",,543,no
+164,Thorsten,Liebig,liebig@derivo.de,Germany,"derivo GmbH",http://www.derivo.de/en/,544,yes
+164,Marko,Luther,luther@gmx.de,Germany,artisan.plus,https://artisan.plus/en/welcome,545,yes
+165,Lukas,Kinder,lukas.kinder@kit.edu,Germany,"Institute AIFB, Karlsruhe Institute of Technology (KIT), Kaiserstr. 12, 76131 Karlsruhe, Germany",,546,yes
+165,Tobias,Käfer,tobias.kaefer@kit.edu,Germany,"Institute AIFB, Karlsruhe Institute of Technology (KIT), Kaiserstr. 12, 76131 Karlsruhe, Germany",,59,no
+166,Ajay,Kumar,ajaychawla804@gmail.com,Germany,"Paderborn University, Data Science Group",https://dice-research.org/AjayKumar,547,yes
+166,Marius,Naumann,marius.naumann@upb.de,Germany,"Paderborn University, Department of Energy System Technologies, Warburger Straße 100, D-33098 Paderborn, Germany",,548,yes
+166,Kevin,Henne,khenne2@mscould.uni-paderborn.de,Germany,"Paderborn University, Department of Energy System Technologies, Warburger Straße 100, D-33098 Paderborn, Germany",,549,yes
+166,"Mohamed Ahmed",Sherif,mohamed.sherif@upb.de,Germany,"Paderborn University, Data Science Group",https://dice-research.org/MohamedAhmedSherif,343,yes
+167,Matt,Murtagh-White,mmurtagh@tcd.ie,Ireland,"Trinity College Dublin",,550,yes
+167,Declan,O'Sullivan,declan.osullivan@cs.tcd.ie,Ireland,"Trinity College Dublin",,82,no
+167,P.J.,Wall,wallp2@tcd.ie,Ireland,"Trinity College Dublin",,551,no
+168,Arthur,Vercruysse,arthur.vercruysse@ugent.be,Belgium,"Ghent University",,220,yes
+168,Julian,Rojas,julianandres.rojasmelendez@ugent.be,Belgium,"Ghent University",,96,yes
+168,Pieter,Colpaert,pieter.colpaert@ugent.be,Belgium,"Ghent University – imec",https://pietercolpaert.be/,20,yes
+169,Alessia,Pisu,alessia.pisu96@unica.it,Italy,"University of Cagliari",,552,yes
+169,Livio,Pompianu,livio.pompianu@unica.it,Italy,"University of Cagliari",,553,yes
+169,Angelo,Salatino,angelo.salatino@open.ac.uk,"United Kingdom","The Open University",,99,yes
+169,Francesco,Osborne,francesco.osborne@open.ac.uk,"United Kingdom","The Open University",,84,yes
+169,Daniele,Riboni,riboni@unica.it,Italy,"University of Cagliari",,554,no
+169,Enrico,Motta,enrico.motta@open.ac.uk,"United Kingdom","The Open University",,555,no
+169,Diego,"Reforgiato Recupero",diego.reforgiato@unica.it,Italy,"University of Cagliari",,556,no
+170,Alex,Randles,alex.randles@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,253,yes
+170,Declan,O'Sullivan,declan.osullivan@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,82,no
+170,Lucy,McKenna,lucy.mckenna@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,254,no
+170,Beyza,Yaman,beyza.yaman@adaptcentre.ie,Ireland,"ADAPT Centre, Trinity College Dublin.",,132,no
+170,Lynn,Kilgallon,kilgalll@tcd.ie,Ireland,"Trinity College Dublin",,255,no
+170,Peter,Crooks,pcrooks@tcd.ie,Ireland,"Trinity College Dublin",,256,no
+171,Benno,Kruit,b.b.kruit@vu.nl,Netherlands,"VU Amsterdam",http://bennokruit.nl,557,yes
+172,Davan,"Chiem Dao",davan.chiemdao@uliege.be,Belgium,"Université de Liège",,368,yes
+172,Christophe,Debruyne,christophe.debruyne@gmail.com,Belgium,"Université de Liège",http://www.christophedebruyne.be,369,no
+173,Delaram,Golpayegani,sgolpays@tcd.ie,Ireland,"ADAPT Centre, Trinity College Dublin",,265,yes
+173,Beatriz,Esteves,beatriz.esteves@ugent.be,Belgium,"Ghent University",,33,no
+173,"Harshvardhan J.",Pandit,harshvardhan.pandit@adaptcentre.ie,Ireland,"ADAPT Centre, Dublin City University",,85,no
+173,Dave,Lewis,dave.lewis@tcd.ie,Ireland,"ADAPT Centre, Trinity College Dublin",http://www.cs.tcd.ie/Dave.Lewis,205,no
+174,Stefan,Bischof,bischof.stefan@siemens.com,Austria,"Siemens AG Österreich",https://www.stefanbischof.at/,233,yes
+174,Erwin,Filtz,erwin.filtz@siemens.com,Austria,"Siemens AG Österreich",,234,no
+174,Josiane,"Xavier Parreira",josiane.parreira@siemens.com,Austria,"Siemens AG Österreich",,235,no
+174,Simon,Steyskal,simon.steyskal@siemens.com,Austria,"Siemens AG Österreich",,112,yes
+174,Michael,Baumgart,michael.baumgart@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,558,no
+174,David,Gruber,david.gruber@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,559,no
+174,Maximilian,Liebetreu,maximilian.liebetreu@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,560,no
+174,Florian,Rötzer,florian.roetzer@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,561,no
+174,Stephan,Strommer,stephan.strommer@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,562,no
+174,Christian,Achathaler,christian.achathaler@tcgunitech.com,Austria,"TCG UNITECH GmbH",,563,no
+174,Herbert,Kerbl,herbert.kerbl@tcgunitech.com,Austria,"TCG UNITECH GmbH",,564,no
+175,Simon,Steyskal,simon.steyskal@siemens.com,Austria,"Siemens AG Austria",http://www.steyskal.at,112,yes
+175,Stefan,Bischof,bischof.stefan@siemens.com,Austria,"Siemens AG Österreich",https://www.stefanbischof.at/,233,yes
+175,Josiane,"Xavier Parreira",josiane.parreira@siemens.com,Austria,"Siemens AG Österreich",,235,no
+175,Erwin,Filtz,erwin.filtz@siemens.com,Austria,"Siemens AG Österreich",,234,no
+175,Michael,Baumgart,michael.baumgart@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,558,no
+175,David,Gruber,david.gruber@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,559,no
+175,Maximilian,Liebetreu,maximilian.liebetreu@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,560,no
+175,Florian,Rötzer,florian.roetzer@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,561,no
+175,Stephan,Strommer,stephan.strommer@ait.ac.at,Austria,"AIT Austrian Institute of Technology GmbH",,562,no
+176,Jan,Grau,janerik.grau@student.unisg.ch,Switzerland,"University of St. Gallen",,565,yes
+176,Kimberly,Garcia,kimberly.garcia@unisg.ch,Switzerland,"University of St. Gallen",,566,yes
+176,Simon,Mayer,simon.mayer@unisg.ch,Switzerland,"University of St. Gallen",,567,yes
+177,Nicole,Merkle,nicole.merkle@kit.edu,Germany,"Karlsruhe Institue of Technology (KIT)",https://www.iai.kit.edu/english/2154_4249.php,568,yes
+178,Sivan,Albagli-Kim,sivan.albaglikim@shu.edu,"United States","Seton Hall University",,569,yes
+178,Dizza,Beimel,dizzab@ruppin.ac.il,Israel,"Ruppin Academic Center",,570,yes
+179,Daniel,Henselmann,daniel.henselmann@iis.fraunhofer.de,Germany,"Fraunhofer IIS",,571,yes
+179,Andreas,Harth,andreas.harth@fau.de,Germany,"Friedrich-Alexander-Universität Erlangen-Nürnberg and Fraunhofer IIS",http://harth.org/andreas/,232,yes
+180,"Genet Asefa",Gesese,Genet-Asefa.Gesese@fiz-karlsruhe.de,Germany,"FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur & KIT Karlsruhe",,43,yes
+180,Jörg,Waitelonis,Joerg.Waitelonis@fiz-Karlsruhe.de,Germany,"FIZ Karlsruhe, Leibniz Institute for Information Infrastructure & KIT Karlsruhe",,127,yes
+180,Zongxiong,Chen,zongxiong.chen@fokus.fraunhofer.de,Germany,"Fraunhofer FOKUS, Berlin, Germany",,572,no
+180,Sonja,Schimmler,sonja.schimmler@fokus.fraunhofer.de,Germany,"Fraunhofer FOKUS, Berlin, Germany",,102,no
+180,Harald,Sack,Harald.Sack@fiz-karlsruhe.de,Germany,"FIZ Karlsruhe – Leibniz-Institut für Informationsinfrastruktur, AIFB Institute, KIT",,137,yes
+181,Lucas,Lageweg,lucas.lageweg@hotmail.com,Netherlands,"Centraal Bureau voor de Statistiek",,573,yes
+181,Jonas,Kouwenhoven,jonaskouwenhoven@live.nl,Netherlands,"Vrije Universiteit Amsterdam",,574,no
+181,Benno,Kruit,b.b.kruit@vu.nl,Netherlands,"Vrije Universiteit Amsterdam",,557,yes
+182,Eugeniu,Costetchi,eugen@meaningfy.ws,Luxembourg,Meaningfy,http://costezki.ro,427,yes
+182,Jana,Ahmad,jana.ahmad@meaningfy.ws,Luxembourg,Meaningfy,,432,yes
+182,"Csongor I.",Nyulas,csongor.nyulas@meaningfy.ws,Luxembourg,Meaningfy,,428,yes
+182,Rashif,Rahman,rashif.rahman@meaningfy.ws,Luxembourg,Meaningfy,https://rashif.net/,431,yes
+182,Dumitru,Prijilevschi,dumitru.prijilevschi@meaningfy.ws,Luxembourg,Meaningfy,,430,yes
+183,Julia,Pfeiffer,julia.pfeiffer@phil.tu-chemnitz.de,Germany,"University of Technology Chemnitz",,399,yes
+184,"Kārlis","Čerāns",karlis.cerans@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,414,yes
+184,Uldis,Bojars,captsolo@gmail.com,Latvia,"IMCS – University of Latvia",,411,yes
+184,Julija,Ovcinnikova,Julija.Ovcinnikova@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,410,yes
+184,Lelde,Lace,Lelde.Lace@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,406,yes
+184,Mikus,Grasmanis,mikus.grasmanis@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,408,yes
+184,Arturs,Sprogis,arturs.sprogis@lumii.lv,Latvia,"Institute of Mathematics and Computer Science, University of Latvia",,409,yes
+185,Mohammed,Rasheed,mhameed001@ikasle.ehu.eus,Iraq,"University of the Basque Country - UPV/EHU",,467,yes
+185,Mrina,Aguado,marina.aguado@ehu.eus,Spain,"University of the Basque Country",,468,no
+186,Neha,Deshpande,n.deshpande@tu-berlin.de,Germany,"Technische Universität Berlin",,575,yes
+186,Stefan,Hillmann,stefan.hillmann@tu-berlin.de,Germany,"Technische Universität Berlin",,576,no
+187,Dennis,Schiese,dennis.schiese@htwk-leipzig.de,Germany,"Leipzig University of Applied Sciences",,385,yes
+187,Aleksandr,Perevalov,aleksandr.perevalov@htwk.leipzig.de,Germany,"Leipzig University of Applied Sciences",http://perevalov.com,577,yes
+187,Andreas,Both,contact@andreasboth.de,Germany,"DATEV eG",http://www.andreasboth.de/en,387,yes

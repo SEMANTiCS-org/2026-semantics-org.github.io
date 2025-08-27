@@ -1,0 +1,1 @@
+At __SEMANTiCS__ researchers, industry experts and business leaders can develop a thorough understanding of trends and application scenarios in the fields of Machine Learning, Data Science, Linked Data and Natural Language Processing.

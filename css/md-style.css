@@ -1,0 +1,57 @@
+h1 {
+  font-weight: normal;
+}
+
+h2 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+h3 {
+  padding-top: 20px;
+  font-weight: lighter;
+}
+
+blockquote{
+  font-family: 'Lato';
+  font-size: 0.97em;
+}
+
+table, tr, td{
+  border: 0.5px solid gray;
+  border-collapse: collapse ;
+  padding: 15px;
+}
+
+table, tr, td, th {
+  text-align: center;
+}
+
+th{
+  background: lightgray;
+}
+td, th{
+  word-wrap: break-word;
+  max-width: 300px;
+}
+
+.align-middle{
+  margin: 0 auto;
+}
+
+.venue-sec-title{
+	background-color: var(--section-bg-color);
+	font-size: 1.2em;
+  font-weight: lighter;
+  margin-top: 25px;
+  margin-bottom: 10px;
+  padding: 5px;
+  border-radius: 5px;
+  width: 250px;
+  text-align: center;
+}
+
+#footnotes li{
+	font-size: 0.8em;
+	padding: 0px;
+}

@@ -1,0 +1,12 @@
+table img {
+  max-width: 100%!important;
+  height: auto;
+}
+table, tbody, tr, td{
+  border: none !important;
+}
+
+#featured_in img{
+  max-width: 70%!important;
+  height: auto;
+}

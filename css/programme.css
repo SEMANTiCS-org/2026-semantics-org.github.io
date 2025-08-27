@@ -1,0 +1,361 @@
+#buttonGroup{
+	text-align: center;
+	margin: 50px;
+	margin-left: 250px;
+	margin-right: 250px;
+	display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+button.active{
+	background: rgb(64,70,86) !important;
+	color: white !important;
+}
+
+section table *{
+	font-weight: normal !important;
+	font-size: 0.97em;
+}
+
+table {
+  width: 100%;
+  /*table-layout: fixed;  Ensures consistent table layout */
+  font-family: 'Lato', sans-serif;
+}
+
+td,th {
+  word-break: break-word;
+  padding: 10px;
+  white-space: pre-line;
+}
+
+th{
+	text-align: center;
+	padding-bottom: 10px;
+	background: rgb(64,70,86);
+	color: white;
+	border-right:dotted 1px lightgray;
+	border-left:dotted 1px lightgray;
+	font-size: 1em;
+	position: sticky;
+	top: 0;
+	z-index: 10;
+	min-width: 100px;
+}
+section table tr th:first-child, section table tr td:first-child {
+  border-left: none;
+  background: none;
+  color: black;
+  position: initial;
+  top: none;
+}
+section table tr td:first-child {
+	min-width: 120px;
+	font-size: 0.9em;
+}
+section table tr{
+	border-bottom:solid 1px lightgray;
+}
+section table th p,section table td p{
+	margin-bottom: 0px;
+}
+section table td[colspan]{
+	text-align: center;
+}
+section table td{
+	text-align: center;
+	border-right:dotted 1px lightgray;
+	border-left:dotted 1px lightgray;
+	text-decoration: none;
+	padding: 10px;
+	/*vertical-align: top;*/
+}
+
+section table td.isempty{
+	background: rgba(240,240,240,0.3)!important;
+}
+
+section table td.clickable{
+  cursor: pointer;
+  transition: filter 0.6s;
+
+}
+section table td.clickable:hover {
+  filter: brightness(120%);
+}
+
+section table td.clickable:focus {
+  outline: none;
+  box-shadow: 0 0 0 3px rgba(0, 0, 0, 0.2);
+}
+section table td.g-break {
+  background: rgb(240,240,240);
+  /*font-size: 0.9em;*/
+}
+
+section table td.g-keynote {
+  color: white;
+  background: #22475D;
+}
+section table td.g-invited_talk {
+  color: white;
+  background: rgb(250,148,1);
+}
+section table td.g-session {
+  color: #2C6777;
+  background: #F4F4F4;
+}
+
+section table td.g-tutorial {
+  color: white;
+  background: #52AB99;
+}
+section table td.g-dbpedia {
+  color: #2C6777;
+  background: #C8D8E5;
+}
+section table td.g-extra.g-conference{
+  color: white;
+  background: rgb(26,116,177);
+}
+section table td.g-opening {
+  color: #2C6777;
+  background: #C8D8E5;
+}
+section table td.g-extra {
+  color: white;
+  background: #5eb089;
+}
+section table td.g-datathon {
+	color: white;
+	background:  #413852 ;
+  }
+section table td.g-workshop {
+  color: #2C6777;
+  background: #F4F4F4;
+}
+
+section table td.g-industry {
+  color: white;
+  background: rgb(250,148,1);
+}
+section table td.g-lti {
+  color: white;
+  background: rgb(121,179,115);
+}
+section table td .legend-slot{
+	 display: none;
+}
+section table td .rooms-slot, section table th .rooms-slot{
+	 display: none;
+}
+td.industry .type-slot, td.dbpedia .type-slot {
+	/*display: none;*/
+}
+
+section table td.g-break p.title-slot{
+  font-weight:bolder !important;
+	font-size: 1em;
+}
+
+section table td.regular-slot p.type-slot{
+	font-size: 0.8em;
+	position: relative;
+	padding-bottom: 25px;
+}
+
+section table td.regular-slot p.title-slot{
+	font-size: 0.97em;
+	margin-bottom: 20px;
+	word-break: normal;
+	font-weight:bolder !important;
+	/*font-style: italic;*/
+}
+
+section table td.regular-slot p.talk-title{
+	font-style: italic;
+	font-size: 0.92em;
+}
+
+section table td.regular-slot p.speaker-slot{
+	font-size: 0.95em;
+	padding-top: 15px;
+	font-weight:bolder !important;
+}
+
+section table td.g-keynote p.title-slot{
+  font-weight:normal !important;
+}
+
+section table td.regular-slot p.chair-slot{
+	margin-bottom: 22px;
+}
+section table td.regular-slot p.talk-speaker{
+	font-size: 0.92em;
+	font-weight:bolder !important;
+}
+
+.g-session p.talk-speaker + p.talk-title{
+	margin-bottom: 15px;
+	border-bottom: dashed 0.5px;
+	padding-top: 5px;
+	padding-bottom: 10px;
+}
+.g-session p:last-child{
+	border-bottom: none !important;
+}
+
+section table td.regular-slot.g-keynote p.talk-speaker{
+	font-size: 0.95em;
+	font-weight:bolder !important;
+}
+section table td.regular-slot.g-keynote p.talk-title{
+	font-size: 0.95em;
+}
+
+section table p.chair-slot .-t{
+	font-weight:bolder !important;
+}
+
+section #programme_legend {
+	margin-top: 30px;
+}
+
+section #programme_legend ul{
+	list-style: none;
+	padding: 5px;
+}
+
+section #programme_legend ul li{
+	display: flex;
+	align-items: center;
+	margin-bottom: 5px;
+}
+
+section #programme_legend ul li span{
+  display: inline-block;
+}
+
+section #programme_legend ul li span:first-child{
+	width: 25px;
+	height: 25px;
+	margin-right: 5px;
+}
+
+section .leg-green{
+	background: red;
+}
+
+section .leg-orange{
+	background: rgb(250,148,1);
+}
+
+section .leg-violet{
+	background: rgb(113,126,195);
+}
+
+section .leg-red{
+	background: rgb(201,93,98);
+}
+
+section .leg-blue{
+	background: rgb(26,116,177);
+}
+
+#programme_table .online-slot {
+	display: none !important;
+}
+
+#programme_table.online-view .online-slot {
+	display: block !important;
+	padding-top: 20px;
+	padding-bottom: 10px;
+	z-index: 20;
+}
+
+#programme_table.online-view .online-slot a {
+	color: black;
+
+}
+#programme_table.online-view .online-slot a:hover {
+	color: black;
+	text-decoration: underline;
+}
+
+#programme_table.online-view p.talk-speaker{
+	display: none !important;
+}
+#programme_table.online-view p.talk-title{
+	display: none !important;
+}
+
+#programme_table.online-view .g-keynote p.talk-speaker {
+	display: initial !important;
+}
+
+#programme_table.online-view .g-keynote p.talk-title {
+	display: block !important;
+}
+
+#programme_table.online-view .g-invited_talk p.talk-speaker {
+	display: initial !important;
+}
+
+#programme_table.online-view .g-invited_talk p.talk-title {
+	display: block !important;
+}
+
+@media (max-width: 992px) {
+	section table{
+		display: block !important;
+	}
+	section table tr{
+		table-layout: none !important;
+		width: 100% !important;
+		display: block;
+		border: none;
+	}
+	section table th{
+		display: none;
+	}
+	section table td.isempty{
+		display: none;
+	}
+	section table td.timeslot{
+		padding-top: 30px;
+		font-size: 1.2em!important;
+		border-bottom: dotted 1px lightgray;
+	}
+	section table td.regular-slot .rooms-slot {
+	    display: block;
+		white-space: nowrap;
+		padding-bottom: 5px;
+		font-size: 0.8em;
+	}
+	section table td.regular-slot.g-extra.g-break .rooms-slot {
+		display: none !important;
+	}
+	section table td.regular-slot .rooms-slot::before {
+	  /*content: "Room: ";*/
+	}
+	section table td{
+		display: block;
+		margin-top: 5px;
+		width: 100% !important;
+		border: none;
+	}
+	.btn-group{
+		text-align: center;
+		margin: 50px;
+		margin-left: 0px !important;
+		margin-right: 0px !important;
+		display: block !important;
+	    justify-content: center;
+	    align-items: center;
+	}
+	.btn-group .btn{
+		width: 100% !important;
+		display: block!important;
+	}
+}
