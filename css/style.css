@@ -118,7 +118,7 @@ header .container{
 	padding-top: 60px;
 }
 header.bg-light {
-    background-image: url("../img/bg1_Vienna.jpg");
+    background-image: url("../img/ghent.jpg");
     background-color: white !important;
     background-repeat: no-repeat;
     background-size: cover;
@@ -127,8 +127,8 @@ header.bg-light {
 @media (min-width: 1024px) {
     header.bg-light {
         background-image: 
-            linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), 
-            url("../img/bg1_Vienna.jpg"); 
+            linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), 
+            url("../img/ghent.jpg"); 
 		background-attachment: fixed; 
     }
 }
