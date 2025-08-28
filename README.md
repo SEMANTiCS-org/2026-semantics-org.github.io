@@ -1,2 +1,2 @@
-# 2026-semantics
-SEMANTiCS 2026
+#SEMANTiCS 2026
+22nd International Conference on Semantic Systems
