@@ -1,7 +1,7 @@
 # Registration
-Join us from September 3 - 5, 2025 Vienna for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.
+Join us from September 3 - 5, 2026 Vienna for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.
 
-**Do not miss our early bird registration deadline: August 11, 2025.** 
+**Do not miss our early bird registration deadline: August 11, 2026.** 
 
 
 <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
@@ -91,10 +91,10 @@ Join us from September 3 - 5, 2025 Vienna for the leading European conference on
       </tr>
       <tr class="row11 tr-summary">
         <td class="">&nbsp;</td>
-        <td class=""><a href="https://www.conftool.org/semantics2025/" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2025/" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="https://www.conftool.org/semantics2025/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="https://www.conftool.org/semantics2025/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2026/" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2026/" type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2026/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
+        <td class=""><a href="https://www.conftool.org/semantics2026/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
       </tr>
     </tbody>
 </table>
