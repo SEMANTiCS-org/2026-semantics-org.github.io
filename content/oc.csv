@@ -1,7 +1,28 @@
 Conference Committee Group,Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation,image
-GENERAL CHAIRS,General Chair,Sahar Vahdati,,,,,"Hannover – Germany",LUH/TIB - Leibniz Information Centre for Science and Technology,Sahar_Vahdati.png
-GENERAL CHAIRS,General Chair,Angelo Salatino,,,,,"Milton Keynes – UK","KMi, The Open University",Salatino_Angelo.png
-EVENT COORDINATORS,Event  Coordinator,Julia Holze,,,,,"Leipzig – Germany",Institute for Applied Informatics (InfAI),JuliaHolze.jpg
-EVENT COORDINATORS,Event  Coordinator,Blerina Spahiu,,,,,"Milan – Italy",University of Milan - Bicocca,Blerina_Spahiu.jpeg
-LOCAL ORGANIZERS,Local  Organizer,Pieter Colpaert,,,,,"Ghent – Belgium","Ghent University–IDLab–imec",Pieter.jpg
-LOCAL ORGANIZERS,Local  Organizer,Danica D'hont,,,,,"Ghent – Belgium","Delivery manager KNoWS IDLab, imec research group at Ghent University",Danica.jpg
+GENERAL CHAIRS,General Chair,Sahar Vahdati,,,,,"Hannover, Germany",LUH/TIB - Leibniz Information Centre for Science and Technology,Sahar_Vahdati.png
+GENERAL CHAIRS,General Chair,Angelo Salatino,,,,,"Milton Keynes, UK","KMi, The Open University",Salatino_Angelo.png
+LOCAL ORGANIZERS,Local  Organizer,Pieter Colpaert,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Pieter.jpg
+LOCAL ORGANIZERS,Local  Organizer,Danica D'hont,,,,,"Ghent, Belgium","Delivery manager KNoWS IDLab, imec research group at Ghent University",Danica.jpg
+EVENT COORDINATORS,Senior Event Coordinator,Julia Holze,,,,,"Leipzig, Germany",Institute for Applied Informatics (InfAI),JuliaHolze.jpg
+EVENT COORDINATORS,Event  Coordinator,Blerina Spahiu,,,,,"Milan, Italy",University of Milan - Bicocca,Blerina_Spahiu.jpeg
+RESEARCH AND INNOVATION CHAIR,Research and Innovation Chair,Cogan Shimizu,,,,,"Dayton OH, USA",Wright State University,Cogan_Shimizu.jpg
+RESEARCH AND INNOVATION CHAIR,Research and Innovation Chair,Annette ten Teije,,,,,"Amsterdam, Netherlands",VU University Amsterdam,Annette_Ten_Teije.jpeg
+WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chair,Rosa Filgueira,,,,,"Edinburgh, UK","EPCC, University of Edinburgh",Filgueira_Rosa.png
+WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chair,Beyza Yaman,,,,,"Dublin, Ireland",Trinity College Dublin,Beyza_Yaman.jpg
+POSTER AND DEMO CHAIRS,Poster and Demo Chair,Genet Asefa Gesese,,,,,"Karlsruhe, Germany","FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT)",Gesese_Genet_Asefa.jpg
+POSTER AND DEMO CHAIRS,Poster and Demo Chair,Eleni Ilkou,,,,,"Hannover, Germany",TIB - German National Library of Science and Technology,Ilkou_Eleni.jpg
+INDUSTRY CHAIRS,Industry Chair,Marco Brattinga,,,,,"Netherlands",Ordina,Marco_Brattinga.jpg
+INDUSTRY CHAIRS,Industry Chair,Aad Versteden,,,,," Leuven, Belgium",Ordina,Aad_Versteden.jpg
+INDUSTRY CHAIRS,Industry Chair,Kathrin Füllenbach,,,,,"Amsterdam, Netherlands",eccenca,Fuellenbach_Kathrin.jpg
+PROGRAM CHAIRS,Program Chair,Francesco Osborne,,,,,"Milton Keynes, UK","KMi, The Open University",Francesco_Osborne.jpeg
+PROGRAM CHAIRS,Program Chair,Anastasia Dimou,,,,,"Leuven, Belgium",KU Leuven,Anastasia_Dimou.jpg
+SPONSORING CHAIRS,Sponsoring  Chair,Martin Kaltenböck,,,,,"Vienna, Austria",Semantic Web Comany,Martin_Kaltenbock.jpg
+SPONSORING CHAIRS,Sponsoring  Chair,Ernesto Jimenez Ruis,,,,,"London, UK","City St George's, University of London",
+PROCEEDINGS CHAIRS,Proceedings Chair,Tassilo Pellegrini,,,,,"Austria",UAS St. Pölten,Tassilo_Pellegrini.jpeg
+PROCEEDINGS CHAIRS,Proceedings Chair,Giray Havur,,,,,"Austria",UAS St. Pölten,giray.jpeg
+PUBLICITY CHAIRS,Publicity Chair,Daniel Dobriy,,,,,"Vienna, Austria","Vienna University of Economics and Business",
+PUBLICITY CHAIRS,Publicity Chair,Tilahun Abedissa Taffa,,,,,"Lüneburg, Germany","AIX, Leuphana University Lüneburg",Tilahun_Abedissa.jpg
+WEB CHAIRS,Web Chair,Sanaz Alipour,,,,,"Tabriz, Iran",,SanazAlpr.jpg
+WEB CHAIRS,Web Chair,Martino Pulici,,,,,"Stuttgart, Germany",Bosch Center for Artificial Intelligence / LMU München,Martino_Pulici.jpg
+DIGITAL CONTENT CHAIRS,Digital Content Chair,Mélisa Machuret,,,,,"Bogotá, Colombia",Prompt-That,Melisa_Machuret.jpg
+AI FOR GOOD CHAIR,AI for Good Chair,Daniel Mietchen,,,,,"Germany",Wikicite/zbMath/Fiz Karlsruhe,Daniel_Mietchen2.jpg
