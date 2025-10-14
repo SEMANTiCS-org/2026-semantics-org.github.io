@@ -19,4 +19,4 @@ The call is open to action participants affiliated in ITCs [(Inclusiveness Targe
 Please check the call for [ITC conference grants](https://drive.google.com/file/d/11Vzbn7FBVN7kVoKnRGVi_Ua7FxqHYn8m/view) for more details and the grant application process.
 
 The grant can be used to offset costs such as travel, accommodation, subsistence, and registration fees.
-We look forward to welcoming GOBLIN-funded participants to Vienna for SEMANTiCS 2025, taking place from 3–5 September – **see you there!**
+We look forward to welcoming GOBLIN-funded participants to Vienna for SEMANTiCS 2026, taking place from 3–5 September – **see you there!**

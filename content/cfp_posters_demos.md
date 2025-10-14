@@ -6,13 +6,13 @@ The Posters & Demos Track offers an informal setting that promotes engagement an
 
 ## Important dates
 
--   **Paper Submission Deadline**: <del>June 13, 2025</del> July 4, 2025
--   **Notification of Acceptance**: <del>July 21, 2025</del>  July 31, 2025
--   **Camera-Ready Paper Deadline**: <del>July 28, 2025</del> August 16, 2025
+-   **Paper Submission Deadline**: <del>June 13, 2026</del> July 4, 2026
+-   **Notification of Acceptance**: <del>July 21, 2026</del>  July 31, 2026
+-   **Camera-Ready Paper Deadline**: <del>July 28, 2026</del> August 16, 2026
 
-__Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2025](https://easychair.org/conferences/?conf=semantics2025).__
+__Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2026](https://easychair.org/conferences/?conf=semantics2026).__
 
-Proceedings of SEMANTiCS 2025 EU will be made available open access by CEUR-WS.org.
+Proceedings of SEMANTiCS 2026 EU will be made available open access by CEUR-WS.org.
 
 ## Topics of Interest
 

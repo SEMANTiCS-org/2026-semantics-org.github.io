@@ -83,6 +83,21 @@
 </style>
 
 <div class="timeline-container">
+  <!-- 2025 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/semantics2025-logo.png" alt="SEMANTiCS 2025 Logo">
+    <div class="timeline-year">2025 — SEMANTiCS 2025</div>
+    <div class="timeline-desc">21st International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings of the Research and Innovation Track – 
+      <a href="https://ebooks.iospress.nl/doi/10.3233/SSW62">Linking Meaning: Semantic Technologies Shaping the Future of AI</a><br>
+      Posters, demos and workshop proceedings – 
+      <a href="https://ceur-ws.org/Vol-4064/">Posters, Demos, Workshops, and Tutorials</a>
+    </div>
+    <div class="timeline-website">
+      <a href="https://2025-eu.semantics.cc/">Website</a>
+    </div>
+  </div>
   <!-- 2024 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2024-logo.png" alt="SEMANTiCS 2024 Logo">

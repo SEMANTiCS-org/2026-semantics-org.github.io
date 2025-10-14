@@ -16,7 +16,7 @@ All participants must:
 * Respect the intellectual property of others and adhere to standards of academic integrity and attribution.
 Follow the rules and guidelines of the conference, including session formats and timekeeping.
 
-This Code of Conduct applies to **all aspects of SEMANTiCS 2025**.
+This Code of Conduct applies to **all aspects of SEMANTiCS 2026**.
 
 
 ## Reporting Misconduct
@@ -39,4 +39,4 @@ An appeals process will be made available to those subject to disciplinary actio
 
 
 ## Commitment to an Inclusive Research Community
-SEMANTiCS actively promotes equality, diversity, and inclusion in the academic community. This Code of Conduct complements our [EDI policy](https://2025-eu.semantics.cc/page/edi) and reflects our collective responsibility to uphold the highest standards of professionalism and respect.
+SEMANTiCS actively promotes equality, diversity, and inclusion in the academic community. This Code of Conduct complements our [EDI policy](https://2026-eu.semantics.cc/page/edi) and reflects our collective responsibility to uphold the highest standards of professionalism and respect.

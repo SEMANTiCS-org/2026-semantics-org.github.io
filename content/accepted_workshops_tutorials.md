@@ -14,7 +14,7 @@ Accepted workshops
     }
 </style>
 <div class="aw">
-<p id="sem4tra" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semantic-transportation.github.io/sem4tra-kg-website/">Semantics for Transport 2025 (Sem4Tra25)</a></b></p>
+<p id="sem4tra" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semantic-transportation.github.io/sem4tra-kg-website/">Semantics for Transport 2026 (Sem4Tra25)</a></b></p>
 <p>This workshop seeks to advance the Mobility and Logistics Data Space through Semantic Web, Linked Data, and Knowledge Graph techniques. In scope are methods to query and reason over integrated data on the web that can help an end-user plan and book a trip from A to B, as well as extract insights and share information for supply chain operations management. We target researchers and practitioners who are contributing to the transformation of passenger and freight transportation by proposing new solutions based on semantic techniques and technologies. The workshop is an opportunity to disseminate and discuss use cases and studies demonstrating the application of semantic and web technologies in the broader transportation domain to tackle the aforementioned challenges.</p>
 <p style="font-size: 21px; color: #2A709F"><b>Organizers:</b></p>
 <ul>
@@ -29,7 +29,7 @@ Accepted workshops
 </div>
 <br>
 <div class="aw">
-<p id="kgnesy" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">Second Workshop on Knowledge Graphs and Neurosymbolic AI (KG-NeSy)</a></b></p>
+<p id="kgnesy" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2026">Second Workshop on Knowledge Graphs and Neurosymbolic AI (KG-NeSy)</a></b></p>
 <p>This workshop aims to explore research topics in the intersection of Knowledge Graphs and Neurosymbolic AI. Neurosymbolic AI/Machine Learning techniques can be applied to construct and refine Knowledge Graphs, contributing to their ongoing evolution. Simultaneously,
 leveraging Knowledge Graphs for learning in Neurosymbolic AI allows intelligent systems to draw insights from structured and unstructured symbolic representations, paving the way for more informed AI models and improving interpretability and transparency in
 their decision-making process.</p>
@@ -43,11 +43,11 @@ articles are also welcome.</p>
 <li><p>Andreas Ekelhart, University of Vienna, Austria</p></li>
 <li><p>Sebastian Neumaier, St. Pölten University of Applied Sciences, Austria</p></li>
 </ul>
-<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2025">website</a></b></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sites.google.com/view/kgnesy2026">website</a></b></p>
 </div>
 <br>
 <div class="aw">
-<p id="SemDev" style="font-size: 21px;"><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2025.semdev.org/">Developers Workshop (SemDev)</a></b></p>
+<p id="SemDev" style="font-size: 21px;"><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2026.semdev.org/">Developers Workshop (SemDev)</a></b></p>
 <p>While academia and industry are active in the Semantic Web and Knowledge Graph domains, there is often a disconnect between these two worlds. In this workshop, we invite developers of both worlds to present and discuss their software. Furthermore, by bringing people from academia and industry physically together, this workshop will provide a discussion ground for identifying open problems that are relevant to both sides. Besides putting a spotlight on Semantic Web software, the workshop aims to pinpoint opportunities for future research and implementations. In this workshop, we invite talks about the software you created, live demonstrations of your software, and discussion on specific topics.</p>
 <p style="font-size: 21px; color: #2A709F"><b>Organizers:</b></p>
 <ul>
@@ -55,12 +55,12 @@ articles are also welcome.</p>
 <li><p>Jindřich Mynarz, MSD Czech Republic, Prague, Czech Republic</p></li>
 <li><p>Jerven Bolleman, Swiss-Prot Group, SIB Swiss Institute of Bioinformatics, Geneva, Switzerland</p></li>
 </ul>
-<p><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2025.semdev.org/">website</a></b></p>
+<p><b><a style="text-decoration: none;  margin: 0 !important" target="_blank" href="https://semantics2026.semdev.org/">website</a></b></p>
 </div>
 <br>
 <div class="aw">
 <p id="SymGenAI4Sci" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://sga4s.semantic.foundation/">International Workshop on Symbolic and Generative AI for Science (SymGenAI4Sci)</a></b></p>
-<p>The rapid advancement of Generative Artificial Intelligence (GenAI) has revolutionized various fields, including natural language processing, computer vision, and creative industries. Models such as GPT, DALL·E, and others have demonstrated the immense potential of generative AI in creating realistic, coherent, and often groundbreaking outputs across a wide range of domains. However, the application of these generative models to scientific discovery and problem-solving remains an emerging area, filled with opportunities and challenges. Science is inherently generative: it involves creating hypotheses, designing experiments, interpreting data, and communicating results. Generative AI has the potential to augment these processes by automating routine tasks, enabling hypothesis generation, synthesizing complex information, and uncovering insights from vast datasets. Scientific data is often sparse, noisy, and domain-specific, requiring models to understand and adhere to rigorous scientific principles and constraints. Issues such as model interpretability, reproducibility, and ethical use are particularly critical in scientific applications, where errors or biases can have far-reaching consequences. The SymGenAI4Sci 2025 workshop aims to address these challenges and explore the transformative potential of symbolic and generative AI in scientific research</p>
+<p>The rapid advancement of Generative Artificial Intelligence (GenAI) has revolutionized various fields, including natural language processing, computer vision, and creative industries. Models such as GPT, DALL·E, and others have demonstrated the immense potential of generative AI in creating realistic, coherent, and often groundbreaking outputs across a wide range of domains. However, the application of these generative models to scientific discovery and problem-solving remains an emerging area, filled with opportunities and challenges. Science is inherently generative: it involves creating hypotheses, designing experiments, interpreting data, and communicating results. Generative AI has the potential to augment these processes by automating routine tasks, enabling hypothesis generation, synthesizing complex information, and uncovering insights from vast datasets. Scientific data is often sparse, noisy, and domain-specific, requiring models to understand and adhere to rigorous scientific principles and constraints. Issues such as model interpretability, reproducibility, and ethical use are particularly critical in scientific applications, where errors or biases can have far-reaching consequences. The SymGenAI4Sci 2026 workshop aims to address these challenges and explore the transformative potential of symbolic and generative AI in scientific research</p>
 
 <p style="font-size: 21px; color: #2A709F"><b>Organizers:</b></p>
 <ul>
@@ -75,10 +75,10 @@ articles are also welcome.</p>
 
 
 <div class="aw">
-<p id="NXDG" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2025">2nd NeXt-Generation Data Governance workshop (NXDG)</a></b></p>
+<p id="NXDG" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2026">2nd NeXt-Generation Data Governance workshop (NXDG)</a></b></p>
 
-<p>It's 2025 and we still can't visit any website without clicking ""Yes"" on a cookie banner, exchanging access to our most private data for the right to browse around. Managing and enforcing our privacy preferences in a personalised manner is also quite challenging. Additionally, data protection laws are emerging exponentially following in the footsteps of the GDPR. </p>
-<p>In this context, the NeXt-generation Data Governance 2025 workshop aims to bring together technical, legal and societal researchers, and industry experts to discuss data governance, emergence of data spaces and the impact of the European strategy for data in such systems. The workshop aims to support the development of solutions to manage data, policies and provenance in a trustful and interoperable manner and to aid in the management and reporting of legal documentation falling from the EU’s GDPR for data protection and the DGA, Data Act, AI Act and EHDS to create legally-aligned, AI-powered data ecosystems, using semantic-based specifications such as ODRL, DPV or Solid. As such, this workshop will have presentations and discussions of interest to both data providers and consumers, researchers, standardisation bodies, businesses, and citizens who want to interoperate in the Data Spaces era.</p>
+<p>It's 2026 and we still can't visit any website without clicking ""Yes"" on a cookie banner, exchanging access to our most private data for the right to browse around. Managing and enforcing our privacy preferences in a personalised manner is also quite challenging. Additionally, data protection laws are emerging exponentially following in the footsteps of the GDPR. </p>
+<p>In this context, the NeXt-generation Data Governance 2026 workshop aims to bring together technical, legal and societal researchers, and industry experts to discuss data governance, emergence of data spaces and the impact of the European strategy for data in such systems. The workshop aims to support the development of solutions to manage data, policies and provenance in a trustful and interoperable manner and to aid in the management and reporting of legal documentation falling from the EU’s GDPR for data protection and the DGA, Data Act, AI Act and EHDS to create legally-aligned, AI-powered data ecosystems, using semantic-based specifications such as ODRL, DPV or Solid. As such, this workshop will have presentations and discussions of interest to both data providers and consumers, researchers, standardisation bodies, businesses, and citizens who want to interoperate in the Data Spaces era.</p>
 
 <p style="font-size: 21px; color: #2A709F"><b>Organizers:</b></p>
 
@@ -87,11 +87,11 @@ articles are also welcome.</p>
 <li><p>Harshvardhan Pandit, ADAPT Centre, Dublin City University</p></li>
 <li><p>Ruben Verborgh, UGent-imec, Ghent</p></li>
 </ul>
-<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2025">website</a></b></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://w3id.org/nxdg/2026">website</a></b></p>
 </div>
 <br>
 <div class="aw">
-<p id="SENTIS" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2025/">Leveraging Semantics for Transparency in Industrial Systems (SENTIS)</a></b></p>
+<p id="SENTIS" style="font-size: 21px;"><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2026/">Leveraging Semantics for Transparency in Industrial Systems (SENTIS)</a></b></p>
 <p>As industrial systems evolve from hardware-centric systems with guaranteed deterministic performance into distributed software-oriented ecosystems, their complexity increases significantly. Catalyzed by the convergence of Information Technology (IT) and Operational Technology (OT) alongside the integration of Machine Learning (ML) and Artificial Intelligence (AI), it becomes increasingly challenging to understand the internal workings of these systems. Semantic modeling and reasoning can play a key role in enhancing transparency and explainability by providing formal representations and a common language to capture the relationships, dependencies, and decision-making processes within these complex industrial systems. The SENTIS workshop aims to connect practitioners in the domain of industrial systems with researchers by providing a platform for presentation of projects as well as individual research contributions.</p>
 
 <p style="font-size: 21px; color: #2A709F"><b>Organizers:</b></p>
@@ -102,7 +102,7 @@ articles are also welcome.</p>
 <li><p>Gernot Steindl, TU Vienna/FH Burgenland</p></li>
 <li><p>Katrin Schreiberhuber, WU Vienna</p></li>
 </ul>
-<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2025/">website</a></b></p>
+<p><b><a style="text-decoration: none; margin: 0 !important" target="_blank" href="https://semsys.ai.wu.ac.at/sentis2026/">website</a></b></p>
 </div>
 <br>
 

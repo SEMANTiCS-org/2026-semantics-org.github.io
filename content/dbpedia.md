@@ -1,5 +1,5 @@
-# DBpedia Day 2025
-SEMANTiCS 2025 will host the **DBpedia Day** on September 3, 2025 in Vienna, Austria.
+# DBpedia Day 2026
+SEMANTiCS 2026 will host the **DBpedia Day** on September 3, 2026 in Vienna, Austria.
 
 ## Community Meeting
 [DBpedia](https://www.dbpedia.org/) is an international crowd-sourced community effort to extract structured information from Wikipedia, Wikidata and Wikimedia Commons and to make this information available on the Web as Linked Open Data. 

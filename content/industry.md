@@ -4,19 +4,19 @@ The Industry &amp; Use Case track at SEMANTiCS welcomes submissions that present
 
 ## Important dates
 
--   **Submission Deadline**: <span style="color:gray; text-decoration: line-through;">May 14, 2025 (11:59 pm)</span>   June 1, 2025 (11:59 pm)
--   **Notification of Acceptance:** June 30, 2025 (11:59 pm)
--   **Presentation Ready:** August 18, 2025 (11:59 pm)
+-   **Submission Deadline**: <span style="color:gray; text-decoration: line-through;">May 14, 2026 (11:59 pm)</span>   June 1, 2026 (11:59 pm)
+-   **Notification of Acceptance:** June 30, 2026 (11:59 pm)
+-   **Presentation Ready:** August 18, 2026 (11:59 pm)
 
 All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)
 
-**Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2025](https://easychair.org/conferences/?conf=semantics2025).** Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Any submission should contain a summary of 200 to 300 words that will be used in the final program. Your submission must also include a full page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that don’t meet these requirements cannot be taken into account.
+**Submission via Easychair on [https://easychair.org/conferences/?conf=semantics2026](https://easychair.org/conferences/?conf=semantics2026).** Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Any submission should contain a summary of 200 to 300 words that will be used in the final program. Your submission must also include a full page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that don’t meet these requirements cannot be taken into account.
 
 Via Easychair, you can enter your summary in the field “Abstract”, and the full page description via the “upload paper” button. The summary will appear in the program on the webpage, the full page description will only be used in the selection process.
 
 ## Topics of Interest
 
-SEMANTiCS 2025 especially invites contributions that target the following main topics in the context of semantic-based research and systems as well as applicative domains.
+SEMANTiCS 2026 especially invites contributions that target the following main topics in the context of semantic-based research and systems as well as applicative domains.
 
 Topics of interest include, but are not limited to:
 
@@ -39,11 +39,11 @@ Topics of interest include, but are not limited to:
 ## Author Guidelines and Submission
 
 -   This call for presentations reaches out to professionals in the areas related to the topics of SEMANTiCS for proposals to present industry implementations, best practices and use case prototypes, to discuss semantic systems in birds-of-a-feather sessions as well as informal settings. Additionally, we explicitly encourage the submission of software applications, apps or services that demonstrate the usefulness and benefits of semantic technologies and semantic data management.
--   To contribute a submission for a presentation at SEMANTiCS 2025 please prepare the following: Fill out the online application at Easychair and give us relevant information about your expertise and your professional background.
+-   To contribute a submission for a presentation at SEMANTiCS 2026 please prepare the following: Fill out the online application at Easychair and give us relevant information about your expertise and your professional background.
 -   Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. Any submission should contain a summary of 200 to 300 words that will be used in the final program. Your submission must also include a full page description of the use case you want to present, iIn particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that don’t meet these requirements cannot be taken into account.
 -   Via Easychair, you can enter your summary in the field “Abstract”, and the full page description via the “upload paper” button. The summary will appear in the program on the webpage, the full page description will only be used in the selection process.
 -   All accepted submissions will be granted a presentation slot at the main conference. Please stick to this time pattern when preparing your talk. This is the only way we can guarantee a smooth and satisfying programme and allow all conference participants to attend as many slots as possible without missing important information.
--   Submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS full policy for more details: https://2025-eu.semantics.cc/page/llm-policy
+-   Submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS full policy for more details: https://2026-eu.semantics.cc/page/llm-policy
 
 When your submission is accepted and you are preparing your talk, please take care to address the following aspects:
 

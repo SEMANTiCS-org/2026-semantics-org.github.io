@@ -22,7 +22,7 @@ At **SEMANTiCS**, we are committed to fostering an inclusive, diverse, and fair 
 
 
 * **Safe and Respectful Environment:**
- A clear [Code of Conduct](https://2025-eu.semantics.cc/page/coc) guides interactions at the conference, with procedures in place for confidentially reporting and addressing harassment or discrimination.
+ A clear [Code of Conduct](https://2026-eu.semantics.cc/page/coc) guides interactions at the conference, with procedures in place for confidentially reporting and addressing harassment or discrimination.
 
 
 * **Continuous Reflection and Growth:**
