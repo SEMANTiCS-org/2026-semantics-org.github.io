@@ -1,30 +1,32 @@
 Conference Committee Group,Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation,image
-GENERAL CHAIRS,General Chair,Sahar Vahdati,,,,,"Hannover, Germany",LUH/TIB - Leibniz Information Centre for Science and Technology,Sahar_Vahdati.png
-GENERAL CHAIRS,General Chair,Angelo Salatino,,,,,"Milton Keynes, UK","KMi, The Open University",Salatino_Angelo.png
-LOCAL ORGANIZERS,Local  Organizer,Pieter Colpaert,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Pieter.jpg
-LOCAL ORGANIZERS,Local  Organizer,Danica D'hont,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Danica.jpg
-LOCAL ORGANIZERS,Local  Organizer,Femke Ongenae,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Femke_Ongenae.png
-EVENT COORDINATORS,Senior Event Coordinator,Julia Holze,,,,,"Leipzig, Germany",Institute for Applied Informatics (InfAI),JuliaHolze.jpg
-EVENT COORDINATORS,Event  Coordinator,Blerina Spahiu,,,,,"Milan, Italy",University of Milan - Bicocca,Blerina_Spahiu.jpeg
-RESEARCH AND INNOVATION CHAIRS,Research and Innovation  Chair,Cogan Shimizu,,,,,"Dayton OH, USA",Wright State University,Cogan_Shimizu.jpg
-RESEARCH AND INNOVATION CHAIRS,Research and Innovation  Chair,Annette ten Teije,,,,,"Amsterdam, Netherlands",VU University Amsterdam,Annette_Ten_Teije.jpeg
-WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chair,Rosa Filgueira,,,,,"Edinburgh, UK","EPCC, University of Edinburgh",Filgueira_Rosa.png
-WORKSHOP AND TUTORIALS CHAIRS,Workshop and Tutorials Chair,Beyza Yaman,,,,,"Dublin, Ireland",Trinity College Dublin,Beyza_Yaman.jpg
-POSTER AND DEMO CHAIRS,Poster and Demo Chair,Genet Asefa Gesese,,,,,"Karlsruhe, Germany","FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT)",Gesese_Genet_Asefa.jpg
-POSTER AND DEMO CHAIRS,Poster and Demo Chair,Eleni Ilkou,,,,,"Hannover, Germany",TIB - German National Library of Science and Technology,Ilkou_Eleni.jpg
-INDUSTRY CHAIRS,Industry Chair,Marco Brattinga,,,,,"Netherlands",Sopra Steria,Marco_Brattinga.jpg
-INDUSTRY CHAIRS,Industry Chair,Aad Versteden,,,,,"Belgium",redpencil.io,Aad_Versteden.jpg
-INDUSTRY CHAIRS,Industry Chair,Kathrin Füllenbach,,,,,"Amsterdam, Netherlands",eccenca,Fuellenbach_Kathrin.jpg
-PROGRAM CHAIRS,Program Chair,Francesco Osborne,,,,,"Milton Keynes, UK","KMi, The Open University",Francesco_Osborne.jpeg
-PROGRAM CHAIRS,Program Chair,Anastasia Dimou,,,,,"Leuven, Belgium",KU Leuven,Anastasia_Dimou.jpg
-SPONSORING CHAIRS,Sponsoring  Chair,Martin Kaltenböck,,,,,"Vienna, Austria",Semantic Web Comany,Martin_Kaltenbock.jpeg
-SPONSORING CHAIRS,Sponsoring  Chair,Ernesto Jimenez Ruis,,,,,"London, UK","City St George's, University of London",any.png
-PROCEEDINGS CHAIRS,Proceedings Chair,Tassilo Pellegrini,,,,,"Austria",UAS St. Pölten,Tassilo_Pellegrini.jpeg
-PROCEEDINGS CHAIRS,Proceedings Chair,Giray Havur,,,,,"Austria",UAS St. Pölten,giray.jpeg
-PUBLICITY CHAIRS,Publicity Chair,Daniel Dobriy,,,,,"Vienna, Austria","Vienna University of Economics and Business",any.png
-PUBLICITY CHAIRS,Publicity Chair,Tilahun Abedissa Taffa,,,,,"Lüneburg, Germany","AIX, Leuphana University Lüneburg",Tilahun_Abedissa.jpg
-WEB CHAIRS,Web Chair,Sanaz Alipour,,,,,"Tabriz, Iran",Nature Inspired Machine Intelligence - The Institute for Applied Computer Science (NIMI-InfAI),SanazAlpr.jpg
-WEB CHAIRS,Web Chair,Martino Pulici,,,,,"Stuttgart, Germany",Bosch Center for Artificial Intelligence / LMU München,Martino_Pulici.jpg
-DIGITAL CONTENT CHAIRS,Digital Content Chair,Mélisa Machuret,,,,,"Bogotá, Colombia",Prompt-That,Melisa_Machuret.jpg
-WOMEN IN in AI CHAIR,Women in AI Chair,Simona Claudia Motogna,,,,,"Romania",Babeș-Bolyai University,any.png
-AI FOR GOOD CHAIR,AI for Good  Chair,Daniel Mietchen,,,,,"Berlin, Germany","FIZ Karlsruhe / zbMATH",Daniel_Mietchen.jpg
+GENERAL CHAIRS,,Sahar Vahdati,,,,,"Hannover, Germany",LUH/TIB - Leibniz Information Centre for Science and Technology,Sahar_Vahdati.png
+GENERAL CHAIRS,,Angelo Salatino,,,,,"Milton Keynes, UK","KMi, The Open University",Salatino_Angelo.png
+LOCAL ORGANISERS,,Pieter Colpaert,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Pieter.jpg
+LOCAL ORGANISERS,,Danica D'hont,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Danica.jpg
+LOCAL ORGANISERS,,Femke Ongenae,,,,,"Ghent, Belgium","Ghent University–IDLab–imec",Femke_Ongenae.png
+EVENT COORDINATORS,Senior Coordinator,Julia Holze,,,,,"Leipzig, Germany",Institute for Applied Informatics (InfAI),JuliaHolze.jpg
+EVENT COORDINATORS,,Blerina Spahiu,,,,,"Milan, Italy",University of Milan - Bicocca,Blerina_Spahiu.jpeg
+RESEARCH AND INNOVATION CHAIRS,,Cogan Shimizu,,,,,"Dayton OH, USA",Wright State University,Cogan_Shimizu.jpg
+RESEARCH AND INNOVATION CHAIRS,,Annette ten Teije,,,,,"Amsterdam, Netherlands",VU University Amsterdam,Annette_Ten_Teije.jpeg
+WORKSHOP AND TUTORIALS CHAIRS,,Rosa Filgueira,,,,,"Edinburgh, UK","EPCC, University of Edinburgh",Filgueira_Rosa.png
+WORKSHOP AND TUTORIALS CHAIRS,,Beyza Yaman,,,,,"Dublin, Ireland",Trinity College Dublin,Beyza_Yaman.jpg
+POSTER AND DEMO CHAIRS,,Genet Asefa Gesese,,,,,"Karlsruhe, Germany","FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT)",Gesese_Genet_Asefa.jpg
+POSTER AND DEMO CHAIRS,,Eleni Ilkou,,,,,"Hannover, Germany",TIB - German National Library of Science and Technology,Ilkou_Eleni.jpg
+INDUSTRY CHAIRS,,Marco Brattinga,,,,,"Netherlands",Sopra Steria,Marco_Brattinga.jpg
+INDUSTRY CHAIRS,,Aad Versteden,,,,,"Belgium",redpencil.io,Aad_Versteden.jpg
+INDUSTRY CHAIRS,,Kathrin Füllenbach,,,,,"Amsterdam, Netherlands",eccenca,Fuellenbach_Kathrin.jpg
+PROGRAM CHAIRS,,Francesco Osborne,,,,,"Milton Keynes, UK","KMi, The Open University",Francesco_Osborne.jpeg
+PROGRAM CHAIRS,,Anastasia Dimou,,,,,"Leuven, Belgium",KU Leuven,Anastasia_Dimou.jpg
+INTERACTIVE SESSION CHAIRS,,Ute John,,,,,"Wendland, Germany",GfWM,Ute_John.jpg
+INTERACTIVE SESSION CHAIRS,,Christian Dirschl,,,,,"Munich, Germany",Wolters Kluwer,Christian_Dirschl.jpg
+SPONSORING CHAIRS,,Martin Kaltenböck,,,,,"Vienna, Austria",Semantic Web Comany,Martin_Kaltenbock.jpeg
+SPONSORING CHAIRS,,Ernesto Jiménez-Ruiz,,,,,"London, UK","City St George's, University of London",Ernesto_Jimenez-Ruiz.jpg
+PROCEEDINGS CHAIRS,,Tassilo Pellegrini,,,,,"Austria",UAS St. Pölten,Tassilo_Pellegrini.jpeg
+PROCEEDINGS CHAIRS,,Giray Havur,,,,,"Austria",UAS St. Pölten,giray.jpeg
+PUBLICITY CHAIRS,,Daniel Dobriy,,,,,"Vienna, Austria","Vienna University of Economics and Business",Daniel_Dobriy.png
+PUBLICITY CHAIRS,,Tilahun Abedissa Taffa,,,,,"Lüneburg, Germany","AIX, Leuphana University Lüneburg",Tilahun_Abedissa.jpg
+WEB CHAIRS,,Sanaz Alipour,,,,,"Tabriz, Iran",Nature Inspired Machine Intelligence - The Institute for Applied Computer Science (NIMI-InfAI),SanazAlpr.jpg
+WEB CHAIRS,,Martino Pulici,,,,,"Stuttgart, Germany",Bosch Center for Artificial Intelligence / LMU München,Martino_Pulici.jpg
+DIGITAL CONTENT CHAIRS,,Mélisa Machuret,,,,,"Bogotá, Colombia",Prompt-That,Melisa_Machuret.jpg
+WOMEN IN AI CHAIR,,Simona Claudia Motogna,,,,,"Romania",Babeș-Bolyai University,Simona_Motogna.jpg
+AI FOR GOOD CHAIR,,Daniel Mietchen,,,,,"Berlin, Germany","FIZ Karlsruhe / zbMATH",Daniel_Mietchen.jpg
