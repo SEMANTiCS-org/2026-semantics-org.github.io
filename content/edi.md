@@ -26,11 +26,11 @@ At **SEMANTiCS**, we are committed to fostering an inclusive, diverse, and fair 
 
 
 * **Continuous Reflection and Growth:**
- We actively seek community feedback to improve our EDI practices and ensure that SEMANTiCS continues to evolve in alignment with these values.
+ We actively seek community feedback to improve our Equity, Diversity, and Inclusion practices and ensure that SEMANTiCS continues to evolve in alignment with these values.
 
 
 * **Open Science Policy:**
-To fully support its DEI activities, SEMANTiCS is dedicated to an **open science policy** founded on three pillars: (i) open access, (ii) open reviews, and (iii) open formats. This policy is constantly updated and adjusted to latest developments, ensuring international alignment and professional standards.
+To fully support its Equity, Diversity, and Inclusion activities, SEMANTiCS is dedicated to an **open science policy** founded on three pillars: (i) open access, (ii) open reviews, and (iii) open formats. This policy is constantly updated and adjusted to latest developments, ensuring international alignment and professional standards.
 
 
 By embedding these principles into the foundation of SEMANTiCS,in each edition  we aim not only to advance research in semantic technologies but also to cultivate a conference culture that champions fairness, inclusion, and meaningful participation.
