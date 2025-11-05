@@ -1,4 +1,4 @@
-# Equality, Diversity, and Inclusion Statement – SEMANTiCS 
+# Equity, Diversity, and Inclusion Statement – SEMANTiCS 
 
 <div style="text-align: center;">
   <img src="../img/edi.png" style="width: 70%; height: auto;" alt="">
