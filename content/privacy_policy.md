@@ -6,18 +6,22 @@ This page is to inform you of our policies regarding the collection, use and dis
 We may ask you to provide us with certain personal identifiable information that can be used to contact or identify you. Personal identifiable information may include, but is not limited to your name and your email address.
 
 ## Log Data
-Our site does not collect/register any information from you while visiting our Site.
+We neither collect nor process personal or any sort of information from you while visiting our site.
 
 ## Cookies
 Cookies are files with small amount of data, which may include an anonymous unique identifier. Cookies are sent to your browser from a web site and stored on your computer's hard drive.
-Like many sites, we use "cookies" to collect information. You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent.
+SEMANTiCS does not use any first-party cookies on our website. This means we do not place our own files on your device to collect or store information about your activity.
+However, our website relies on third-party services which may place their own cookies, as detailed below.
 
-## Changes To This Privacy Policy
-The SEMANTiCS consortium may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the Site. You are advised to review this Privacy Policy periodically for any changes.
+### Linked Services and Third-Party Cookies
+Our website utilizes third-party services, such as Google Drive solutions, to display certain content, including embedded Google Docs, Sheets, and files hosted on Google Drive. 
+When you access a page with this embedded content, you are directly interacting with servers operated by Google.
+Because this content is served directly from Google, they may use their own tracking technologies, including third-party cookies, to collect data about your interaction and usage in accordance with [Google Privacy Policy](https://policies.google.com/privacy). This information is not collected, stored, or controlled by SEMANTiCS.
 
-## Clarification on Large Language Model Policy
-We follow the guidelines from the Program Chairs about the fair use of Large Language Models (LLMs), which can be found in the main call for papers. Papers that include text generated from a large-scale language model (LLM), such as ChatGPT, are prohibited unless the produced text is presented as a part of the paper's experimental analysis. In essence, the policy expects the following:
+### Your Choices Regarding Cookies
+You can typically instruct your browser to refuse all cookies or to indicate when a cookie is being sent. Please note that refusing third-party cookies may affect how the embedded Google content displays or functions on our site.
+For more details on what information Google collects and how they use it, we strongly recommend reviewing the Google Privacy Policy directly.
 
-* The Large Language Model (LLM) policy for SEMANTiCS 2026 prohibits text produced entirely by LLMs (i.e., "generated"). This does not prohibit authors from using LLMs for editing or polishing the author-written text.
-* The LLM policy is largely predicated on the principle of being conservative with respect to guarding against potential issues of using LLMs, including plagiarism.
-* The LLM policy applies to SEMANTiCS 2026. We expect this policy to evolve in future conferences as we better understand LLMs and their impacts on scientific publishing.
+### Changes To This Privacy Policy
+The SEMANTiCS consortium may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the site. You are advised to review this Privacy Policy periodically for any changes.
+
