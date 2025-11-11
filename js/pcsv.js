@@ -106,7 +106,7 @@ function get_oc_csv(fcsv, page, container) {
                 group_num += 1;
               }
 
-              if (count == 2) {
+              if (count == 3) {
                 $("#"+container).append('<div class="row section-content persons '+group_class+'">'+group_html+'</div>');
                 group_html = "";
                 count = 0;
@@ -119,7 +119,7 @@ function get_oc_csv(fcsv, page, container) {
               if (add_person_role) {
                 html_body = html_body + '<div class="person-role">'+conf_role.toUpperCase()+'</div>';
               }
-              var str_html = '<div class="person col-sm-2">'+html_body+"</div>";
+              var str_html = '<div class="person col-sm-4">'+html_body+"</div>";
               group_html = group_html + str_html;
               count = count + 1;
           });
