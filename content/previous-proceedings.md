@@ -86,7 +86,7 @@
   <!-- 2025 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2025-logo.png" alt="SEMANTiCS 2025 Logo">
-    <div class="timeline-year">2025 — SEMANTiCS 2025</div>
+    <div class="timeline-year">SEMANTiCS 2025</div>
     <div class="timeline-desc">21st International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings of the Research and Innovation Track – 
@@ -101,7 +101,7 @@
   <!-- 2024 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2024-logo.png" alt="SEMANTiCS 2024 Logo">
-    <div class="timeline-year">2024 — SEMANTiCS 2024</div>
+    <div class="timeline-year">SEMANTiCS 2024</div>
     <div class="timeline-desc">20th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings of the Research and Innovation Track – 
@@ -117,7 +117,7 @@
   <!-- 2023 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2023-logo.png" alt="SEMANTiCS 2023 Logo">
-    <div class="timeline-year">2023 — SEMANTiCS 2023</div>
+    <div class="timeline-year">SEMANTiCS 2023</div>
     <div class="timeline-desc">19th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings of the Research and Innovation Track – 
@@ -133,7 +133,7 @@
   <!-- 2022 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2022-logo.png" alt="SEMANTiCS 2022 Logo">
-    <div class="timeline-year">2022 — SEMANTiCS 2022</div>
+    <div class="timeline-year">SEMANTiCS 2022</div>
     <div class="timeline-desc">18th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings of the Research and Innovation Track – 
@@ -149,7 +149,7 @@
   <!-- 2021 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2021-logo.png" alt="SEMANTiCS 2021 Logo">
-    <div class="timeline-year">2021 — SEMANTiCS 2021</div>
+    <div class="timeline-year">SEMANTiCS 2021</div>
     <div class="timeline-desc">17th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -165,7 +165,7 @@
   <!-- 2020 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2020-logo.png" alt="SEMANTiCS 2020 Logo">
-    <div class="timeline-year">2020 — SEMANTiCS 2020</div>
+    <div class="timeline-year">SEMANTiCS 2020</div>
     <div class="timeline-desc">16th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -181,7 +181,7 @@
   <!-- 2019 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2019-logo.png" alt="SEMANTiCS 2019 Logo">
-    <div class="timeline-year">2019 — SEMANTiCS 2019</div>
+    <div class="timeline-year">SEMANTiCS 2019</div>
     <div class="timeline-desc">15th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -197,7 +197,7 @@
   <!-- 2018 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2018-logo.png" alt="SEMANTiCS 2018 Logo">
-    <div class="timeline-year">2018 — SEMANTiCS 2018</div>
+    <div class="timeline-year">SEMANTiCS 2018</div>
     <div class="timeline-desc">14th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -211,7 +211,7 @@
   <!-- 2017 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2017-logo.png" alt="SEMANTiCS 2017 Logo">
-    <div class="timeline-year">2017 — SEMANTiCS 2017</div>
+    <div class="timeline-year">SEMANTiCS 2017</div>
     <div class="timeline-desc">13th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -225,7 +225,7 @@
   <!-- 2016 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2016-logo.png" alt="SEMANTiCS 2016 Logo">
-    <div class="timeline-year">2016 — SEMANTiCS 2016</div>
+    <div class="timeline-year">SEMANTiCS 2016</div>
     <div class="timeline-desc">12th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -239,7 +239,7 @@
   <!-- 2015 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2015-logo.png" alt="SEMANTiCS 2015 Logo">
-    <div class="timeline-year">2015 — SEMANTiCS 2015</div>
+    <div class="timeline-year">SEMANTiCS 2015</div>
     <div class="timeline-desc">11th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -253,7 +253,7 @@
   <!-- 2014 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2014-logo.png" alt="SEMANTiCS 2014 Logo">
-    <div class="timeline-year">2014 — SEMANTiCS 2014</div>
+    <div class="timeline-year">SEMANTiCS 2014</div>
     <div class="timeline-desc">10th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -267,7 +267,7 @@
   <!-- 2013 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2013-logo.jpg" alt="SEMANTiCS 2013 Logo">
-    <div class="timeline-year">2013 — I-SEMANTICS 2013</div>
+    <div class="timeline-year">I-SEMANTICS 2013</div>
     <div class="timeline-desc">9th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -281,7 +281,7 @@
   <!-- 2012 -->
   <div class="timeline-item">
     <!-- <img class="timeline-logo" src="../img/semantics2012-logo.png" alt="SEMANTiCS 2012 Logo"> -->
-    <div class="timeline-year">2012 — I-SEMANTICS 2012</div>
+    <div class="timeline-year">I-SEMANTICS 2012</div>
     <div class="timeline-desc">8th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -295,7 +295,7 @@
   <!-- 2011 -->
   <div class="timeline-item">
     <!-- <img class="timeline-logo" src="../img/semantics2011-logo.png" alt="SEMANTiCS 2011 Logo"> -->
-    <div class="timeline-year">2011 — I-SEMANTICS 2011</div>
+    <div class="timeline-year">I-SEMANTICS 2011</div>
     <div class="timeline-desc">7th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -309,7 +309,7 @@
   <!-- 2010 -->
   <div class="timeline-item">
     <!-- <img class="timeline-logo" src="../img/semantics2010-logo.png" alt="SEMANTiCS 2010 Logo"> -->
-    <div class="timeline-year">2010 — I-SEMANTICS 2010</div>
+    <div class="timeline-year">I-SEMANTICS 2010</div>
     <div class="timeline-desc">6th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -323,7 +323,7 @@
   <!-- 2009 -->
   <div class="timeline-item">
     <!-- <img class="timeline-logo" src="../img/semantics2009-logo.png" alt="SEMANTiCS 2009 Logo"> -->
-    <div class="timeline-year">2009 — I-SEMANTICS 2009</div>
+    <div class="timeline-year">I-SEMANTICS 2009</div>
     <div class="timeline-desc">5th International Conference on Semantic Systems</div>
     <div class="timeline-links">
       Proceedings – 
@@ -337,7 +337,7 @@
   <!-- 2008 -->
   <div class="timeline-item">
     <!-- <img class="timeline-logo" src="../img/semantics2009-logo.png" alt="SEMANTiCS 2009 Logo"> -->
-    <div class="timeline-year">2008 — I-SEMANTICS 2008</div>
+    <div class="timeline-year">I-SEMANTICS 2008</div>
     <div class="timeline-desc">The i-SEMANTICS '08 conference, the International Conference on Semantic Systems, took place in Graz, Austria, from September 3-5, 2008. It was part of the Triple-I conference, which included I-KNOW (Knowledge Management), I-MEDIA (New Media Technology), and i-SEMANTICS. The conference focused on semantic technologies and their role in intelligent systems.</div>
     <div class="timeline-links">
       Proceedings – 
@@ -353,7 +353,7 @@
   <!-- 2007 -->
   <div class="timeline-item">
     <!-- <img class="timeline-logo" src="../img/semantics2009-logo.png" alt="SEMANTiCS 2009 Logo"> -->
-    <div class="timeline-year">2007 — I-SEMANTICS 2007</div>
+    <div class="timeline-year">I-SEMANTICS 2007</div>
     <div class="timeline-desc">I-SEMANTICS 2007 - 3rd International Semantic Technology Conference co-located with I-KNOW 2007 and I-MEDIA 2007--   5th - 7th September 2007, Graz, Austria</div>
     
   </div>
