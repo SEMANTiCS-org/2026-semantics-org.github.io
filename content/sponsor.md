@@ -7,11 +7,11 @@ The **SEMANTiCS 2026 conference offers** sponsors a carefully selected and high 
 Target attendance is a 450+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely.
 
 <div style="text-align: center;">
-<img src="../img/sponsors/sponsor.jpg" style="" width="65%" height="auto" alt="">
+<!-- <img src="../img/sponsors/sponsor.jpg" style="" width="65%" height="auto" alt="">
 
 <br/>
 <br/>
-<br/>
+<br/> -->
 
 <p>Get in touch with the Sponsoring Team regarding requests, questions and booking.</p>
 <br/>
@@ -37,7 +37,8 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
         <col class="col6">
         <tbody>
           <tr class="row0">
-            <td colspan="2" class="">YOUR PRESENCE</td>
+            <td colspan="1" class="">Services</td>
+            <td colspan="1" class="">Infos</td>
             <td class="th-gold">Gold</td>
             <td class="th-gold">Silver</td>
             <td class="th-gold">Bronze</td>
@@ -45,8 +46,11 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
           </tr>
           <tr class="row1">
             <td class="td-blue">TALKS</td>
-            <td class="td-blue">Sponsored Talk<br />
-    Top level speaking opportunity in a 25 minutes slot</td>
+            <td class="td-blue">
+              Sponsored Talk
+              <br />
+              Top level speaking opportunity in a 25 minutes slot
+            </td>
             <td class="td-orange">✓</td>
             <td class="td-gray">&nbsp;</td>
             <td class="td-gray">&nbsp;</td>
@@ -77,7 +81,7 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-orange">4</td>
             <td class="td-orange">2</td>
             <td class="td-orange">1</td>
-            <td class="td-orange">2</td>
+            <td class="td-orange">1</td>
           </tr>
           <tr class="row5">
             <td class="td-blue">&nbsp;</td>
@@ -85,7 +89,7 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
     tickets with 40% discount</td>
             <td class="td-orange">5</td>
             <td class="td-orange">2</td>
-            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">0</td>
             <td class="td-orange">1</td>
           </tr>
           <tr class="row6">
@@ -98,15 +102,15 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
           <tr class="row7">
             <td class="td-blue">MATERIAL IN THE BAG</td>
             <td class="td-blue">Placement of own material (1 A4 page max) in the onsite conference bag, plus PDF in the online conference bag</td>
-            <td class="td-orange">in the conference bag</td>
-            <td class="td-orange">in the conference bag</td>
-            <td class="td-orange">at the infodesk</td>
-            <td class="td-orange">at the infodesk</td>
+            <td class="td-orange">in conference bag</td>
+            <td class="td-orange">in conference bag</td>
+            <td class="td-orange">at info desk</td>
+            <td class="td-orange">at info desk</td>
           </tr>
           <tr class="row8">
             <td class="td-blue">YOUR<br />
     LOGO</td>
-            <td class="td-blue">on the SEMANTiCS website and projected during opening speech and breaks (online and onsite)</td>
+            <td class="td-blue">Displayed on the SEMANTiCS website and projected during opening speech and breaks (online and onsite)</td>
             <td class="td-orange">✓</td>
             <td class="td-orange">✓</td>
             <td class="td-orange">✓</td>
@@ -116,9 +120,9 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-blue">ROLLING<br />
     SLIDES</td>
             <td class="td-blue">Slides on screens in conference area and the virtual conference lobby</td>
-            <td class="td-orange">4 slides</td>
             <td class="td-orange">3 slides</td>
             <td class="td-orange">2 slides</td>
+            <td class="td-orange">1 slides</td>
             <td class="td-gray">&nbsp;</td>
           </tr>
           <tr class="row10">
@@ -131,7 +135,7 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
           <tr class="row11">
             <td class="td-blue">SOCIAL<br />
     MEDIA</td>
-            <td class="td-blue">Tweets (about you as a sponsor) advertising your webpage by SEMANTiCS 2026 between March 2026 and the conference days</td>
+            <td class="td-blue">Social Media Posts (about you as a sponsor) advertising your webpage by SEMANTiCS 2026 between March 2026 and the conference days</td>
             <td class="td-orange">2</td>
             <td class="td-orange">2</td>
             <td class="td-orange">2</td>
@@ -142,7 +146,7 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-blue">Mentioning of the sponsors in social media activities undertaken by the Conference</td>
             <td class="td-orange">all social media activities</td>
             <td class="td-orange">all social media activities</td>
-            <td class="td-orange">selected social media activities</td>
+            <td class="td-orange">all social media activities</td>
             <td class="td-gray">&nbsp;</td>
           </tr>
           <tr class="row13">
@@ -153,13 +157,13 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-orange">✓</td>
             <td class="td-gray">&nbsp;</td>
           </tr>
-          <tr class="row14">
+          <!-- <tr class="row14">
             <td colspan="2" class="">LEADS GENERATION</td>
             <td class="th-gold">&nbsp;</td>
             <td class="th-gold">&nbsp;</td>
             <td class="th-gold">&nbsp;</td>
             <td class="th-gold">&nbsp;</td>
-          </tr>
+          </tr> -->
           <tr class="row15">
             <td class="td-blue">COMMUNITY SENDOUT</td>
             <td class="td-blue">Reaching 2000+ new leads with the sendout of a mailing of yours to the entire SEMANTiCS community</td>
@@ -176,19 +180,27 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-orange">✓</td>
             <td class="td-orange">✓</td>
           </tr>
+          <tr class="row16">
+            <td class="td-blue">BADGE SSCANNIG ENABLED</td>
+            <td class="td-blue">Badge scanner needs to be ordered separately if needed</td>
+            <td class="td-orange">✓</td>
+            <td class="td-orange">✓</td>
+            <td class="td-orange"></td>
+            <td class="td-orange"></td>
+          </tr>
           <tr class="row17">
             <td colspan="2" class="th-gold">Your investment</td>
-            <td class="th-gold">12250 €</td>
-            <td class="th-gold">8125 €</td>
+            <td class="th-gold">13500 €</td>
+            <td class="th-gold">9000 €</td>
             <td class="th-gold">4900 €</td>
-            <td class="th-gold">3100 €</td>
+            <td class="th-gold">3410 €</td>
           </tr>
           <tr class="row18">
-            <td colspan="2" class="th-gold">Early booking bonus (-10%) until May 30, 2026</td>
-            <td class="th-gold">11025 €</td>
-            <td class="th-gold">7315 €</td>
+            <td colspan="2" class="th-gold">Early booking bonus (-10%) until April 30, 2026</td>
+            <td class="th-gold">12150 €</td>
+            <td class="th-gold">8100 €</td>
             <td class="th-gold">4410 €</td>
-            <td class="th-gold">2790 €</td>
+            <td class="th-gold">3069 €</td>
           </tr>
            <tr class="row19">
             <td colspan="2" class="">&nbsp;</td>
@@ -199,9 +211,9 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
           </tr>
            <tr class="row20">
             <td class="th-gold">OPTIONAL</td>
-            <td class="th-gold">1/2 day Tutorial at the workshop day (deadline)</td>
-            <td class="th-gold">3250 €</td>
-            <td class="th-gold">3250 €</td>
+            <td class="th-gold">Half-day Tutorial during the preconference day. No early booking discount applies.</td>
+            <td class="th-gold">3600 €</td>
+            <td class="th-gold">3600 €</td>
             <td class="th-gray">n/a</td>
             <td class="th-gray">n/a</td>
           </tr>
@@ -210,4 +222,6 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
 <br/>
 <br/>
 
-Alternative and additional sponsor opportunities are possible on request, for example: room or topic sponsoring, lanyard sponsoring, coffee break sponsoring, conference dinner sponsoring.
+À la carte Sponsorship: Alternative and additional sponsor opportunities are possible on request. These include but are not limited to: room or topic sponsoring, lanyard sponsoring, coffee break sponsoring, conference dinner sponsoring.
+
+PLUS: Sponsors will involve their social media managers to engage and support SEMANTiCS social media activities, ensuring more effective campaigns.
