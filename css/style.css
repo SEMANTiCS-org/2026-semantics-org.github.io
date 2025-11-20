@@ -127,7 +127,7 @@ header.bg-light {
 @media (min-width: 1024px) {
     header.bg-light {
         background-image: 
-            linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), 
+            linear-gradient(rgba(0, 0, 0, 0.4), rgba(0, 0, 0, 0.4)), 
             url("../img/ghent.jpg"); 
 		background-attachment: fixed; 
     }
