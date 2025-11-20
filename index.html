@@ -28,6 +28,46 @@
 	<script src="js/getconf.js"></script>
 	<script src="js/pcontent.js"></script>
 	<script src="js/pcsv.js"></script>
+	<style>
+		header {
+			position: relative;
+		}
+
+		.photo-credit {
+			position: absolute;
+			bottom: 10px;
+			right: 10px;
+			z-index: 9999;
+		}
+
+		.info-icon {
+			cursor: pointer;
+			font-size: 18px;
+			/* background: rgba(255, 255, 255, 0.85); */
+			padding: 3px 6px;
+			border-radius: 6px;
+			display: inline-block;
+		}
+
+		.tooltip-box {
+			position: absolute;
+			bottom: 30px;
+			right: 0;
+			background: #fff;
+			border: 1px solid #ccc;
+			padding: 6px 10px;
+			border-radius: 6px;
+			font-size: 12px;
+			white-space: nowrap;
+			box-shadow: 0 2px 6px rgba(0, 0, 0, 0.2);
+			display: none;
+			z-index: 99999;
+		}
+
+		.photo-credit:hover .tooltip-box {
+			display: block;
+		}
+	</style>
 </head>
 
 <body id="page-top">
@@ -67,6 +107,12 @@
 							href="https://2026-eu.semantics.cc/page/registration" type="button" class="btn btn-primary"
 							style="font-size: 1.2em;">REGISTER</a></div>
 				</div> -->
+			</div>
+		</div>
+		<div class="photo-credit">
+			<span class="info-icon">ℹ️</span>
+			<div class="tooltip-box">
+				Photo by Bas Bogaerts © Stad Gent-Dienst Toerisme
 			</div>
 		</div>
 	</header>
