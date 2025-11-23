@@ -1,4 +1,10 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+<div id="cookie-popup" class="cookie-popup">
+	<span class="cookie-text">This website only uses technically necessary cookies. <a
+			href="__baseurl__page/privacy_policy">More info</a>.</span>
+	<button id="cookie-btn">Got it</button>
+</div>
+
 <footer class="footer-glass  pb-4">
 	<div class="container">
 
@@ -42,7 +48,34 @@
 			© SEMANTiCS Conference 2026
 		</div>
 	</div>
+
 </footer>
+<script>
+	window.addEventListener("load", function () {
+		const cookiePopup = document.getElementById("cookie-popup");
+		const cookieBtn = document.getElementById("cookie-btn");
+
+		if (!cookieBtn) {
+			console.error("Cookie button not found!");
+			return;
+		}
+
+		const consent = localStorage.getItem("cookieConsent");
+		console.log("stored consent on load:", consent);
+
+
+		if (consent !== "true") {
+			cookiePopup.classList.add("show");
+		}
+
+		cookieBtn.onclick = function () {
+			console.log("clicked inside script!");
+			localStorage.setItem("cookieConsent", "true");
+			console.log("saved:", localStorage.getItem("cookieConsent"));
+			cookiePopup.style.display = "none";
+		};
+	});
+</script>
 
 <style>
 	.copy-right {
@@ -80,5 +113,67 @@
 	.fw-bold {
 		color: #2A709F;
 		font-weight: bold;
+	}
+
+	.cookie-popup {
+		display: none;
+		position: fixed;
+		bottom: 0;
+		left: 0;
+		width: 100%;
+		background: rgba(0, 0, 0, 0.6);
+		backdrop-filter: blur(8px);
+		color: #fff;
+		padding: 15px 20px;
+		display: none;
+		z-index: 999999;
+		font-family: Arial, sans-serif;
+		display: flex;
+		justify-content: space-between;
+		align-items: center;
+		box-sizing: border-box;
+		transition: transform 0.3s ease, opacity 0.3s ease;
+		transform: translateY(100%);
+		opacity: 0;
+	}
+
+	.cookie-popup.show {
+		display: flex;
+		transform: translateY(0);
+		opacity: 1;
+	}
+
+	.cookie-popup .cookie-text {
+		font-size: 14px;
+		line-height: 1.4;
+	}
+
+	.cookie-popup button {
+		padding: 8px 16px;
+		background-color: #ffffff;
+		color: #000;
+		border: none;
+		border-radius: 6px;
+		cursor: pointer;
+		font-size: 14px;
+		transition: background 0.25s ease, transform 0.2s ease;
+	}
+
+	.cookie-popup button:hover {
+		background-color: #e0e0e0;
+		transform: translateY(-2px);
+	}
+
+	@media (max-width: 600px) {
+		.cookie-popup {
+			flex-direction: column;
+			align-items: stretch;
+			text-align: center;
+			gap: 10px;
+		}
+
+		.cookie-popup button {
+			align-self: center;
+		}
 	}
 </style>
