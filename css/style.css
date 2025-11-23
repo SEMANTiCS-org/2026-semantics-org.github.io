@@ -1,6 +1,7 @@
 :root {
 	--nav-bg-color: #33075c;
-	--nav-bg-color-semantics: rgb(64,71,87);
+	--nav-bg-color-semantics:#2B3C46;
+	/* --nav-bg-color-semantics: rgb(64,71,87); */
 	--nav-bg-color-semantics-two: rgb(64,71,87);
 	--nav-bg-color-semantics-orange: rgb(236,142,48);
 	--nav-bg-color-opacque: rgba(51, 7, 92,0.5);
