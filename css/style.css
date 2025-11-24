@@ -8,6 +8,12 @@
 	--section-bg-color: #F5E9CD;
 	--section-bg-color-alt: rgb(237,237,237);
   --main-bg-color-opacque: rgba(236,142,48,0.7);
+  --semantics-orange: #EB8C34; /* OK with orange-dark and blue-dark */
+  --semantics-orange-light: #F9E9D7; /* OK with orange-dark, blue, and blue-dark */
+  --semantics-orange-dark: #55300C; /* OK with white, orange, orange-light, and blue-light */
+  --semantics-blue: #2A709F; /* OK with white, orange-light, and blue-light */
+  --semantics-blue-light: #E3EEF7; /* OK with orange-dark, blue, and blue-dark */
+  --semantics-blue-dark: #153B51; /* OK with white, orange, orange-light, and blue-light */
 }
 
 body{
