@@ -120,15 +120,9 @@ header .container{
 	padding-top: 60px;
 }
 header.bg-light {
-<<<<<<< Updated upstream
     background-image: linear-gradient(rgb(236,142,48,1), rgba(0, 0, 0, 0.2)), 
             url("../img/ghent.jpg"); 
     background-color: rgb(236,142,48) !important;
-=======
-    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
-            url("../img/ghent.jpg"); 
-    background-color: white !important;
->>>>>>> Stashed changes
     background-repeat: no-repeat;
 	background-position: center;
     background-size: cover;
@@ -136,23 +130,14 @@ header.bg-light {
 }
 @media (min-width: 1024px) {
     header.bg-light {
-        background-image: 
-<<<<<<< Updated upstream
-<<<<<<< Updated upstream
-            linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), 
-=======
-            linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
->>>>>>> Stashed changes
-=======
-            linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
->>>>>>> Stashed changes
+        background-image: linear-gradient(rgb(236,142,48,1), rgba(0, 0, 0, 0.2)), 
             url("../img/ghent.jpg"); 
-
 		background-position: center;
 		background-repeat: no-repeat;
 		/*background-attachment: fixed; */
     }
 }
+
 header .logo{
 	text-align: center !important;
 }
