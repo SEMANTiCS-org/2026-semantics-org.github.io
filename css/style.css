@@ -12,7 +12,9 @@
 
 body{
 	font-family: 'Lato', sans-serif;
+	color: white !important;
 }
+
 h2{
 	font-weight: normal;
 	font-size: 1.3em;
@@ -89,10 +91,10 @@ footer .footer-second a:hover{
 }
 
 nav{
-	background: var(--nav-bg-color-semantics);
+	background: var(--nav-bg-color-semantics-orange);
 }
 nav .dropdown-menu{
-	background: var(--nav-bg-color-semantics);
+	background: rgb(152, 91, 3, 0.8);
 }
 nav a{
 	font-size: 0.88em;
@@ -101,7 +103,7 @@ nav a{
 	transition: 0.7s;
 }
 nav a:hover{
-	color: var(--nav-bg-color-semantics-orange) !important;
+	color: var(--nav-bg-color-semantic) !important;
 	background: initial !important;
 }
 header .title{
@@ -118,18 +120,27 @@ header .container{
 	padding-top: 60px;
 }
 header.bg-light {
-    background-image: url("../img/ghent.jpg");
-    background-color: white !important;
+    background-image: linear-gradient(rgb(236,142,48,1), rgba(0, 0, 0, 0.2)), 
+            url("../img/ghent.jpg"); 
+    background-color: rgb(236,142,48) !important;
     background-repeat: no-repeat;
+	background-position: center;
     background-size: cover;
     min-height: 450px;
 }
 @media (min-width: 1024px) {
     header.bg-light {
         background-image: 
+<<<<<<< Updated upstream
             linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.5)), 
+=======
+            linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), 
+>>>>>>> Stashed changes
             url("../img/ghent.jpg"); 
-		background-attachment: fixed; 
+
+		background-position: center;
+		background-repeat: no-repeat;
+		/*background-attachment: fixed; */
     }
 }
 header .logo{
@@ -202,7 +213,7 @@ header .logo img{
 
 .theme-row{
 	padding-top : 40px !important;
-	background-color: var(--section-bg-color);
+	background-color: rgba(29, 68, 97);
 }
 .theme-row-alt{
 	background-color: var(--section-bg-color-alt);
@@ -265,6 +276,7 @@ header .logo img{
 	width: 30%;
 	margin: auto;
 	border-bottom: solid 2px var(--main-bg-color);
+	color: var(--nav-bg-color-semantics-orange) !important;
 }
 .section{
 	margin-top: 50px;
