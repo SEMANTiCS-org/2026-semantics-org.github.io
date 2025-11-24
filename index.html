@@ -65,10 +65,43 @@
 		.photo-credit:hover .tooltip-box {
 			display: block;
 		}
+
+		#preloader {
+			position: fixed;
+			top: 0;
+			left: 0;
+			width: 100%;
+			height: 100%;
+			background: #ffffff;
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			z-index: 999999;
+		}
+
+		.spinner {
+			width: 60px;
+			height: 60px;
+			border: 6px solid #ccc;
+			border-top-color: #2A709F;
+			border-radius: 50%;
+			animation: spin 0.7s linear infinite;
+		}
+
+		@keyframes spin {
+			to {
+				transform: rotate(360deg);
+			}
+		}
 	</style>
 </head>
 
 <body id="page-top">
+	<!-- preloader -->
+	<div id="preloader">
+		<div class="spinner"></div>
+	</div>
+
 	<div id="nav-placeholder"></div>
 
 	<script>
@@ -357,6 +390,15 @@
 			var map = new google.maps.Map(document.getElementById('map'), mapOptions);
 		}
 	</script>
+	<script>
+		Promise.all([
+			document.fonts.ready,
+			new Promise(resolve => window.addEventListener("load", resolve))
+		]).then(() => {
+			$("#preloader").fadeOut(300);
+		});
+	</script>
+
 	<!--<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC8FDP8EzjyFfC4Hy-OcNIxiUaeElEyF8&callback=initMap"></script> -->
 </body>
 
