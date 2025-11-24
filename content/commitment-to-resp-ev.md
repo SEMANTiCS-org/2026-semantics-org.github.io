@@ -6,16 +6,16 @@ The centrepiece of SEMANTiCS’ environmental commitment has been our tree plant
 Crucially, this initiative is far more than just a symbolic gesture; it ensures that the positive impact endures long after the conference concludes, as the trees grow and thrive. They represent a lasting and visible contribution to environmental care, guaranteeing that SEMANTiCS leaves behind a truly living legacy for a greener future.
 ## Additional Sustainable Measures
 Beyond planting trees, we also took steps to make the conference more sustainable in many practical ways, including:
-### Sustainable Materials and Waste Reduction
+## Sustainable Materials and Waste Reduction
 * **No plastic in name badges**. We made a conscious decision to eliminate single-use plastics from essential conference materials, starting with the name badges.
 * **Avoiding unnecessary conference bags and giveaways**. We actively reduced resource consumption by limiting the distribution of traditional conference bags and promotional giveaways, items that often go unused or end up as waste.
 * **Printed materials kept to a minimum**. To save paper and resources, all essential documents, including programs, abstracts, and announcements, are provided digitally, reducing our reliance on printing. We also promote and recommend that presenting authors print their scientific posters using recycled paper or fabric.
 * **Re-usable decoration and equipment**. We are dedicated to the circular economy by designing stands, signage, and various pieces of equipment specifically for reuse across multiple conference editions.
 Sponsorship and advertising material. While refining our sponsorship packages, we reduced non-recyclable materials and encouraged sponsors to be mindful of their environmental impact—not only at SEMANTiCS but at all events they participate in.
-### Greener Mobility and Travel
+## Greener Mobility and Travel
 * **Optimised travel plans**. We actively encourage both participants and speakers to plan their trips responsibly, considering the environmental impact of their transportation choices.
 * **Encouraging public transport and shared mobility**. Within the host cities, we provide guidance and resources to steer attendees toward the use of public transportation and shared mobility options, further reducing local emissions.
-### Catering
+## Catering
 * **Mostly vegetarian food**. Our catering is intentionally designed to be climate-friendly by featuring predominantly vegetarian menus, which have a lower carbon footprint than meat-based options.
 * **Local and seasonal food sourcing**. We prioritise sustainability and freshness by choosing regional and seasonal products for our catering, which minimises the transportation emissions and supports local producers.
 * **Elimination of single-use plastic dishware**. We made a firm commitment to sustainability by using non-plastic cutlery, cups, and bottles. This decision significantly reduces disposable waste and eliminates harmful single-use plastics from our food service.
