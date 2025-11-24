@@ -12,7 +12,11 @@
     h1,h2,h3{
         color: #2A709F !important;
         font-weight: 600;
+		margin-bottom:5px !important;
     }
+	p{
+		margin:0px !important;
+	}
 </style>
 # Privacy Policy
 
