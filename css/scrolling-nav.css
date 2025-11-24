@@ -10,3 +10,11 @@ header {
 section {
   padding: 150px 0;
 }
+.navbar{
+  position: sticky !important; /* Locks the element to the viewport */
+  position: -webkit-sticky !important; /* For Safari compatibility */
+  width: 100%;     /* Forces it to span the full width */
+  z-index: 1000;   /* Ensures it sits ON TOP of other content */
+  top: 0 !important;
+}
+

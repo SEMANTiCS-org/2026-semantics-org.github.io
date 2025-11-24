@@ -120,19 +120,19 @@ header .container{
 	padding-top: 60px;
 }
 header.bg-light {
-    background-image: linear-gradient(rgb(236,142,48,1), rgba(0, 0, 0, 0.2)), 
+    background-image: linear-gradient(rgb(236,142,48,1), rgba(29, 68, 97, 0.2)), 
             url("../img/ghent.jpg"); 
     background-color: rgb(236,142,48) !important;
     background-repeat: no-repeat;
-	background-position: center;
+	background-position: center bottom !important;
     background-size: cover;
-    min-height: 450px;
+    min-height: 650px;
 }
 @media (min-width: 1024px) {
     header.bg-light {
-        background-image: linear-gradient(rgb(236,142,48,1), rgba(0, 0, 0, 0.2)), 
+        background-image: linear-gradient(rgb(236,142,48,1), rgba(29, 68, 97, 0.2)), 
             url("../img/ghent.jpg"); 
-		background-position: center;
+		background-position: center bottom !important;
 		background-repeat: no-repeat;
 		/*background-attachment: fixed; */
     }
@@ -448,6 +448,15 @@ header {
 	.navbar-nav{
 		padding-top: 10px;
 	}
+
+	.navbar{
+		position: sticky !important;
+		position: -webkit-sticky; /* For Safari compatibility */
+		width: 100% !important;     /* Forces it to span the full width */
+  		z-index: 1000 !important;   /* Ensures it sits ON TOP of other content */
+		top: 0;
+	}
+
 	.dropdown-menu{
 		border: none;
 		border-radius: 0px;
