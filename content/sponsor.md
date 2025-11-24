@@ -1,27 +1,58 @@
+<style>
+	a {
+		color: white !important;
+		text-decoration: none !important;
+	}
+  h1{
+    font-size:2em;
+    /* color: #2A709F !important; */
+    font-weight: 600;
+		margin-bottom:10px !important;
+  }
+  h2,h3{
+    font-size:1.5em;
+    /* color: #2A709F !important; */
+    font-weight: 600;
+		/* margin:10px !important; */
+  }
+
+	a:hover {
+			text-decoration: none;
+			color: #EB8C34 !important;
+			transition: all 0.5s !important;
+			}
+  .btn {
+		padding: 8px 16px;
+		background-color: #2A709F;
+		color: #000;
+		border: none;
+		border-radius: 6px;
+		cursor: pointer;
+		font-size: 14px;
+		transition: background 0.25s ease, transform 0.2s ease;
+	}
+
+	.btn:hover {
+		background-color: #e0e0e0;
+		transform: translateY(-2px);
+	}
+
+</style>
 # Sponsorship Packages
 
 The **SEMANTiCS 2026 conference offers** sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 5 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.
 
-## Visibility and networking opportunities
+### Visibility and networking opportunities
 
 Target attendance is a 450+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely.
 
-<div style="text-align: center;">
-<!-- <img src="../img/sponsors/sponsor.jpg" style="" width="65%" height="auto" alt="">
-
-<br/>
-<br/>
-<br/> -->
-
-<p>Get in touch with the Sponsoring Team regarding requests, questions and booking.</p>
-<br/>
-<a href="mailto:sponsoring@semantics.cc" style="font-size: 12pt" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
+<div style="text-align: center;background-color: #F5E9CD; padding: 30px; border-radius: 12px; margin-bottom:50px !important">
+  <p>Get in touch with the Sponsoring Team regarding requests, questions and booking.</p>
+  <br/>
+  <a class="btn" href="mailto:sponsoring@semantics.cc" style="font-size: 12pt" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
 </div>
 
-<br/>
-<br/>
-
-## Sponsoring Bundles SEMANTiCS 2026
+### Sponsoring Bundles SEMANTiCS 2026
 
 Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of limited space in programme and exhibition area)
 
