@@ -1,36 +1,35 @@
 <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.css">
+
+<!-- Cookie Popup -->
 <div id="cookie-popup" class="cookie-popup">
-	<span class="cookie-text">This website only uses technically necessary cookies. <a class="aa"
-			href="__baseurl__page/privacy_policy">More info</a>.</span>
+	<span class="cookie-text">
+		This website only uses technically necessary cookies.
+		<a class="aa" href="__baseurl__page/privacy_policy">More info</a>.
+	</span>
 	<button id="cookie-btn">Got it</button>
 </div>
 
-<footer class="footer-glass  pb-4">
+<footer class="footer-glass pb-4">
 	<div class="container">
 
-		<!-- Main Grid -->
 		<div class="row gy-4 text-left text-md-start align-items-start footer-grid">
 
-			<!-- Brand Block -->
 			<div class="col-md-6 mb-4 brand-block">
 				<img src="/img/semantics-logo-white.png" alt="SEMANTiCS Logo" height="60" class="mb-3">
-				<!-- <h5 class="fw-semibold">SEMANTiCS Conference 2026</h5> -->
 				<p class="opacity-75" style="font-size: 18px;">Bridging the Gap Between Curated and Induced Semantics.
 				</p>
 			</div>
 
-			<!-- Navigation Links -->
 			<div class="col-md-3 mb-4">
 				<h6 class="fw-bold mb-3">Quick Links</h6>
 				<ul class="list-unstyled footer-links">
-					<li><a href="__baseurl__page/imprint">- Imprint</a></li>
-					<li><a href="__baseurl__page/termsofuse">- Terms of Use</a></li>
-					<li><a href="__baseurl__page/privacy_policy">- Privacy Policy</a></li>
-					<li><a href="__baseurl__page/contact">- Contact</a></li>
+					<li><a href="__baseurl__page/imprint">Imprint</a></li>
+					<li><a href="__baseurl__page/termsofuse">Terms of Use</a></li>
+					<li><a href="__baseurl__page/privacy_policy">Privacy Policy</a></li>
+					<li><a href="__baseurl__page/contact">Contact</a></li>
 				</ul>
 			</div>
 
-			<!-- Social Block -->
 			<div class="col-md-3 mb-4">
 				<h6 class="fw-bold mb-3">Follow Us</h6>
 				<div class="footer-social-icons fs-4 mt-2">
@@ -42,41 +41,15 @@
 					<a href="https://bsky.app/profile/semantics-conf.bsky.social"><i class="bi bi-bluesky"></i></a>
 				</div>
 			</div>
+
 		</div>
 
-		<!-- Bottom Bar -->
-		<div class="copy-right text-center mt-4 small ">
+		<div class="copy-right text-center mt-4 small">
 			© SEMANTiCS Conference 2026
 		</div>
+
 	</div>
-
 </footer>
-<script>
-	window.addEventListener("load", function () {
-		const cookiePopup = document.getElementById("cookie-popup");
-		const cookieBtn = document.getElementById("cookie-btn");
-
-		if (!cookieBtn) {
-			console.error("Cookie button not found!");
-			return;
-		}
-
-		const consent = localStorage.getItem("cookieConsent");
-		console.log("stored consent on load:", consent);
-
-
-		if (consent !== "true") {
-			cookiePopup.classList.add("show");
-		}
-
-		cookieBtn.onclick = function () {
-			console.log("clicked inside script!");
-			localStorage.setItem("cookieConsent", "true");
-			console.log("saved:", localStorage.getItem("cookieConsent"));
-			cookiePopup.style.display = "none";
-		};
-	});
-</script>
 
 <style>
 	.copy-right {
@@ -103,7 +76,7 @@
 	.footer-social-icons a {
 		color: white;
 		margin-right: 12px;
-		transition: 0.25s ease;
+		transition: .25s ease;
 	}
 
 	.footer-social-icons a:hover {
@@ -113,11 +86,10 @@
 
 	.fw-bold {
 		color: #2A709F;
-		font-weight: bold;
 	}
 
+	/* COOKIE BANNER */
 	.cookie-popup {
-		display: none;
 		position: fixed;
 		bottom: 0;
 		left: 0;
@@ -126,27 +98,19 @@
 		backdrop-filter: blur(8px);
 		color: #fff;
 		padding: 15px 20px;
-		display: none;
 		z-index: 999999;
-		font-family: Arial, sans-serif;
 		display: flex;
 		justify-content: space-between;
 		align-items: center;
 		box-sizing: border-box;
-		transition: transform 0.3s ease, opacity 0.3s ease;
 		transform: translateY(100%);
 		opacity: 0;
+		transition: .3s ease;
 	}
 
 	.cookie-popup.show {
-		display: flex;
 		transform: translateY(0);
 		opacity: 1;
-	}
-
-	.cookie-popup .cookie-text {
-		font-size: 14px;
-		line-height: 1.4;
 	}
 
 	.cookie-popup button {
@@ -156,34 +120,49 @@
 		border: none;
 		border-radius: 6px;
 		cursor: pointer;
-		font-size: 14px;
-		transition: background 0.25s ease, transform 0.2s ease;
+		transition: .25s ease;
 	}
 
 	.cookie-popup button:hover {
-		background-color: #e0e0e0;
 		transform: translateY(-2px);
-	}
-
-	@media (max-width: 600px) {
-		.cookie-popup {
-			flex-direction: column;
-			align-items: stretch;
-			text-align: center;
-			gap: 10px;
-		}
-
-		.cookie-popup button {
-			align-self: center;
-		}
 	}
 
 	.aa {
 		color: white;
-		text-decoration: none !important;
+		text-decoration: none;
 	}
 
 	.aa:hover {
 		color: #e0e0e0 !important;
 	}
 </style>
+
+<script>
+	/* AUTO–EXECUTING COOKIE SCRIPT — WORKS EVEN AFTER jQuery LOAD */
+	(function () {
+
+		function runCookieBanner() {
+			const popup = document.getElementById("cookie-popup");
+			const btn = document.getElementById("cookie-btn");
+			if (!popup || !btn) return;
+
+			const consent = localStorage.getItem("cookieConsent");
+			if (consent !== "true") popup.classList.add("show");
+
+			btn.onclick = function () {
+				localStorage.setItem("cookieConsent", "true");
+				popup.style.display = "none";
+			};
+		}
+
+		// Case 1: footer is injected AFTER page load (via jQuery)
+		if (document.readyState === "complete" || document.readyState === "interactive") {
+			setTimeout(runCookieBanner, 30);
+		}
+		// Case 2: footer is already in DOM on initial page load
+		else {
+			window.addEventListener("DOMContentLoaded", runCookieBanner);
+		}
+
+	})();
+</script>
