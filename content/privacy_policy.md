@@ -1,3 +1,23 @@
+<style>
+	a {
+		color: #2A709F !important;
+		text-decoration: none !important;
+	}
+
+	a:hover {
+			text-decoration: none;
+			color: #EB8C34 !important;
+			transition: all 0.5s !important;
+			}
+    h1,h2,h3{
+        color: #2A709F !important;
+        font-weight: 600;
+		margin-bottom:5px !important;
+    }
+	p{
+		margin:0px !important;
+	}
+</style>
 # Privacy Policy
 
 This page is to inform you of our policies regarding the collection, use and disclosure of personal information we receive from users of the Site.
@@ -22,6 +42,6 @@ Because this content is served directly from Google, they may use their own trac
 You can typically instruct your browser to refuse all cookies or to indicate when a cookie is being sent. Please note that refusing third-party cookies may affect how the embedded Google content displays or functions on our site.
 For more details on what information Google collects and how they use it, we strongly recommend reviewing the Google Privacy Policy directly.
 
-### Changes To This Privacy Policy
+### Changes to This Privacy Policy
 The SEMANTiCS consortium may update this Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on the site. You are advised to review this Privacy Policy periodically for any changes.
 

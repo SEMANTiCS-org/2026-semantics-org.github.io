@@ -336,6 +336,15 @@
         );
       }
     </script>
+    <script>
+      Promise.all([
+        document.fonts.ready,
+        new Promise((resolve) => window.addEventListener("load", resolve)),
+      ]).then(() => {
+        $("#preloader").fadeOut(300);
+      });
+    </script>
+
     <!--<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC8FDP8EzjyFfC4Hy-OcNIxiUaeElEyF8&callback=initMap"></script> -->
   </body>
 </html>
