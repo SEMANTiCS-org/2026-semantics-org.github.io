@@ -14,86 +14,14 @@
   --semantics-blue: #2a709f; /* OK with white, orange-light, and blue-light */
   --semantics-blue-light: #e3eef7; /* OK with orange-dark, blue, and blue-dark */
   --semantics-blue-dark: #153b51; /* OK with white, orange, orange-light, and blue-light */
-}
-
-:root.orange-light {
-  --background-alt: var(--semantics-orange-light);
-  --highlight: var(--semantics-blue);
-  --background: var(--semantics-blue);
-  --body: var(--semantics-orange-dark);
-  --title-alt: var(--semantics-orange-dark);
-  --body-alt: var(--semantics-blue-dark);
-  --highlight-alt: var(--semantics-blue-dark);
-  --title: var(--semantics-orange-light);
-  --news-title: var(--semantics-orange-dark);
-  --news-body: var(--semantics-blue);
-  --news-background: var(--semantics-blue-light);
-}
-
-:root.orange-dark {
-  --background-alt: var(--semantics-orange-dark);
-  --highlight: var(--semantics-blue-light);
-  --background: var(--semantics-orange-light);
-  --body: var(--semantics-blue-light);
-  --body-alt: var(--semantics-blue-light);
-  --title: var(--semantics-blue);
-  --title-alt: var(--semantics-orange);
-  --highlight-alt: var(--semantics-orange);
-  --news-background: var(--semantics-blue);
-  --news-title: var(--semantics-blue-light);
-  --news-body: var(--semantics-orange-light);
-}
-:root.blue-dark {
   --background-alt: var(--semantics-blue-dark);
   --background: var(--semantics-orange-light);
-  --body: var(--semantics-orange-dark);
+  --body: var(--semantics-blue-dark);
   --body-alt: var(--semantics-orange-light);
   --title: var(--semantics-blue-dark);
   --title-alt: var(--semantics-orange);
   --highlight: var(--semantics-orange);
   --news-background: var(--semantics-orange);
-  --highlight-alt: var(--semantics-blue-light);
-  --news-title: var(--semantics-blue-dark);
-  --news-body: var(--semantics-orange-dark);
-}
-
-:root.orange {
-  --background-alt: var(--semantics-orange);
-  --news-background: var(--semantics-blue-dark);
-  --highlight: var(--semantics-blue-dark);
-  --background: var(--semantics-blue-light);
-  --body: var(--semantics-blue-dark);
-  --body-alt: var(--semantics-blue-dark);
-  --title: var(--semantics-orange-dark);
-  --title-alt: var(--semantics-blue-dark);
-  --highlight-alt: var(--semantics-orange-dark);
-  --news-title: var(--semantics-orange-light);
-  --news-body: var(--semantics-blue-light);
-}
-
-:root.blue-light {
-  --background-alt: var(--semantics-blue-light);
-  --highlight: var(--semantics-orange-dark);
-  --news-background: var(--semantics-orange-dark);
-  --background: var(--semantics-orange);
-  --body: var(--semantics-orange-dark);
-  --title-alt: var(--semantics-blue-dark);
-  --body-alt: var(--semantics-orange-dark);
-  --highlight-alt: var(--semantics-blue-dark);
-  --title: var(--semantics-orange-dark);
-  --news-title: var(--semantics-orange-light);
-  --news-body: var(--semantics-blue-light);
-}
-
-:root.blue {
-  --background-alt: var(--semantics-blue);
-  --highlight: var(--semantics-orange-light);
-  --news-background: var(--semantics-orange);
-  --background: var(--semantics-orange-light);
-  --body: var(--semantics-orange-dark);
-  --title-alt: white;
-  --body-alt: var(--semantics-orange-light);
-  --title: var(--semantics-orange-dark);
   --highlight-alt: var(--semantics-blue-light);
   --news-title: var(--semantics-blue-dark);
   --news-body: var(--semantics-orange-dark);
@@ -182,7 +110,14 @@ nav {
   background: var(--highlight);
 }
 nav .dropdown-menu {
-  background: var(--highlight-alt);
+  background: var(--background-alt);
+}
+nav .dropdown-menu a {
+  color: var(--highlight-alt) !important;
+}
+nav .dropdown-menu a:hover {
+  color: var(--background-alt) !important;
+  background: var(--highlight-alt) !important;
 }
 nav a {
   font-size: 0.88em;
@@ -210,7 +145,7 @@ header .container {
 }
 header.bg-light {
   background-image: linear-gradient(var(--highlight), rgba(29, 68, 97, 0)),
-    url("../img/ghent-dark.jpg");
+    url("../img/ghent2.jpg");
   background-color: var(--highlight) !important;
   background-repeat: no-repeat;
   background-position: center bottom !important;
@@ -220,7 +155,7 @@ header.bg-light {
 @media (min-width: 1024px) {
   header.bg-light {
     background-image: linear-gradient(var(--highlight), rgba(29, 68, 97, 0)),
-      url("../img/ghent-dark.jpg");
+      url("../img/ghent2.jpg");
     background-position: center bottom !important;
     background-repeat: no-repeat;
     /*background-attachment: fixed; */
