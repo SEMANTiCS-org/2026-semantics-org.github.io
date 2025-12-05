@@ -1,4 +1,3 @@
-# Previous Proceedings
 <style>
   .timeline-container {
     width: 90%;
@@ -81,6 +80,12 @@
     background-color: #bbb;
   }
 </style>
+
+# Previous Proceedings
+
+This page offers a comprehensive archive of all accepted papers from past SEMANTiCS conference editions. This collection serves as an essential resource, showcasing the seminal and forward-looking research that has driven progress in Semantic Technologies, Linked Data, AI, and Data Management—a true historical snapshot of the field.
+
+Since 2012, each conference edition has resulted in two distinct publications. The main proceedings showcase the rigorously peer-reviewed papers from the Research and Innovation track, while the companion proceedings include contributions from posters, demos, and workshops.
 
 <div class="timeline-container">
   <!-- 2025 -->
@@ -328,6 +333,48 @@
     </div>
     <!-- <div class="timeline-website">
       <a href="https://2010-eu.semantics.cc/">Website</a>
+    </div> -->
+  </div>
+
+  <!-- 2009 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/logo_i-semantics.png" alt="I-SEMANTICS Logo">
+    <div class="timeline-year">I-SEMANTICS 2009</div>
+    <div class="timeline-desc">5th International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://www.econstor.eu/handle/10419/44444">Proceedings of I-SEMANTICS '09: 5th international conference on semantic systems</a>
+    </div>
+    <!-- <div class="timeline-website">
+      <a href="https://2009-eu.semantics.cc/">Website</a>
+    </div> -->
+  </div>
+
+  <!-- 2008 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/logo_i-semantics.png" alt="I-SEMANTICS Logo">
+    <div class="timeline-year">I-SEMANTICS 2008</div>
+    <div class="timeline-desc">4th International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://www.econstor.eu/handle/10419/44448">I-SEMANTICS '08: International conference on semantic systems</a>
+    </div>
+    <!-- <div class="timeline-website">
+      <a href="https://2008-eu.semantics.cc/">Website</a>
+    </div> -->
+  </div>
+
+  <!-- 2007 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/logo_i-semantics.png" alt="I-SEMANTICS Logo">
+    <div class="timeline-year">I-SEMANTICS 2007</div>
+    <div class="timeline-desc">3rd International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://www.econstor.eu/handle/10419/44447">I-MEDIA '07, I-SEMANTICS '07: International conferences on new media technology and semantic systems</a>
+    </div>
+    <!-- <div class="timeline-website">
+      <a href="https://2007-eu.semantics.cc/">Website</a>
     </div> -->
   </div>
  
