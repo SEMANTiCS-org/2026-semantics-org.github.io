@@ -170,9 +170,10 @@ Papers submitted to this track will be evaluated according to the following crit
 - Clarity and quality of writing
 - Reproducibility of results and resources
 
-**We look forward to receiving your contributions!**
+We look forward to receiving your contributions!
+<br>
 
-### Research and Innovation Track Chairs
+**Research and Innovation Track Chairs**:
 
 - **Cogan Shimizu**, Wright State University, US
 
