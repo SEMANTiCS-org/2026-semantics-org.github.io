@@ -172,10 +172,10 @@ Papers submitted to this track will be evaluated according to the following crit
 
 **We look forward to receiving your contributions!**
 
-Research and Innovation Track Chairs
+### Research and Innovation Track Chairs
 
-**Cogan Shimizu**, Wright State University, US
+- **Cogan Shimizu**, Wright State University, US
 
-**Annette ten Teije**, VU Amsterdam, NL
+- **Annette ten Teije**, VU Amsterdam, NL
 
 Contact email:[semantics2026-research@easychair.org](mailto:semantics2026-research@easychair.org)
