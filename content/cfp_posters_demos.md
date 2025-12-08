@@ -160,11 +160,11 @@ Below we provide the awards of the last years as a guide for good examples when 
 - Oelen, A., Jaradeh, M. Y., & Auer, S. (2024). ORKG ASK: a Neuro-symbolic Scholarly Search and Exploration System. In _SEMANTiCS 2024: 20th International Conference on Semantic Systems_. [https://ceur-ws.org/Vol-3759/paper7.pdf](https://ceur-ws.org/Vol-3759/paper7.pdf)
   <br>
 
-**Poster and Demo Chairs**:
+## Poster and Demo Chairs
 
-- **Genet Asefa Gesese**, FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT) Karlsruhe, Germany
+**Genet Asefa Gesese**, FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT) Karlsruhe, Germany
 
-- **Eleni Ilkou**, TIB - German National Library of Science and Technology, Hannover, Germany
+**Eleni Ilkou**, TIB - German National Library of Science and Technology, Hannover, Germany
 
 Contact email: [semantics2026-pd@easychair.org](mailto:semantics2026-pd@easychair.org)
 
