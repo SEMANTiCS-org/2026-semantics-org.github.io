@@ -109,7 +109,7 @@ Topics of interest include, but are not limited to:
   - LegalTech, AI Safety, EU AI Act
   - Economics of Data, Data Services, and Data Ecosystems
 
-We invite contributions from researchers and practitioners of all genders, backgrounds, and career stages that illustrate the applicability of the topics mentioned above for industrial purposes and/or illustrate the business relevance of their contribution for specific industries. Workshop proposals on emerging themes and open challenges for the topics listed above are encouraged.
+We invite contributions from researchers and practitioners of all genders, backgrounds, and career stages that illustrate the applicability of the topics mentioned above for industrial purposes and/or illustrate the business relevance of their contribution for specific industries. Workshop proposals on emerging themes and _open challenges_ for the topics listed above are encouraged.
 
 ## Important Dates
 
@@ -215,8 +215,8 @@ If your workshop is accepted, you must adhere to the following guidelines:
   - **Advance Instructions**: Publish prerequisites and installation/registration instructions on your webpage well in advance to help attendees prepare.
   - **Allocated Setup Time**: Dedicate time at the start of the tutorial for installation and troubleshooting, as not all participants will arrive prepared.
   - **Backup Plans**: Prepare for potential WiFi or service disruptions. Have offline backups available (e.g., recorded videos for demos).
-    **Registration**: Tutorial presenters must register for the conference by the **Early Bird deadline** and participate in person. Failure to register on time may result in the tutorial being cancelled at the chairs' discretion.
-    **Environmental footprint**: The organizers should make an honest attempt at documenting the environmental footprint of the tutorial and comparing this to alternative ways for achieving the tutorial’s goals.
+- **Registration**: Tutorial presenters must register for the conference by the **Early Bird deadline** and participate in person. Failure to register on time may result in the tutorial being cancelled at the chairs' discretion.
+- **Environmental footprint**: The organizers should make an honest attempt at documenting the environmental footprint of the tutorial and comparing this to alternative ways for achieving the tutorial’s goals.
 
 ## Proceedings for Tutorials
 
@@ -237,9 +237,10 @@ Workshop and tutorial proposals will be reviewed by the SEMANTiCS 2026 Workshop 
 We are looking forward to your contribution!
 <br>
 
-**Workshop and Tutorial Chairs**:
+## Workshop and Tutorial Chairs
 
-- **Beyza Yaman**, Trinity College Dublin, Ireland
-- **Rosa Filgueira**, University of Edinburgh, UK
+**Beyza Yaman**, Trinity College Dublin, Ireland
+  
+**Rosa Filgueira**, University of Edinburgh, UK
 
 In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair. You can contact us via [semantics2026-ws@easychair.org](mailto:semantics2026-ws@easychair.org) for workshop and [semantics2026-tut@easychair.org](mailto:semantics2026-tut@easychair.org) for tutorial queries.
