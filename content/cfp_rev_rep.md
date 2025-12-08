@@ -132,7 +132,7 @@ References are not included in the page count, so authors may add additional pag
 
 - Submissions should follow the guidelines of IOS Press.
 - Details are available at [www.iospress.com](https://www.iospress.com/book-article-instructions).
-- Authors need to use the [Word template](https://www.iospress.com/sites/default/files/media/files/2022-06/ECRC-Author-Instructions-and-tools-Word.zip) or [LaTeX template](https://vtex-soft.github.io/texsupport.IOS-Book-Article/) provided by IOS Press. Overleaf users can copy the project from here (follow instructions in the abstract).
+- Authors need to use the [Word template](https://www.iospress.com/sites/default/files/media/files/2022-06/ECRC-Author-Instructions-and-tools-Word.zip) or [LaTeX template](https://vtex-soft.github.io/texsupport.IOS-Book-Article/) provided by IOS Press. Overleaf users can copy the project [from here](https://www.overleaf.com/read/gkkspcvjgwxv#563836) (follow instructions in the abstract).
 - Abstract submission is mandatory for all papers. To aid the review and bidding process, we highly encourage authors to submit structured abstracts.
 - All papers and abstracts have to be submitted electronically via EasyChair (see below).
 - Submissions must be in English.
@@ -173,10 +173,10 @@ Papers submitted to this track will be evaluated according to the following crit
 We look forward to receiving your contributions!
 <br>
 
-**Research and Innovation Track Chairs**:
+## Research and Innovation Track Chairs
 
-- **Cogan Shimizu**, Wright State University, US
+**Cogan Shimizu**, Wright State University, US
 
-- **Annette ten Teije**, VU Amsterdam, NL
+**Annette ten Teije**, VU Amsterdam, NL
 
-Contact email:[semantics2026-research@easychair.org](mailto:semantics2026-research@easychair.org)
+Contact email: [semantics2026-research@easychair.org](mailto:semantics2026-research@easychair.org)
