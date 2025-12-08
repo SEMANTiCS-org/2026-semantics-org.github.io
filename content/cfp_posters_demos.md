@@ -106,7 +106,8 @@ Submissions must clearly demonstrate their relevance to the aforementioned topic
 - **Significance** and potential impact
 - **Topicality**, i.e., the timeliness and current relevance of the work
 - **Clarity** and quality of presentation
-  The Posters & Demos Track aims to enable the presentation of **preliminary, ongoing, and innovative work**, provided that the submission offers a meaningful and original contribution to the community. Each submission will be reviewed by **three** qualified members of the Program Committee.
+  
+The Posters & Demos Track aims to enable the presentation of **preliminary, ongoing, and innovative work**, provided that the submission offers a meaningful and original contribution to the community. Each submission will be reviewed by **three** qualified members of the Program Committee.
 
 ## Author Guidelines and Submission Requirements
 
@@ -139,7 +140,8 @@ All submissions must be made electronically via EasyChair following this link: [
 - Aligned with the Web Accessibility Initiative (WAI):
   - **Posters** are expected to submit an image of their poster accompanied by rich metadata on the alternative description for assistive technologies (alt text). You can find more information on how to formulate alt text at [https://www.w3.org/WAI/tutorials/images/decision-tree/](https://www.w3.org/WAI/tutorials/images/decision-tree/) .
   - **Demos** are expected to submit a video of their work accompanied by rich metadata on video description, captions, and transcripts. For recording your video, kindly consider the guidelines provided by WAI at [https://www.w3.org/WAI/media/av/av-content/#video ](https://www.w3.org/WAI/tutorials/images/decision-tree/). You can find information about how to formulate video captions at [https://www.w3.org/WAI/perspective-videos/captions/](https://www.w3.org/WAI/perspective-videos/captions/), video transcripts at [https://www.w3.org/WAI/media/av/transcripts/](https://www.w3.org/WAI/media/av/transcripts/), and video descriptions at [https://www.w3.org/WAI/media/av/description/](https://www.w3.org/WAI/media/av/description/).
-    There will be a designated Quiet room available in proximity to the Posters and Demos room. You will be able to find it in the floor plan and via signs in the venue.
+
+There will be a designated Quiet room available in proximity to the Posters and Demos room. You will be able to find it in the floor plan and via signs in the venue.
 
 ## Previous years awards
 
@@ -147,15 +149,15 @@ Below we provide the awards of the last years as a guide for good examples when 
 
 **Posters**:
 
-- Nachabe, L., Lefrançois, M., Effantin, C., & Zimmermann, A. (2025). Automatic Creation of Knowledge Graphs from IEC 61850-Tagged Datasets for Renewable Energy Systems. In _SEMANTiCS 2025: 21st International Conference on Semantic Systems_ . [https://ceur-ws.org/Vol-4064/PD-paper1.pdf](https://ceur-ws.org/Vol-4064/PD-paper1.pdf)
+- Nachabe, L., Lefrançois, M., Effantin, C., & Zimmermann, A. (2025). Automatic Creation of Knowledge Graphs from IEC 61850-Tagged Datasets for Renewable Energy Systems. In _SEMANTiCS 2025: 21st International Conference on Semantic Systems_. [https://ceur-ws.org/Vol-4064/PD-paper1.pdf](https://ceur-ws.org/Vol-4064/PD-paper1.pdf)
 
 - Maushagen, J., Sepehri, S., Sanctorum, A., Vanhaecke, T., De Troyer, O., & Debruyne, C. (2024, September). Populating CSV Files from Unstructured Text with LLMs for KG Generation with RML. In _SEMANTiCS 2024: 20th International Conference on Semantic Systems_. [https://ceur-ws.org/Vol-3759/paper6.pdf](https://ceur-ws.org/Vol-3759/paper6.pdf)
 
 **Demos**:
 
-- Booshehri, M., Kullik, C., & Cimiano, P. (2025). A Semantic Search Engine for the Exploration of Explainability Phenomena. In _SEMANTiCS 2025: 21st International Conference on Semantic Systems_ . [https://ceur-ws.org/Vol-4064/PD-paper15.pdf](https://ceur-ws.org/Vol-4064/PD-paper15.pdf)
+- Booshehri, M., Kullik, C., & Cimiano, P. (2025). A Semantic Search Engine for the Exploration of Explainability Phenomena. In _SEMANTiCS 2025: 21st International Conference on Semantic Systems_. [https://ceur-ws.org/Vol-4064/PD-paper15.pdf](https://ceur-ws.org/Vol-4064/PD-paper15.pdf)
 
-- Oelen, A., Jaradeh, M. Y., & Auer, S. (2024). ORKG ASK: a Neuro-symbolic Scholarly Search and Exploration System. In _SEMANTiCS 2024: 20th International Conference on Semantic Systems_ . [https://ceur-ws.org/Vol-3759/paper7.pdf](https://ceur-ws.org/Vol-3759/paper7.pdf)
+- Oelen, A., Jaradeh, M. Y., & Auer, S. (2024). ORKG ASK: a Neuro-symbolic Scholarly Search and Exploration System. In _SEMANTiCS 2024: 20th International Conference on Semantic Systems_. [https://ceur-ws.org/Vol-3759/paper7.pdf](https://ceur-ws.org/Vol-3759/paper7.pdf)
   <br>
 
 **Poster and Demo Chairs**:
