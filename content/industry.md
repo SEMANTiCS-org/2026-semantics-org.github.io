@@ -102,6 +102,16 @@ Topics of interest include, but are not limited to:
 
 _All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)_
 
+## Submission Guidelines
+
+**Submissions will be made through Easychair** (see link below) and consist of two mandatory components. First, provide a summary of 200 to 300 words that will be used in the final program. Second, upload a one-page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that do not meet these requirements cannot be taken into account. Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. 
+
+Via Easychair, you will enter your summary in the field “Abstract”, and the full page description via the “upload paper” button. The summary will appear in the program on the webpage, the full page description will only be used in the selection process.
+
+Furthermore, we ask presenters to fill out the online application at Easychair and give us relevant information about your expertise and your professional background.
+
+Finally, submissions must adhere to the fair use of Large Language Models. Please refer to the SEMANTiCS full policy for more details: https://2026-eu.semantics.cc/page/llm-policy
+
 ## Submission
 
 All submissions must be made electronically via EasyChair following this link: [https://easychair.org/conferences?conf=semantics2026](https://easychair.org/conferences?conf=semantics2026).
@@ -140,10 +150,12 @@ All accepted submissions will be granted a presentation slot at the main confere
 We are looking forward to your contribution!
 <br>
 
-**Industry and Use Case Track Chairs**
+## Industry and Use Case Track Chairs
 
-- **Marco Brattinga**, Sopra Steria, Netherlands
-- **Aad Versteden**, redpencil.io, Belgium
-- **Kathrin Füllenbach**, TDCC-NES, Netherlands
+**Marco Brattinga**, Sopra Steria, Netherlands
+
+**Aad Versteden**, redpencil.io, Belgium
+
+**Kathrin Füllenbach**, TDCC-NES, Netherlands
 
 Contact email: [semantics2026-industry@easychair.org](mailto:semantics2026-industry@easychair.org)
