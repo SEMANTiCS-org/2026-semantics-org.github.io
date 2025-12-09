@@ -8,7 +8,7 @@
     <div class="value">September 16-17, 2026</div>
   </div>
   <div class="info-row">
-    <div class="label">Workshops/Tutorials/DBpedia Day</div>
+    <div class="label">Workshops, Tutorials, DBpedia Day</div>
     <div class="value">September 15, 2026</div>
   </div>
 </div>
