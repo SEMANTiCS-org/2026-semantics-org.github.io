@@ -127,5 +127,3 @@ _All deadlines are 11:59 PM [Anywhere on Earth (AoE)](https://time.is/Anywhere_o
 
 
 ## Timeline
-
-<div id="visualization-timeline"></div>
