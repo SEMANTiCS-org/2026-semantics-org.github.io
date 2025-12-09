@@ -9,6 +9,12 @@
      padding: 20px 0;
  }
 
+ #timeline {
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
  /* --- Visual Styling --- */
 
  .vis-item {
