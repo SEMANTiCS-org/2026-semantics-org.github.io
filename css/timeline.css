@@ -1,0 +1,137 @@
+ #visualization-timeline {
+     /* width: 80%;
+     margin-left: 10%; */
+     margin-top: 40px;
+     background: #fff;
+     border: 1px solid #e5e7eb;
+     border-radius: 6px;
+     box-shadow: 0 10px 15px -3px rgba(0, 0, 0, 0.1);
+     padding: 20px 0;
+ }
+
+ #timeline {
+  padding-top: 20px;
+  font-weight: lighter;
+  font-size: 2rem;
+}
+
+ /* --- Visual Styling --- */
+
+ .vis-item {
+     border-color: transparent;
+     background-color: transparent;
+     font-size: 14px;
+     color: #1f2937;
+     /* Dark gray text */
+     line-height: 1.6;
+     margin-bottom: 8px;
+     /* Spacing between stacked lines */
+ }
+
+ .vis-item.vis-selected {
+     background-color: transparent;
+     border-color: transparent;
+     box-shadow: none;
+     /* Remove selection highlight */
+ }
+
+ /* DOT STYLING */
+ .vis-item.vis-dot {
+     border-width: 4px;
+     border-style: solid;
+     border-radius: 50%;
+     box-shadow: 0 0 0 2px white;
+     /* White ring around dot for clean look */
+ }
+
+ /* Text Alignment */
+ .vis-item.vis-point .vis-item-content {
+     margin-left: 24px;
+     transform: translateY(-5px);
+ }
+
+ /* Date Styling within the label */
+ .date-label {
+     color: #6b7280;
+     /* Lighter gray for the date */
+     font-weight: 500;
+     margin-left: 5px;
+ }
+
+ /* COLORS */
+ .purple-dot .vis-dot {
+     border-color: #9333ea;
+     background-color: #9333ea;
+ }
+
+ .blue-dot .vis-dot {
+     border-color: #2563eb;
+     background-color: #2563eb;
+ }
+
+ .teal-dot .vis-dot {
+     border-color: #0d9488;
+     background-color: #0d9488;
+ }
+
+ .green-dot .vis-dot {
+     border-color: #16a34a;
+     background-color: #16a34a;
+ }
+
+ .orange-dot .vis-dot {
+     border-color: #ea580c;
+     background-color: #f97316;
+ }
+
+
+ /* 1. Style the Bar (The colored part) */
+ .vis-item.vis-range.orange-range {
+     background-color: #f97316 !important;
+     border-color: #ea580c !important;
+     border-radius: 4px;
+
+     /* FIX: Force a specific height so it doesn't collapse */
+     height: 18px !important;
+
+     /* Allow text to overflow outside */
+     overflow: visible !important;
+ }
+
+ .vis-item.vis-range.orange-range .vis-item-overflow {
+     overflow: visible !important;
+ }
+
+ .orange-dot .vis-item-content {
+     transform: translateX(-103%) !important;
+     /* Center text vertically against the bar */
+ }
+
+ /* 2. Style the Text Content (Push it to the right) */
+ .orange-range .vis-item-content {
+     /* Position styling */
+     position: absolute !important;
+     transform: translateY(-50%) !important;
+     /* Center text vertically against the bar */
+
+     /* Text styling */
+     width: max-content !important;
+     margin-left: 12px !important;
+     color: #333 !important;
+     font-weight: 600;
+     line-height: 1;
+     /* Keeps alignment tight */
+ }
+
+ /* Left Column Labels */
+ .vis-label {
+     font-weight: 700;
+     color: #111827;
+     font-size: 15px;
+     padding-left: 15px;
+ }
+
+ .vis-inner {
+     padding-top: 10px;
+     /* Align text with top of track */
+ }

@@ -1,4 +1,3 @@
-# Previous Proceedings
 <style>
   .timeline-container {
     width: 90%;
@@ -81,6 +80,12 @@
     background-color: #bbb;
   }
 </style>
+
+# Previous Proceedings
+
+This page offers a comprehensive archive of all accepted papers from past SEMANTiCS conference editions. This collection serves as an essential resource, showcasing the seminal and forward-looking research that has driven progress in Semantic Technologies, Linked Data, AI, and Data Management—a true historical snapshot of the field.
+
+Since 2012, each conference edition has resulted in two distinct publications. The main proceedings showcase the rigorously peer-reviewed papers from the Research and Innovation track, while the companion proceedings include contributions from posters, demos, and workshops.
 
 <div class="timeline-container">
   <!-- 2025 -->
@@ -301,6 +306,9 @@
       Posters and Demos – 
       <a href="https://ceur-ws.org/Vol-932/">I-SEMANTICS 2012 Posters & Demos</a>
     </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20121031154010/http://i-semantics.tugraz.at/">Archived Website</a>
+    </div>
   </div>
 
   <!-- 2011 -->
@@ -312,9 +320,9 @@
       Proceedings – 
       <a href="https://dl.acm.org/doi/proceedings/10.1145/2063518">Proceedings of the 7th International Conference on Semantic Systems</a>
     </div>
-    <!-- <div class="timeline-website">
-      <a href="https://2011-eu.semantics.cc/">Website</a>
-    </div> -->
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20111018210848/http://i-semantics.tugraz.at/">Archived Website</a>
+    </div>
   </div>
 
   <!-- 2010 -->
@@ -326,9 +334,78 @@
       Proceedings – 
       <a href="https://dl.acm.org/doi/proceedings/10.1145/1839707">Proceedings of the 6th International Conference on Semantic Systems</a>
     </div>
-    <!-- <div class="timeline-website">
-      <a href="https://2010-eu.semantics.cc/">Website</a>
-    </div> -->
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20100514100315/http://i-semantics.tugraz.at/">Archived Website</a>
+    </div>
+  </div>
+
+  <!-- 2009 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/logo_i-semantics.png" alt="I-SEMANTICS Logo">
+    <div class="timeline-year">I-SEMANTICS 2009</div>
+    <div class="timeline-desc">5th International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://www.econstor.eu/handle/10419/44444">Proceedings of I-SEMANTICS '09: 5th international conference on semantic systems</a>
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20090210034036/http://i-semantics.tugraz.at/">Archived Website</a>
+    </div>
+  </div>
+
+  <!-- 2008 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/logo_i-semantics.png" alt="I-SEMANTICS Logo">
+    <div class="timeline-year">I-SEMANTICS 2008</div>
+    <div class="timeline-desc">4th International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://www.econstor.eu/handle/10419/44448">I-SEMANTICS '08: International conference on semantic systems</a>
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20081024093658/http://triple-i.tugraz.at/i_semantics">Archived Website</a>
+    </div> 
+  </div>
+
+  <!-- 2007 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/semantics2007-logo.jpg" alt="I-SEMANTICS Logo">
+    <div class="timeline-year">I-SEMANTICS 2007</div>
+    <div class="timeline-desc">3rd International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://www.econstor.eu/handle/10419/44447">I-MEDIA '07, I-SEMANTICS '07: International conferences on new media technology and semantic systems</a>
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20070921193407/http://www.i-semantics.tugraz.at/">Archived Website</a>
+    </div>
   </div>
  
+
+   <!-- 2006 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/semantics2006-logo.png" alt="SEMANTICS Logo">
+    <div class="timeline-year">SEMANTICS 2006</div>
+    <div class="timeline-desc">2nd SEMANTICS 2006, From Visions to Applications - Semantics: The New Paradigm Shift in IT</div>
+    <div class="timeline-links">
+      S. Schaffert and Y. Sure-Vetter, Eds., Semantic systems. From visions to applications: proceedings of the SEMANTICS 2006 conference. in Book Series of the Austrian Computer Society, no. 212. Wien: Österreichische Computer Gesellschaft, 2006.
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20060615030150/http://www.semantics2006.net/home.1.htm">Archived Website</a>
+    </div> 
+  </div>
+
+   <!-- 2005 -->
+  <div class="timeline-item">
+    <!-- <img class="timeline-logo" src="../img/semantics2006-logo.png" alt="SEMANTICS Logo"> -->
+    <div class="timeline-year">SEMANTICS 2005</div>
+    <div class="timeline-desc">1st SEMANTICS 2005, Semantic Systems in the Knowledge Society</div>
+    <div class="timeline-links">
+      S. Reich, G. Güntner, T. Pellegrini, and A. Wahler, Eds., Semantic content engineering: proceedings of Semantics 2005 conference. in Schriftreihe Informatik, no. 17. Linz, Austria: Trauner, 2005.
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20060830124243/http://www.semantics2005.net/">Archived Website</a>
+    </div> 
+  </div>
+
  A comprehensive list of proceedings and research papers is available on [dblp](https://dblp.org/db/conf/i-semantics/index.html).
