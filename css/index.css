@@ -8,7 +8,7 @@
 
 .news-box {
   background-color: var(--news-background);
-  border: solid var(--news-border);
+  border: solid var(--news-border) 5px;
   padding: 15px;
   border-radius: 18px;
 }
