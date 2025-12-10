@@ -2,6 +2,7 @@
 <style>
   a {
     color: var(--link) !important;
+    font-weight: bold;
     text-decoration: none;
   }
   a:hover {

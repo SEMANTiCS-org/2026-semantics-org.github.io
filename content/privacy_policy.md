@@ -1,22 +1,16 @@
 <style>
-	a {
-		color: #2A709F !important;
-		text-decoration: none !important;
-	}
-
-	a:hover {
-			text-decoration: none;
-			color: #EB8C34 !important;
-			transition: all 0.5s !important;
-			}
-    h1,h2,h3{
-        color: #2A709F !important;
-        font-weight: 600;
-		margin-bottom:5px !important;
-    }
-	p{
-		margin:0px !important;
-	}
+  a {
+    color: var(--link) !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--body-less) !important;
+    transition: all 0.5s !important;
+  }
+  h1, h2, h3 {
+    font-weight: bold !important;
+  }
 </style>
 
 # Privacy Policy

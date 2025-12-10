@@ -2,6 +2,7 @@
 <style>
   a {
     color: var(--link) !important;
+    font-weight: bold;
     text-decoration: none;
   }
   a:hover {
@@ -66,7 +67,6 @@
   </div>
 </div>
 
-
 ## Poster and Demo Papers
 
 <div class="info-table">
@@ -87,7 +87,6 @@
     <div class="value">September 16, 2026</div>
   </div>
 </div>
-
 
 ## Workshops
 
@@ -117,7 +116,6 @@
     <div class="value">September 15, 2026</div>
   </div>
 </div>
-
 
 ## Tutorials
 

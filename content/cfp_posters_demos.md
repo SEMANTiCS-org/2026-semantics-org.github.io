@@ -2,6 +2,7 @@
 <style>
   a {
     color: var(--link) !important;
+    font-weight: bold;
     text-decoration: none;
   }
   a:hover {
@@ -16,7 +17,6 @@
 # Call for Posters and Demos
 
 <br>
-
 
 #### Key Information
 
@@ -120,7 +120,7 @@ Submissions must clearly demonstrate their relevance to the aforementioned topic
 - **Significance** and potential impact
 - **Topicality**, i.e., the timeliness and current relevance of the work
 - **Clarity** and quality of presentation
-  
+
 The Posters & Demos Track aims to enable the presentation of **preliminary, ongoing, and innovative work**, provided that the submission offers a meaningful and original contribution to the community. Each submission will be reviewed by **three** qualified members of the Program Committee.
 
 ## Author Guidelines and Submission Requirements

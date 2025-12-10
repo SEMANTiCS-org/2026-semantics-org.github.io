@@ -2,6 +2,7 @@
 <style>
   a {
     color: var(--link) !important;
+    font-weight: bold;
     text-decoration: none;
   }
   a:hover {
@@ -250,7 +251,7 @@ We are looking forward to your contribution!
 ## Workshop and Tutorial Chairs
 
 **Beyza Yaman**, Trinity College Dublin, Ireland
-  
+
 **Rosa Filgueira**, University of Edinburgh, UK
 
 In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair. You can contact us via [semantics2026-ws@easychair.org](mailto:semantics2026-ws@easychair.org) for workshop and [semantics2026-tut@easychair.org](mailto:semantics2026-tut@easychair.org) for tutorial queries.

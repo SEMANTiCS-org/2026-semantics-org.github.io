@@ -3,20 +3,17 @@
 <style>
   a {
     color: var(--link) !important;
+    font-weight: bold;
     text-decoration: none;
   }
-
   a:hover {
     color: var(--body-less) !important;
     transition: all 0.5s !important;
   }
-
-h1, h2, h3 {
+  h1, h2, h3 {
     font-weight: bold !important;
   }
 </style>
-
-
 
 # Call for Industry and Use Case Presentations
 
@@ -116,7 +113,7 @@ _All deadlines are set for 11:59 pm, Anywhere On Earth time (UTC-12)_
 
 ## Submission Guidelines
 
-**Submissions will be made through Easychair** (see link below) and consist of two mandatory components. First, provide a summary of 200 to 300 words that will be used in the final program. Second, upload a one-page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that do not meet these requirements cannot be taken into account. Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper. 
+**Submissions will be made through Easychair** (see link below) and consist of two mandatory components. First, provide a summary of 200 to 300 words that will be used in the final program. Second, upload a one-page description of the use case you want to present, in particular: initial situation, approach, business value and benefits of the semantic solution, prospects and recommendation. Submissions that do not meet these requirements cannot be taken into account. Please notice that a paper abstract is not necessary, as your submission will only include a presentation at SEMANTiCS and not a paper.
 
 Via Easychair, you will enter your summary in the field “Abstract”, and the full page description via the “upload paper” button. The summary will appear in the program on the webpage, the full page description will only be used in the selection process.
 
