@@ -389,5 +389,32 @@ Since 2012, each conference edition has resulted in two distinct publications. T
       <a href="https://web.archive.org/web/20070921193407/http://www.i-semantics.tugraz.at/">Archived Website</a>
     </div>
   </div>
+
+
+   <!-- 2006 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/semantics2006-logo.png" alt="SEMANTICS Logo">
+    <div class="timeline-year">SEMANTICS 2006</div>
+    <div class="timeline-desc">2nd SEMANTICS 2006, From Visions to Applications - Semantics: The New Paradigm Shift in IT</div>
+    <div class="timeline-links">
+      S. Schaffert and Y. Sure-Vetter, Eds., Semantic systems. From visions to applications: proceedings of the SEMANTICS 2006 conference. in Book Series of the Austrian Computer Society, no. 212. Wien: Österreichische Computer Gesellschaft, 2006.
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20060615030150/http://www.semantics2006.net/home.1.htm">Archived Website</a>
+    </div> 
+  </div>
+
+   <!-- 2005 -->
+  <div class="timeline-item">
+    <!-- <img class="timeline-logo" src="../img/semantics2006-logo.png" alt="SEMANTICS Logo"> -->
+    <div class="timeline-year">SEMANTICS 2005</div>
+    <div class="timeline-desc">1st SEMANTICS 2005, Semantic Systems in the Knowledge Society</div>
+    <div class="timeline-links">
+      S. Reich, G. Güntner, T. Pellegrini, and A. Wahler, Eds., Semantic content engineering: proceedings of Semantics 2005 conference. in Schriftreihe Informatik, no. 17. Linz, Austria: Trauner, 2005.
+    </div>
+    <div class="timeline-website">
+      <a href="https://web.archive.org/web/20060830124243/http://www.semantics2005.net/">Archived Website</a>
+    </div> 
+  </div>
  
  A comprehensive list of proceedings and research papers is available on [dblp](https://dblp.org/db/conf/i-semantics/index.html).

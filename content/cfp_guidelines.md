@@ -1,6 +1,7 @@
 <style>
   a {
     color: var(--link) !important;
+    text-decoration: none;
   }
 
   a:hover {
