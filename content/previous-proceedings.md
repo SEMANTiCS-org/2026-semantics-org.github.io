@@ -6,8 +6,8 @@
   }
 
   .timeline-item {
-    background: var(--news-background);
-    border-left: 5px solid var(--news-border);
+    background: var(--highlight-alt);
+    border: 5px solid var(--title);
     margin: 30px 0;
     padding: 20px 30px;
     border-radius: 10px;
@@ -22,9 +22,9 @@
     top: 20px;
     width: 20px;
     height: 20px;
-    background: var(--news-border);
+    background: var(--title);
     border-radius: 50%;
-    border: 3px solid var(--news-border);
+    border: 3px solid var(--title);
   }
 
   .timeline-logo {
@@ -39,31 +39,32 @@
   .timeline-year {
     font-size: 18px;
     font-weight: bold;
-    color: var(--news-title);
+    color: var(--title);
     margin-bottom: 6px;
   }
 
   .timeline-desc {
     font-size: 15px;
-    color: var(--news-body);
+    color: var(--body);
     margin-bottom: 10px;
   }
 
   .timeline-links {
     font-size: 14px;
-    color: var(--news-body);
+    color: var(--body);
     margin-bottom: 8px;
   }
 
   .timeline-links a {
-    color: var(--news-body);
+    color: var(--link);
+    font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
-  }
+}
 
   .timeline-links a:hover {
     text-decoration: none;
-    color: var(--highlight);
+    color: var(--body-less);
   transition: 0.5s;
   }
 
@@ -74,20 +75,34 @@
   .timeline-website a {
     display: inline-block;
     padding: 6px 12px;
-    background-color: #ccc;
-    color: #333;
+    background-color: var(--title);
+    color: var(--highlight-alt);
     border-radius: 6px;
     text-decoration: none;
     font-size: 13px;
   }
 
   .timeline-website a:hover {
-    background-color: #bbb;
+    color: var(--title);
+    background-color: var(--highlight);
+    transition: all 0.5s !important;
   }
 
-  h1 {
+  a {
+    color: var(--link);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--body-less);
+    transition: all 0.5s;
+  }
+
+h1, h2, h3 {
     font-weight: bold !important;
   }
+
 </style>
 
 # Previous Proceedings
@@ -389,7 +404,6 @@ Since 2012, each conference edition has resulted in two distinct publications. T
       <a href="https://web.archive.org/web/20070921193407/http://www.i-semantics.tugraz.at/">Archived Website</a>
     </div>
   </div>
-
 
    <!-- 2006 -->
   <div class="timeline-item">
