@@ -12,36 +12,42 @@ h3 {
   font-weight: lighter;
 }
 
-blockquote{
-  font-family: 'Lato';
+blockquote {
+  font-family: "Lato";
   font-size: 0.97em;
 }
 
-table, tr, td{
+table,
+tr,
+td {
   border: 0.5px solid gray;
-  border-collapse: collapse ;
+  border-collapse: collapse;
   padding: 15px;
 }
 
-table, tr, td, th {
+table,
+tr,
+td,
+th {
   text-align: center;
 }
 
-th{
+th {
   background: lightgray;
 }
-td, th{
+td,
+th {
   word-wrap: break-word;
   max-width: 300px;
 }
 
-.align-middle{
+.align-middle {
   margin: 0 auto;
 }
-
-.venue-sec-title{
-	background-color: var(--section-bg-color);
-	font-size: 1.2em;
+/* 
+.venue-sec-title {
+  background-color: var(--section-bg-color);
+  font-size: 1.2em;
   font-weight: lighter;
   margin-top: 25px;
   margin-bottom: 10px;
@@ -49,9 +55,9 @@ td, th{
   border-radius: 5px;
   width: 250px;
   text-align: center;
-}
+} */
 
-#footnotes li{
-	font-size: 0.8em;
-	padding: 0px;
+#footnotes li {
+  font-size: 0.8em;
+  padding: 0px;
 }

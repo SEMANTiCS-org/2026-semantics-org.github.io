@@ -6,8 +6,8 @@
   }
 
   .timeline-item {
-    background: #f5f5f5;
-    border-left: 5px solid #999;
+    background: var(--news-background);
+    border-left: 5px solid var(--news-border);
     margin: 30px 0;
     padding: 20px 30px;
     border-radius: 10px;
@@ -22,44 +22,49 @@
     top: 20px;
     width: 20px;
     height: 20px;
-    background: #999;
+    background: var(--news-border);
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid var(--news-border);
   }
 
   .timeline-logo {
     max-width: 100px;
     margin-bottom: 8px;
     display: block;
+    background: white;
+    border: 5px solid white;
+    border-radius: 5px;
   }
 
   .timeline-year {
     font-size: 18px;
     font-weight: bold;
-    color: #444;
+    color: var(--news-title);
     margin-bottom: 6px;
   }
 
   .timeline-desc {
     font-size: 15px;
-    color: #666;
+    color: var(--news-body);
     margin-bottom: 10px;
   }
 
   .timeline-links {
     font-size: 14px;
-    color: #555;
+    color: var(--news-body);
     margin-bottom: 8px;
   }
 
   .timeline-links a {
-    color: #2A709F;
+    color: var(--news-body);
     text-decoration: none;
     margin-right: 10px;
   }
 
   .timeline-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--highlight);
+  transition: 0.5s;
   }
 
   .timeline-website {
@@ -78,6 +83,10 @@
 
   .timeline-website a:hover {
     background-color: #bbb;
+  }
+
+  h1 {
+    font-weight: bold !important;
   }
 </style>
 
@@ -381,31 +390,4 @@ Since 2012, each conference edition has resulted in two distinct publications. T
     </div>
   </div>
  
-
-   <!-- 2006 -->
-  <div class="timeline-item">
-    <img class="timeline-logo" src="../img/semantics2006-logo.png" alt="SEMANTICS Logo">
-    <div class="timeline-year">SEMANTICS 2006</div>
-    <div class="timeline-desc">2nd SEMANTICS 2006, From Visions to Applications - Semantics: The New Paradigm Shift in IT</div>
-    <div class="timeline-links">
-      S. Schaffert and Y. Sure-Vetter, Eds., Semantic systems. From visions to applications: proceedings of the SEMANTICS 2006 conference. in Book Series of the Austrian Computer Society, no. 212. Wien: Österreichische Computer Gesellschaft, 2006.
-    </div>
-    <div class="timeline-website">
-      <a href="https://web.archive.org/web/20060615030150/http://www.semantics2006.net/home.1.htm">Archived Website</a>
-    </div> 
-  </div>
-
-   <!-- 2005 -->
-  <div class="timeline-item">
-    <!-- <img class="timeline-logo" src="../img/semantics2006-logo.png" alt="SEMANTICS Logo"> -->
-    <div class="timeline-year">SEMANTICS 2005</div>
-    <div class="timeline-desc">1st SEMANTICS 2005, Semantic Systems in the Knowledge Society</div>
-    <div class="timeline-links">
-      S. Reich, G. Güntner, T. Pellegrini, and A. Wahler, Eds., Semantic content engineering: proceedings of Semantics 2005 conference. in Schriftreihe Informatik, no. 17. Linz, Austria: Trauner, 2005.
-    </div>
-    <div class="timeline-website">
-      <a href="https://web.archive.org/web/20060830124243/http://www.semantics2005.net/">Archived Website</a>
-    </div> 
-  </div>
-
  A comprehensive list of proceedings and research papers is available on [dblp](https://dblp.org/db/conf/i-semantics/index.html).

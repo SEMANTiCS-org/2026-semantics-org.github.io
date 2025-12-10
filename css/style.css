@@ -17,14 +17,17 @@
   --background-alt: var(--semantics-blue-dark);
   --background: var(--semantics-orange-light);
   --body: var(--semantics-blue-dark);
+  --body-less: var(--semantics-orange-dark);
+  --link: var(--semantics-blue);
   --body-alt: var(--semantics-orange-light);
   --title: var(--semantics-blue-dark);
   --title-alt: var(--semantics-orange);
   --highlight: var(--semantics-orange);
-  --news-background: var(--semantics-orange);
+  --news-background: var(--semantics-blue-dark);
   --highlight-alt: var(--semantics-blue-light);
-  --news-title: var(--semantics-blue-dark);
-  --news-body: var(--semantics-orange-dark);
+  --news-body: var(--semantics-blue-light);
+  --news-border: var(--semantics-orange);
+  --news-title: white;
 }
 
 body {
@@ -34,7 +37,7 @@ body {
 }
 
 h2 {
-  font-weight: normal;
+  font-weight: bold;
   font-size: 1.3em;
 }
 section {
@@ -205,18 +208,24 @@ header .logo img {
 }
 .persons .person {
   text-align: center;
+  font-weight: bold;
   margin: 0 auto;
   padding: 5px;
 }
 .person-info {
-  color: gray;
+  font-weight: normal;
+  font-size: 0.9em;
+  color: var(--body-less) !important;
+}
+.person-info-alt {
+  color: var(--highlight-alt) !important;
   font-size: 0.9em;
 }
 .person-talk {
   font-size: 0.9em;
 }
 .person-role {
-  color: var(--semantics-orange);
+  color: var(--body-less);
   font-size: 0.8em;
 }
 #psc_members {
@@ -227,7 +236,7 @@ header .logo img {
 }
 .group-title {
   margin-top: 40px;
-  border-bottom: solid 2px var(--semantics-orange);
+  border-bottom: solid 3px var(--highlight);
 }
 
 .theme-row {
@@ -305,7 +314,7 @@ header .logo img {
   font-weight: bold;
   width: 30%;
   margin: auto;
-  border-bottom: solid 2px var(--title-alt);
+  border-bottom: solid 3px var(--title-alt);
   color: var(--title-alt) !important;
 }
 .section {
@@ -372,7 +381,7 @@ header {
   max-height: 150px;
   display: block;
   margin: 0 auto;
-  padding-bottom: 10px;
+  /* padding-bottom: 10px; */
   /*background: var(--section-bg-color-alt);*/
 }
 
@@ -395,14 +404,9 @@ header {
   padding-top: 5px;
   font-size: 0.9em;
 }
-.news-abs {
-  display: -webkit-box;
-  overflow: hidden;
-  -webkit-line-clamp: 5;
-  -webkit-box-orient: vertical;
-}
+
 .container-img-news {
-  min-height: 150px;
+  /* min-height: 150px; */
 }
 
 @media (min-width: 992px) {
