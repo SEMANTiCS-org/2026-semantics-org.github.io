@@ -1,4 +1,17 @@
 <link href="../css/call.css" rel="stylesheet">
+<style>
+  a {
+    color: var(--link) !important;
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--body-less) !important;
+    transition: all 0.5s !important;
+  }
+  h1, h2, h3 {
+    font-weight: bold !important;
+  }
+</style>
 
 # Call for Workshops and Tutorials
 
@@ -45,12 +58,9 @@
   <div class="info-row">
     <div class="label">Contact</div>
     <div class="value">
-      <p>
         <a href="mailto:semantics2026-ws@easychair.org">semantics2026-ws@easychair.org</a> (for workshops)
-      </p>
-      <p>
+        <br>
         <a href="mailto:semantics2026-tut@easychair.org">semantics2026-tut@easychair.org</a> (for tutorials)
-      </p>
     </div>
   </div>
 </div>

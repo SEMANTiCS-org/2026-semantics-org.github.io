@@ -1,5 +1,23 @@
 <link href="../css/call.css" rel="stylesheet">
 
+<style>
+  a {
+    color: var(--link) !important;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--body-less) !important;
+    transition: all 0.5s !important;
+  }
+
+h1, h2, h3 {
+    font-weight: bold !important;
+  }
+</style>
+
+
+
 # Call for Industry and Use Case Presentations
 
 <br>
@@ -35,9 +53,7 @@
   <div class="info-row">
     <div class="label">Contact</div>
     <div class="value">
-      <p>
         <a href="mailto:semantics2026-industry@easychair.org">semantics2026-industry@easychair.org </a> 
-      </p>
     </div>
   </div>
 </div>
@@ -82,10 +98,6 @@ Topics of interest include, but are not limited to:
 ## Important Dates
 
 <div class="info-table">
-  <div class="info-row">
-    <div class="label">Deadline</div>
-    <div class="label">Date</div>
-  </div>
    <div class="info-row">
     <div class="label">Submission Deadline</div>
     <div class="value">June 2, 2026</div>
