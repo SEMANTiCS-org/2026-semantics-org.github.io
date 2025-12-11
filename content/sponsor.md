@@ -62,12 +62,12 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
         <col class="col6">
         <tbody>
           <tr class="row0">
-            <td colspan="1" class="">Services</td>
-            <td colspan="1" class="">Infos</td>
-            <td class="th-gold">Gold</td>
-            <td class="th-gold">Silver</td>
-            <td class="th-gold">Bronze</td>
-            <td class="th-gold">StartUp</td>
+            <td colspan="1" class="">SERVICES</td>
+            <td colspan="1" class="">INFOS</td>
+            <td class="th-gold">GOLD</td>
+            <td class="th-gold">SILVER</td>
+            <td class="th-gold">BRONZE</td>
+            <td class="th-gold">STARTUP</td>
           </tr>
           <tr class="row1">
             <td class="td-blue">TALKS</td>
@@ -119,10 +119,10 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
           </tr>
           <tr class="row6">
             <td colspan="2" class="">YOUR BRAND</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
           </tr>
           <tr class="row7">
             <td class="td-blue">MATERIAL IN THE BAG</td>
@@ -152,10 +152,10 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
           </tr>
           <tr class="row10">
             <td colspan="2" class="">MEDIA COVERAGE</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
           </tr>
           <tr class="row11">
             <td class="td-blue">SOCIAL<br />
@@ -210,37 +210,37 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-blue">Badge scanner needs to be ordered separately if needed</td>
             <td class="td-orange">✓</td>
             <td class="td-orange">✓</td>
-            <td class="td-orange"></td>
-            <td class="td-orange"></td>
+            <td class="td-gray"></td>
+            <td class="td-gray"></td>
           </tr>
           <tr class="row17">
-            <td colspan="2" class="th-gold">Your investment</td>
-            <td class="th-gold">13500 €</td>
-            <td class="th-gold">9000 €</td>
-            <td class="th-gold">4900 €</td>
-            <td class="th-gold">3410 €</td>
+            <td colspan="2" class="th-blue">Your investment</td>
+            <td class="th-blue">13500 €</td>
+            <td class="th-blue">9000 €</td>
+            <td class="th-blue">4900 €</td>
+            <td class="th-blue">3410 €</td>
           </tr>
           <tr class="row18">
-            <td colspan="2" class="th-gold">Early booking bonus (-10%) until April 30, 2026</td>
-            <td class="th-gold">12150 €</td>
-            <td class="th-gold">8100 €</td>
-            <td class="th-gold">4410 €</td>
-            <td class="th-gold">3069 €</td>
+            <td colspan="2" class="th-blue">Early booking bonus (-10%) until April 30, 2026</td>
+            <td class="th-blue">12150 €</td>
+            <td class="th-blue">8100 €</td>
+            <td class="th-blue">4410 €</td>
+            <td class="th-blue">3069 €</td>
           </tr>
            <tr class="row19">
-            <td colspan="2" class="">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
-            <td class="th-gold">&nbsp;</td>
+            <td colspan="2" class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
+            <td class="td-gray">&nbsp;</td>
           </tr>
            <tr class="row20">
-            <td class="th-gold">OPTIONAL</td>
-            <td class="th-gold">Half-day Tutorial during the preconference day. No early booking discount applies.</td>
-            <td class="th-gold">3600 €</td>
-            <td class="th-gold">3600 €</td>
-            <td class="th-gray">n/a</td>
-            <td class="th-gray">n/a</td>
+            <td class="td-orange">OPTIONAL</td>
+            <td class="td-orange">Half-day Tutorial during the preconference day. No early booking discount applies.</td>
+            <td class="td-orange">3600 €</td>
+            <td class="td-orange">3600 €</td>
+            <td class="td-gray">n/a</td>
+            <td class="td-gray">n/a</td>
           </tr>
         </tbody>
     </table>
