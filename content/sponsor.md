@@ -206,7 +206,7 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="td-orange">✓</td>
           </tr>
           <tr class="row16">
-            <td class="td-blue">BADGE SSCANNIG ENABLED</td>
+            <td class="td-blue">BADGE SCANNIG ENABLED</td>
             <td class="td-blue">Badge scanner needs to be ordered separately if needed</td>
             <td class="td-orange">✓</td>
             <td class="td-orange">✓</td>

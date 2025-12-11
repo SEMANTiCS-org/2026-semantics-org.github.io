@@ -42,3 +42,39 @@ td, th{
   background: rgb(216,216,216,0);
   color: var(--body);
 }
+
+table {
+  /* This creates the single-line border look */
+  border-collapse: collapse; 
+  border-spacing: 0;
+  width: 100%;
+}
+table, tr {
+  border: none;
+}
+
+@media (max-width: 992px) {
+  
+  table {
+    border-collapse: collapse; 
+    border-spacing: 0;
+    display: block; 
+    width: 100%;
+    overflow-x: auto; /* Adds the horizontal scrollbar */
+    -webkit-overflow-scrolling: touch; 
+  }
+
+  /* When table is display:block, it loses automatic column sizing.
+     We need to ensure cells stay wide enough to be readable. */
+  th, td {
+    white-space: nowrap; /* Prevents text from wrapping, forcing the table to be wide */
+    min-width: 120px;    /* Optional: ensures very short columns aren't too thin */
+  }
+  
+  /* Exception: If you have long text paragraphs (like the 'Infos' column),
+     allow them to wrap but give them a fixed width */
+  .col1, td:nth-child(2) {
+     white-space: normal;
+     min-width: 300px;
+  }
+}
