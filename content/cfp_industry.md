@@ -10,7 +10,7 @@
     color: var(--body-less) !important;
     transition: all 0.5s !important;
   }
-  h1, h2, h3 {
+  h1, h2, h3, h4 {
     font-weight: bold !important;
   }
 </style>
