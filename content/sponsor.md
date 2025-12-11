@@ -41,9 +41,9 @@ The **SEMANTiCS 2026 conference offers** sponsors a carefully selected and high 
 Target attendance is a 450+ mix of technology providers, users & integrators, business leaders, leadingedge developers, researchers, investors and analysts who will either participate physically or remotely.
 
 <div style="text-align: center;background-color: var(--semantics-blue-light); border: 3px solid var(--title); padding: 30px; border-radius: 12px; margin-bottom:50px !important">
-  <p>Get in touch with the Sponsoring Team regarding requests, questions and booking.</p>
+  <p style="font-weight: bold">Get in touch with the Sponsoring Team regarding requests, questions and booking.</p>
   <br/>
-  <a class="btn" href="mailto:sponsoring@semantics.cc" style="font-size: 12pt" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
+  <a class="btn" href="mailto:sponsoring@semantics.cc" style="font-size: 12pt; font-weight: bold" type="button" class="btn btn-primary">sponsoring@semantics.cc</a>
 </div>
 
 ### Sponsoring Bundles SEMANTiCS 2026
