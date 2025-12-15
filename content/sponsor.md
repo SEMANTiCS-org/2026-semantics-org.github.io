@@ -38,6 +38,7 @@
 	}
 
 </style>
+
 # Sponsorship Packages
 
 The **SEMANTiCS 2026 conference offers** sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 5 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.
@@ -227,7 +228,7 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="th-gold">3410 €</td>
           </tr>
           <tr class="row18">
-            <td colspan="2" class="th-gold">Early booking bonus (-10%) until April 30, 2026</td>
+            <td colspan="2" class="th-gold">Early booking bonus (-10%) until March 31, 2026</td>
             <td class="th-gold">12150 €</td>
             <td class="th-gold">8100 €</td>
             <td class="th-gold">4410 €</td>
