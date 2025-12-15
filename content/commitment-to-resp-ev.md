@@ -1,5 +1,9 @@
 # Our Commitment to Responsible Events
 
+<div style="text-align: center;">
+  <img src="../img/OurCommitmenttoResponsibleEvents.png" style="width: 70%; height: auto;" alt="">
+</div>
+
 Over the past years, while advancing the sharing of cutting-edge research in Artificial Intelligence, Machine Learning, Knowledge Graphs, Semantics, Ontologies, and Representation Learning, the SEMANTiCS Conference has also taken deliberate steps to raise awareness of sustainability in event organisation - for example, by encouraging low-waste practices, responsible travel choices, and mindful use of resources.  
 In each edition, the General Chairs, together with that year’s local organising team, have placed a strong emphasis on planet care, not only discussing how AI can help address environmental challenges, but also ensuring our conference organisation itself reflects these values.
 
