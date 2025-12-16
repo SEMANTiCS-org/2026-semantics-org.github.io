@@ -1,0 +1,44 @@
+name: Sync restyling branch to test repo
+
+on:
+  push:
+    branches:
+      - restyling
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout source repository
+        uses: actions/checkout@v4
+        with:
+          ref: restyling
+
+      - name: Clone target repository
+        env:
+          TOKEN: ${{ secrets.TEST_REPO_TOKEN }}
+        run: |
+          git clone https://x-access-token:${TOKEN}@github.com/SEMANTiCS-org/test-2026-semantics.git target-repo
+
+      - name: Sync files
+        run: |
+          rsync -av --delete \
+            --exclude='.git' \
+            ./ target-repo/
+
+      - name: Commit and push changes
+        working-directory: target-repo
+        run: |
+          git config user.name "github-actions"
+          git config user.email "actions@github.com"
+
+          git checkout main
+          git add .
+
+          if ! git diff --cached --quiet; then
+            git commit -m "Sync from restyling branch"
+            git push origin main
+          else
+            echo "No changes to commit"
+          fi
