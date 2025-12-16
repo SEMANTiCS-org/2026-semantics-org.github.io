@@ -1,134 +1,123 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="utf-8" />
-    <meta
-      name="viewport"
-      content="width=device-width, initial-scale=1, shrink-to-fit=no"
-    />
-    <meta name="description" content="" />
-    <meta name="author" content="" />
 
-    <title>SEMANTICS-2026</title>
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
 
-    <!-- Bootstrap core CSS -->
-    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+  <title>SEMANTICS-2026</title>
 
-    <!-- Custom styles for this template -->
-    <link href="css/scrolling-nav.css" rel="stylesheet" />
 
-    <link href="css/style.css" rel="stylesheet" />
-    <link href="css/index.css" rel="stylesheet" />
-    <link rel="icon" href="img/semantics-logo-browser.ico" />
+  <!-- Bootstrap core CSS -->
+  <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-    <!-- Mark down -->
-    <script type="module" src="vendor/zero-md-v2/zero-md.min.js"></script>
+  <!-- Custom styles for this template -->
+  <link href="css/scrolling-nav.css" rel="stylesheet" />
 
-    <script src="vendor/jquery/jquery.min.js"></script>
+  <link href="css/style.css" rel="stylesheet" />
+  <link href="css/index.css" rel="stylesheet" />
+  <link rel="icon" href="img/semantics-logo-browser.ico" />
 
-    <script src="js/getconf.js"></script>
-    <script src="js/pcontent.js"></script>
-    <script src="js/pcsv.js"></script>
-  </head>
+  <!-- Mark down -->
+  <script type="module" src="vendor/zero-md-v2/zero-md.min.js"></script>
 
-  <body id="page-top">
-    <div id="nav-placeholder"></div>
+  <script src="vendor/jquery/jquery.min.js"></script>
 
-    <script>
-      $(function () {
-        $("#nav-placeholder").load("page/nav.html", function functionName() {
-          apply_conf_onfunc(update_nav, true);
-        });
-        //$("#sidecol").load("page/side.html");
-        $("#page-footer").load("page/footer.html", function functionName() {
-          apply_conf_onfunc(update_footer, true);
-        });
+  <script src="js/getconf.js"></script>
+  <script src="js/pcontent.js"></script>
+  <script src="js/pcsv.js"></script>
+</head>
+
+<body id="page-top">
+  <div id="nav-placeholder"></div>
+
+  <script>
+    $(function () {
+      $("#nav-placeholder").load("page/nav.html", function functionName() {
+        apply_conf_onfunc(update_nav, true);
       });
-    </script>
+      //$("#sidecol").load("page/side.html");
+      $("#page-footer").load("page/footer.html", function functionName() {
+        apply_conf_onfunc(update_footer, true);
+      });
+    });
+  </script>
 
-    <header class="bg-light">
-      <div id="front" class="container">
-        <div class="row">
-          <div class="col mx-auto title">
-            <h4
-              style="
+  <header class="bg-light">
+    <div id="front" class="container">
+      <div class="row">
+        <div class="col mx-auto title">
+          <h4 style="
                 text-align: center;
                 font-weight: bold;
                 color: var(--background-alt);
-              "
-            >
-              Ghent, 15–17 September 2026
-            </h4>
-          </div>
+              ">
+            Ghent, 15–17 September 2026
+          </h4>
         </div>
-        <div class="row">
-          <div class="col mx-auto logo">
-            <img
-              id="logo_semantics"
-              src="img/semantics-logo-white-blue-dark.png"
-              width="125%"
-              height="auto"
-              style="padding: 10px"
-              alt=""
-            />
-            <!--<img id="logo_lti" src="img/LTILogoByLine.png" width="22%" height="auto" style="padding:10px" alt="">-->
-          </div>
+      </div>
+      <div class="row">
+        <div class="col mx-auto logo">
+          <img id="logo_semantics" src="img/semantics-logo-white-blue-dark.png" width="125%" height="auto"
+            style="padding: 10px" alt="" />
+          <!--<img id="logo_lti" src="img/LTILogoByLine.png" width="22%" height="auto" style="padding:10px" alt="">-->
         </div>
-        <div class="row">
-          <div class="col mx-auto title">
-            <h4
-              style="
+      </div>
+      <div class="row">
+        <div class="col mx-auto title">
+          <h4 style="
                 text-align: center;
                 font-weight: bold;
                 /* background-color: var(--background-alt); */
-              "
-            >
-              22nd International Conference on Semantic Systems
-            </h4>
-          </div>
+              ">
+            22nd International Conference on Semantic Systems
+          </h4>
         </div>
-        <div class="row">
-          <!-- <div class="col mx-auto">
+      </div>
+      <div class="row">
+        <!-- <div class="col mx-auto">
 					<div style="text-align: center; margin-top: 50px;"><a
 							href="https://2026-eu.semantics.cc/page/registration" type="button" class="btn btn-primary"
 							style="font-size: 1.2em;">REGISTER</a></div>
 				</div> -->
-        </div>
       </div>
-    </header>
+    </div>
+  </header>
 
-    <section class="theme-row collapsed-section" id="section_intro">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <div class="row">
-              <div class="col-lg-12 mx-auto">
-                <div class="row">
-                  <div class="col-lg-12 mx-auto">
-                    <h4 class="title-section-alt text-center">
-                      SEMANTiCS 2026
-                    </h4>
-                  </div>
-                </div>
-
-                <div class="row" id="home_about">
-                  <div id="intro" class="col-lg-10 mx-auto text-center">
-                    <zero-md src="content/home.md">
-                      <template>
-                        <link href="css/md-style.css" rel="stylesheet" />
-                      </template>
-                    </zero-md>
-                  </div>
+  <section class="theme-row collapsed-section" id="section_intro">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="row">
+                <div class="col-lg-12 mx-auto">
+                  <h4 class="title-section-alt text-center">
+                    SEMANTiCS 2026
+                  </h4>
                 </div>
               </div>
-              <!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
+
+              <div class="row" id="home_about">
+                <div id="intro" class="col-lg-10 mx-auto text-center">
+                  <zero-md src="content/home.md">
+                    <template>
+                      <link href="css/md-style.css" rel="stylesheet" />
+                    </template>
+                  </zero-md>
+                </div>
+              </div>
             </div>
+            <!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
           </div>
         </div>
       </div>
-    </section>
+    </div>
+  </section>
 
-    <!-- <section class="theme-row-alt collapsed-section">
+  <!-- <section class="theme-row-alt collapsed-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
@@ -150,19 +139,18 @@
 			</div>
 		</div>
 	</section> -->
-    <section class="collapsed-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <div class="row">
-              <div class="col-lg-12 mx-auto">
-                <div id="news" class="section">
-                  <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                      <h4 class="title-section text-center">
-                        BLOG POSTS & NEWS
-                      </h4>
-                    </div>
+  <section class="collapsed-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div id="news" class="section">
+                <div class="row">
+                  <div class="col-lg-12 mx-auto">
+                    <h4 class="title-section text-center">
+                      BLOG POSTS & NEWS
+                    </h4>
                   </div>
                 </div>
               </div>
@@ -170,24 +158,25 @@
           </div>
         </div>
       </div>
-    </section>
-    <section class="theme-row collapsed-section" id="section_quotes">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <div class="row">
-              <div class="col-lg-12 mx-auto">
-                <div class="row" id="home_about2">
-                  <div id="quotes" class="col-lg-6 mx-auto"></div>
-                </div>
+    </div>
+  </section>
+  <section class="theme-row collapsed-section" id="section_quotes">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div class="row" id="home_about2">
+                <div id="quotes" class="col-lg-6 mx-auto"></div>
               </div>
-              <!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
             </div>
+            <!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
           </div>
         </div>
       </div>
-    </section>
-    <!-- <section class="theme-row-alt collapsed-section">
+    </div>
+  </section>
+  <!-- <section class="theme-row-alt collapsed-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
@@ -211,7 +200,7 @@
 			</div>
 		</div>
 	</section> -->
-    <!-- <section class="collapsed-section">
+  <!-- <section class="collapsed-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
@@ -231,17 +220,16 @@
 			</div>
 		</div>
 	</section> -->
-    <section class="theme-row-alt collapsed-section">
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <div class="row">
-              <div class="col-lg-12 mx-auto">
-                <div id="org_list" class="section">
-                  <div class="row">
-                    <div class="col-lg-12 mx-auto">
-                      <h4 class="title-section text-center">ORGANIZED BY</h4>
-                    </div>
+  <section class="theme-row-alt collapsed-section">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-12 mx-auto">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <div id="org_list" class="section">
+                <div class="row">
+                  <div class="col-lg-12 mx-auto">
+                    <h4 class="title-section text-center">ORGANIZED BY</h4>
                   </div>
                 </div>
               </div>
@@ -249,8 +237,9 @@
           </div>
         </div>
       </div>
-    </section>
-    <!-- <section class="collapsed-section">
+    </div>
+  </section>
+  <!-- <section class="collapsed-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
@@ -286,7 +275,7 @@
 			</div>
 		</div>
 	</section> -->
-    <!-- <section class="theme-row-alt collapsed-section">
+  <!-- <section class="theme-row-alt collapsed-section">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-12 mx-auto">
@@ -310,46 +299,47 @@
 			</div>
 		</div>
 	</section> -->
-    <!-- Footer -->
-    <footer id="page-footer"></footer>
-    <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-    <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
-    <!-- Custom JavaScript for this theme -->
-    <script src="js/scrolling-nav.js"></script>
-    <script src="vendor/jquery-csv/jquery.csv.min.js"></script>
-    <script>
-      apply_conf_onfunc(build_quotes, true);
-      apply_conf_onfunc(build_news, true);
-      apply_conf_onfunc(build_organizers_list, true);
-      apply_conf_onfunc(build_partners_list, true);
-      apply_conf_onfunc(build_sponsors_list, true);
-      apply_conf_onfunc(build_ks, true);
+  <!-- Footer -->
+  <footer id="page-footer"></footer>
+  <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+  <script src="vendor/jquery-easing/jquery.easing.min.js"></script>
+  <!-- Custom JavaScript for this theme -->
+  <script src="js/scrolling-nav.js"></script>
+  <script src="vendor/jquery-csv/jquery.csv.min.js"></script>
+  <script>
+    apply_conf_onfunc(build_quotes, true);
+    apply_conf_onfunc(build_news, true);
+    apply_conf_onfunc(build_organizers_list, true);
+    apply_conf_onfunc(build_partners_list, true);
+    apply_conf_onfunc(build_sponsors_list, true);
+    apply_conf_onfunc(build_ks, true);
 
-      // build google map
-      // Online guide: https://www.webucator.com/article/how-to-create-a-google-map-object-with-the-maps-ja/
-      // ---------------
+    // build google map
+    // Online guide: https://www.webucator.com/article/how-to-create-a-google-map-object-with-the-maps-ja/
+    // ---------------
 
-      function initMap() {
-        var mapOptions = {
-          zoom: 8,
-          center: new google.maps.LatLng(44, -110),
-          mapTypeId: "satellite",
-        };
-        var map = new google.maps.Map(
-          document.getElementById("map"),
-          mapOptions
-        );
-      }
-    </script>
-    <script>
-      Promise.all([
-        document.fonts.ready,
-        new Promise((resolve) => window.addEventListener("load", resolve)),
-      ]).then(() => {
-        $("#preloader").fadeOut(300);
-      });
-    </script>
+    function initMap() {
+      var mapOptions = {
+        zoom: 8,
+        center: new google.maps.LatLng(44, -110),
+        mapTypeId: "satellite",
+      };
+      var map = new google.maps.Map(
+        document.getElementById("map"),
+        mapOptions
+      );
+    }
+  </script>
+  <script>
+    Promise.all([
+      document.fonts.ready,
+      new Promise((resolve) => window.addEventListener("load", resolve)),
+    ]).then(() => {
+      $("#preloader").fadeOut(300);
+    });
+  </script>
 
-    <!--<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC8FDP8EzjyFfC4Hy-OcNIxiUaeElEyF8&callback=initMap"></script> -->
-  </body>
+  <!--<script async src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDC8FDP8EzjyFfC4Hy-OcNIxiUaeElEyF8&callback=initMap"></script> -->
+</body>
+
 </html>
