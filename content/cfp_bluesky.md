@@ -117,3 +117,10 @@ The awards will be given based on public voting among the three best submissions
 ## Submissions
 
 Submissions to this track should follow the same formatting guidelines as submissions to the research track, but are limited to at most EIGHT pages in length (excluding references) for both submission and final publication. The three finalist papers will be published in the main conference proceedings (IOS Press); the other accepted submissions will be published in CEUR together with the poster and demo papers. All submissions should be sent via [EasyChair](https://easychair.org/conferences?conf=semantics2026).
+
+## Blue Sky Track Chairs
+
+**Heiko Paulheim**, University of Mannheim, DE
+**Marta Sabou**, Vienna University Economics and Business (WU), AT
+
+Contact email: [semantics2026-bluesky@easychair.org](mailto:semantics2026-bluesky@easychair.org)
