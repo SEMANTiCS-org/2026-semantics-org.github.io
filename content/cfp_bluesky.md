@@ -121,6 +121,7 @@ Submissions to this track should follow the same formatting guidelines as submis
 ## Blue Sky Track Chairs
 
 **Heiko Paulheim**, University of Mannheim, DE
+
 **Marta Sabou**, Vienna University Economics and Business (WU), AT
 
 Contact email: [semantics2026-bluesky@easychair.org](mailto:semantics2026-bluesky@easychair.org)
