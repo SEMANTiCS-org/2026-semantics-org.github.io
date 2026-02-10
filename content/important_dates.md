@@ -31,30 +31,12 @@
     <div class="value">June 22, 2026</div>
   </div>
    <div class="info-row">
-    <div class="label">Camera-Ready Paper</div>
+    <div class="label">Camera Ready</div>
     <div class="value">July 16, 2026</div>
   </div>
 </div>
 
-## Industry and Use Cases Presentations
-
-<div class="info-table">
-   <div class="info-row">
-    <div class="label">Submission Deadline</div>
-    <div class="value">June 2, 2026</div>
-  </div>
-   <div class="info-row">
-    <div class="label">Notification of Acceptance</div>
-    <div class="value">June 30, 2026 </div>
-  </div>
-   <div class="info-row">
-    <div class="label">Presentation Ready</div>
-    <div class="value">August 30, 2026</div>
-  </div>
-</div>
-
-
-## Poster and Demo Papers
+## Poster and Demos Papers
 
 <div class="info-table">
   <div class="info-row">
@@ -66,15 +48,14 @@
     <div class="value">July 6, 2026</div>
   </div>
    <div class="info-row">
-    <div class="label">Camera-Ready Paper</div>
+    <div class="label">Camera Ready</div>
     <div class="value">August 2, 2026</div>
   </div>
     <div class="info-row">
-    <div class="label">Poster and Demo Presentations</div>
+    <div class="label">Poster and Demos Presentations</div>
     <div class="value">September 16, 2026</div>
   </div>
 </div>
-
 
 ## Workshops
 
@@ -105,7 +86,6 @@
   </div>
 </div>
 
-
 ## Tutorials
 
 <div class="info-table">
@@ -120,6 +100,40 @@
    <div class="info-row">
     <div class="label">Tutorials date</div>
     <div class="value">September 15, 2026</div>
+  </div>
+</div>
+
+## Blue Sky
+
+<div class="info-table">
+  <div class="info-row">
+    <div class="label">Blue Sky Paper Submission </div>
+    <div class="value">May 30, 2026</div>
+  </div>
+  <div class="info-row">
+    <div class="label">Notification of Acceptance</div>
+    <div class="value">June 30, 2026</div>
+  </div>
+   <div class="info-row">
+    <div class="label">Camera Ready</div>
+    <div class="value">July 16, 2026</div>
+  </div>
+</div>
+
+## Industry and Use Cases
+
+<div class="info-table">
+   <div class="info-row">
+    <div class="label">Submission Deadline</div>
+    <div class="value">June 2, 2026</div>
+  </div>
+   <div class="info-row">
+    <div class="label">Notification of Acceptance</div>
+    <div class="value">June 30, 2026 </div>
+  </div>
+   <div class="info-row">
+    <div class="label">Presentation Ready</div>
+    <div class="value">August 30, 2026</div>
   </div>
 </div>
 
