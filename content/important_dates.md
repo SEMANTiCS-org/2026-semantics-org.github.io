@@ -62,7 +62,7 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value">February 27, 2026</div>
+    <div class="value"> <div class="value"><del>February 27, 2026</del>March 13, 2026</div></div>
   </div>
   <div class="info-row">
     <div class="label">Proposal Notification of Acceptance</div>

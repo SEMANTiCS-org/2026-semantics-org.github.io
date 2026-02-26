@@ -9,7 +9,7 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposal Workshop Deadline</div>
-    <div class="value">February 27, 2026, 23:59 AoE</div>
+    <div class="value"><del>February 27, 2026, 23:59 AoE</del>   March 13, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -122,7 +122,7 @@ Important Dates for Workshops:
   </div>
   <div class="info-row">
     <div class="label">Proposals Workshop</div>
-    <div class="value">February 27, 2026</div>
+    <div class="value"><del>February 27, 2026</del>   March 13, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
@@ -240,7 +240,7 @@ We are looking forward to your contribution!
 ## Workshop and Tutorial Chairs
 
 **Beyza Yaman**, Trinity College Dublin, Ireland
-  
+
 **Rosa Filgueira**, University of Edinburgh, UK
 
 In case you have additional questions concerning the submission process, please do not hesitate to contact us via Easychair. You can contact us via [semantics2026-ws@easychair.org](mailto:semantics2026-ws@easychair.org) for workshop and [semantics2026-tut@easychair.org](mailto:semantics2026-tut@easychair.org) for tutorial queries.
