@@ -247,6 +247,9 @@ header .logo img {
 .theme-row-alt {
   background-color: var(--background);
 }
+.theme-row-alt-2 {
+  background-color: white;
+}
 .theme-row-nav {
   background-color: var(--nav-bg-color-semantics);
 }
