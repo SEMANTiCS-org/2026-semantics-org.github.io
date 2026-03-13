@@ -95,6 +95,10 @@ Topics of interest include, but are not limited to:
 ## Important Dates
 
 <div class="info-table">
+  <div class="info-row">
+    <div class="label">Deadline</div>
+    <div class="label">Date</div>
+  </div>
    <div class="info-row">
     <div class="label">Submission Deadline</div>
     <div class="value">June 2, 2026</div>
