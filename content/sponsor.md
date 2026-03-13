@@ -221,11 +221,11 @@ Bundles available: 7 x GOLD and 8 x Silver, unlimited Bronze and StartUp (as of 
             <td class="th-blue">3410 €</td>
           </tr>
           <tr class="row18">
-            <td colspan="2" class="th-blue">Early booking bonus (-10%) until April 30, 2026</td>
-            <td class="th-blue">12150 €</td>
-            <td class="th-blue">8100 €</td>
-            <td class="th-blue">4410 €</td>
-            <td class="th-blue">3069 €</td>
+            <td colspan="2" class="th-gold">Early booking bonus (-10%) until March 31, 2026</td>
+            <td class="th-gold">12150 €</td>
+            <td class="th-gold">8100 €</td>
+            <td class="th-gold">4410 €</td>
+            <td class="th-gold">3069 €</td>
           </tr>
            <tr class="row19">
             <td colspan="2" class="td-gray">&nbsp;</td>

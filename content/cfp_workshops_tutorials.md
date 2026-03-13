@@ -23,7 +23,7 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposal Workshop Deadline</div>
-    <div class="value">February 27, 2026, 23:59 AoE</div>
+    <div class="value"><del>February 27, 2026, 23:59 AoE</del>   March 13, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -133,7 +133,7 @@ Important Dates for Workshops:
   </div>
   <div class="info-row">
     <div class="label">Proposals Workshop</div>
-    <div class="value">February 27, 2026</div>
+    <div class="value"><del>February 27, 2026</del>   March 13, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>

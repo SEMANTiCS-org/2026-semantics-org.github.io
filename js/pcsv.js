@@ -744,6 +744,14 @@ function build_partners_list(conf) {
   );
 }
 
+function build_bluesky_list(conf) {
+  populate_logo_list(
+    conf["baseurl"] + "content/bluesky.csv",
+    "index",
+    "bluesky_list"
+  );
+}
+
 function build_sponsors_list(conf) {
   populate_sponsors_list(
     conf["baseurl"] + "content/sponsors.csv",

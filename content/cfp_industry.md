@@ -39,7 +39,7 @@
 
   <div class="info-row">
     <div class="label">Page length</div>
-    <div class="value">1 pages</div>
+    <div class="value">1 page</div>
   </div>
 
   <div class="info-row">

@@ -82,39 +82,12 @@
     <div class="value">June 22, 2026</div>
   </div>
    <div class="info-row">
-    <div class="label">Camera-Ready Paper</div>
+    <div class="label">Camera Ready</div>
     <div class="value">July 16, 2026</div>
   </div>
 </div>
 
-## Industry and Use Cases Presentations
-
-<div class="info-table">
-   <div class="info-row">
-    <div class="label">Submission Deadline</div>
-    <div class="value">June 2, 2026
-    <br>
-    <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260602%0ADTEND;VALUE=DATE:20260603%0ASUMMARY:DEADLINE: Industry & Use Cases (SEMANTiCS 2026)%0ADESCRIPTION:Submission deadline for Industry and Use Cases presentations.%0ATRANSP:TRANSPARENT%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_industry_deadline.ics">
-        Download.ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DEADLINE:+Industry+and+Use+Cases+(SEMANTiCS+2026)&dates=20260602/20260603&details=Submission+deadline+for+Industry+and+Use+Cases+presentations." target="_blank">
-        Add to Google Calendar
-      </a>
-    </div>
-  </div>
-   <div class="info-row">
-    <div class="label">Notification of Acceptance</div>
-    <div class="value">June 30, 2026 </div>
-  </div>
-   <div class="info-row">
-    <div class="label">Presentation Ready</div>
-    <div class="value">August 30, 2026</div>
-  </div>
-</div>
-
-
-## Poster and Demo Papers
+## Poster and Demos Papers
 
 <div class="info-table">
   <div class="info-row">
@@ -135,31 +108,21 @@
     <div class="value">July 6, 2026</div>
   </div>
    <div class="info-row">
-    <div class="label">Camera-Ready Paper</div>
+    <div class="label">Camera Ready</div>
     <div class="value">August 2, 2026</div>
   </div>
     <div class="info-row">
-    <div class="label">Poster and Demo Presentations</div>
+    <div class="label">Poster and Demos Presentations</div>
     <div class="value">September 16, 2026</div>
   </div>
 </div>
-
 
 ## Workshops
 
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value">February 27, 2026
-    <br>
-    <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260227%0ADTEND;VALUE=DATE:20260228%0ASUMMARY:DEADLINE: Workshop Proposals (SEMANTiCS 2026)%0ADESCRIPTION:Deadline to submit proposals for Workshops.%0ATRANSP:TRANSPARENT%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_workshop_proposals.ics">
-        Download .ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DEADLINE:+Workshop+Proposals+(SEMANTiCS+2026)&dates=20260227/20260228&details=Deadline+to+submit+proposals+for+Workshops." target="_blank">
-        Add to Google Calendar
-      </a>
-    </div>
+    <div class="value"> <div class="value"><del>February 27, 2026</del>March 13, 2026</div></div>
   </div>
   <div class="info-row">
     <div class="label">Proposal Notification of Acceptance</div>
@@ -182,7 +145,6 @@
     <div class="value">September 15, 2026</div>
   </div>
 </div>
-
 
 ## Tutorials
 
@@ -207,6 +169,40 @@
    <div class="info-row">
     <div class="label">Tutorials date</div>
     <div class="value">September 15, 2026</div>
+  </div>
+</div>
+
+## Blue Sky
+
+<div class="info-table">
+  <div class="info-row">
+    <div class="label">Blue Sky Paper Submission </div>
+    <div class="value">May 30, 2026</div>
+  </div>
+  <div class="info-row">
+    <div class="label">Notification of Acceptance</div>
+    <div class="value">June 30, 2026</div>
+  </div>
+   <div class="info-row">
+    <div class="label">Camera Ready</div>
+    <div class="value">July 16, 2026</div>
+  </div>
+</div>
+
+## Industry and Use Cases
+
+<div class="info-table">
+   <div class="info-row">
+    <div class="label">Submission Deadline</div>
+    <div class="value">June 2, 2026</div>
+  </div>
+   <div class="info-row">
+    <div class="label">Notification of Acceptance</div>
+    <div class="value">June 30, 2026 </div>
+  </div>
+   <div class="info-row">
+    <div class="label">Presentation Ready</div>
+    <div class="value">August 30, 2026</div>
   </div>
 </div>
 
