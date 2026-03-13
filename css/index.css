@@ -1,51 +1,77 @@
 .person-name {
-    margin-top: 10px;
+  margin-top: 10px;
 }
 
 .person-talk {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
 
 .news-box {
-    background-color: #EDEDED;
-    padding: 15px;
-    border-radius: 18px;
+  background-color: var(--news-background);
+  border: solid var(--news-border) 5px;
+  padding: 15px;
+  border-radius: 18px;
 }
-.news-img{
-    border-radius: 16px;
+/* .news-box:hover {
+  background-color: var(--news-border);
+  border: solid var(--news-border);
+  transition: 0.5s;
+  padding: 15px;
+  border-radius: 18px;
+} */
+
+hr {
+  border-color: var(--news-border);
 }
+
+.news-img {
+  border-radius: 16px;
+  border: solid var(--news-border);
+}
+
 @media (min-width: 992px) {
-    .col-lg-3 {
-        max-width: 23%;
-    }
+  .col-lg-3 {
+    max-width: 23%;
+  }
 }
 
 @media (max-width: 991px) {
-    .col-lg-3 {
-        margin-top: 20px;
-    }
+  .col-lg-3 {
+    margin-top: 20px;
+  }
 }
 
-.news-title {
-    font-weight: bold;
-    font-size: 16px;
-}
+/* .news-title {
+  font-weight: bold;
+  font-size: 16px;
+  color: var(--news-title);
+  padding-top: 20px;
+} */
 
 .news-link {
-    font-size: 14px;
-    text-decoration: none;
-    color: gray;
+  font-size: 14px;
+  text-decoration: none;
+  color: var(--news-body);
 }
 
-.news-link h5{
-    color: black;
-}
 .news-link a {
-    text-decoration: none !important;
+  text-decoration: none !important;
 }
-
-a:hover {
-    text-decoration: none !important;
+/* a:hover {
+  text-decoration: none !important;
+  transition: 0.5s;
+  color: var(--highlight) !important;
+} */
+.news-link:hover {
+  text-decoration: none !important;
+  transition: 0.5s;
+  color: var(--highlight) !important;
+}
+.news-link h5 {
+  font-weight: bold;
+  font-size: 16px;
+  /* color: var(--news-title); */
+  padding-top: 20px;
 }
 /* #partners_list img {
     filter: grayscale(100%);
@@ -59,5 +85,5 @@ a:hover {
 } */
 
 #partners_list .section-content {
-    padding-top: 2% !important;
+  padding-top: 2% !important;
 }

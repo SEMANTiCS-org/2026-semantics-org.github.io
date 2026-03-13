@@ -472,7 +472,7 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
           '<div class="person-name">' +
           name +
           "</div>" +
-          '<div class="person-info">' +
+          '<div class="person-info-alt">' +
           affiliation +
           "</div>";
 

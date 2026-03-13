@@ -9,40 +9,23 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
 
-    <title>SEMANTICS-2026</title>
+    <title>SEMANTICS-2026 - Page Title</title>
 
     <!-- Bootstrap core CSS -->
     <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Custom styles for this template -->
     <link href="../css/scrolling-nav.css" rel="stylesheet" />
-
     <link href="../css/style.css" rel="stylesheet" />
     <link rel="icon" href="../img/semantics-logo-browser.ico" />
-
-    <script
-      src="../https://kit.fontawesome.com/1d451bc8bf.js"
-      crossorigin="anonymous"
-    ></script>
 
     <!-- Mark down -->
     <script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
 
     <script src="../vendor/jquery/jquery.min.js"></script>
 
-    <!-- Bootstrap core JavaScript -->
-
-    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-    <!-- Plugin JavaScript -->
-    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
-
-    <!-- Custom JavaScript for this theme -->
-    <script src="../js/scrolling-nav.js"></script>
-
     <script src="../js/getconf.js"></script>
     <script src="../js/pcontent.js"></script>
-    <script src="../js/pcsv.js"></script>
   </head>
 
   <body id="page-top">
@@ -53,36 +36,57 @@
         $("#nav-placeholder").load("nav.html", function functionName() {
           apply_conf_onfunc(update_nav, false);
         });
-        //$("#sidecol").load("side.html");
         $("#page-footer").load("footer.html", function functionName() {
           apply_conf_onfunc(update_footer, false);
         });
       });
     </script>
 
-    <section>
+    <!-- Page Header with consistent styling -->
+    <header class="bg-light">
+      <div class="container" style="padding-top: 40px; padding-bottom: 40px">
+        <div class="row">
+          <div class="col mx-auto text-center">
+            <h1 style="color: var(--title-alt); font-weight: bold">
+              Page Title Here
+            </h1>
+            <p style="color: var(--body)">Optional subtitle or description</p>
+          </div>
+        </div>
+      </div>
+    </header>
+
+    <!-- Main Content Section -->
+    <section class="collapsed-section">
       <div class="container">
         <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <zero-md src="../content/oc.md">
+          <div class="col-lg-10 mx-auto">
+            <!-- For markdown content -->
+            <zero-md src="../content/your-content.md">
               <template>
                 <link href="../css/md-style.css" rel="stylesheet" />
               </template>
             </zero-md>
+
+            <!-- OR for direct HTML content -->
+            <!-- <div class="content">
+              Your content here
+            </div> -->
           </div>
-        </div>
-        <div class="row">
-          <div id="oc_members" class="col-lg-12 mx-auto"></div>
         </div>
       </div>
     </section>
+
     <!-- Footer -->
     <footer id="page-footer"></footer>
 
-    <!-- BUILD THE PC LIST  -->
-    <script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
-    <script>
-      apply_conf_onfunc(build_oc, false);
-    </script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="../js/scrolling-nav.js"></script>
   </body>
 </html>

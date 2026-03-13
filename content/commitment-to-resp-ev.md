@@ -1,7 +1,22 @@
+<style>
+  a {
+    color: var(--link) !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--body-less) !important;
+    transition: all 0.5s !important;
+  }
+  h1, h2, h3 {
+    font-weight: bold !important;
+  }
+</style>
+
 # Our Commitment to Responsible Events
 
 <div style="text-align: center;">
-  <img src="../img/OurCommitmenttoResponsibleEvents.png" style="width: 70%; height: auto;" alt="">
+  <img src="../img/commitment-to-resp.png" style="width: 70%; height: auto;" alt="">
 </div>
 
 Over the past years, while advancing the sharing of cutting-edge research in Artificial Intelligence, Machine Learning, Knowledge Graphs, Semantics, Ontologies, and Representation Learning, the SEMANTiCS Conference has also taken deliberate steps to raise awareness of sustainability in event organisation - for example, by encouraging low-waste practices, responsible travel choices, and mindful use of resources.  

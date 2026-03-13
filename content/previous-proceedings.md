@@ -6,8 +6,8 @@
   }
 
   .timeline-item {
-    background: #f5f5f5;
-    border-left: 5px solid #999;
+    background: var(--highlight-alt);
+    border: 5px solid var(--title);
     margin: 30px 0;
     padding: 20px 30px;
     border-radius: 10px;
@@ -22,44 +22,50 @@
     top: 20px;
     width: 20px;
     height: 20px;
-    background: #999;
+    background: var(--title);
     border-radius: 50%;
-    border: 3px solid white;
+    border: 3px solid var(--title);
   }
 
   .timeline-logo {
     max-width: 100px;
     margin-bottom: 8px;
     display: block;
+    background: white;
+    border: 5px solid white;
+    border-radius: 5px;
   }
 
   .timeline-year {
     font-size: 18px;
     font-weight: bold;
-    color: #444;
+    color: var(--title);
     margin-bottom: 6px;
   }
 
   .timeline-desc {
     font-size: 15px;
-    color: #666;
+    color: var(--body);
     margin-bottom: 10px;
   }
 
   .timeline-links {
     font-size: 14px;
-    color: #555;
+    color: var(--body);
     margin-bottom: 8px;
   }
 
   .timeline-links a {
-    color: #2A709F;
+    color: var(--link);
+    font-weight: bold;
     text-decoration: none;
     margin-right: 10px;
-  }
+}
 
   .timeline-links a:hover {
-    text-decoration: underline;
+    text-decoration: none;
+    color: var(--body-less);
+  transition: 0.5s;
   }
 
   .timeline-website {
@@ -69,16 +75,34 @@
   .timeline-website a {
     display: inline-block;
     padding: 6px 12px;
-    background-color: #ccc;
-    color: #333;
+    background-color: var(--title);
+    color: var(--highlight-alt);
     border-radius: 6px;
     text-decoration: none;
     font-size: 13px;
   }
 
   .timeline-website a:hover {
-    background-color: #bbb;
+    color: var(--title);
+    background-color: var(--highlight);
+    transition: all 0.5s !important;
   }
+
+  a {
+    color: var(--link);
+    font-weight: bold;
+    text-decoration: none;
+  }
+
+  a:hover {
+    color: var(--body-less);
+    transition: all 0.5s;
+  }
+
+h1, h2, h3 {
+    font-weight: bold !important;
+  }
+
 </style>
 
 # Previous Proceedings
@@ -380,7 +404,6 @@ Since 2012, each conference edition has resulted in two distinct publications. T
       <a href="https://web.archive.org/web/20070921193407/http://www.i-semantics.tugraz.at/">Archived Website</a>
     </div>
   </div>
- 
 
    <!-- 2006 -->
   <div class="timeline-item">
@@ -407,5 +430,5 @@ Since 2012, each conference edition has resulted in two distinct publications. T
       <a href="https://web.archive.org/web/20060830124243/http://www.semantics2005.net/">Archived Website</a>
     </div> 
   </div>
-
+ 
  A comprehensive list of proceedings and research papers is available on [dblp](https://dblp.org/db/conf/i-semantics/index.html).
