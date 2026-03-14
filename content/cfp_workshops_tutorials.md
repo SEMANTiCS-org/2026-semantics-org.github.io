@@ -137,11 +137,11 @@ Important Dates for Workshops:
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value">March 13, 2026</div>
+    <div class="value"><del>March 13, 2026</del>   March 28, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Workshop website is online</div>
-    <div class="value">April 1, 2026 </div>
+    <div class="value">April 15, 2026 </div>
   </div>
 </div>
 
