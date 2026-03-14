@@ -122,15 +122,15 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value"> <div class="value"><del>February 27, 2026</del>March 13, 2026</div></div>
+    <div class="value"> <div class="value"><del>February 27, 2026</del> March 13, 2026</div></div>
   </div>
   <div class="info-row">
     <div class="label">Proposal Notification of Acceptance</div>
-    <div class="value">March 13, 2026</div>
+    <div class="value"><del>March 13, 2026</del> March 28, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Workshop Website Online</div>
-    <div class="value">April 1, 2026 </div>
+    <div class="value">April 15, 2026 </div>
   </div>
   <div class="info-row">
     <div class="label">Accepted Workshop paper submission</div>
