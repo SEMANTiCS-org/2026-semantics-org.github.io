@@ -28,12 +28,9 @@
   }
 
   .timeline-logo {
-    max-width: 100px;
+    max-width: 120px;
     margin-bottom: 8px;
     display: block;
-    background: white;
-    border: 5px solid white;
-    border-radius: 5px;
   }
 
   .timeline-year {
@@ -393,7 +390,7 @@ Since 2012, each conference edition has resulted in two distinct publications. T
 
   <!-- 2007 -->
   <div class="timeline-item">
-    <img class="timeline-logo" src="../img/semantics2007-logo.jpg" alt="I-SEMANTICS Logo">
+    <img class="timeline-logo" src="../img/semantics2007-logo.png" alt="I-SEMANTICS Logo">
     <div class="timeline-year">I-SEMANTICS 2007</div>
     <div class="timeline-desc">3rd International Conference on Semantic Systems</div>
     <div class="timeline-links">
