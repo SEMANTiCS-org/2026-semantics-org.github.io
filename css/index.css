@@ -27,6 +27,7 @@ hr {
 .news-img {
   border-radius: 16px;
   border: solid var(--news-border);
+  background: var(--background);
 }
 
 @media (min-width: 992px) {
