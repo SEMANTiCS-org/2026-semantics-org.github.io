@@ -129,11 +129,11 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
 
 \*\* **Student registration** is reserved for individuals currently enrolled in a university program or pursuing a PhD. All other professionals, whether affiliated with academic institutions or industry, must register at the Regular fee.
 
-**Registrations will open soon!**
-
 ## Authors of Accepted Papers
 
 Every paper accepted to the conference must be accompanied by a unique author registration corresponding to its scheduled presentation day. Two papers require two registrations, even if they have overlapping authors. To ensure a paper is fully covered, the registration must be made at the regular (non-student) in-person rate. Specifically, a paper presented during Day 2 or Day 3 (main conference) requires a **3-Day Pass Onsite**, while papers presented on Day 1 may be covered by either a **Single Day Onsite** or a **3-Day Pass Onsite** registration.
+
+**Registrations will open soon!**
 
 ## Attendance and accommodations
 
