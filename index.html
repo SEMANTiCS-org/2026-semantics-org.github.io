@@ -88,7 +88,6 @@
         border-radius: 50%;
         animation: spin 0.7s linear infinite;
       }
-
       @keyframes spin {
         to {
           transform: rotate(360deg);
@@ -364,10 +363,24 @@
                   <div style="vertical-align: middle">
                     <p>
                       Venue<br />
+                      <style>
+                        .custom-link {
+                          color: var(--link) !important;
+                          font-weight: bold;
+                          text-decoration: none !important;
+                        }
+                        .custom-link:hover {
+                          color: var(--body-less) !important;
+                          transition: all 0.5s !important;
+                        }
+                      </style>
 
-                      <strong>Music Center de Bijloke</strong><br />
-                      <span>Bijlokekaai 7, 9000</span>
-                      Gent, Belgium
+                      <strong
+                        ><a href="https://www.bijloke.be/" class="custom-link"
+                          >Music Center de Bijloke</a
+                        ></strong
+                      ><br />
+                      <span>Bijlokekaai 7, 9000 Ghent, Belgium</span>
                     </p>
                   </div>
                 </div>
