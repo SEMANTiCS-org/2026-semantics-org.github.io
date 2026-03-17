@@ -1,4 +1,5 @@
 <link href="../css/call.css" rel="stylesheet">
+
 <style>
   a {
     color: var(--link) !important;
@@ -11,6 +12,12 @@
   }
   h1, h2, h3, h4 {
     font-weight: bold !important;
+  }
+  .label{
+    color:var(--background-alt)
+  }
+  .value{
+    color:var(--background-alt)
   }
 </style>
 
