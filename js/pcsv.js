@@ -613,7 +613,7 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
     success: function (fdata) {
       var json_data = $.csv.toObjects(fdata);
       var body_html = ``;
-      var all_html_elems = `<div class='row'><div style="padding:5px;" class="col-lg-12 mx-auto text-center"><h2>ALL NEWS</h2></div></div><div><div>`;
+      var all_html_elems = `<div class='row-1'><div style="padding:0px;" class="col-lg-12 mx-auto text-center"><div class="card-header-1"><h2>ALL NEWS</h2></div>`;
       var prev_date_group = "";
       json_data.forEach(function (entry) {
         var title = entry["title"].trim();
@@ -662,11 +662,11 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
 
         all_html_elems +=
           `<div class="row">
-                              <a href="` +
+                              <a class="custom-link" href="` +
           baseurl +
           "page/news?page=" +
           page_name +
-          `"> >> ` +
+          `"> ➤ ` +
           title +
           `</a>
                             </div>`;
@@ -674,7 +674,7 @@ function populate_news_list_container(fcsv, page, container, baseurl) {
 
       all_html_elems +=
         `</div></div>` +
-        `<div class="card-header" id="heading_news_2022"><a href="https://2024-eu.semantics.cc/page/news?page=2024-10-30">Check past news (from SEMANTiCS 2024)</a></div>`;
+        `<div class="card-header" id="heading_news_2025"><a class="custom-link" href="https://2025-eu.semantics.cc/page/blog_news">Check past news (from SEMANTiCS 2025)</a></div>`;
 
       body_html = all_html_elems + `</div></div>`;
       body_html =
@@ -705,7 +705,7 @@ function populate_ks_att(fcsv, page, container, baseurl) {
           baseurl +
           "page/kp?page=" +
           page_name +
-          `"> >> ` +
+          `"> ` +
           title +
           `</a></div>`;
       });
