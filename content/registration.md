@@ -1,8 +1,32 @@
+<style>
+  a {
+    color: var(--link) !important;
+    font-weight: bold;
+    text-decoration: none;
+  }
+  a:hover {
+    color: var(--body-less) !important;
+    transition: all 0.5s !important;
+    text-decoration: none;
+  }
+  h1, h2, h3 {
+    font-weight: bold !important;
+  }
+  h2 {
+  font-weight: bold;
+  font-size: 1.3em;
+}
+  h1 {
+  font-weight: bold;
+  font-size: 2em;
+}
+</style>
+
 # Registration
-Join us from September 3 - 5, 2026 Vienna for the leading European conference on Linked Data, Semantic AI and Data Science. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Cross the boundaries of your domain or dive deeper into your field of expertise.
 
-**Do not miss our early bird registration deadline: August 11, 2026.** 
+Join us on 15–17 September in Ghent for the leading European conference on **Bridging the Gap Between Curated and Induced Semantics**. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Three intense days to cross the boundaries of your domain or dive deeper into your field of expertise.
 
+**Do not miss our early bird registration deadline: 11 August 2026.**
 
 <table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
     <col class="col0">
@@ -20,55 +44,55 @@ Join us from September 3 - 5, 2026 Vienna for the leading European conference on
         <td class="">SINGLE DAY ONSITE</td>
       </tr>
       <tr class="row1 tr-alt">
-        <td class="">Admission to Venue</td>
+        <td class="">Admission to venue</td>
         <td class=""><div class="i-circle i-close"></div></td>
         <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
         <td class=""><div class="i-circle i-close"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
-      <tr class="row2">
-        <td class="">Admission to Hybrid Conference Platform</td>
+      <tr class="row2 tr-alt-1">
+        <td class="">Admission to hybrid conference platform</td>
         <td class=""><div class="i-circle i-check"></div></td>
         <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
       <tr class="row3 tr-alt">
-        <td class="">Early Bird ticket ( until August 11 )</td>
-        <td class="td-important-val">€ 185</td>
-        <td class="td-important-val td-mid-ontop">€ 575 *</td>
-        <td class="td-important-val">€ 66</td>
-        <td class="td-important-val">€ 225 *</td>
+        <td class="">Student ticket **</td>
+        <td class="td-important-val">150 €</td>
+        <td class="td-important-val td-mid-ontop">450 € *</td>
+        <td class="td-important-val">60 €</td>
+        <td class="td-important-val">200 € *</td>
       </tr>
-      <tr class="row4">
-        <td class="">Regular price ( from August 12 )</td>
-        <td class="">€ 247</td>
-        <td class="td-mid-ontop">€ 755 *</td>
-        <td class="">€ 88</td>
-        <td class="">€ 299 *</td>
+      <tr class="row4 tr-alt-1">
+        <td class="">Early Bird ticket (until 11 August)</td>
+        <td class="td-important-val">200 €</td>
+        <td class="td-important-val td-mid-ontop">590 € *</td>
+        <td class="td-important-val">80 €</td>
+        <td class="td-important-val">250 € *</td>
       </tr>
       <tr class="row5 tr-alt">
-        <td class="">Exhibition</td>
-        <td class=""><div class="i-circle i-close"></div></td>
-        <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
-        <td class=""><div class="i-circle i-close"></div></td>
-        <td class=""><div class="i-circle i-check"></div></td>
+        <td class="">Regular ticket (from 12 August)</td>
+        <td class="">260 €</td>
+        <td class="td-mid-ontop">770 € *</td>
+        <td class="">100 €</td>
+        <td class="">300 € *</td>
       </tr>
-      <tr class="row6">
-        <td class="">Workshops / DBpedia Day</td>
+      <tr class="row6 tr-alt-1">
+        <td class="">Workshops & tutorials</td>
         <td class=""><div class="i-circle i-check"></div></td>
         <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
       <tr class="row7 tr-alt">
-        <td class="">Conference Bag</td>
-        <td class=""><div class="i-circle i-check"></div></td>
+        <td class="">Posters & demos</td>
+        <td class=""><div class="i-circle i-close"></div></td>
         <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
-        <td class=""><div class="i-circle i-check"></div></td>
+        <td class=""><div class="i-circle i-close"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
-      <tr class="row8">
+      <tr class="row8 tr-alt-1">
         <td class="">Coffee, cake and refreshments</td>
         <td class=""><div class="i-circle i-close"></div></td>
         <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
@@ -82,20 +106,39 @@ Join us from September 3 - 5, 2026 Vienna for the leading European conference on
         <td class=""><div class="i-circle i-close"></div></td>
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
-      <tr class="row10">
-        <td class="">Conference Dinner</td>
+      <tr class="row10 tr-alt-1">
+        <td class="">Gala dinner (16 September)</td>
         <td class=""><div class="i-circle i-close"></div></td>
-        <td class="td-mid-ontop"><div class="i-circle i-check"></div></td>
+        <td class="td-last-ontop"><div class="i-circle i-check"></div></td>
         <td class=""><div class="i-circle i-close"></div></td>
-        <td class=""><div class="i-circle i-check"></div></td>
+        <td class=""><div class="i-circle i-close"></div></td>
       </tr>
-      <tr class="row11 tr-summary">
+      <!-- <tr class="row11 tr-summary">
         <td class="">&nbsp;</td>
         <td class=""><a href="https://www.conftool.org/semantics2026/" type="button" class="btn btn-primary">BOOK NOW</a></td>
         <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2026/" type="button" class="btn btn-primary">BOOK NOW</a></td>
         <td class=""><a href="https://www.conftool.org/semantics2026/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
         <td class=""><a href="https://www.conftool.org/semantics2026/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
-      </tr>
+      </tr> -->
     </tbody>
 </table>
-<p>*Without VAT </p>
+
+<p>
+
+\* Without VAT
+
+\*\* **Student registration** is reserved for individuals currently enrolled in a university program or pursuing a PhD. All other professionals, whether affiliated with academic institutions or industry, must register at the Regular fee.
+
+**Registrations will open soon!**
+
+## Attendance and accommodations
+
+Check our <a href="https://2026-eu.semantics.cc/page/venue">dedicated page</a> on travelling and accommodation options.
+
+## Invitation letters
+
+For presenters who need an invitation letter or visa preparation, please contact us at [semantics2026@easychair.org](mailto:semantics2026@easychair.org).
+
+## On-site registrations
+
+During the conference (15–17 September), the registration desk will be open daily from 8:00 AM to 5:00 PM.

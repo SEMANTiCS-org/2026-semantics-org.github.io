@@ -1,61 +1,62 @@
-table, tr, td{
-  border-collapse: separate !important;
+table,
+tr,
+td {
   border: transparent;
-  padding: 15px;
   font-size: 10pt;
 }
 
-th{
+th {
   text-align: center;
   font-size: 10pt;
-  background: lightgray;
 }
-td, th{
+td,
+th {
   word-wrap: break-word;
   max-width: 300px;
 }
 
-tr.tr-alt td{
-  background: rgba(216,216,216,0.2);
+tr.tr-alt td {
+  background: white;
+}
+tr.tr-alt-1 td {
+  background: var(--highlight-alt);
 }
 
-tr.tr-head td{
-  background: #404757;
+tr.tr-head td {
+  background: var(--background-alt);
   color: white;
   font-size: 1.2em;
+  font-weight: bold;
 }
 
-td.td-important-val{
+td.td-important-val {
   font-size: 1.7em;
 }
 
-.td-blue{
-  background: rgb(208,225,243)!important;
+.td-blue {
+  background: rgb(208, 225, 243) !important;
 }
-.td-gray{
-  background: rgba(216,216,216,0.2)!important;
+.td-gray {
+  background: rgba(216, 216, 216, 0.2) !important;
 }
-.td-transparent{
+.td-transparent {
   background: none !important;
 }
 
-
-.td-mid-ontop{
-  border: 4px solid rgba(236,142,48,0.55) !important;
+.td-mid-ontop {
+  border: 4px solid var(--highlight) !important;
   border-top: none !important;
   border-bottom: none !important;
 }
-.td-first-ontop{
-  border: 4px solid rgba(236,142,48,0.55) !important;
+.td-first-ontop {
+  border: 4px solid var(--highlight) !important;
   border-bottom: none !important;
 }
-.td-last-ontop{
-  border: 4px solid rgba(236,142,48,0.55) !important;
+.td-last-ontop {
+  border: 4px solid var(--highlight) !important;
   border-top: none !important;
   /*box-shadow: 0px 5px 5px 0px rgba(0,0,0,0.3);*/
 }
-
-
 
 .i-circle {
   border-radius: 50%;
@@ -68,23 +69,23 @@ td.td-important-val{
   font-size: 1.2em;
   margin: 0 auto;
 }
-.i-check{
-  background: #0066ff;
+.i-check {
+  background: var(--link);
 }
-.i-check::after{
+.i-check::after {
   content: "✓";
 }
 
-.i-close{
+.i-close {
   background: gray;
 }
-.i-close::after{
-  content: '☓';
+.i-close::after {
+  content: "☓";
 }
 
-.i-plus{
+.i-plus {
   background: #00cc00;
 }
-.i-plus::after{
-  content: '＋';
+.i-plus::after {
+  content: "＋";
 }
