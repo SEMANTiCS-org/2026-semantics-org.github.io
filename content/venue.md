@@ -15,7 +15,6 @@
 
 # Venue, Accommodation, and Travel Information
 
-
 ## Venue
 
 <style>
@@ -30,22 +29,36 @@
 </div>
 </br>
 
-**_SEMANTiCS 2026 will take place from September 15–17, with the Ghent University–IDlab as the local organizer. This year's conference will be hosted at De Bijloke in Ghent, providing an exceptional venue for industry and academic experts to connect and collaborate._**
+**_SEMANTiCS 2026 will take place on 15–17 September 2026, with the Ghent University–IDlab as the local organizer. This year's conference will be hosted at De Bijloke in Ghent, providing an exceptional venue for industry and academic experts to connect and collaborate._**
 
-[De Bijloke](https://www.bijloke.be/), Bijlokekaai 7, 9000 Ghent, Belgium
+[Music Center de Bijloke](https://www.bijloke.be/), Bijlokekaai 7, 9000 Ghent, Belgium
+
+<div class="col-sm-12 col-md-6">
+<iframe
+  frameborder="0"
+  height="270"
+  scrolling="no"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.460771342402!2d3.7187914!3d51.0445793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3715c63a85a3f%3A0xd2b089081bc62d1d!2sMusic%20Center%20De%20Bijloke!5e0!3m2!1sen!2sit!4v1768226881644!5m2!1sen!2sit"
+  style="border: 0; border-radius: 18px"
+  width="270"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+</div>
 
 ## Accommodation
 
 Here are a few suggestions for accommodation close to the conference venue:
 
-| Name                                  | Address                     | Link                                                                       |
-| ------------------------------------- | --------------------------- | -------------------------------------------------------------------------- |
-| Ghent Marriott Hotel                  | Drabstraat 37, 9000 Ghent   | https://www.marriott.com/en-us/hotels/gnemc-ghent-marriott-hotel/overview/ |
-| Monasterium PoortAckere               | Oude Houtlei 56, 9000 Ghent | https://monasterium.be/en/                                                 |
-| ibis Gent Centrum St Baafs Kathedraal | Limburgstraat 2, 9000 Ghent | https://all.accor.com/hotel/0961/index.en.shtml                            |
-| Novotel Gent Centrum                  | Hoogpoort 52, 9000 Ghent    | https://all.accor.com/hotel/0840/index.en.shtml                            |
-| ibis Gent Centrum Opera               | Nederkouter 24, 9000 Ghent  | https://all.accor.com/hotel/1455/index.en.shtml                            |
-| NH Collection Gent                    | Hoogpoort 63, 9000 Ghent    | https://www.nh-hotels.com/en/hotel/nh-collection-gent                      |
+| Name                                                                                               | Address                                                                  |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
+| [Ghent Marriott Hotel](https://www.marriott.com/en-us/hotels/gnemc-ghent-marriott-hotel/overview/) | [Drabstraat 37, 9000 Ghent](https://maps.app.goo.gl/P83kVgStwR79rcwk8)   |
+| [Monasterium PoortAckere](https://monasterium.be/en/)                                              | [Oude Houtlei 56, 9000 Ghent](https://maps.app.goo.gl/iStyGeq6Gtibpera6) |
+| [ibis Gent Centrum St Baafs Kathedraal](https://all.accor.com/hotel/0961/index.en.shtml)           | [Limburgstraat 2, 9000 Ghent](https://maps.app.goo.gl/cffYBxMtCXUHdy559) |
+| [Novotel Gent Centrum](https://all.accor.com/hotel/0840/index.en.shtml)                            | [Hoogpoort 52, 9000 Ghent](https://maps.app.goo.gl/UjSsCRsUk2Vu1Qct5)    |
+| [ibis Gent Centrum Opera](https://all.accor.com/hotel/1455/index.en.shtml)                         | [Nederkouter 24, 9000 Ghent](https://maps.app.goo.gl/LuN1HuqtztBCK1gP8)  |
+| [NH Collection Gent](https://www.nh-hotels.com/en/hotel/nh-collection-gent)                        | [Hoogpoort 63, 9000 Ghent](https://maps.app.goo.gl/iVqqi98neUrRmHLT7)    |
 
 ## Travel Information
 
