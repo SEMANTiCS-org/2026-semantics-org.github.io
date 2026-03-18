@@ -51,19 +51,6 @@
   margin-bottom: 8px;
 }
 
-.timeline-links a {
-  color: var(--link);
-  font-weight: bold;
-  text-decoration: none;
-  margin-right: 10px;
-}
-
-.timeline-links a:hover {
-  text-decoration: none;
-  color: var(--body-less);
-  transition: 0.5s;
-}
-
 .timeline-website {
   margin-top: 10px;
 }
