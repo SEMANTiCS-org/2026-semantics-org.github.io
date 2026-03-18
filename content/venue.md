@@ -1,20 +1,4 @@
-<style>
-  a {
-    color: var(--link) !important;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--body-less) !important;
-    transition: all 0.5s !important;
-  }
-  h1, h2, h3 {
-    font-weight: bold !important;
-  }
-</style>
-
 # Venue, Accommodation, and Travel Information
-
 
 ## Venue
 
@@ -30,22 +14,62 @@
 </div>
 </br>
 
-**_SEMANTiCS 2026 will take place from September 15–17, with the Ghent University–IDlab as the local organizer. This year's conference will be hosted at De Bijloke in Ghent, providing an exceptional venue for industry and academic experts to connect and collaborate._**
+**_SEMANTiCS 2026 will take place on 15–17 September 2026, with the Ghent University–IDlab as the local organizer. This year's conference will be hosted at De Bijloke in Ghent, providing an exceptional venue for industry and academic experts to connect and collaborate._**
 
-[De Bijloke](https://www.bijloke.be/), Bijlokekaai 7, 9000 Ghent, Belgium
+[Music Center de Bijloke](https://www.bijloke.be/), Bijlokekaai 7, 9000 Ghent, Belgium
+
+<div class="col-sm-12 col-md-6">
+<iframe
+  frameborder="0"
+  height="270"
+  scrolling="no"
+  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.460771342402!2d3.7187914!3d51.0445793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3715c63a85a3f%3A0xd2b089081bc62d1d!2sMusic%20Center%20De%20Bijloke!5e0!3m2!1sen!2sit!4v1768226881644!5m2!1sen!2sit"
+  style="border: 0; border-radius: 18px"
+  width="270"
+  allowfullscreen=""
+  loading="lazy"
+  referrerpolicy="no-referrer-when-downgrade"
+></iframe>
+</div>
 
 ## Accommodation
 
 Here are a few suggestions for accommodation close to the conference venue:
 
-| Name                                  | Address                     | Link                                                                       |
-| ------------------------------------- | --------------------------- | -------------------------------------------------------------------------- |
-| Ghent Marriott Hotel                  | Drabstraat 37, 9000 Ghent   | https://www.marriott.com/en-us/hotels/gnemc-ghent-marriott-hotel/overview/ |
-| Monasterium PoortAckere               | Oude Houtlei 56, 9000 Ghent | https://monasterium.be/en/                                                 |
-| ibis Gent Centrum St Baafs Kathedraal | Limburgstraat 2, 9000 Ghent | https://all.accor.com/hotel/0961/index.en.shtml                            |
-| Novotel Gent Centrum                  | Hoogpoort 52, 9000 Ghent    | https://all.accor.com/hotel/0840/index.en.shtml                            |
-| ibis Gent Centrum Opera               | Nederkouter 24, 9000 Ghent  | https://all.accor.com/hotel/1455/index.en.shtml                            |
-| NH Collection Gent                    | Hoogpoort 63, 9000 Ghent    | https://www.nh-hotels.com/en/hotel/nh-collection-gent                      |
+<table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
+    <col class="col0">
+    <col class="col1">
+    <tbody>
+      <tr class="row0 tr-head">
+        <td class="">Name</td>
+        <td class="">Address</td>
+      </tr>
+      <tr class="row1 tr-alt">
+        <td class=""><a href="https://www.marriott.com/en-us/hotels/gnemc-ghent-marriott-hotel/overview/">Ghent Marriott Hotel</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/P83kVgStwR79rcwk8">Drabstraat 37, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row2 tr-alt-1">
+        <td class=""><a href="https://monasterium.be/en/">Monasterium PoortAckere</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/iStyGeq6Gtibpera6">Oude Houtlei 56, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row3 tr-alt">
+        <td class=""><a href="https://all.accor.com/hotel/0961/index.en.shtml">ibis Gent Centrum St Baafs Kathedraal</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/cffYBxMtCXUHdy559">Limburgstraat 2, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row4 tr-alt-1">
+        <td class=""><a href="https://all.accor.com/hotel/0840/index.en.shtml">Novotel Gent Centrum</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/UjSsCRsUk2Vu1Qct5">Hoogpoort 52, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row5 tr-alt">
+        <td class=""><a href="https://all.accor.com/hotel/1455/index.en.shtml">ibis Gent Centrum Opera</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/LuN1HuqtztBCK1gP8">Nederkouter 24, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row6 tr-alt-1">
+        <td class=""><a href="https://www.nh-hotels.com/en/hotel/nh-collection-gent">NH Collection Gent</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/iVqqi98neUrRmHLT7">Hoogpoort 63, 9000 Ghent</a></td>
+      </tr>
+    </tbody>
+</table>
 
 ## Travel Information
 

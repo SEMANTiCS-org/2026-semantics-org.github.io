@@ -1,18 +1,3 @@
-<style>
-  a {
-    color: var(--link) !important;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--body-less) !important;
-    transition: all 0.5s !important;
-  }
-  h1, h2, h3, h4 {
-    font-weight: bold !important;
-  }
-</style>
-
 # Guidelines for reviewing and reproducibility
 
 Please read the following carefully and comprehensively. Papers submitted to the Research and Innovation track will be evaluated according to the following criteria:

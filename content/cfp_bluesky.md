@@ -4,7 +4,7 @@
 
 <br>
 
-#### Key Information
+### Key Information
 
 <div class="info-table">
   <div class="info-row">

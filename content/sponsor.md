@@ -1,23 +1,8 @@
 <style>
-  a {
-    color: var(--link);
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: var(--body-less);
-    transition: all 0.5s;
-  }
-
-h1, h2, h3 {
-    font-weight: bold !important;
-  }
-
   .btn {
 		padding: 8px 16px;
-    background-color: var(--title);
-    color: var(--highlight-alt);
+    background-color: var(--title) !important;
+    color: var(--highlight-alt) !important;
     border: none;
 		border-radius: 6px;
 		cursor: pointer;
@@ -26,8 +11,8 @@ h1, h2, h3 {
 	}
 
 	.btn:hover {
-    color: var(--title);
-    background-color: var(--highlight);
+    color: var(--title) !important;
+    background-color: var(--highlight) !important;
     transition: all 0.5s !important;
   }
 </style>

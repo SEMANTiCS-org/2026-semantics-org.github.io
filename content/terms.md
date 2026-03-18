@@ -1,18 +1,3 @@
-<style>
-  a {
-    color: var(--link) !important;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--body-less) !important;
-    transition: all 0.5s !important;
-  }
-  h1, h2, h3 {
-    font-weight: bold !important;
-  }
-</style>
-
 # Terms of Use
 
 Please read these Terms and Conditions (‘Terms’, ‘Terms and Conditions’) carefully before using the https://www.semantics.cc website operated by the SEMANTiCS conference consortium.

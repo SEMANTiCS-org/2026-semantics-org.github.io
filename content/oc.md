@@ -1,9 +1,3 @@
-<style>
-  h1 {
-    font-weight: bold !important;
-  }
-</style>
-
 # Organising committee
 
 <!-- LIST OF ORGANIZERS -->
