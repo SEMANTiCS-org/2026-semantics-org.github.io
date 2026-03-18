@@ -1,27 +1,3 @@
-<style>
-  a {
-    color: var(--link) !important;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--body-less) !important;
-    transition: all 0.5s !important;
-    text-decoration: none;
-  }
-  h1, h2, h3 {
-    font-weight: bold !important;
-  }
-  h2 {
-  font-weight: bold;
-  font-size: 1.3em;
-}
-  h1 {
-  font-weight: bold;
-  font-size: 2em;
-}
-</style>
-
 # Registration
 
 Join us on 15–17 September in Ghent for the leading European conference on **Bridging the Gap Between Curated and Induced Semantics**. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Three intense days to cross the boundaries of your domain or dive deeper into your field of expertise.

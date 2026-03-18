@@ -1,31 +1,10 @@
 <link href="../css/call.css" rel="stylesheet">
 
-<style>
-  a {
-    color: var(--link) !important;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--body-less) !important;
-    transition: all 0.5s !important;
-  }
-  h1, h2, h3, h4 {
-    font-weight: bold !important;
-  }
-  .label{
-    color:var(--background-alt)
-  }
-  .value{
-    color:var(--background-alt)
-  }
-</style>
-
 # Call for Research and Innovation Track Papers
 
 <br>
 
-#### Key Information
+### Key Information
 
 <div class="info-table">
   <div class="info-row">

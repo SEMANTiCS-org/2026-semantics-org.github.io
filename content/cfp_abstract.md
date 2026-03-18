@@ -1,24 +1,3 @@
-<style>
-  a {
-    color: var(--link) !important;
-    font-weight: bold;
-    text-decoration: none;
-  }
-  a:hover {
-    color: var(--body-less) !important;
-    transition: all 0.5s !important;
-  }
-  h1, h2, h3, h4 {
-    font-weight: bold !important;
-  }
-  .label{
-    color:var(--background-alt)
-  }
-  .value{
-    color:var(--background-alt)
-  }
-</style>
-
 # How to prepare a structured abstract
 
 A structured abstract is an abstract of a submission where each part is marked with its specific function (purpose, methodology, findings, etc.). We strongly suggest the authors use structured abstracts in their papers and the related abstract submission to facilitate the bidding process.

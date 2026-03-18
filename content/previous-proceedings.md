@@ -84,22 +84,6 @@
     background-color: var(--highlight);
     transition: all 0.5s !important;
   }
-
-  a {
-    color: var(--link);
-    font-weight: bold;
-    text-decoration: none;
-  }
-
-  a:hover {
-    color: var(--body-less);
-    transition: all 0.5s;
-  }
-
-h1, h2, h3 {
-    font-weight: bold !important;
-  }
-
 </style>
 
 # Previous Proceedings
