@@ -571,9 +571,9 @@ function populate_news_blog_container(fcsv, page, container, baseurl) {
           var title = entry["title"].trim();
           var text = entry["text"];
           var page_name = entry["page_name"];
-          var image = "../img/news/" + entry["img"].trim();
+          var image = "../img/news/thumbs/" + entry["img"].trim();
           if (page == "index") {
-            image = baseurl + "img/news/" + entry["img"].trim();
+            image = baseurl + "img/news/thumbs/" + entry["img"].trim();
           }
 
           var html_img =
