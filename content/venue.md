@@ -73,6 +73,8 @@ Here are a few suggestions for accommodation close to the conference venue:
 
 ## Travel Information
 
+We encourage attendees to consider the environmental impact when planning their travels and their stay in Ghent.
+
 ### How to reach Gent by Train?
 
 Ghent has two railway stations: Gent-Sint-Pieters and Gent-Dampoort.
