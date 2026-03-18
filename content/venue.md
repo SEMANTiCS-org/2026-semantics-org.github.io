@@ -36,14 +36,40 @@
 
 Here are a few suggestions for accommodation close to the conference venue:
 
-| Name                                                                                               | Address                                                                  |
-| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------ |
-| [Ghent Marriott Hotel](https://www.marriott.com/en-us/hotels/gnemc-ghent-marriott-hotel/overview/) | [Drabstraat 37, 9000 Ghent](https://maps.app.goo.gl/P83kVgStwR79rcwk8)   |
-| [Monasterium PoortAckere](https://monasterium.be/en/)                                              | [Oude Houtlei 56, 9000 Ghent](https://maps.app.goo.gl/iStyGeq6Gtibpera6) |
-| [ibis Gent Centrum St Baafs Kathedraal](https://all.accor.com/hotel/0961/index.en.shtml)           | [Limburgstraat 2, 9000 Ghent](https://maps.app.goo.gl/cffYBxMtCXUHdy559) |
-| [Novotel Gent Centrum](https://all.accor.com/hotel/0840/index.en.shtml)                            | [Hoogpoort 52, 9000 Ghent](https://maps.app.goo.gl/UjSsCRsUk2Vu1Qct5)    |
-| [ibis Gent Centrum Opera](https://all.accor.com/hotel/1455/index.en.shtml)                         | [Nederkouter 24, 9000 Ghent](https://maps.app.goo.gl/LuN1HuqtztBCK1gP8)  |
-| [NH Collection Gent](https://www.nh-hotels.com/en/hotel/nh-collection-gent)                        | [Hoogpoort 63, 9000 Ghent](https://maps.app.goo.gl/iVqqi98neUrRmHLT7)    |
+<table border="0" cellpadding="0" cellspacing="0" id="sheet0" class="sponsor-tab">
+    <col class="col0">
+    <col class="col1">
+    <tbody>
+      <tr class="row0 tr-head">
+        <td class="">Name</td>
+        <td class="">Address</td>
+      </tr>
+      <tr class="row1 tr-alt">
+        <td class=""><a href="https://www.marriott.com/en-us/hotels/gnemc-ghent-marriott-hotel/overview/">Ghent Marriott Hotel</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/P83kVgStwR79rcwk8">Drabstraat 37, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row2 tr-alt-1">
+        <td class=""><a href="https://monasterium.be/en/">Monasterium PoortAckere</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/iStyGeq6Gtibpera6">Oude Houtlei 56, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row3 tr-alt">
+        <td class=""><a href="https://all.accor.com/hotel/0961/index.en.shtml">ibis Gent Centrum St Baafs Kathedraal</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/cffYBxMtCXUHdy559">Limburgstraat 2, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row4 tr-alt-1">
+        <td class=""><a href="https://all.accor.com/hotel/0840/index.en.shtml">Novotel Gent Centrum</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/UjSsCRsUk2Vu1Qct5">Hoogpoort 52, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row5 tr-alt">
+        <td class=""><a href="https://all.accor.com/hotel/1455/index.en.shtml">ibis Gent Centrum Opera</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/LuN1HuqtztBCK1gP8">Nederkouter 24, 9000 Ghent</a></td>
+      </tr>
+      <tr class="row6 tr-alt-1">
+        <td class=""><a href="https://www.nh-hotels.com/en/hotel/nh-collection-gent">NH Collection Gent</a></td>
+        <td class=""><a href="https://maps.app.goo.gl/iVqqi98neUrRmHLT7">Hoogpoort 63, 9000 Ghent</a></td>
+      </tr>
+    </tbody>
+</table>
 
 ## Travel Information
 
