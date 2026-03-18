@@ -1,22 +1,3 @@
-<style>
-  .btn {
-		padding: 8px 16px;
-    background-color: var(--title) !important;
-    color: var(--highlight-alt) !important;
-    border: none;
-		border-radius: 6px;
-		cursor: pointer;
-		font-size: 14px;
-		transition: background 0.25s ease, transform 0.2s ease;
-	}
-
-	.btn:hover {
-    color: var(--title) !important;
-    background-color: var(--highlight) !important;
-    transition: all 0.5s !important;
-  }
-</style>
-
 # Sponsorship Packages
 
 The **SEMANTiCS 2026 conference offers** sponsors a carefully selected and high level audience with which to interact. Leading-edge technologists mixing with brand names, research luminaries, market analysts and big business users from various application markets offer a unique networking experience. In addition, carefully placed speaking slots and dedicated session naming ensures brand exposure in a targeted environment. We propose 5 main sponsoring packs that will help you meet a range of visibility and lead-generation needs. Please do not hesitate to contact us to discuss these and customise our standard offering to your specific needs.

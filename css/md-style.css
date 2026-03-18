@@ -86,3 +86,20 @@ th {
   font-size: 0.8em;
   padding: 0px;
 }
+
+.btn {
+  padding: 8px 16px;
+  background-color: var(--title) !important;
+  color: var(--highlight-alt) !important;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 14px;
+  transition: background 0.25s ease, transform 0.2s ease;
+}
+
+.btn:hover {
+  color: var(--title) !important;
+  background-color: var(--highlight) !important;
+  transition: all 0.5s !important;
+}

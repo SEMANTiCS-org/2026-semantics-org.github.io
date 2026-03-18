@@ -1,0 +1,85 @@
+.timeline-container {
+  width: 90%;
+  max-width: 900px;
+  margin: 40px auto;
+}
+
+.timeline-item {
+  background: var(--highlight-alt);
+  border: 5px solid var(--title);
+  margin: 30px 0;
+  padding: 20px 30px;
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+  position: relative;
+}
+
+.timeline-item::before {
+  content: "";
+  position: absolute;
+  left: -12px;
+  top: 20px;
+  width: 20px;
+  height: 20px;
+  background: var(--title);
+  border-radius: 50%;
+  border: 3px solid var(--title);
+}
+
+.timeline-logo {
+  max-width: 120px;
+  margin-bottom: 8px;
+  display: block;
+}
+
+.timeline-year {
+  font-size: 18px;
+  font-weight: bold;
+  color: var(--title);
+  margin-bottom: 6px;
+}
+
+.timeline-desc {
+  font-size: 15px;
+  color: var(--body);
+  margin-bottom: 10px;
+}
+
+.timeline-links {
+  font-size: 14px;
+  color: var(--body);
+  margin-bottom: 8px;
+}
+
+.timeline-links a {
+  color: var(--link);
+  font-weight: bold;
+  text-decoration: none;
+  margin-right: 10px;
+}
+
+.timeline-links a:hover {
+  text-decoration: none;
+  color: var(--body-less);
+  transition: 0.5s;
+}
+
+.timeline-website {
+  margin-top: 10px;
+}
+
+.timeline-website a {
+  display: inline-block;
+  padding: 6px 12px;
+  background-color: var(--title) !important;
+  color: var(--highlight-alt) !important;
+  border-radius: 6px;
+  text-decoration: none;
+  font-size: 13px;
+}
+
+.timeline-website a:hover {
+  color: var(--title) !important;
+  background-color: var(--highlight) !important;
+  transition: all 0.5s !important;
+}
