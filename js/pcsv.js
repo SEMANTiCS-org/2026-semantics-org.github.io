@@ -274,9 +274,9 @@ function populate_sponsors_list(fcsv, page, container) {
 
         //add sponsor header
         $("#" + container + " #s_" + sponsor_type).append(
-          '<div class="row section-content sponsor-header justify-content-center"><img width="80px" height="80px" typeof="foaf:Image" src="img/icons/' +
-            sponsor_type +
-            '.svg"></div>'
+          '<div class="row section-content justify-content-center"><h4 class="title-section text-center" style="width: 100%">' +
+            sponsor_type.toUpperCase() +
+            " SPONSORS </h4></div>"
         );
 
         json_data.forEach(function (entry) {
