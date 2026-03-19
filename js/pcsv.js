@@ -278,10 +278,20 @@ function populate_sponsors_list(fcsv, page, container) {
         var group_html = "";
         sponsor_type = sponsor_type_list[i];
 
+        // get all entries for this type
+        var entries_by_type = json_data.filter(function (entry) {
+          return entry["type"].trim() == sponsor_type;
+        });
+
+        var count_total = entries_by_type.length;
+
+        // build title
+        var title = "";
         if (sponsor_type == "bluesky") {
-          var title = "BLUE SKY PAPERS AWARDS";
+          title = "BLUE SKY PAPERS AWARDS";
         } else {
-          var title = sponsor_type.toUpperCase() + " SPONSORS";
+          var base = sponsor_type.toUpperCase();
+          title = count_total === 1 ? base + " SPONSOR" : base + " SPONSORS";
         }
 
         //add sponsor header
@@ -291,7 +301,7 @@ function populate_sponsors_list(fcsv, page, container) {
             "</h4></div>"
         );
 
-        json_data.forEach(function (entry) {
+        entries_by_type.forEach(function (entry) {
           if (entry["type"].trim() == sponsor_type) {
             var name = entry["name"].trim();
             var img_ratio = entry["img_ratio"].trim().split("/");
