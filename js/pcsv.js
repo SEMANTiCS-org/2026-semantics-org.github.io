@@ -265,18 +265,30 @@ function populate_sponsors_list(fcsv, page, container) {
       var MAX_ELEMS = 2;
       var col_size = 12 / MAX_ELEMS;
 
-      var sponsor_type_list = ["gold", "silver", "bronze", "startup"];
+      var sponsor_type_list = [
+        "gold",
+        "silver",
+        "bronze",
+        "startup",
+        "bluesky",
+      ];
       for (var i = 0; i < sponsor_type_list.length; i++) {
         var count = 0;
         var count_by_type = 0;
         var group_html = "";
         sponsor_type = sponsor_type_list[i];
 
+        if (sponsor_type == "bluesky") {
+          var title = "BLUE SKY PAPERS AWARDS";
+        } else {
+          var title = sponsor_type.toUpperCase() + " SPONSORS";
+        }
+
         //add sponsor header
         $("#" + container + " #s_" + sponsor_type).append(
           '<div class="row section-content justify-content-center"><h4 class="title-section text-center" style="width: 100%">' +
-            sponsor_type.toUpperCase() +
-            " SPONSORS </h4></div>"
+            title +
+            "</h4></div>"
         );
 
         json_data.forEach(function (entry) {
@@ -741,14 +753,6 @@ function build_partners_list(conf) {
     conf["baseurl"] + "content/partners.csv",
     "index",
     "partners_list"
-  );
-}
-
-function build_bluesky_list(conf) {
-  populate_logo_list(
-    conf["baseurl"] + "content/bluesky.csv",
-    "index",
-    "bluesky_list"
   );
 }
 
