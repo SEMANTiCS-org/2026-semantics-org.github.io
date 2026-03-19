@@ -184,13 +184,13 @@ header .logo img {
   padding: 5px;
 }
 .sponsors .sponsor {
-  /*text-align: center;
-    margin: 0 auto;
-    padding: 5px;*/
+  text-align: center;
+  margin: 0 auto;
+  padding: 5px;
 }
 .sponsor-header {
   padding: 10px;
-  border-bottom: solid 2px var(--main-bg-color);
+  border-bottom: solid 3px var(--title);
 }
 .sponsor-img {
   /*max-width: 150px;
@@ -235,12 +235,12 @@ header .logo img {
   margin-top: 20px;
 }
 .group-title {
-  margin-top: 40px;
+  margin-top: 20px;
   border-bottom: solid 3px var(--highlight);
 }
 
 .theme-row {
-  padding-top: 40px !important;
+  padding-top: 20px !important;
   background-color: var(--background-alt);
   color: var(--body-alt);
 }
@@ -255,7 +255,7 @@ header .logo img {
 }
 .collapsed-section {
   padding: 0px;
-  padding-top: 10px;
+  /* padding-top: 10px; */
   /* background-color: var(--background); */
   padding-bottom: 40px;
 }
@@ -324,7 +324,7 @@ header .logo img {
   margin-top: 50px;
 }
 .section-content {
-  padding-top: 4%;
+  padding-top: 2%;
   margin: auto;
 }
 .org img {
