@@ -33,7 +33,7 @@
                         <ul><li>First prize: $1000</li>
                         <li>Second prize: $750</li>
                         <li>Third prize: $500</li></ul>
-                        <div>
+                        </div>
   </div>
 
   <div class="info-row">
