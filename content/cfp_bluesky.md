@@ -28,6 +28,15 @@
   </div>
 
   <div class="info-row">
+    <div class="label">Awards</div>
+    <div class="value">Top-3 papers: </br>
+                        <ul><li>First prize: $1000</li>
+                        <li>Second prize: $750</li>
+                        <li>Third prize: $500</li></ul>
+                        <div>
+  </div>
+
+  <div class="info-row">
     <div class="label">Proceedings</div>
     <div class="value">IOS Press (finalists), CEUR (other accepted papers)</div>
   </div>
