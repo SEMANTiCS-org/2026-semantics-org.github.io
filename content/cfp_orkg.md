@@ -64,7 +64,7 @@ ORKG Datasets and Software provide structured metadata descriptions along with l
 
 ## Submission
 
-All submissions must be made electronically via EasyChair following this link: [https://easychair.org/conferences?conf=semantics2026].
+All submissions must be made electronically via EasyChair following this link: [https://easychair.org/conferences?conf=semantics2026](https://easychair.org/conferences?conf=semantics2026).
 
 ## All ORKG Content Types
 
