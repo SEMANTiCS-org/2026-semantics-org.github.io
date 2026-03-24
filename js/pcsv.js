@@ -271,6 +271,7 @@ function populate_sponsors_list(fcsv, page, container) {
         "bronze",
         "startup",
         "bluesky",
+        "orkg",
       ];
       for (var i = 0; i < sponsor_type_list.length; i++) {
         var count = 0;
@@ -289,6 +290,8 @@ function populate_sponsors_list(fcsv, page, container) {
         var title = "";
         if (sponsor_type == "bluesky") {
           title = "BLUE SKY PAPERS AWARDS";
+        } else if (sponsor_type == "orkg") {
+          title = "ORKG CONTENT AWARDS";
         } else {
           var base = sponsor_type.toUpperCase();
           title = count_total === 1 ? base + " SPONSOR" : base + " SPONSORS";
