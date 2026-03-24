@@ -176,6 +176,15 @@
   </div>
 </div>
 
+## ORKG Content
+
+<div class="info-table">
+  <div class="info-row">
+    <div class="label">ORKG Content Submission </div>
+    <div class="value">Aug 31, 2026</div>
+  </div>
+</div>
+
 ## Industry and Use Cases
 
 <div class="info-table">

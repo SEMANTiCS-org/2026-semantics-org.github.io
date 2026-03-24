@@ -88,7 +88,8 @@
         { id: 4, content: "Tutorials" },
         { id: 5, content: "Blue Sky" },
         { id: 6, content: "Industry and Use Cases" }, // Added Industry
-        { id: 7, content: "Conference" },
+        { id: 7, content: "ORKG Content" },
+        { id: 8, content: "Conference" },
       ]);
 
       // Helper function to format content with date
@@ -290,11 +291,22 @@
           className: "red-dot",
         },
 
-        // Group 7: Conference
+        // Group 7: ORKG Content
+        {
+          id: 24,
+          subgroup: 24,
+          group: 7,
+          content: label("ORKG Content Submission", "Aug 31"),
+          start: "2026-08-31",
+          type: "point",
+          className: "orkg-dot",
+        },
+
+        // Group 8: Conference
         {
           id: 19,
           subgroup: 19,
-          group: 7,
+          group: 8,
           content: label("Workshops / Tutorials / DBpedia Day", "Sep 15"),
           start: "2026-09-15",
           type: "point",
@@ -303,7 +315,7 @@
         {
           id: 20,
           subgroup: 20,
-          group: 7,
+          group: 8,
           content: label("Conference", "Sep 15 - 17"),
           start: "2026-09-15",
           end: "2026-09-17",

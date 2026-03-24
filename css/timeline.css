@@ -89,6 +89,11 @@
   background-color: #db2777;
 }
 
+.orkg-dot .vis-dot {
+  border-color: #e86161;
+  background-color: #e86161;
+}
+
 .orange-dot .vis-dot {
   border-color: #f97316;
   background-color: #f97316;
