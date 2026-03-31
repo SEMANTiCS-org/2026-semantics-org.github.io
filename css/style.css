@@ -223,6 +223,13 @@ header .logo img {
 }
 .person-talk {
   font-size: 0.9em;
+  color: var(--link) !important;
+  font-weight: bold;
+  text-decoration: none;
+}
+.person-talk:hover {
+  color: var(--highlight) !important;
+  transition: all 0.5s !important;
 }
 .person-role {
   color: var(--body-less);
