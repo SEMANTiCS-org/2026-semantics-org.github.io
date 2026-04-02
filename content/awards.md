@@ -82,7 +82,7 @@ Submit an original paper to the [Blue Sky Track](../page/cfp_bluesky) presenting
 
 ## ORKG Content Track
 
-The ORKG Content Award are accompanied with a cash prize, sponsored by the [Open Research Knowledge Graph](https://orkg.org/).
+The ORKG Content Awards are accompanied with a cash prize, sponsored by the [Open Research Knowledge Graph](https://orkg.org/).
 
 <div class="info-table">
 <div class="info-row-3">
