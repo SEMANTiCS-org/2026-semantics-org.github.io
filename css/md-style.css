@@ -127,6 +127,18 @@ th {
   border-bottom: none;
 }
 
+.info-row-3 {
+  display: grid;
+  grid-template-columns: 1fr 2.5fr 0.5fr;
+  padding: 5px 0;
+  border-bottom: 0.5px solid var(--semantics-blue-dark);
+}
+
+.info-row-3:last-child {
+  border-bottom: none;
+}
+
+
 .label {
   font-weight: bold;
   color: var(--semantics-blue-dark);
