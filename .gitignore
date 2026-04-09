@@ -7,3 +7,4 @@ __*
 conf.ini
 _site
 .jekyll-cache
+.vscode
