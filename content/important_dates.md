@@ -1,115 +1,75 @@
 <link href="../css/call.css" rel="stylesheet">
 
-# Important Dates
+## Important Dates 
+<a href="content/ics/important_dates.ics" download class="cal-link">Download .ics</a> 
 
 <div class="info-table">
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Conference</div>
-    <div class="value">September 16-17, 2026
-    <br>
-    <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260916%0ADTEND;VALUE=DATE:20260918%0ASUMMARY:SEMANTiCS 2026 Conference%0ADESCRIPTION:Main conference days.%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_conference.ics">
-        Download .ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=SEMANTiCS+2026+Conference&dates=20260916/20260918&details=Main+conference+days." target="_blank">
-        Add to Google Calendar
-      </a>
-    </div>
+    <div class="value">September 16-17, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Workshops, Tutorials, DBpedia Day</div>
-    <div class="value">September 15, 2026
-    <br>
-    <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260915%0ADTEND;VALUE=DATE:20260916%0ASUMMARY:Workshops & DBpedia Day (SEMANTiCS 2026)%0ADESCRIPTION:Pre-conference events including Workshops, Tutorials, and DBpedia Day.%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_workshops.ics">
-        Download .ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=Workshops,+Tutorials,+DBpedia+Day+(SEMANTiCS+2026)&dates=20260915/20260916&details=Pre-conference+events." target="_blank">
-        Add to Google Calendar
-      </a>
-    </div>
+    <div class="value">September 15, 2026</div>
   </div>
+</div>
+<div style="text-align: right; font-size: 0.85em; margin-top: 0.3em;">
+
 </div>
 
 <br>
 
 ## Research and Innovation Track Papers
+<a href="content/ics/research_innovation_track.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
-   <div class="info-row">
-    <div class="label">Abstract Submission
-    </div>
-    <div class="value">April 23, 2026
-        <br>
-      <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260423%0ADTEND;VALUE=DATE:20260424%0ASUMMARY:DEADLINE: Abstract Submission (SEMANTiCS 2026)%0ADESCRIPTION:Submit abstracts for Research and Innovation Track.%0ATRANSP:TRANSPARENT%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_abstract_deadline.ics">
-        Download .ics
-      </a> 
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DEADLINE:+Abstract+Submission+(SEMANTiCS+2026)&dates=20260423/20260424&details=Submit+abstracts+for+Research+and+Innovation+Track." target="_blank">
-        Add to Google Calendar
-      </a>
-      </a>
-    </div>
+  <div class="info-row">
+    <div class="label">Abstract Submission</div>
+    <div class="value">April 23, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value">April 30, 2026
-    <br>
-    <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260430%0ADTEND;VALUE=DATE:20260501%0ASUMMARY:DEADLINE: Paper Submission (SEMANTiCS 2026)%0ADESCRIPTION:Full paper submission deadline.%0ATRANSP:TRANSPARENT%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_paper_deadline.ics">
-        Download .ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DEADLINE:+Paper+Submission+(SEMANTiCS+2026)&dates=20260430/20260501&details=Full+paper+submission+deadline." target="_blank">
-        Add to Google Calendar
-      </a>
-    </div>
+    <div class="value">April 30, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Notification of Acceptance</div>
     <div class="value">June 22, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Camera Ready</div>
     <div class="value">July 16, 2026</div>
   </div>
 </div>
 
 ## Poster and Demos Papers
+<a href="content/ics/posters_demos.ics" download class="cal-link">Download .ics</a> 
 
 <div class="info-table">
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value">May 30, 2026 
-    <br>
-    <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260530%0ADTEND;VALUE=DATE:20260531%0ASUMMARY:DEADLINE: Poster & Demo Papers (SEMANTiCS 2026)%0ADESCRIPTION:Submission deadline for Poster and Demo tracks.%0ATRANSP:TRANSPARENT%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_posters_demos.ics">
-        Download .ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DEADLINE:+Poster+and+Demo+Papers+(SEMANTiCS+2026)&dates=20260530/20260531&details=Submission+deadline+for+Poster+and+Demo+tracks." target="_blank">
-        Add to Google Calendar
-      </a>
-    </div>
+    <div class="value">May 30, 2026</div>
   </div>
   <div class="info-row">
-    <div class="label">Notification  of Acceptance</div>
+    <div class="label">Notification of Acceptance</div>
     <div class="value">July 6, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Camera Ready</div>
     <div class="value">August 2, 2026</div>
   </div>
-    <div class="info-row">
+  <div class="info-row">
     <div class="label">Poster and Demos Presentations</div>
     <div class="value">September 16, 2026</div>
   </div>
 </div>
 
 ## Workshops
+<a href="content/ics/workshops.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value"> <div class="value"><del>February 27, 2026</del> March 13, 2026</div></div>
+    <div class="value"><del>February 27, 2026</del> March 13, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Proposal Notification of Acceptance</div>
@@ -117,7 +77,7 @@
   </div>
   <div class="info-row">
     <div class="label">Workshop Website Online</div>
-    <div class="value">April 15, 2026 </div>
+    <div class="value">April 15, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Accepted Workshop paper submission</div>
@@ -127,76 +87,70 @@
     <div class="label">Accepted Workshop paper notification</div>
     <div class="value">July 30, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Workshop date</div>
     <div class="value">September 15, 2026</div>
   </div>
 </div>
 
 ## Tutorials
+<a href="content/ics/tutorials.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value">May 15, 2026
-    <br>
-      <a href="data:text/calendar;charset=utf8,BEGIN:VCALENDAR%0AVERSION:2.0%0ABEGIN:VEVENT%0ADTSTART;VALUE=DATE:20260515%0ADTEND;VALUE=DATE:20260516%0ASUMMARY:DEADLINE: Tutorial Proposals (SEMANTiCS 2026)%0ADESCRIPTION:Deadline to submit proposals for Tutorials.%0ATRANSP:TRANSPARENT%0AEND:VEVENT%0AEND:VCALENDAR" download="semantics_tutorial_proposals.ics">
-        Download .ics
-      </a>
-      &nbsp;|&nbsp; 
-      <a href="https://calendar.google.com/calendar/render?action=TEMPLATE&text=DEADLINE:+Tutorial+Proposals+(SEMANTiCS+2026)&dates=20260515/20260516&details=Deadline+to+submit+proposals+for+Tutorials." target="_blank">
-        Add to Google Calendar
-      </a>
-      </div>
+    <div class="value">May 15, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
     <div class="value">May 29, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Tutorials date</div>
     <div class="value">September 15, 2026</div>
   </div>
 </div>
 
 ## Blue Sky
-
+<a href="content/ics/blue_sky.ics" download class="cal-link">Download .ics</a>
 <div class="info-table">
   <div class="info-row">
-    <div class="label">Blue Sky Paper Submission </div>
+    <div class="label">Blue Sky Paper Submission</div>
     <div class="value">May 30, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
     <div class="value">June 30, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Camera Ready</div>
     <div class="value">July 16, 2026</div>
   </div>
 </div>
 
 ## ORKG Content
+<a href="/assets/ics/orkg_content.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
-    <div class="label">ORKG Content Submission </div>
+    <div class="label">ORKG Content Submission</div>
     <div class="value">Aug 31, 2026</div>
   </div>
 </div>
 
 ## Industry and Use Cases
+<a href="content/ics/orkg_content.ics" download class="cal-link">Download .ics</a> 
 
 <div class="info-table">
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Submission Deadline</div>
     <div class="value">June 2, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value">June 30, 2026 </div>
+    <div class="value">June 30, 2026</div>
   </div>
-   <div class="info-row">
+  <div class="info-row">
     <div class="label">Presentation Ready</div>
     <div class="value">August 30, 2026</div>
   </div>
