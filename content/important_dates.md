@@ -1,7 +1,7 @@
 <link href="../css/call.css" rel="stylesheet">
 
 ## Important Dates 
-<a href="content/ics/important_dates.ics" download class="cal-link">Download .ics</a> 
+<a href="../content/ics/important_dates.ics" download class="cal-link">Download .ics</a> 
 
 <div class="info-table">
   <div class="info-row">
@@ -20,7 +20,7 @@
 <br>
 
 ## Research and Innovation Track Papers
-<a href="content/ics/research_innovation_track.ics" download class="cal-link">Download .ics</a>
+<a href="../content/ics/research_innovation_track.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
@@ -42,7 +42,7 @@
 </div>
 
 ## Poster and Demos Papers
-<a href="content/ics/posters_demos.ics" download class="cal-link">Download .ics</a> 
+<a href="../content/ics/posters_demos.ics" download class="cal-link">Download .ics</a> 
 
 <div class="info-table">
   <div class="info-row">
@@ -64,7 +64,7 @@
 </div>
 
 ## Workshops
-<a href="content/ics/workshops.ics" download class="cal-link">Download .ics</a>
+<a href="../content/ics/workshops.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
@@ -94,7 +94,7 @@
 </div>
 
 ## Tutorials
-<a href="content/ics/tutorials.ics" download class="cal-link">Download .ics</a>
+<a href="../content/ics/tutorials.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
@@ -112,7 +112,7 @@
 </div>
 
 ## Blue Sky
-<a href="content/ics/blue_sky.ics" download class="cal-link">Download .ics</a>
+<a href="../content/ics/blue_sky.ics" download class="cal-link">Download .ics</a>
 <div class="info-table">
   <div class="info-row">
     <div class="label">Blue Sky Paper Submission</div>
@@ -129,7 +129,7 @@
 </div>
 
 ## ORKG Content
-<a href="/assets/ics/orkg_content.ics" download class="cal-link">Download .ics</a>
+<a href="../content/ics/orkg_content.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
@@ -139,7 +139,7 @@
 </div>
 
 ## Industry and Use Cases
-<a href="content/ics/orkg_content.ics" download class="cal-link">Download .ics</a> 
+<a href="../content/ics/orkg_content.ics" download class="cal-link">Download .ics</a> 
 
 <div class="info-table">
   <div class="info-row">
