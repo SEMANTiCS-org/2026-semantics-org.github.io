@@ -1,6 +1,6 @@
 # Awards and Prizes
 
-The SEMANTiCS program is committed to delivering cutting-edge content, featuring high-quality papers, industry applications, workshops, tutorials on recent advances, and research showcases (posters and demos). In every edition, we honour excellence in the field by presenting awards to the top-notch research contributions displayed at the conference. This year’s programme features 11 awards, which will be conferred during the closing ceremony on 17 September.
+The SEMANTiCS program is committed to delivering cutting-edge content, featuring high-quality papers, industry applications, workshops, tutorials on recent advances, and research showcases (posters and demos). In every edition, we honour excellence in the field by presenting awards to the top-notch research contributions displayed at the conference. This year’s programme features **11 awards**, which will be conferred during the closing ceremony on 17 September.
 
 ## Research and Innovation Track
 
