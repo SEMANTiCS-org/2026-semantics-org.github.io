@@ -34,6 +34,7 @@ body {
   font-family: "Lato", sans-serif;
   color: var(--body) !important;
   background-color: var(--background);
+  text-align: justify;
 }
 
 h2 {
