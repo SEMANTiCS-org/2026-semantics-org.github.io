@@ -13,8 +13,7 @@ of a developers workshop. In this workshop, we invite developers of both worlds
 to present and discuss their software. Furthermore, by bringing people from academia
 and industry physically together, this workshop will provide a discussion
 ground for identifying open problems that are relevant to both sides. Besides
-putting a spotlight on Semantic Web software, the workshop aims to pinpoint op‐
-portunities for future research and implementations.</p>
+putting a spotlight on Semantic Web software, the workshop aims to pinpoint opportunities for future research and implementations.</p>
 <div class="accepted-subtitle">Organizers:</div>
 <ul>
 <li>Ruben Taelman, IDLab, Ghent University – imec, Ghent, Belgium</li>
@@ -47,7 +46,7 @@ portunities for future research and implementations.</p>
 
 <div class="accepted-item">
 <div class="accepted-title">SymGenAI4Sci 2026: 2nd International Workshop on Symbolic and Generative AI for Science</div>
-<p>The rapid advancement of Generative Artificial Intelligence (GenAI) has revolu- tionized various fields, including natural language processing, computer vision, and creative industries. Models such as GPT, DALL·E, and others have demon- strated the immense potential of generative AI in creating realistic, coherent, and often groundbreaking outputs across a wide range of domains. However, the application of these generative models to scientific discovery and problem- solving remains an emerging area, filled with opportunities and challenges. Sci- ence is inherently generative: it involves creating hypotheses, designing exper- iments, interpreting data, and communicating results. Generative AI has the potential to augment these processes by automating routine tasks, enabling hy- pothesis generation, synthesizing complex information, and uncovering insights from vast datasets. Scientific data is often sparse, noisy, and domain-specific, requiring models to understand and adhere to rigorous scientific principles and constraints. Issues such as model interpretability, reproducibility, and ethical use are particularly critical in scientific applications, where errors or biases can have far-reaching consequences.</p>
+<p>The rapid advancement of Generative Artificial Intelligence (GenAI) has revolutionized various fields, including natural language processing, computer vision, and creative industries. Models such as GPT, DALL·E, and others have demonstrated the immense potential of generative AI in creating realistic, coherent, and often groundbreaking outputs across a wide range of domains. However, the application of these generative models to scientific discovery and problemsolving remains an emerging area, filled with opportunities and challenges. Science is inherently generative: it involves creating hypotheses, designing experiments, interpreting data, and communicating results. Generative AI has the potential to augment these processes by automating routine tasks, enabling hypothesis generation, synthesizing complex information, and uncovering insights from vast datasets. Scientific data is often sparse, noisy, and domain-specific, requiring models to understand and adhere to rigorous scientific principles and constraints. Issues such as model interpretability, reproducibility, and ethical use are particularly critical in scientific applications, where errors or biases can have far-reaching consequences.</p>
 <div class="accepted-subtitle">Organizers:</div>
 <ul>
 <li>Sanju Tiwari, Sharda University, Delhi-NCR India & TIB Hanover, Germany</li>
