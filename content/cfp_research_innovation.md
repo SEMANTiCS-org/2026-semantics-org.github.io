@@ -9,12 +9,12 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Abstract Submission Deadline</div>
-    <div class="value">April 23, 2026, 23:59 AoE</div>
+    <div class="value"><s> April 23</s> May 7, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
     <div class="label">Full Paper Submission Deadline</div>
-    <div class="value">April 30, 2026, 23:59 AoE</div>
+    <div class="value"><s>April 30</s> May 14, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -104,11 +104,11 @@ Applied Semantic, Neurosymbolic, and AI Technologies in Real-World Scenarios, su
   </div>
    <div class="info-row">
     <div class="label">Abstract Submission</div>
-    <div class="value">April 23, 2026</div>
+    <div class="value"><s>April 23</s> May 7, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value">April 30, 2026</div>
+    <div class="value"><s>April 30</s> May 14, 2026</div>
   </div>
    <div class="info-row">
     <div class="label">Notification of Acceptance</div>
