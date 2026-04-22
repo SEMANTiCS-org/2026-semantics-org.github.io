@@ -29,71 +29,6 @@
     <script src="js/getconf.js"></script>
     <script src="js/pcontent.js"></script>
     <script src="js/pcsv.js"></script>
-    <style>
-      header {
-        position: relative;
-      }
-
-      .photo-credit {
-        position: absolute;
-        bottom: 16px;
-        right: 16px;
-        z-index: 9999;
-      }
-
-      .info-icon {
-        cursor: pointer;
-        font-size: 18px;
-        padding: 3px 6px;
-        border-radius: 6px;
-        display: inline-block;
-        background: var(--background);
-      }
-
-      .tooltip-box {
-        position: absolute;
-        bottom: 30px;
-        right: 0;
-        background: var(--background);
-        padding: 6px 10px;
-        border-radius: 6px;
-        font-size: 12px;
-        white-space: nowrap;
-        display: none;
-        z-index: 99999;
-      }
-
-      .photo-credit:hover .tooltip-box {
-        display: block;
-      }
-
-      #preloader {
-        position: fixed;
-        top: 0;
-        left: 0;
-        width: 100%;
-        height: 100%;
-        background: #ffffff;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-        z-index: 999999;
-      }
-
-      .spinner {
-        width: 60px;
-        height: 60px;
-        border: 6px solid #ccc;
-        border-top-color: #2a709f;
-        border-radius: 50%;
-        animation: spin 0.7s linear infinite;
-      }
-      @keyframes spin {
-        to {
-          transform: rotate(360deg);
-        }
-      }
-    </style>
   </head>
 
   <body id="page-top">
@@ -120,15 +55,16 @@
       <div id="front" class="container">
         <div class="row">
           <div class="col mx-auto title">
-            <h4
+            <h1
               style="
                 text-align: center;
                 font-weight: bold;
                 color: var(--background-alt);
+                font-size: 1.5rem;
               "
             >
               Ghent, 15–17 September 2026
-            </h4>
+            </h1>
           </div>
         </div>
         <div class="row">
@@ -139,22 +75,21 @@
               width="125%"
               height="auto"
               style="padding: 10px"
-              alt=""
+              alt="SEMANTiCS 2026 – 22nd International Conference on Semantic Systems"
             />
             <!--<img id="logo_lti" src="img/LTILogoByLine.png" width="22%" height="auto" style="padding:10px" alt="">-->
           </div>
         </div>
         <div class="row">
           <div class="col mx-auto title">
-            <h4
+            <p
               style="
                 text-align: center;
                 font-weight: bold;
-                /* background-color: var(--background-alt); */
               "
             >
               22nd International Conference on Semantic Systems
-            </h4>
+            </p>
           </div>
         </div>
         <div class="row">
@@ -173,6 +108,8 @@
       </div>
     </header>
 
+    <main id="main-content">
+
     <section class="theme-row collapsed-section" id="section_intro">
       <div class="container">
         <div class="row">
@@ -181,9 +118,9 @@
               <div class="col-lg-12 mx-auto">
                 <div class="row">
                   <div class="col-lg-12 mx-auto">
-                    <h4 class="title-section-alt text-center" style="padding-top: 20px">
+                    <h2 class="title-section-alt text-center" style="padding-top: 20px">
                       SEMANTiCS 2026
-                    </h4>
+                    </h2>
                   </div>
                 </div>
 
@@ -213,9 +150,9 @@
 							<div id="keynote_list" class="section">
 								<div class="row">
 									<div class="col-lg-12 mx-auto">
-										<h4 class="title-section text-center">
+										<h2 class="title-section text-center">
                       CONFERENCE KEYNOTES & INVITED SPEAKERS
-										</h4>
+										</h2>
 									</div>
 								</div>
 							</div>
@@ -234,9 +171,9 @@
                 <div id="news" class="section">
                   <div class="row">
                     <div class="col-lg-12 mx-auto">
-                      <h4 class="title-section text-center">
+                      <h2 class="title-section text-center">
                         BLOG POSTS & NEWS
-                      </h4>
+                      </h2>
                     </div>
                   </div>
                 </div>
@@ -321,7 +258,7 @@
                 <div id="org_list" class="section">
                   <div class="row">
                     <div class="col-lg-12 mx-auto">
-                      <h4 class="title-section text-center">ORGANISED BY</h4>
+                      <h2 class="title-section text-center">ORGANISED BY</h2>
                     </div>
                   </div>
                 </div>
@@ -338,25 +275,13 @@
             <div id="venue_section" class="section">
               <div class="row">
                 <div class="col-lg-12 mx-auto">
-                  <h4 class="title-section text-center">CONFERENCE VENUE</h4>
+                  <h2 class="title-section text-center">CONFERENCE VENUE</h2>
                 </div>
               </div>
 
               <div class="row section-content">
                 <div class="col-lg-6 mx-auto text-right align-self-center">
                   <div style="vertical-align: middle">
-                      <style>
-                        .custom-link {
-                          color: var(--link) !important;
-                          font-weight: bold;
-                          text-decoration: none !important;
-                        }
-                        .custom-link:hover {
-                          color: var(--body-less) !important;
-                          transition: all 0.5s !important;
-                        }
-                      </style>
-
                       <strong
                         ><a href="https://www.bijloke.be/" class="custom-link"
                           >Music Center de Bijloke</a
@@ -373,6 +298,7 @@
                       height="270"
                       scrolling="no"
                       src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.460771342402!2d3.7187914!3d51.0445793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3715c63a85a3f%3A0xd2b089081bc62d1d!2sMusic%20Center%20De%20Bijloke!5e0!3m2!1sen!2sit!4v1768226881644!5m2!1sen!2sit"
+                      title="Music Center De Bijloke location on Google Maps"
                       style="border: 0; border-radius: 18px"
                       width="270"
                       allowfullscreen=""
@@ -413,6 +339,9 @@
 			</div>
 		</div>
 	</section> -->
+
+    </main>
+
     <!-- Footer -->
     <footer id="page-footer"></footer>
     <script src="vendor/bootstrap/js/bootstrap.bundle.min.js"></script>

@@ -1,3 +1,65 @@
+/* ── Skip link ───────────────────────────────────────────── */
+.skip-link {
+  position: absolute;
+  top: -100%;
+  left: 0;
+  background: var(--semantics-blue-dark);
+  color: #fff;
+  padding: 8px 16px;
+  z-index: 9999999;
+  font-weight: bold;
+  text-decoration: none;
+  border-radius: 0 0 6px 0;
+}
+.skip-link:focus {
+  top: 0;
+}
+
+/* ── Footer (canonical styles, footer.html inline block removed) ─ */
+.copy-right {
+  color: white;
+}
+.footer-glass {
+  color: white;
+}
+.footer-links a {
+  color: var(--highlight-alt);
+  text-decoration: none;
+  display: block;
+  margin-bottom: 6px;
+}
+.footer-links a:hover {
+  color: var(--highlight);
+  transition: 0.5s;
+}
+.footer-flat-links a {
+  color: var(--highlight-alt);
+  text-decoration: none;
+}
+.footer-flat-links a:hover {
+  color: var(--highlight);
+  transition: 0.5s;
+  text-decoration: none;
+}
+.footer-social-icons a {
+  color: var(--highlight-alt);
+  margin-right: 12px;
+}
+.footer-social-icons a:hover {
+  color: var(--highlight);
+  transition: 0.5s;
+}
+.fw-bold {
+  color: var(--title-alt);
+  font-weight: bold;
+}
+
+/* ── Heading hierarchy: h2 used as section titles keeps same visual size ─ */
+h2.title-section,
+h2.title-section-alt {
+  font-size: 1.5rem;
+}
+
 :root {
   --nav-bg-color: #33075c;
   --nav-bg-color-semantics: rgb(64, 71, 87);
