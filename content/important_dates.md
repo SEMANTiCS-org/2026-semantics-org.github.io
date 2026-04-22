@@ -27,11 +27,11 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Abstract Submission</div>
-    <div class="value">April 23, 2026</div>
+    <div class="value"><s>April 23, 2026</s> May 7, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value">April 30, 2026</div>
+    <div class="value"><s>April 30, 2026</s> May 14, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
