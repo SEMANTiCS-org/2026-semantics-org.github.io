@@ -1,7 +1,7 @@
 # Equity, Diversity, and Inclusion Statement – SEMANTiCS
 
 <div style="text-align: center;">
-  <img src="../img/edi.png" style="width: 70%; height: auto;" alt="">
+  <img src="../img/edi.png" style="width: 70%; height: auto;" alt="SEMANTiCS Equity, Diversity, and Inclusion statement banner">
 </div>
 
 At **SEMANTiCS**, we are committed to fostering an inclusive, diverse, and fair environment that welcomes participants from all backgrounds. Our goal is to ensure that every attendee, speaker, sponsor, and organizer feels respected, valued, and empowered to contribute fully to the conference experience.

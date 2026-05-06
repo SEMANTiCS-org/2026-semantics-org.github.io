@@ -1,7 +1,7 @@
 # Code of Conduct
 
 <div style="text-align: center;">
-  <img src="../img/coc.png" style="width: 70%; height: auto;" alt="">
+  <img src="../img/coc.png" style="width: 70%; height: auto;" alt="SEMANTiCS Code of Conduct banner">
 </div>
 
 ## Overview

@@ -46,7 +46,7 @@ function get_pc_csv(fcsv, page) {
             var html_img =
               '<img typeof="foaf:Image" src="' +
               image +
-              '" class="image-profile" alt="">';
+              '" class="image-profile" alt="' + fname + ' ' + lname + '">';
             var str_html =
               '<div class="person col-sm-4">' +
               html_img +
@@ -98,7 +98,7 @@ function get_oc_csv(fcsv, page, container) {
         var html_img =
           '<img typeof="foaf:Image" src="' +
           image +
-          '" class="image-profile" alt="">';
+          '" class="image-profile" alt="' + name + '">';
         //add email
         var str_email = "";
         if (email != "" && email.includes("@")) {
@@ -220,7 +220,7 @@ function populate_logo_list(fcsv, page, container) {
           img_width.toString() +
           '" height="' +
           img_height.toString() +
-          '" alt="">';
+          '" alt="' + name + ' logo">';
 
         var url = entry["url"].trim();
         var html_url =
@@ -324,7 +324,7 @@ function populate_sponsors_list(fcsv, page, container) {
               img_height.toString() +
               '" typeof="foaf:Image" src="' +
               img +
-              '" alt="">';
+              '" alt="' + name + ' logo">';
             //var html_img = '<img class="sponsor-img" typeof="foaf:Image" src="'+img+'" alt="">'
 
             var url = entry["url"].trim();
@@ -401,9 +401,9 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
         let img_size = "60";
 
         var html_img =
-          '<img src="img/LTILogoByLine.png" class="image-profile-type"><img typeof="foaf:Image" src="img/person/' +
+          '<img src="img/LTILogoByLine.png" class="image-profile-type" alt=""><img typeof="foaf:Image" src="img/person/' +
           img +
-          '" class="image-profile" alt="">';
+          '" class="image-profile" alt="' + name + '">';
         var html_presentation =
           "<a href='" +
           baseurl +
@@ -415,11 +415,11 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
         var html_google =
           "<a href='" +
           googleScholar +
-          "' target='_blank' class='social'><img src='img/icons/googleScholar.svg'' class='social'/></a>";
+          "' target='_blank' class='social'><img src='img/icons/googleScholar.svg' class='social' alt='Google Scholar profile of " + name + "'/></a>";
         var html_web =
           "<a href='" +
           website +
-          "' target='_blank' class='social'><img src='img/icons/website.svg'' class='social'/></a>";
+          "' target='_blank' class='social'><img src='img/icons/website.svg' class='social' alt='Website of " + name + "'/></a>";
         var html_body =
           html_img +
           '<div class="person-name">' +
@@ -494,7 +494,7 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
         var html_img =
           '<img typeof="foaf:Image" src="' +
           image +
-          '" class="image-profile" alt="">';
+          '" class="image-profile" alt="' + name + '">';
         var person_body =
           html_img +
           '<div class="person-name">' +
@@ -557,7 +557,7 @@ function populate_news_container(fcsv, page, container, baseurl) {
           var html_img =
             '<div class="container-img-news"><img typeof="foaf:Image" src="' +
             image +
-            '" class="news-img" alt=""></div>';
+            '" class="news-img" alt="' + title + '"></div>';
           all_html_elems +=
             `<div class="col-lg-3 mx-auto news-box"> <a href="` +
             baseurl +
@@ -607,7 +607,7 @@ function populate_news_blog_container(fcsv, page, container, baseurl) {
           var html_img =
             '<div class="container-img-news"><img typeof="foaf:Image" src="' +
             image +
-            '" class="news-img" alt=""></div>';
+            '" class="news-img" alt="' + title + '"></div>';
           all_html_elems +=
             `<div class="col-lg-3 mx-auto news-box"> <a href="` +
             baseurl +
