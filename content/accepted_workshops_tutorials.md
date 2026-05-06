@@ -129,10 +129,10 @@ putting a spotlight on Semantic Web software, the workshop aims to pinpoint oppo
 <li>Cornelis Bouter, Unit ICT, Strategy and Policy, TNO, The Netherlands Institute for Applied Research, Netherlands</li>
 </ul>
 <div class="accepted-website">
-  <a href="https://semantic-transportation.github.io/sem4tra-kg-website/">Website (under construction)</a>
+  <a href="https://semantic-transportation.github.io/sem4tra-kg-website/">Website</a>
 </div>
 <div class="accepted-website">
-  <a href="https://semantic-transportation.github.io/sem4tra-kg-website">Participate (under construction)</a>
+  <a href="https://semantic-transportation.github.io/sem4tra-kg-website/#call">Participate</a>
 </div>
 </div>
 
