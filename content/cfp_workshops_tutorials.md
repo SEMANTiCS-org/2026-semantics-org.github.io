@@ -14,7 +14,7 @@
 
   <div class="info-row">
     <div class="label">Proposal Tutorial Deadline</div>
-    <div class="value">May 15, 2026, 23:59 AoE</div>
+    <div class="value"><del>May 15, 2026, 23:59 AoE</del>   May 29, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -157,11 +157,11 @@ Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, et
   </div>
   <div class="info-row">
     <div class="label">Proposals Tutorial</div>
-    <div class="value">May 15, 2026</div>
+    <div class="value"><del>May 15, 2026</del> May 30, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value">May 29, 2026</div>
+    <div class="value"><del>May 29, 2026</del> June 12, 2026</div>
   </div>
 </div>
 

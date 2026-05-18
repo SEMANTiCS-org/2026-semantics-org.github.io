@@ -104,11 +104,11 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value">May 15, 2026</div>
+    <div class="value"><del>May 15, 2026</del> May 30, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value">May 29, 2026</div>
+    <div class="value"><del>May 29, 2026</del> June 12, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Tutorials date</div>
