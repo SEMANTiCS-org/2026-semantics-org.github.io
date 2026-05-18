@@ -14,7 +14,7 @@
 
   <div class="info-row">
     <div class="label">Proposal Tutorial Deadline</div>
-    <div class="value"><del>May 15, 2026, 23:59 AoE</del>   May 29, 2026, 23:59 AoE</div>
+    <div class="value"><del>May 15, 2026, 23:59 AoE</del>   May 30, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
