@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
   <head>
     <meta charset="utf-8" />
@@ -57,295 +57,293 @@
     </script>
 
     <main id="main-content">
-
-    <section>
-      <div class="container">
-        <div class="row">
-          <div class="col-lg-12 mx-auto">
-            <zero-md src="../content/important_dates.md">
-              <template>
-                <link
-                  href="../vendor/bootstrap/css/bootstrap.min.css"
-                  rel="stylesheet"
-                />
-                <link href="../css/md-style.css" rel="stylesheet" />
-              </template>
-            </zero-md>
-            <h2 id="timeline">Timeline</h2>
-            <div id="visualization-timeline"></div>
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <zero-md src="../content/important_dates.md">
+                <template>
+                  <link
+                    href="../vendor/bootstrap/css/bootstrap.min.css"
+                    rel="stylesheet"
+                  />
+                  <link href="../css/md-style.css" rel="stylesheet" />
+                </template>
+              </zero-md>
+              <h2 id="timeline">Timeline</h2>
+              <div id="visualization-timeline"></div>
+            </div>
+            <!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
           </div>
-          <!--<div class="col-lg-3 mx-auto"><div id="sidecol" /></div>-->
         </div>
-      </div>
-    </section>
+      </section>
 
-    <script type="text/javascript">
-      var container = document.getElementById("visualization-timeline");
+      <script type="text/javascript">
+        var container = document.getElementById("visualization-timeline");
 
-      // 1. Define Groups
-      var groups = new vis.DataSet([
-        { id: 1, content: "Research and Innovation" },
-        { id: 2, content: "Poster and Demos" },
-        { id: 3, content: "Workshops" },
-        { id: 4, content: "Tutorials" },
-        { id: 5, content: "Blue Sky" },
-        { id: 6, content: "Industry and Use Cases" }, // Added Industry
-        { id: 7, content: "ORKG Content" },
-        { id: 8, content: "Conference" },
-      ]);
+        // 1. Define Groups
+        var groups = new vis.DataSet([
+          { id: 1, content: "Research and Innovation" },
+          { id: 2, content: "Poster and Demos" },
+          { id: 3, content: "Workshops" },
+          { id: 4, content: "Tutorials" },
+          { id: 5, content: "Blue Sky" },
+          { id: 6, content: "Industry and Use Cases" }, // Added Industry
+          { id: 7, content: "ORKG Content" },
+          { id: 8, content: "Conference" },
+        ]);
 
-      // Helper function to format content with date
-      function label(text, dateStr) {
-        return `<span>${text}</span> <span class="date-label">• ${dateStr}</span>`;
-      }
+        // Helper function to format content with date
+        function label(text, dateStr) {
+          return `<span>${text}</span> <span class="date-label">• ${dateStr}</span>`;
+        }
 
-      // 2. Define Items
-      var items = new vis.DataSet([
-        // Group 1: Research
-        {
-          id: 1,
-          subgroup: 1,
-          group: 1,
-          content: label("Abstract Submission", "May 07"),
-          start: "2026-05-07",
-          type: "point",
-          className: "purple-dot",
-        },
-        {
-          id: 2,
-          subgroup: 2,
-          group: 1,
-          content: label("Paper Submission", "Apr 30"),
-          start: "2026-05-14",
-          type: "point",
-          className: "purple-dot",
-        },
-        {
-          id: 3,
-          subgroup: 3,
-          group: 1,
-          content: label("Notification", "Jun 22"),
-          start: "2026-06-22",
-          type: "point",
-          className: "purple-dot",
-        },
-        {
-          id: 4,
-          subgroup: 4,
-          group: 1,
-          content: label("Camera Ready", "Jul 16"),
-          start: "2026-07-16",
-          type: "point",
-          className: "purple-dot",
-        },
-
-        // Group 2: Poster & Demos (New items based on your first prompt)
-        {
-          id: 12,
-          subgroup: 12,
-          group: 2,
-          content: label("Paper Submission", "May 30"),
-          start: "2026-05-30",
-          type: "point",
-          className: "blue-dot",
-        },
-        {
-          id: 13,
-          subgroup: 13,
-          group: 2,
-          content: label("Notification", "Jul 6"),
-          start: "2026-07-06",
-          type: "point",
-          className: "blue-dot",
-        },
-        {
-          id: 14,
-          subgroup: 14,
-          group: 2,
-          content: label("Camera Ready", "Aug 2"),
-          start: "2026-08-02",
-          type: "point",
-          className: "blue-dot",
-        },
-
-        // Group 3: Workshops
-        {
-          id: 5,
-          subgroup: 5,
-          group: 3,
-          content: label("Proposals Submission", "Mar 13"),
-          start: "2026-03-13",
-          type: "point",
-          className: "teal-dot",
-        },
-        {
-          id: 6,
-          subgroup: 6,
-          group: 3,
-          content: label("Proposal Notification", "Mar 28"),
-          start: "2026-03-28",
-          type: "point",
-          className: "teal-dot",
-        },
-        {
-          id: 7,
-          subgroup: 7,
-          group: 3,
-          content: label("Website Online", "Apr 15"),
-          start: "2026-04-01",
-          type: "point",
-          className: "teal-dot",
-        },
-        {
-          id: 8,
-          subgroup: 8,
-          group: 3,
-          content: label("Paper Submission", "Jun 25"),
-          start: "2026-06-25",
-          type: "point",
-          className: "teal-dot",
-        },
-        {
-          id: 9,
-          subgroup: 9,
-          group: 3,
-          content: label("Paper Notification", "Jul 30"),
-          start: "2026-07-30",
-          type: "point",
-          className: "teal-dot",
-        },
-
-        // Group 4: Tutorials
-        {
-          id: 10,
-          subgroup: 10,
-          group: 4,
-          content: label("Proposals Submission", "May 30"),
-          start: "2026-05-30",
-          type: "point",
-          className: "green-dot",
-        },
-        {
-          id: 11,
-          subgroup: 11,
-          group: 4,
-          content: label("Notification", "June 12"),
-          start: "2026-06-12",
-          type: "point",
-          className: "green-dot",
-        },
-
-        // Group 5: Blue Sky
-        {
-          id: 21,
-          subgroup: 21,
-          group: 5,
-          content: label("Paper Submission", "May 30"),
-          start: "2026-05-30",
-          type: "point",
-          className: "orange-dot",
-        },
-        {
-          id: 22,
-          subgroup: 22,
-          group: 5,
-          content: label("Notification", "June 30"),
-          start: "2026-06-30",
-          type: "point",
-          className: "orange-dot",
-        },
-        {
-          id: 23,
-          subgroup: 23,
-          group: 5,
-          content: label("Camera Ready", "July 16"),
-          start: "2026-07-16",
-          type: "point",
-          className: "orange-dot",
-        },
-
-        // Group 6: Industry & Use Cases (Requested Add)
-        {
-          id: 16,
-          subgroup: 16,
-          group: 6,
-          content: label("Presentation Submission", "Jun 2"),
-          start: "2026-06-02",
-          type: "point",
-          className: "red-dot",
-        },
-        {
-          id: 17,
-          subgroup: 17,
-          group: 6,
-          content: label("Notification", "Jun 30"),
-          start: "2026-06-30",
-          type: "point",
-          className: "red-dot",
-        },
-        {
-          id: 18,
-          subgroup: 18,
-          group: 6,
-          content: label("Presentation Ready", "Aug 30"),
-          start: "2026-08-30",
-          type: "point",
-          className: "red-dot",
-        },
-
-        // Group 7: ORKG Content
-        {
-          id: 24,
-          subgroup: 24,
-          group: 7,
-          content: label("ORKG Content Submission", "Aug 31"),
-          start: "2026-08-31",
-          type: "point",
-          className: "orkg-dot",
-        },
-
-        // Group 8: Conference
-        {
-          id: 19,
-          subgroup: 19,
-          group: 8,
-          content: label("Workshops / Tutorials / DBpedia Day", "Sep 15"),
-          start: "2026-09-15",
-          type: "point",
-          className: "pink-dot",
-        },
-        {
-          id: 20,
-          subgroup: 20,
-          group: 8,
-          content: label("Conference", "Sep 15 - 17"),
-          start: "2026-09-15",
-          end: "2026-09-17",
-          type: "range",
-          className: "pink-range",
-        },
-      ]);
-
-      // 3. Configuration
-      var options = {
-        stack: true,
-        stackSubgroups: true,
-        start: "2026-02-01",
-        end: "2026-10-31",
-        editable: false,
-        zoomable: false, // Users can zoom in/out
-        margin: {
-          item: {
-            horizontal: -1,
+        // 2. Define Items
+        var items = new vis.DataSet([
+          // Group 1: Research
+          {
+            id: 1,
+            subgroup: 1,
+            group: 1,
+            content: label("Abstract Submission", "May 07"),
+            start: "2026-05-07",
+            type: "point",
+            className: "purple-dot",
           },
-          axis: 10,
-        },
-        orientation: "top",
-      };
+          {
+            id: 2,
+            subgroup: 2,
+            group: 1,
+            content: label("Paper Submission", "Apr 30"),
+            start: "2026-05-14",
+            type: "point",
+            className: "purple-dot",
+          },
+          {
+            id: 3,
+            subgroup: 3,
+            group: 1,
+            content: label("Notification", "Jun 22"),
+            start: "2026-06-22",
+            type: "point",
+            className: "purple-dot",
+          },
+          {
+            id: 4,
+            subgroup: 4,
+            group: 1,
+            content: label("Camera Ready", "Jul 16"),
+            start: "2026-07-16",
+            type: "point",
+            className: "purple-dot",
+          },
 
-      var timeline = new vis.Timeline(container, items, groups, options);
-    </script>
+          // Group 2: Poster & Demos (New items based on your first prompt)
+          {
+            id: 12,
+            subgroup: 12,
+            group: 2,
+            content: label("Paper Submission", "June 17"),
+            start: "2026-06-17",
+            type: "point",
+            className: "blue-dot",
+          },
+          {
+            id: 13,
+            subgroup: 13,
+            group: 2,
+            content: label("Notification", "Jul 17"),
+            start: "2026-07-17",
+            type: "point",
+            className: "blue-dot",
+          },
+          {
+            id: 14,
+            subgroup: 14,
+            group: 2,
+            content: label("Camera Ready", "Aug 2"),
+            start: "2026-08-02",
+            type: "point",
+            className: "blue-dot",
+          },
 
+          // Group 3: Workshops
+          {
+            id: 5,
+            subgroup: 5,
+            group: 3,
+            content: label("Proposals Submission", "Mar 13"),
+            start: "2026-03-13",
+            type: "point",
+            className: "teal-dot",
+          },
+          {
+            id: 6,
+            subgroup: 6,
+            group: 3,
+            content: label("Proposal Notification", "Mar 28"),
+            start: "2026-03-28",
+            type: "point",
+            className: "teal-dot",
+          },
+          {
+            id: 7,
+            subgroup: 7,
+            group: 3,
+            content: label("Website Online", "Apr 15"),
+            start: "2026-04-01",
+            type: "point",
+            className: "teal-dot",
+          },
+          {
+            id: 8,
+            subgroup: 8,
+            group: 3,
+            content: label("Paper Submission", "Jun 25"),
+            start: "2026-06-25",
+            type: "point",
+            className: "teal-dot",
+          },
+          {
+            id: 9,
+            subgroup: 9,
+            group: 3,
+            content: label("Paper Notification", "Jul 30"),
+            start: "2026-07-30",
+            type: "point",
+            className: "teal-dot",
+          },
+
+          // Group 4: Tutorials
+          {
+            id: 10,
+            subgroup: 10,
+            group: 4,
+            content: label("Proposals Submission", "May 30"),
+            start: "2026-05-30",
+            type: "point",
+            className: "green-dot",
+          },
+          {
+            id: 11,
+            subgroup: 11,
+            group: 4,
+            content: label("Notification", "June 12"),
+            start: "2026-06-12",
+            type: "point",
+            className: "green-dot",
+          },
+
+          // Group 5: Blue Sky
+          {
+            id: 21,
+            subgroup: 21,
+            group: 5,
+            content: label("Paper Submission", "May 30"),
+            start: "2026-05-30",
+            type: "point",
+            className: "orange-dot",
+          },
+          {
+            id: 22,
+            subgroup: 22,
+            group: 5,
+            content: label("Notification", "June 30"),
+            start: "2026-06-30",
+            type: "point",
+            className: "orange-dot",
+          },
+          {
+            id: 23,
+            subgroup: 23,
+            group: 5,
+            content: label("Camera Ready", "July 16"),
+            start: "2026-07-16",
+            type: "point",
+            className: "orange-dot",
+          },
+
+          // Group 6: Industry & Use Cases (Requested Add)
+          {
+            id: 16,
+            subgroup: 16,
+            group: 6,
+            content: label("Presentation Submission", "Jun 2"),
+            start: "2026-06-02",
+            type: "point",
+            className: "red-dot",
+          },
+          {
+            id: 17,
+            subgroup: 17,
+            group: 6,
+            content: label("Notification", "Jun 30"),
+            start: "2026-06-30",
+            type: "point",
+            className: "red-dot",
+          },
+          {
+            id: 18,
+            subgroup: 18,
+            group: 6,
+            content: label("Presentation Ready", "Aug 30"),
+            start: "2026-08-30",
+            type: "point",
+            className: "red-dot",
+          },
+
+          // Group 7: ORKG Content
+          {
+            id: 24,
+            subgroup: 24,
+            group: 7,
+            content: label("ORKG Content Submission", "Aug 31"),
+            start: "2026-08-31",
+            type: "point",
+            className: "orkg-dot",
+          },
+
+          // Group 8: Conference
+          {
+            id: 19,
+            subgroup: 19,
+            group: 8,
+            content: label("Workshops / Tutorials / DBpedia Day", "Sep 15"),
+            start: "2026-09-15",
+            type: "point",
+            className: "pink-dot",
+          },
+          {
+            id: 20,
+            subgroup: 20,
+            group: 8,
+            content: label("Conference", "Sep 15 - 17"),
+            start: "2026-09-15",
+            end: "2026-09-17",
+            type: "range",
+            className: "pink-range",
+          },
+        ]);
+
+        // 3. Configuration
+        var options = {
+          stack: true,
+          stackSubgroups: true,
+          start: "2026-02-01",
+          end: "2026-10-31",
+          editable: false,
+          zoomable: false, // Users can zoom in/out
+          margin: {
+            item: {
+              horizontal: -1,
+            },
+            axis: 10,
+          },
+          orientation: "top",
+        };
+
+        var timeline = new vis.Timeline(container, items, groups, options);
+      </script>
     </main>
 
     <!-- Footer -->

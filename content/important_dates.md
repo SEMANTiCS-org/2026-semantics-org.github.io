@@ -27,11 +27,11 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Abstract Submission</div>
-    <div class="value"><s>April 23, 2026</s> May 7, 2026</div>
+    <div class="value"><s>April 23</s> May 7, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value"><s>April 30, 2026</s> May 14, 2026</div>
+    <div class="value"><s>April 30</s> May 14, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
@@ -50,11 +50,11 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value">May 30, 2026</div>
+    <div class="value"><s>May 30</s> June 13, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value">July 6, 2026</div>
+    <div class="value"><s>July 6</s> July 17, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Camera Ready</div>
@@ -73,11 +73,11 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value"><del>February 27, 2026</del> March 13, 2026</div>
+    <div class="value"><del>February 27</del> March 13, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Proposal Notification of Acceptance</div>
-    <div class="value"><del>March 13, 2026</del> March 28, 2026</div>
+    <div class="value"><del>March 13</del> March 28, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Workshop Website Online</div>
@@ -104,11 +104,11 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposals Submission</div>
-    <div class="value"><del>May 15, 2026</del> May 30, 2026</div>
+    <div class="value"><del>May 15</del> May 30, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value"><del>May 29, 2026</del> June 12, 2026</div>
+    <div class="value"><del>May 29</del> June 12, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Tutorials date</div>

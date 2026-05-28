@@ -9,7 +9,7 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Submission Deadline</div>
-    <div class="value">May 30, 2026, 23:59 AoE</div>
+    <div class="value"><s>May 30</s> June 13, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -73,21 +73,21 @@ Both Poster and Demos fall in the same topics of interest, page length, format, 
 
   <div class="info-row">
     <div class="label">Paper Submission</div>
-    <div class="value">May 30, 2026 </div>
+    <div class="value"><s>May 30</s> June 13, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
     <div class="label">Reviewers  Bidding</div>
-    <div class="value">May 31 - June 4, 2026</div>
+    <div class="value"><s>May 31 – June 4</s> June 14–18, 2026</div>
   </div>
 
   <div class="info-row">
     <div class="label">Review  Period</div>
-    <div class="value">June 5 - July 1, 2026</div>
+    <div class="value"><s>June 5 – July 1</s> June 19 – July 14, 2026</div>
   </div>
    <div class="info-row">
     <div class="label">Notification  of Acceptance</div>
-    <div class="value">July 6, 2026</div>
+    <div class="value"><s>July 6</s> July 17, 2026</div>
   </div>
    <div class="info-row">
     <div class="label">Camera-Ready  Paper</div>

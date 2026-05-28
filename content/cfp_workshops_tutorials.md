@@ -9,12 +9,12 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Proposal Workshop Deadline</div>
-    <div class="value"><del>February 27, 2026, 23:59 AoE</del>   March 13, 2026, 23:59 AoE</div>
+    <div class="value"><del>February 27</del>   March 13, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
     <div class="label">Proposal Tutorial Deadline</div>
-    <div class="value"><del>May 15, 2026, 23:59 AoE</del>   May 30, 2026, 23:59 AoE</div>
+    <div class="value"><del>May 15</del>   May 30, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -119,11 +119,11 @@ Important Dates for Workshops:
   </div>
   <div class="info-row">
     <div class="label">Proposals Workshop</div>
-    <div class="value"><del>February 27, 2026</del>   March 13, 2026</div>
+    <div class="value"><del>February 27</del>   March 13, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value"><del>March 13, 2026</del>   March 28, 2026</div>
+    <div class="value"><del>March 13</del>   March 28, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Workshop website is online</div>
@@ -157,11 +157,11 @@ Important Dates for Tutorials (and other meetings, e.g. seminars, show-cases, et
   </div>
   <div class="info-row">
     <div class="label">Proposals Tutorial</div>
-    <div class="value"><del>May 15, 2026</del> May 30, 2026</div>
+    <div class="value"><del>May 15</del> May 30, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Notification of Acceptance</div>
-    <div class="value"><del>May 29, 2026</del> June 12, 2026</div>
+    <div class="value"><del>May 29</del> June 12, 2026</div>
   </div>
 </div>
 
