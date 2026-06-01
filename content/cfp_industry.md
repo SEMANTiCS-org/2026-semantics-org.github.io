@@ -9,7 +9,7 @@
 <div class="info-table">
   <div class="info-row">
     <div class="label">Submission Deadline</div>
-    <div class="value">June 2, 2026, 23:59 AoE</div>
+    <div class="value"><s>June 2</s> June 16, 2026, 23:59 AoE</div>
   </div>
 
   <div class="info-row">
@@ -86,7 +86,7 @@ Topics of interest include, but are not limited to:
   </div>
    <div class="info-row">
     <div class="label">Submission Deadline</div>
-    <div class="value">June 2, 2026</div>
+    <div class="value"><s>June 2</s> June 16, 2026</div>
   </div>
    <div class="info-row">
     <div class="label">Notification of Acceptance</div>
