@@ -20,12 +20,12 @@ If you are a student or an early career researcher attending SEMANTiCS 2026, you
 **This is a live page as new information and scholarship opportunities are added as they become available. We encourage you to check back regularly if you are in need of a scholarship.**
 
 
-**Disclaimer**
+### Disclaimer
 
 Please note that these are forms of financial support, not an award or prize. It is intended to assist students and early career researchers who do not have other means of covering their travel-related expenses. If your institution is able to fully fund your trip, we kindly ask that you refrain from applying, so that the limited resources can be directed to those with genuine financial need.
 
 
-**Terms and Conditions**
+### Terms and Conditions
 - Attendance at the conference is mandatory.
 - Applicants may pursue multiple opportunities, but only one scholarship can be accepted per individual to ensure we can bestow opportunities upon the greatest number of researchers possible.
 - Applicants must review and familiarise themselves with the specific Terms and Conditions associated with each individual opportunity.
