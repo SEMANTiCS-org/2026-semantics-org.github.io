@@ -21,6 +21,7 @@ If you are a student or an early career researcher attending SEMANTiCS 2026, you
 
 
 **Disclaimer**
+
 Please note that these are forms of financial support, not an award or prize. It is intended to assist students and early career researchers who do not have other means of covering their travel-related expenses. If your institution is able to fully fund your trip, we kindly ask that you refrain from applying, so that the limited resources can be directed to those with genuine financial need.
 
 
