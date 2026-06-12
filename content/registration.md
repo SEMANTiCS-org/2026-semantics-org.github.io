@@ -89,13 +89,6 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
         <td class=""><div class="i-circle i-close"></div></td>
         <td class=""><div class="i-circle i-close"></div></td>
       </tr>
-      <!-- <tr class="row11 tr-summary">
-        <td class="">&nbsp;</td>
-        <td class=""><a href="https://www.conftool.org/semantics2026/" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class="td-last-ontop"><a href="https://www.conftool.org/semantics2026/" type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="https://www.conftool.org/semantics2026/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
-        <td class=""><a href="https://www.conftool.org/semantics2026/"  type="button" class="btn btn-primary">BOOK NOW</a></td>
-      </tr> -->
     </tbody>
 </table>
 
@@ -104,6 +97,10 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
 \* Without VAT
 
 \*\* **Student registration** is reserved for individuals currently enrolled in a university program or pursuing a PhD. All other professionals, whether affiliated with academic institutions or industry, must register at the Regular fee.
+
+<div style="text-align: center">
+<a href="https://evan.ugent.be/r/semantics2026/" type="button" class="btn btn-big">BOOK NOW</a>
+</div>
 
 ## Authors of Accepted Papers
 

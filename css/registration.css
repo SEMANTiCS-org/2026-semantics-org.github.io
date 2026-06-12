@@ -15,16 +15,21 @@ th {
   max-width: 300px;
 }
 
-tr.tr-alt td {
+tr.tr-alt-1 td {
   background: white;
 }
-tr.tr-alt-1 td {
+tr.tr-alt td {
   background: var(--highlight-alt);
 }
 
 tr.tr-head td {
   background: var(--background-alt);
   color: white;
+  font-size: 1.2em;
+  font-weight: bold;
+}
+tr.tr-tail td {
+  background: var(--highlight-alt);
   font-size: 1.2em;
   font-weight: bold;
 }
@@ -88,4 +93,8 @@ td.td-important-val {
 }
 .i-plus::after {
   content: "＋";
+}
+
+.btn-big {
+  font-size: 2em;
 }
