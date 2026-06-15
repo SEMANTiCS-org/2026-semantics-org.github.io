@@ -19,17 +19,21 @@
 [Music Center de Bijloke](https://www.bijloke.be/), Bijlokekaai 7, 9000 Ghent, Belgium
 
 <div class="col-sm-12 col-md-6">
-<iframe
-  frameborder="0"
-  height="270"
-  scrolling="no"
-  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d2508.460771342402!2d3.7187914!3d51.0445793!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x47c3715c63a85a3f%3A0xd2b089081bc62d1d!2sMusic%20Center%20De%20Bijloke!5e0!3m2!1sen!2sit!4v1768226881644!5m2!1sen!2sit"
-  style="border: 0; border-radius: 18px"
-  width="270"
-  allowfullscreen=""
-  loading="lazy"
-  referrerpolicy="no-referrer-when-downgrade"
-></iframe>
+<a
+  href="https://maps.app.goo.gl/m4LFqh3QX23vN2Gj7"
+  target="_blank"
+>
+  <img
+    src="../img/map.png"
+    alt="A clickable map image linking to Music Center De Bijloke"
+    style="
+      width: 270px;
+      height: 270px;
+      border: 0;
+      border-radius: 18px;
+    "
+  />
+</a>
 </div>
 
 ## Accommodation
