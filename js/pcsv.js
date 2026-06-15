@@ -46,7 +46,11 @@ function get_pc_csv(fcsv, page) {
             var html_img =
               '<img typeof="foaf:Image" src="' +
               image +
-              '" class="image-profile" alt="' + fname + ' ' + lname + '">';
+              '" class="image-profile" alt="' +
+              fname +
+              " " +
+              lname +
+              '">';
             var str_html =
               '<div class="person col-sm-4">' +
               html_img +
@@ -68,7 +72,7 @@ function get_pc_csv(fcsv, page) {
       $("#psc_members").append(
         "<div class='row section-content persons'>" +
           html_superchairs +
-          "</div>"
+          "</div>",
       );
     },
   });
@@ -98,7 +102,9 @@ function get_oc_csv(fcsv, page, container) {
         var html_img =
           '<img typeof="foaf:Image" src="' +
           image +
-          '" class="image-profile" alt="' + name + '">';
+          '" class="image-profile" alt="' +
+          name +
+          '">';
         //add email
         var str_email = "";
         if (email != "" && email.includes("@")) {
@@ -127,7 +133,7 @@ function get_oc_csv(fcsv, page, container) {
                 group_class +
                 '">' +
                 group_html +
-                "</div>"
+                "</div>",
             );
             group_html = "";
             count = 0;
@@ -135,7 +141,7 @@ function get_oc_csv(fcsv, page, container) {
           $("#" + container).append(
             '<div class="row"><div class="col-lg-12 group-title"><h2>' +
               conf_role_group +
-              "</h2></div></div>"
+              "</h2></div></div>",
           );
           current_role_group = conf_role_group;
           group_num += 1;
@@ -147,7 +153,7 @@ function get_oc_csv(fcsv, page, container) {
               group_class +
               '">' +
               group_html +
-              "</div>"
+              "</div>",
           );
           group_html = "";
           count = 0;
@@ -179,14 +185,14 @@ function get_oc_csv(fcsv, page, container) {
         $("#" + container).append(
           '<div class="row section-content persons d-flex justify-content-center">' +
             group_html +
-            "</div>"
+            "</div>",
         );
       } else {
         document.getElementById(container).lastChild.innerHTML = document
           .getElementById(container)
           .lastChild.innerHTML.replace(
             "row section-content persons",
-            "row section-content persons d-flex justify-content-center"
+            "row section-content persons d-flex justify-content-center",
           );
       }
     },
@@ -220,7 +226,9 @@ function populate_logo_list(fcsv, page, container) {
           img_width.toString() +
           '" height="' +
           img_height.toString() +
-          '" alt="' + name + ' logo">';
+          '" alt="' +
+          name +
+          ' logo">';
 
         var url = entry["url"].trim();
         var html_url =
@@ -232,7 +240,7 @@ function populate_logo_list(fcsv, page, container) {
 
         if (count == 4) {
           $("#" + container).append(
-            '<div class="row section-content orgs">' + group_html + "</div>"
+            '<div class="row section-content orgs">' + group_html + "</div>",
           );
           group_html = "";
           count = 0;
@@ -242,14 +250,14 @@ function populate_logo_list(fcsv, page, container) {
         $("#" + container).append(
           '<div class="row section-content orgs d-flex justify-content-center">' +
             group_html +
-            "</div>"
+            "</div>",
         );
       } else {
         document.getElementById(container).lastChild.innerHTML = document
           .getElementById("org_list")
           .lastChild.innerHTML.replace(
             "row section-content orgs",
-            "row section-content orgs d-flex justify-content-center"
+            "row section-content orgs d-flex justify-content-center",
           );
       }
     },
@@ -304,7 +312,7 @@ function populate_sponsors_list(fcsv, page, container) {
         $("#" + container + " #s_" + sponsor_type).append(
           '<div class="row section-content justify-content-center"><h4 class="title-section text-center" style="width: 100%">' +
             title +
-            "</h4></div>"
+            "</h4></div>",
         );
 
         entries_by_type.forEach(function (entry) {
@@ -324,7 +332,9 @@ function populate_sponsors_list(fcsv, page, container) {
               img_height.toString() +
               '" typeof="foaf:Image" src="' +
               img +
-              '" alt="' + name + ' logo">';
+              '" alt="' +
+              name +
+              ' logo">';
             //var html_img = '<img class="sponsor-img" typeof="foaf:Image" src="'+img+'" alt="">'
 
             var url = entry["url"].trim();
@@ -345,7 +355,7 @@ function populate_sponsors_list(fcsv, page, container) {
               $("#" + container + " #s_" + sponsor_type).append(
                 '<div class="row section-content sponsors justify-content-center">' +
                   group_html +
-                  "</div>"
+                  "</div>",
               );
               group_html = "";
               count = 0;
@@ -360,7 +370,7 @@ function populate_sponsors_list(fcsv, page, container) {
           $("#" + container + " #s_" + sponsor_type).append(
             '<div class="row section-content sponsors justify-content-center">' +
               group_html +
-              "</div>"
+              "</div>",
           );
         }
         if (count_by_type == 0) {
@@ -403,7 +413,9 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
         var html_img =
           '<img src="img/LTILogoByLine.png" class="image-profile-type" alt=""><img typeof="foaf:Image" src="img/person/' +
           img +
-          '" class="image-profile" alt="' + name + '">';
+          '" class="image-profile" alt="' +
+          name +
+          '">';
         var html_presentation =
           "<a href='" +
           baseurl +
@@ -415,11 +427,15 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
         var html_google =
           "<a href='" +
           googleScholar +
-          "' target='_blank' class='social'><img src='img/icons/googleScholar.svg' class='social' alt='Google Scholar profile of " + name + "'/></a>";
+          "' target='_blank' class='social'><img src='img/icons/googleScholar.svg' class='social' alt='Google Scholar profile of " +
+          name +
+          "'/></a>";
         var html_web =
           "<a href='" +
           website +
-          "' target='_blank' class='social'><img src='img/icons/website.svg' class='social' alt='Website of " + name + "'/></a>";
+          "' target='_blank' class='social'><img src='img/icons/website.svg' class='social' alt='Website of " +
+          name +
+          "'/></a>";
         var html_body =
           html_img +
           '<div class="person-name">' +
@@ -434,9 +450,9 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
           '<div class="ks col-sm-4 ' + e_type + '">' + html_body + "</div>";
         group_html = group_html + str_html;
         count = count + 1;
-        if (count == 2) {
+        if (count == 3) {
           $("#" + container).append(
-            '<div class="row section-content kss">' + group_html + "</div>"
+            '<div class="row section-content kss">' + group_html + "</div>",
           );
           group_html = "";
           count = 0;
@@ -446,14 +462,14 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
         $("#" + container).append(
           '<div class="row section-content kss d-flex justify-content-center">' +
             group_html +
-            "</div>"
+            "</div>",
         );
       } else {
         document.getElementById(container).lastChild.innerHTML = document
           .getElementById(container)
           .lastChild.innerHTML.replace(
             "row section-content kss",
-            "row section-content kss d-flex justify-content-center"
+            "row section-content kss d-flex justify-content-center",
           );
       }
     },
@@ -494,7 +510,9 @@ function populate_quotes_container(fcsv, page, container, baseurl) {
         var html_img =
           '<img typeof="foaf:Image" src="' +
           image +
-          '" class="image-profile" alt="' + name + '">';
+          '" class="image-profile" alt="' +
+          name +
+          '">';
         var person_body =
           html_img +
           '<div class="person-name">' +
@@ -557,7 +575,9 @@ function populate_news_container(fcsv, page, container, baseurl) {
           var html_img =
             '<div class="container-img-news"><img typeof="foaf:Image" src="' +
             image +
-            '" class="news-img" alt="' + title + '"></div>';
+            '" class="news-img" alt="' +
+            title +
+            '"></div>';
           all_html_elems +=
             `<div class="col-lg-3 mx-auto news-box"> <a href="` +
             baseurl +
@@ -607,7 +627,9 @@ function populate_news_blog_container(fcsv, page, container, baseurl) {
           var html_img =
             '<div class="container-img-news"><img typeof="foaf:Image" src="' +
             image +
-            '" class="news-img" alt="' + title + '"></div>';
+            '" class="news-img" alt="' +
+            title +
+            '"></div>';
           all_html_elems +=
             `<div class="col-lg-3 mx-auto news-box"> <a href="` +
             baseurl +
@@ -760,7 +782,7 @@ function build_organizers_list(conf) {
   populate_logo_list(
     conf["baseurl"] + "content/organizers.csv",
     "index",
-    "org_list"
+    "org_list",
   );
 }
 
@@ -768,7 +790,7 @@ function build_partners_list(conf) {
   populate_logo_list(
     conf["baseurl"] + "content/partners.csv",
     "index",
-    "partners_list"
+    "partners_list",
   );
 }
 
@@ -776,7 +798,7 @@ function build_sponsors_list(conf) {
   populate_sponsors_list(
     conf["baseurl"] + "content/sponsors.csv",
     "index",
-    "sponsors_list"
+    "sponsors_list",
   );
 }
 
@@ -785,7 +807,7 @@ function build_ks(conf) {
     conf["baseurl"] + "content/keyspeakers.csv",
     "index",
     "keynote_list",
-    conf["baseurl"]
+    conf["baseurl"],
   );
 }
 function build_ks_att(conf) {
@@ -793,7 +815,7 @@ function build_ks_att(conf) {
     conf["baseurl"] + "content/keyspeakers.csv",
     "keyspeakers",
     "ks_att",
-    conf["baseurl"]
+    conf["baseurl"],
   );
 }
 
@@ -802,7 +824,7 @@ function build_quotes(conf) {
     conf["baseurl"] + "content/quotes.csv",
     "index",
     "quotes",
-    conf["baseurl"]
+    conf["baseurl"],
   );
 }
 
@@ -811,7 +833,7 @@ function build_news(conf) {
     conf["baseurl"] + "content/news.csv",
     "index",
     "news",
-    conf["baseurl"]
+    conf["baseurl"],
   );
 }
 
@@ -820,7 +842,7 @@ function build_news_list(conf) {
     conf["baseurl"] + "content/news.csv",
     "news",
     "news_list",
-    conf["baseurl"]
+    conf["baseurl"],
   );
 }
 function build_news_blog(conf) {
@@ -828,6 +850,6 @@ function build_news_blog(conf) {
     conf["baseurl"] + "content/news.csv",
     "blog_news",
     "blog_news",
-    conf["baseurl"]
+    conf["baseurl"],
   );
 }
