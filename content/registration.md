@@ -34,25 +34,25 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
         <td class=""><div class="i-circle i-check"></div></td>
       </tr>
       <tr class="row3 tr-alt">
-        <td class="">Student ticket **</td>
+        <td class="">Student ticket <sup>†</sup></td>
         <td class="td-important-val">150 €</td>
-        <td class="td-important-val td-mid-ontop">450 € *</td>
+        <td class="td-important-val td-mid-ontop">450 € <sup>*</sup></td>
         <td class="td-important-val">60 €</td>
-        <td class="td-important-val">200 € *</td>
+        <td class="td-important-val">200 € <sup>*</sup></td>
       </tr>
       <tr class="row4 tr-alt-1">
         <td class="">Early Bird ticket (until 11 August)</td>
         <td class="td-important-val">200 €</td>
-        <td class="td-important-val td-mid-ontop">590 € *</td>
+        <td class="td-important-val td-mid-ontop">590 € <sup>*</sup></td>
         <td class="td-important-val">80 €</td>
-        <td class="td-important-val">250 € *</td>
+        <td class="td-important-val">250 € <sup>*</sup></td>
       </tr>
       <tr class="row5 tr-alt">
         <td class="">Regular ticket (from 12 August)</td>
         <td class="">260 €</td>
-        <td class="td-mid-ontop">770 € *</td>
+        <td class="td-mid-ontop">770 € <sup>*</sup></td>
         <td class="">100 €</td>
-        <td class="">300 € *</td>
+        <td class="">300 € <sup>*</sup></td>
       </tr>
       <tr class="row6 tr-alt-1">
         <td class="">Workshops & tutorials</td>
@@ -94,9 +94,9 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
 
 <p>
 
-\* Without VAT
+<sup>\*</sup> Without VAT.
 
-\*\* **Student registration** is reserved for individuals currently enrolled in a university program or pursuing a PhD. All other professionals, whether affiliated with academic institutions or industry, must register at the Regular fee.
+<sup>†</sup> **Student registration** is reserved for individuals currently enrolled in a university program or pursuing a PhD. All other professionals, whether affiliated with academic institutions or industry, must register at the Regular fee.
 
 <div style="text-align: center">
 <a href="https://evan.ugent.be/r/semantics2026/" type="button" class="btn btn-big">REGISTER NOW</a>
