@@ -41,7 +41,7 @@ To obtain a visa invitation letter, please ensure you complete the following ste
 
 ### Terms and Conditions
 
-* Visa invitation letters will **only** be issued to individuals who have registered and paid the registration fees in full.
+<!-- * Visa invitation letters will **only** be issued to individuals who have registered and paid the registration fees in full. -->
 * The letter does not imply any financial commitment or sponsorship from the SEMANTiCS 2026 organisation. All expenses related to travel, accommodation, and the visa application are the sole responsibility of the attendee.
 * The organisers cannot directly intervene with Belgian embassies or consulates on behalf of any applicant.
 
