@@ -1,6 +1,11 @@
 # Registration
 
-Join us on 15–17 September in Ghent for the leading European conference on **Bridging the Gap Between Curated and Induced Semantics**. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Three intense days to cross the boundaries of your domain or dive deeper into your field of expertise.
+Join us on 15–17 September in Ghent for the leading European conference on **Bridging the Gap Between Curated and Induced Semantics**. We have an inspiring program for industry professionals, decision-makers, researchers and academics. Share experiences, ideas and learn from each other. Three intense days to cross the boundaries of your domain or dive deeper into your field of expertise. 
+
+*With your ticket, you are free to attend any session you want, and there is no need to indicate this beforehand.*
+
+## Tickets
+
 
 **Do not miss our early bird registration deadline: 11 August 2026.**
 
@@ -112,7 +117,7 @@ Check our <a href="https://2026-eu.semantics.cc/page/venue">dedicated page</a> o
 
 ## Invitation letters
 
-For presenters who need an invitation letter or visa preparation, please contact us at [semantics2026@easychair.org](mailto:semantics2026@easychair.org).
+For presenters who need an invitation letter for their visa preparation, please check our <a href="https://2026-eu.semantics.cc/page/visa">dedicated page on Visa information</a>.
 
 ## On-site registrations
 
