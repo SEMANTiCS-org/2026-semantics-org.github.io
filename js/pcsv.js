@@ -387,13 +387,9 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
     dataType: "text",
     success: function (fdata) {
       var json_data = $.csv.toObjects(fdata);
+      var all_speakers_html = [];
 
-      var count = 0;
-      var group_html = "";
       json_data.forEach(function (entry) {
-        //header: Conference Committee,Name,Email,Status,Contacted,Easychair,country,affiliation
-        // <div class="org col-sm-3"><a href="http://www.semantic-web.at/" target="_blank"><img typeof="foaf:Image" src="https://2022-eu.semantics.cc/sites/2022-eu.semantics.cc/files/styles/logo/public/Sponsors/swc-logo-web.png?itok=dFh75utd" width="150" height="37" alt=""></a></div>
-
         var e_type = entry["type"]
           .trim()
           .split("-")
@@ -407,7 +403,6 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
         var googleScholar = entry["googleScholar"].trim();
         var LinkedIn = entry["LinkedIn"].trim();
         var website = entry["website"].trim();
-
         let img_size = "60";
 
         var html_img =
@@ -445,32 +440,58 @@ function populate_keyspeakers(fcsv, page, container, baseurl) {
           affiliation +
           "</div>" +
           html_presentation;
-
         var str_html =
           '<div class="ks col-sm-4 ' + e_type + '">' + html_body + "</div>";
-        group_html = group_html + str_html;
-        count = count + 1;
-        if (count == 3) {
+        all_speakers_html.push(str_html);
+      });
+
+      var total_speakers = all_speakers_html.length;
+      var speaker_idx = 0;
+
+      // Special case: if total is 4, 7, 10, ... (3k+1) and not 1, we want to end with 2+2
+      if (total_speakers > 1 && total_speakers % 3 === 1) {
+        // Process in groups of 3 until the last 4
+        while (speaker_idx < total_speakers - 4) {
+          let group_html = all_speakers_html
+            .slice(speaker_idx, speaker_idx + 3)
+            .join("");
           $("#" + container).append(
             '<div class="row section-content kss">' + group_html + "</div>",
           );
-          group_html = "";
-          count = 0;
+          speaker_idx += 3;
         }
-      });
-      if (group_html != "") {
+        // Process the last 4 as two groups of 2
+        let group1 = all_speakers_html
+          .slice(speaker_idx, speaker_idx + 2)
+          .join("");
         $("#" + container).append(
           '<div class="row section-content kss d-flex justify-content-center">' +
-            group_html +
+            group1 +
+            "</div>",
+        );
+        speaker_idx += 2;
+        let group2 = all_speakers_html
+          .slice(speaker_idx, speaker_idx + 2)
+          .join("");
+        $("#" + container).append(
+          '<div class="row section-content kss d-flex justify-content-center">' +
+            group2 +
             "</div>",
         );
       } else {
-        document.getElementById(container).lastChild.innerHTML = document
-          .getElementById(container)
-          .lastChild.innerHTML.replace(
-            "row section-content kss",
-            "row section-content kss d-flex justify-content-center",
+        // Original logic for all other cases (1, 2, 3, 5, 6, ...)
+        while (speaker_idx < total_speakers) {
+          let slice_end = speaker_idx + 3;
+          let group_html = all_speakers_html
+            .slice(speaker_idx, slice_end)
+            .join("");
+          $("#" + container).append(
+            '<div class="row section-content kss d-flex justify-content-center">' +
+              group_html +
+              "</div>",
           );
+          speaker_idx += 3;
+        }
       }
     },
   });
