@@ -5,7 +5,7 @@ This page highlights our interactive sessions designed to foster networking and 
 ## Cool Solutions Meet Tricky Problems
 A marketplace of ideas and challenges 
 
-**Scheduled:** *September 16, from 5 to 6pm, in room Kabinet*
+**Scheduled:** *September 17, from 1pm to 2.30pm, in room Kabinet*
 
 Are you aware that there is a format during SEMANTiCS Conference that allows you to jump in and discuss spontaneously with fellow experts both from industry and academia about a pressing problem you are facing, or, about the real world relevance of a solution you have worked on for so long already?
 
@@ -28,8 +28,9 @@ We look forward to welcome you at SEMANTiCS conference on the 16th of September 
 Supported by GfWM (Gesellschaft für Wissensmanagement e. V.)
 
 
-## Agentic AI Meets Knowledge Graphs
+## Agentic AI: May the Knowledge Graph Be with You!
+Fishbowl
 
-**Scheduled:** *September 17, from 1pm to 2.30pm, in room Kabinet*
+**Scheduled:** *September 16, from 5 to 6pm, in room Kabinet*
 
 Coming soon...
