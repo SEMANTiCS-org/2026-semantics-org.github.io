@@ -47,13 +47,6 @@
 </div>
 
 <div class="accepted-item">
-<div class="accepted-title">Autonomous Agents Must Follow the Rules that Regulate Our Society: A Research Agenda</div>
-<div class="accepted-subtitle"></div>
-<p>Authors: Nicoletta Fornara, Kimberly García and Aurelia Tamò-Larrieux</p>
-<p>Twenty-eight years have passed since the first international conference on Autonomous Agents, and we have reached a point in which the technologies enabling Autonomous and Agentic AI systems (those powered by Large Language Models) support real-world deployment. As these agents begin to act on behalf of users within sociotechnical systems, a fundamental requirement must be imposed: ensuring that autonomous agents can understand, interpret, and operate in accordance with the diverse and heterogeneous rules that structure human societies. These rules span multiple categories, including legally binding regulations, privately defined social policies, socially grounded contracts and norms, and user specific preferences. However, since different research communities have developed distinct conceptualizations and technologies for representing and reasoning about such rules, integrating these heterogeneous perspectives remains difficult. In this Blue Sky paper, we analyze the communities involved in these efforts, their fragmentation, and propose a research agenda that aims to create bridges across researchers and technologies.</p>
-</div>
-
-<div class="accepted-item">
 <div class="accepted-title">Semantics for Science: Toward a Massive Scale Evidence-Centric Scientific Knowledge Graph</div>
 <div class="accepted-subtitle"></div>
 <p>Authors: Mayank Kejriwal</p>
