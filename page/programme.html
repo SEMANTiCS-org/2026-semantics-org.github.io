@@ -56,59 +56,61 @@
 	</script>
 
 	<main id="main-content">
-	<section>
-		<div class="container">
-			<div class="row">
-				<div class="col-lg-12 mx-auto">
+		<section>
+			<div class="container">
+				<div class="row">
+					<div class="col-lg-12 mx-auto">
 
-					<div class="row">
-						<div class="col-lg-12 mx-auto">
-							<zero-md src="../content/programme.md">
-								<template>
-									<link href="../css/md-style.css" rel="stylesheet" />
-								</template>
-							</zero-md>
+						<div class="row">
+							<div class="col-lg-12 mx-auto">
+								<zero-md src="../content/programme.md">
+									<template>
+										<link href="../css/md-style.css" rel="stylesheet" />
+									</template>
+								</zero-md>
 
-							<div id="buttonGroup" class="btn-group" role="group" aria-label="Button Group">
-								<button id="button1" type="button" data-param="0" class="btn btn-light active">03
-									SEPTEMBER<br> (DBpediaDay)</button>
-								<button id="button2" type="button" data-param="1" class="btn btn-light">04 SEPTEMBER<br>
-									(Conference Day 1)</button>
-								<button id="button3" type="button" data-param="2" class="btn btn-light">05 SEPTEMBER<br>
-									(Conference Day 2)</button>
+								<div id="buttonGroup" class="btn-group" role="group" aria-label="Button Group">
+									<button id="button1" type="button" data-param="0" class="btn btn-light active">15
+										SEPTEMBER<br> (DBpediaDay)</button>
+									<button id="button2" type="button" data-param="1" class="btn btn-light">16
+										SEPTEMBER<br>
+										(Conference Day 1)</button>
+									<button id="button3" type="button" data-param="2" class="btn btn-light">17
+										SEPTEMBER<br>
+										(Conference Day 2)</button>
+								</div>
+
 							</div>
-
 						</div>
-					</div>
 
-					<div class="row">
-						<div class="col-lg-12 d-flex align-items-center justify-content-center">
-							<!-- <p>TBA</p> -->
-							<p>All times are indicated in CEST</p>
+						<div class="row">
+							<div class="col-lg-12 d-flex align-items-center justify-content-center">
+								<!-- <p>TBA</p> -->
+								<p>All times are indicated in CEST</p>
+							</div>
 						</div>
-					</div>
 
-					<div class="row">
-						<div class="col-lg-12 mx-auto">
-							<div id="programme_table" class="table-responsive"></div>
+						<div class="row">
+							<div class="col-lg-12 mx-auto">
+								<div id="programme_table" class="table-responsive"></div>
+							</div>
 						</div>
-					</div>
-					<!--
+						<!--
 					<div class="row">
 						<div class="col-lg-12 mx-auto">
 							<div id="programme_legend"></div>
 						</div>
 					</div>
 -->
-				</div>
-				<div class="col-lg-3 mx-auto">
-					<div id="sidecol">
 					</div>
-				</div>
+					<div class="col-lg-3 mx-auto">
+						<div id="sidecol">
+						</div>
+					</div>
 
+				</div>
 			</div>
-		</div>
-	</section>
+		</section>
 	</main>
 
 	<!-- Footer -->
@@ -375,8 +377,7 @@
 		function viewDayProgramme(day) {
 			// Call the function with the textual path of the XLSX file
 			//var filePath = '../content/programme/2026_programme.xlsx';
-			var filePath = 'https://docs.google.com/spreadsheets/d/1yZ4azB7HkjOKhr251RpmYllsBWepqJTQ/export?format=xlsx';
-			//var filePath = 'https://docs.google.com/spreadsheets/d/198_wQRmxDO6TyrPVdMX1zjjJH8ljzsgTU1gGtEX2aV0/export?format=xlsx';
+			var filePath = 'https://docs.google.com/spreadsheets/d/1LUhUeGu-op2PES1YuhkJGS4--v87Emu2tTeO-o_tM0g/export?format=xlsx';
 			readXlsxFileFromPath(filePath, day);
 		}
 
