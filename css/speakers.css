@@ -8,9 +8,9 @@ section h1 {
 }
 
 section h2 {
-  padding-top: 20px;
-  font-weight: lighter;
-  font-size: 1.5em;
+font-weight: bolder;
+color: black !important;
+padding-top: 50px;
 }
 
 section h4 {
@@ -52,12 +52,24 @@ section h5 {
   margin-inline-end: 0px;
 }
 
+section h6 {
+   padding-top: 20px;
+   padding-bottom: 0px;
+   font-size: 1.5em;
+   color:black;
+}
+
+
 section table *{
 	font-weight: normal !important;
 }
 
 section table h5 {
 	margin: 0px;
+}
+
+section p{
+  margin-bottom: 5px !important;
 }
 
 
