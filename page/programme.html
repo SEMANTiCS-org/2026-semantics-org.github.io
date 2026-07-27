@@ -155,208 +155,222 @@
 		}
 
 		var container = document.getElementById('programme_table');
-		// Function to read XLSX file from path
-		function readXlsxFileFromPath(filePath, day) {
+
+		// The workbook is the same file for all 3 days (one sheet per day), so once we've
+		// fetched it for the current page view we keep it in memory and just switch sheet
+		// when the user clicks a different day, instead of re-downloading the whole file.
+		var workbookCache = null;
+
+		function getWorkbook(callback) {
+			if (workbookCache) {
+				callback(workbookCache);
+				return;
+			}
+
+			var filePath = 'https://docs.google.com/spreadsheets/d/1LUhUeGu-op2PES1YuhkJGS4--v87Emu2tTeO-o_tM0g/export?format=xlsx';
 			var req = new XMLHttpRequest();
 			req.open('GET', filePath, true);
 			req.responseType = 'arraybuffer';
 
 			req.onload = function (e) {
-				var data = new Uint8Array(req.response);
-				var workbook = XLSX.read(data, { type: 'array' });
-
-				// Process the workbook as needed
-				var worksheet = workbook.Sheets[workbook.SheetNames[day]];
-				var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
-
-				// Filter out empty rows
-				var filteredData = jsonData.filter(function (row) {
-					return row.some(function (cell) {
-						return cell !== null && cell !== undefined && cell !== '';
-					});
-				});
-
-				//get rooms
-				var rooms = [];
-				for (var j = 1; j < filteredData[0].length; j++) {
-					rooms.push(filteredData[0][j]);
-				}
-
-				var mergedCells = worksheet['!merges'] || [];
-				/*var legend_container = document.createElement('div');
-				legend_container.classList.add("programme-legend");
-				var legend_title = document.createElement("p");
-				legend_title.innerHTML = "Legend";
-				legend_container.appendChild(legend_title);
-				var legend_index = new Set();*/
-
-				var table = document.createElement('table');
-
-				for (var i = 0; i < filteredData.length; i++) {
-					var row = document.createElement('tr');
-
-					var dest_page_link = "";
-					for (var j = 0; j < filteredData[i].length; j++) {
-						var cell = document.createElement(i === 0 ? 'th' : 'td');
-						var cellAddress = XLSX.utils.encode_cell({ r: i, c: j });
-
-						// Check if the current cell is part of a merged region
-						var mergedCellInfo = getMergedCellInfo(i, j, mergedCells);
-						var offset = 0;
-						if (mergedCellInfo) {
-							// Skip rendering content for merged cells
-							if (mergedCellInfo.startRow === i) {
-								cell.setAttribute('colspan', mergedCellInfo.colspan);
-								offset = mergedCellInfo.colspan;
-							}
-
-							if (mergedCellInfo.startCol === j) {
-								cell.setAttribute('rowspan', mergedCellInfo.rowspan);
-							}
-
-							if ((mergedCellInfo.rowspan > 1) && (mergedCellInfo.startRow < i)) {
-								//console.log(filteredData[i].length, i,j,mergedCellInfo, cell);
-								continue;
-							}
-						}
-
-						if (cell.hasAttribute('colspan')) {
-							cell.setAttribute('data-rooms', rooms.slice(j - 1, (j - 1) + mergedCellInfo.colspan).join(", "));
-
-						} else {
-							cell.setAttribute('data-rooms', rooms[j - 1]);
-						}
-
-						// Apply custom CSS class based on cell content
-						var cellContent = filteredData[i][j];
-						if (cellContent == undefined) {
-							cellContent = "";
-							cell.classList.add("isempty");
-						}
-						if (j == 0) {
-							cell.classList.add("timeslot");
-						}
-						/*console.log(cellContent, i, j);*/
-						var cellContent_rows = cellContent.split("\n");
-						cellContent_rows = cellContent_rows.filter(str => str.trim() !== "");
-
-						var transformed_content = "";
-						var group_list = [];
-						for (var idx_row = 0; idx_row < cellContent_rows.length; idx_row++) {
-
-							var normal_row = cellContent_rows[idx_row].trim();
-							var class_row = "";
-							/*var legend_item = document.createElement('div');*/
-							if (normal_row.toLowerCase().startsWith("group:")) {
-								normal_row = normal_row.substring(7).trim().toLowerCase();
-								group_list = normal_row.split("|").map(item => item.trim());
-								/*console.log(group_list);*/
-								if (group_list.includes("keynote") || group_list.includes("invited_talk")) {
-									dest_page_link = "../page/speakers?page=";
-								} else if (group_list.includes("session")) {
-									dest_page_link = "../page/sessions?page=";
-								} else if (group_list.includes("workshop")) {
-									dest_page_link = "../page/";
-								}
-								class_row = "legend-slot";
-								cell.classList.add("regular-slot");
-								var group_classes = group_list.map(item => "g-" + item);
-								for (var g_idx = 0; g_idx < group_classes.length; g_idx++) {
-									cell.classList.add(group_classes[g_idx]);
-									/*legend_item.classList.add(group_classes[g_idx]);*/
-								}
-
-								/*if (!(legend_index.has(normal_row))) {
-									legend_index.add(normal_row);
-									legend_item.appendChild(document.createElement("span"));
-									var legend_item_lbl = document.createElement("span");
-									legend_item_lbl.innerHTML = normal_row.toUpperCase();
-									legend_item.appendChild(legend_item_lbl);
-									legend_container.appendChild(legend_item);
-								}*/
-
-							} else if (normal_row.toLowerCase().startsWith("slot title:")) {
-								normal_row = normal_row.substring(11).trim().toUpperCase();
-								class_row = "type-slot";
-
-							} else if (normal_row.toLowerCase().startsWith("title:")) {
-								normal_row = normal_row.substring(6).trim();
-								class_row = "title-slot";
-
-							} else if (normal_row.toLowerCase().startsWith("chair:")) {
-								class_row = "chair-slot";
-								normal_row = "<span class='-t'>" + normal_row.slice(0, 6) + "</span>" + normal_row.slice(6,);
-
-							} else if (normal_row.toLowerCase().startsWith("link:")) {
-								normal_row = normal_row.substring(6).trim();
-								if (normal_row != "") {
-									class_row = "link-slot";
-									cell.classList.add("clickable");
-									if (normal_row.startsWith("http")) {
-										cell.setAttribute('data-page', normal_row);
-									} else {
-										cell.setAttribute('data-page', dest_page_link + normal_row);
-									}
-								}
-								continue;
-
-							} else if (normal_row.toLowerCase().startsWith("talk speaker:")) {
-								normal_row = normal_row.substring(13).trim();
-								class_row = "talk-speaker";
-
-							} else if (normal_row.toLowerCase().startsWith("talk title:")) {
-								normal_row = normal_row.substring(11).trim();
-								class_row = "talk-title";
-							} else {
-								if (normal_row.toLowerCase().startsWith("[online room]")) {
-									class_row = "online-slot";
-								}
-								normal_row = convertMarkdownLinksToHtml(normal_row);
-							}
-							transformed_content += "<p class='" + class_row + "'>" + normal_row + "</p>";
-
-						}
-						transformed_content = "<p class='rooms-slot'>" + cell.getAttribute("data-rooms") + "</p>" + transformed_content;
-
-						if (cell.hasAttribute('rowspan')) {
-							var endrow = mergedCellInfo.startRow + mergedCellInfo.rowspan - 1;
-							if (endrow != mergedCellInfo.startRow) {
-								var endtime = filteredData[endrow][0].trim();
-								if (filteredData[endrow][0].includes("-")) {
-									endtime = endtime.split("-")[1].trim();
-									console.log(cell, endrow, filteredData[endrow][0].split("-")[1].trim());
-								}
-								transformed_content = transformed_content + "<br><br><p class='mobile-only'><u>Note: The session termination time is " + endtime + "</u></p>";
-							}
-						}
-
-						cell.innerHTML = transformed_content;
-
-						if (group_list.length == 0) {
-							cell.classList.add("g-break");
-						}
-
-						row.appendChild(cell);
-
-						if (offset > 0) {
-							j = j + (offset - 1);
-						}
-					}
-					table.appendChild(row);
-				}
-				container.innerHTML = "";
-				container.classList.add(extra_class);
-				container.appendChild(table);
-				/*container.appendChild(legend_container);*/
-
-				// Attach the click event listener to each TD
-				$("td.clickable").click(function () {
-					//$(this).addEventListener("click", handleTdClick);
-					var page = $(this).attr('data-page');
-					window.location.href = page;
-				});
+				workbookCache = XLSX.read(new Uint8Array(req.response), { type: 'array' });
+				callback(workbookCache);
 			};
 			req.send();
+		}
+
+		// Renders a single day (sheet) from an already-fetched workbook
+		function renderDayProgramme(workbook, day) {
+			// Process the workbook as needed
+			var worksheet = workbook.Sheets[workbook.SheetNames[day]];
+			var jsonData = XLSX.utils.sheet_to_json(worksheet, { header: 1 });
+
+			// Filter out empty rows
+			var filteredData = jsonData.filter(function (row) {
+				return row.some(function (cell) {
+					return cell !== null && cell !== undefined && cell !== '';
+				});
+			});
+
+			//get rooms
+			var rooms = [];
+			for (var j = 1; j < filteredData[0].length; j++) {
+				rooms.push(filteredData[0][j]);
+			}
+
+			var mergedCells = worksheet['!merges'] || [];
+			/*var legend_container = document.createElement('div');
+			legend_container.classList.add("programme-legend");
+			var legend_title = document.createElement("p");
+			legend_title.innerHTML = "Legend";
+			legend_container.appendChild(legend_title);
+			var legend_index = new Set();*/
+
+			var table = document.createElement('table');
+
+			for (var i = 0; i < filteredData.length; i++) {
+				var row = document.createElement('tr');
+
+				var dest_page_link = "";
+				for (var j = 0; j < filteredData[i].length; j++) {
+					var cell = document.createElement(i === 0 ? 'th' : 'td');
+					var cellAddress = XLSX.utils.encode_cell({ r: i, c: j });
+
+					// Check if the current cell is part of a merged region
+					var mergedCellInfo = getMergedCellInfo(i, j, mergedCells);
+					var offset = 0;
+					if (mergedCellInfo) {
+						// Skip rendering content for merged cells
+						if (mergedCellInfo.startRow === i) {
+							cell.setAttribute('colspan', mergedCellInfo.colspan);
+							offset = mergedCellInfo.colspan;
+						}
+
+						if (mergedCellInfo.startCol === j) {
+							cell.setAttribute('rowspan', mergedCellInfo.rowspan);
+						}
+
+						if ((mergedCellInfo.rowspan > 1) && (mergedCellInfo.startRow < i)) {
+							//console.log(filteredData[i].length, i,j,mergedCellInfo, cell);
+							continue;
+						}
+					}
+
+					if (cell.hasAttribute('colspan')) {
+						cell.setAttribute('data-rooms', rooms.slice(j - 1, (j - 1) + mergedCellInfo.colspan).join(", "));
+
+					} else {
+						cell.setAttribute('data-rooms', rooms[j - 1]);
+					}
+
+					// Apply custom CSS class based on cell content
+					var cellContent = filteredData[i][j];
+					if (cellContent == undefined) {
+						cellContent = "";
+						cell.classList.add("isempty");
+					}
+					if (j == 0) {
+						cell.classList.add("timeslot");
+					}
+					/*console.log(cellContent, i, j);*/
+					var cellContent_rows = cellContent.split("\n");
+					cellContent_rows = cellContent_rows.filter(str => str.trim() !== "");
+
+					var transformed_content = "";
+					var group_list = [];
+					for (var idx_row = 0; idx_row < cellContent_rows.length; idx_row++) {
+
+						var normal_row = cellContent_rows[idx_row].trim();
+						var class_row = "";
+						/*var legend_item = document.createElement('div');*/
+						if (normal_row.toLowerCase().startsWith("group:")) {
+							normal_row = normal_row.substring(7).trim().toLowerCase();
+							group_list = normal_row.split("|").map(item => item.trim());
+							/*console.log(group_list);*/
+							if (group_list.includes("keynote") || group_list.includes("invited_talk")) {
+								dest_page_link = "../page/speakers?page=";
+							} else if (group_list.includes("session")) {
+								dest_page_link = "../page/sessions?page=";
+							} else if (group_list.includes("workshop")) {
+								dest_page_link = "../page/";
+							}
+							class_row = "legend-slot";
+							cell.classList.add("regular-slot");
+							var group_classes = group_list.map(item => "g-" + item);
+							for (var g_idx = 0; g_idx < group_classes.length; g_idx++) {
+								cell.classList.add(group_classes[g_idx]);
+								/*legend_item.classList.add(group_classes[g_idx]);*/
+							}
+
+							/*if (!(legend_index.has(normal_row))) {
+								legend_index.add(normal_row);
+								legend_item.appendChild(document.createElement("span"));
+								var legend_item_lbl = document.createElement("span");
+								legend_item_lbl.innerHTML = normal_row.toUpperCase();
+								legend_item.appendChild(legend_item_lbl);
+								legend_container.appendChild(legend_item);
+							}*/
+
+						} else if (normal_row.toLowerCase().startsWith("slot title:")) {
+							normal_row = normal_row.substring(11).trim().toUpperCase();
+							class_row = "type-slot";
+
+						} else if (normal_row.toLowerCase().startsWith("title:")) {
+							normal_row = normal_row.substring(6).trim();
+							class_row = "title-slot";
+
+						} else if (normal_row.toLowerCase().startsWith("chair:")) {
+							class_row = "chair-slot";
+							normal_row = "<span class='-t'>" + normal_row.slice(0, 6) + "</span>" + normal_row.slice(6,);
+
+						} else if (normal_row.toLowerCase().startsWith("link:")) {
+							normal_row = normal_row.substring(6).trim();
+							if (normal_row != "") {
+								class_row = "link-slot";
+								cell.classList.add("clickable");
+								if (normal_row.startsWith("http")) {
+									cell.setAttribute('data-page', normal_row);
+								} else {
+									cell.setAttribute('data-page', dest_page_link + normal_row);
+								}
+							}
+							continue;
+
+						} else if (normal_row.toLowerCase().startsWith("talk speaker:")) {
+							normal_row = normal_row.substring(13).trim();
+							class_row = "talk-speaker";
+
+						} else if (normal_row.toLowerCase().startsWith("talk title:")) {
+							normal_row = normal_row.substring(11).trim();
+							class_row = "talk-title";
+						} else {
+							if (normal_row.toLowerCase().startsWith("[online room]")) {
+								class_row = "online-slot";
+							}
+							normal_row = convertMarkdownLinksToHtml(normal_row);
+						}
+						transformed_content += "<p class='" + class_row + "'>" + normal_row + "</p>";
+
+					}
+					transformed_content = "<p class='rooms-slot'>" + cell.getAttribute("data-rooms") + "</p>" + transformed_content;
+
+					if (cell.hasAttribute('rowspan')) {
+						var endrow = mergedCellInfo.startRow + mergedCellInfo.rowspan - 1;
+						if (endrow != mergedCellInfo.startRow) {
+							var endtime = filteredData[endrow][0].trim();
+							if (filteredData[endrow][0].includes("-")) {
+								endtime = endtime.split("-")[1].trim();
+								console.log(cell, endrow, filteredData[endrow][0].split("-")[1].trim());
+							}
+							transformed_content = transformed_content + "<br><br><p class='mobile-only'><u>Note: The session termination time is " + endtime + "</u></p>";
+						}
+					}
+
+					cell.innerHTML = transformed_content;
+
+					if (group_list.length == 0) {
+						cell.classList.add("g-break");
+					}
+
+					row.appendChild(cell);
+
+					if (offset > 0) {
+						j = j + (offset - 1);
+					}
+				}
+				table.appendChild(row);
+			}
+			container.innerHTML = "";
+			container.classList.add(extra_class);
+			container.appendChild(table);
+			/*container.appendChild(legend_container);*/
+
+			// Attach the click event listener to each TD
+			$("td.clickable").click(function () {
+				//$(this).addEventListener("click", handleTdClick);
+				var page = $(this).attr('data-page');
+				window.location.href = page;
+			});
 		}
 
 		// Function to get merged cell information for a specific row and column
@@ -382,10 +396,9 @@
 		}
 
 		function viewDayProgramme(day) {
-			// Call the function with the textual path of the XLSX file
-			//var filePath = '../content/programme/2026_programme.xlsx';
-			var filePath = 'https://docs.google.com/spreadsheets/d/1LUhUeGu-op2PES1YuhkJGS4--v87Emu2tTeO-o_tM0g/export?format=xlsx';
-			readXlsxFileFromPath(filePath, day);
+			getWorkbook(function (workbook) {
+				renderDayProgramme(workbook, day);
+			});
 		}
 
 
