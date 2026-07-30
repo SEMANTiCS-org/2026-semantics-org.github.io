@@ -2,6 +2,8 @@
 
 This page highlights our interactive sessions designed to foster networking and collaboration between academic and industry professionals.
 
+<div id="cool_solutions"></div>
+
 ## Cool Solutions Meet Tricky Problems
 A marketplace of ideas and challenges 
 
@@ -27,6 +29,7 @@ We look forward to welcome you at SEMANTiCS conference on the 16th of September 
 
 Supported by GfWM (Gesellschaft für Wissensmanagement e. V.)
 
+<div id="agentic_ai"></div>
 
 ## Agentic AI: May the Knowledge Graph Be with You!
 Fishbowl
