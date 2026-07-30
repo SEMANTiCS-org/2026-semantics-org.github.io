@@ -105,8 +105,11 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
 
 <div style="text-align: center">
 <a href="https://evan.ugent.be/r/semantics2026/" type="button" class="btn btn-big">REGISTER NOW</a></br>
-<b>FOR INVOICES:</b> If you need an invoice, please send a request to <i>semantics2026@easychair.org</i> specifying name of person, company name, address and VAT number.
 </div>
+
+## Invoice 🚨
+
+If you need an invoice, please send a request to <i>semantics2026@easychair.org</i> specifying your name, your company name, address, and VAT number.
 
 ## Authors of Accepted Papers
 
