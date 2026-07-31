@@ -104,8 +104,12 @@ Join us on 15–17 September in Ghent for the leading European conference on **B
 <sup>†</sup> **Student registration** is reserved for individuals currently enrolled in a university program or pursuing a PhD. All other professionals, whether affiliated with academic institutions or industry, must register at the Regular fee.
 
 <div style="text-align: center">
-<a href="https://evan.ugent.be/r/semantics2026/" type="button" class="btn btn-big">REGISTER NOW</a>
+<a href="https://evan.ugent.be/r/semantics2026/" type="button" class="btn btn-big">REGISTER NOW</a></br>
 </div>
+
+## Invoice 🚨
+
+If you need an invoice, please send a request to <i>semantics2026@easychair.org</i> specifying your name, your company name, address, and VAT number.
 
 ## Authors of Accepted Papers
 
