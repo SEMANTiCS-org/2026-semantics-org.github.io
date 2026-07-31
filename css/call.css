@@ -45,7 +45,7 @@
 a {
   color: var(--link) !important;
   font-weight: bold;
-  text-decoration: none;
+  text-decoration: none !important;
 }
 
 a:hover {

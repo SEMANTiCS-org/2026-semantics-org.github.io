@@ -124,7 +124,7 @@ Poster and demo submissions should consist of a paper that describes the work, i
 
 ## Submission
 
-All submissions must be made electronically via EasyChair following this link: [https://easychair.org/conferences?conf=semantics2026](https://easychair.org/conferences?conf=semantics2026).
+All submissions must be made electronically via EasyChair following this link: [easychair.org](https://easychair.org/conferences?conf=semantics2026).
 
 ## Conference Attendance, Proceedings, and Presentation Format
 
@@ -132,13 +132,14 @@ All submissions must be made electronically via EasyChair following this link: [
 - Accepted Posters and Demos will be published open access via CEUR-WS.org.
 - The presentation format for accepted posters will be a physical poster. For demos, authors will be expected to present an on-site demonstration.
 - We also recommend that presenting authors print their scientific posters using recycled paper or on fabric.
+- **If you want to print your poster in Ghent, you can check the service:** [reproduct.be](https://reproduct.be/)
 
 ## Accessibility Statement
 
 - We are aiming to have an accessible and barrier free Posters and Demos room with an accessible restroom in proximity.
 - We are aiming to provide a fully detailed floor plan with the exact locations of each Poster and Demo, similar to last year (see [https://2025-eu.semantics.cc/page/posters](https://2025-eu.semantics.cc/page/posters)). Further, we are in discussions with the venue to ensure that each presenter gets the maximum available space — without colliding with other posters or demos — so that they can receive the dedicated audience for their work as they deserve. Finally, we are clarifying whether food and drinks can be served to the presenters at their stands during their presentations, so they are guaranteed to experience the same quality as everyone else.
 - Aligned with the Web Accessibility Initiative (WAI):
-  - **Posters** are expected to submit an image of their poster accompanied by rich metadata on the alternative description for assistive technologies (alt text). You can find more information on how to formulate alt text at [w3.org/WAI/tutorials/images/decision-tree](https://www.w3.org/WAI/tutorials/images/decision-tree/) , and how to provide accessible descriptions of images in [https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/).
+  - **Posters** are expected to submit an image of their poster accompanied by rich metadata on the alternative description for assistive technologies (alt text). You can find more information on how to formulate alt text at w3.org/WAI/tutorials/images/decision-tree , and how to provide accessible descriptions of images in [sigaccess.org/welcome-to-sigaccess/resources/describing-figures/](https://www.sigaccess.org/welcome-to-sigaccess/resources/describing-figures/). Examples of creating the accessible text for your poster, you can be found at the WAI example descriptions of Informative Images [www.w3.org/WAI/tutorials/images/informative/](https://www.w3.org/WAI/tutorials/images/informative/) , and Complex Images [w3.org/WAI/tutorials/images/complex](https://www.w3.org/WAI/tutorials/images/complex/)
   - **Demos** are expected to submit a video of their work accompanied by rich metadata on video description, captions, and transcripts. For recording your video, kindly consider the guidelines provided by WAI at [https://www.w3.org/WAI/media/av/av-content/#video ](https://www.w3.org/WAI/tutorials/images/decision-tree/). You can find information about how to formulate video captions at [https://www.w3.org/WAI/perspective-videos/captions/](https://www.w3.org/WAI/perspective-videos/captions/), video transcripts at [https://www.w3.org/WAI/media/av/transcripts/](https://www.w3.org/WAI/media/av/transcripts/), and video descriptions at [https://www.w3.org/WAI/media/av/description/](https://www.w3.org/WAI/media/av/description/).
 
 There will be a designated Quiet room available in proximity to the Posters and Demos room. You will be able to find it in the floor plan and via signs in the venue.
