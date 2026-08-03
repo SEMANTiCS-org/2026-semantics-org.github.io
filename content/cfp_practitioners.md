@@ -104,15 +104,15 @@ Being a live demonstration to the SEMANTiCS 2026 participants, each accepted Pra
 
 ## Practitioners Track Chairs
 
+**Marco Brattinga**, Sopra Steria, Netherlands
+
+**Kathrin Füllenbach**, TDCC-NES, Netherlands
+
 **Genet Asefa Gesese**, FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT) Karlsruhe, Germany
 
 **Eleni Ilkou**, TIB - German National Library of Science and Technology, Hannover, Germany
 
-**Marco Brattinga**, Sopra Steria, Netherlands
-
 **Aad Versteden**, redpencil.io, Belgium
-
-**Kathrin Füllenbach**, TDCC-NES, Netherlands
 
 Contact email: [semantics2026-practitioners@easychair.org](mailto:semantics2026-practitioners@easychair.org)
 
