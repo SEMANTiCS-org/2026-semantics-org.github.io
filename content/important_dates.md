@@ -148,7 +148,7 @@
 
 ## Industry and Use Cases
 
-<a href="../content/ics/orkg_content.ics" download class="cal-link">Download .ics</a>
+<a href="../content/ics/industry_use_cases.ics" download class="cal-link">Download .ics</a>
 
 <div class="info-table">
   <div class="info-row">
@@ -164,5 +164,22 @@
     <div class="value">August 30, 2026</div>
   </div>
 </div>
+
+## Practitioners Track
+
+<a href="../content/ics/practitioners.ics" download class="cal-link">Download .ics</a>
+
+<div class="info-table">
+  <div class="info-row">
+    <div class="label">Submission Deadline</div>
+    <div class="value">August 29, 2026</div>
+  </div>
+  <div class="info-row">
+    <div class="label">Notification of Acceptance</div>
+    <div class="value">September 3, 2026</div>
+  </div>
+</div>
+
+
 
 _All deadlines are 11:59 PM [Anywhere on Earth (AoE)](https://time.is/Anywhere_on_Earth) unless otherwise specified._
