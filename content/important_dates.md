@@ -58,7 +58,7 @@
   </div>
   <div class="info-row">
     <div class="label">Camera Ready</div>
-    <div class="value">August 2, 2026</div>
+    <div class="value"><del>August 2</del>  August 16, 2026</div>
   </div>
   <div class="info-row">
     <div class="label">Poster and Demos Presentations</div>

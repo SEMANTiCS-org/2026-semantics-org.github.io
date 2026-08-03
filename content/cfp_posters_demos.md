@@ -91,7 +91,7 @@ Both Poster and Demos fall in the same topics of interest, page length, format, 
   </div>
    <div class="info-row">
     <div class="label">Camera-Ready  Paper</div>
-    <div class="value">August 2, 2026</div>
+    <div class="value"><del>August 2</del>  August 16, 2026</div>
   </div>
 </div>
 
