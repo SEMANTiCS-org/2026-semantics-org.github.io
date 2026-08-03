@@ -90,7 +90,8 @@
           { id: 5, content: "Blue Sky" },
           { id: 6, content: "Industry and Use Cases" }, // Added Industry
           { id: 7, content: "ORKG Content" },
-          { id: 8, content: "Conference" },
+          { id: 8, content: "Practitioners Track" },
+          { id: 9, content: "Conference" },
         ]);
 
         // Helper function to format content with date
@@ -162,7 +163,7 @@
             subgroup: 14,
             group: 2,
             content: label("Camera Ready", "Aug. 2"),
-            start: "2026-08-02",
+            start: "2026-08-16",
             type: "point",
             className: "blue-dot",
           },
@@ -303,11 +304,31 @@
             className: "orkg-dot",
           },
 
-          // Group 8: Conference
+          // Group 8: Practitioners Track
+          {
+            id: 25,
+            subgroup: 25,
+            group: 8,
+            content: label("Submission Deadline", "Aug. 29"),
+            start: "2026-08-29",
+            type: "point",
+            className: "grey-dot",
+          },
+          {
+            id: 26,
+            subgroup: 26,
+            group: 8,
+            content: label("Notification of Acceptance", "Sept. 3"),
+            start: "2026-09-03",
+            type: "point",
+            className: "grey-dot",
+          },
+
+          // Group 9: Conference
           {
             id: 19,
             subgroup: 19,
-            group: 8,
+            group: 9,
             content: label("Workshops / Tutorials / DBpedia Day", "Sept. 15"),
             start: "2026-09-15",
             type: "point",
@@ -316,7 +337,7 @@
           {
             id: 20,
             subgroup: 20,
-            group: 8,
+            group: 9,
             content: label("Conference", "Sept. 15 - 17"),
             start: "2026-09-15",
             end: "2026-09-17",
