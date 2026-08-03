@@ -46,7 +46,7 @@ Authors that have submitted to the Industry & Use Case track may also use this o
 
 The Practitioners Track serves as a vibrant venue at SEMANTiCS 2026 for presenting cutting-edge innovations that bridge semantics, interactive systems, and AI. It provides researchers and practitioners a space to showcase their operational systems to the SEMANTiCS community and gather expert insights. Furthermore, this initiative acts as a valuable channel for obtaining feedback on tools that utilize human-in-the-loop evaluations, an approach that has gained significant traction in recent years within semantic web conferences.
 
-Authors with accepted papers to the conference tracks are especially encouraged to contribute, as this track offers an additional platform to showcase their systems. Note that an accepted contribution in the Practitioner Track does not count towards the one-author-registration-per-paper requirement for the main conference proceedings.
+Authors with accepted submissions to the conference tracks are especially encouraged to contribute, as this track offers an additional platform to showcase their systems. Note that an accepted contribution in the Practitioner Track does not count towards the one-author-registration-per-paper requirement for the main conference proceedings.
 
 ## Types of Contributions
 
@@ -62,7 +62,7 @@ Submitted systems must have implemented the functional features necessary to dem
 
 ## Submission Guidelines
 
-Submissions can be made through the SEMANTiCS 2026 EasyChair link. Authors must provide a single document (max 2 pages) following the CEUR templates. The document must include:
+Submissions can be made through the SEMANTiCS 2026 EasyChair link. Authors must provide the following information on the submission form:
 
 1.  **Title of the contribution.**
 2.  **Authors' list**. Including affiliation and contact information.
@@ -87,7 +87,7 @@ Note: Deadlines are 11:59 pm [AoE (Anywhere on Earth)](https://www.timeanddate.c
 
 Proposals will be evaluated by the IE committee based on:
 
-  * Quality of description paper and demo video.
+  * Quality of description and demo video.
   * Originality and relevance to the broader semantics field (alignment with the conference theme is a plus, but not strictly required).
   * Maturity and demonstrated functionality of the system.
   * Logistical considerations for on-site presentation.
@@ -118,4 +118,4 @@ Contact email: [semantics2026-practitioners@easychair.org](mailto:semantics2026-
 
 ## Acknowledgements
 
-Portions of this call for papers were adapted from the Interactive Events Track of AIED 2026 conference. We would like to acknowledge the use of their materials.
+Portions of this call for contributions were adapted from the Interactive Events Track of AIED 2026 conference. We would like to acknowledge the use of their materials.
