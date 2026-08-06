@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+
+    <title>SEMANTICS-2026</title>
+
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+    <!-- Custom styles for this template -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet" />
+
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="icon" href="../img/semantics-logo-browser.ico" />
+
+    <link href="../css/badges.css" rel="stylesheet">
+
+    <!-- Mark down -->
+    <script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
+
+    <script src="../vendor/jquery/jquery.min.js"></script>
+
+    <script src="../js/getconf.js"></script>
+    <script src="../js/pcontent.js"></script>
+  </head>
+
+  <body id="page-top">
+    <div id="nav-placeholder"></div>
+
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("../page/nav.html", function functionName() {
+          apply_conf_onfunc(update_nav, false);
+        });
+        //$("#sidecol").load("side.html");
+        $("#page-footer").load("../page/footer.html", function functionName() {
+          apply_conf_onfunc(update_footer, false);
+        });
+      });
+    </script>
+
+    <main id="main-content">
+
+    <section>
+        <div class="container">
+            <header>
+                <h1>SEMANTiCS Sponsor Badge Scanner</h1>
+                <div id="statusBadge" class="status-badge error">Disconnected</div>
+            </header>
+
+            <div id="unsupportedAlert" class="alert-box">
+                <strong>Browser Unsupported:</strong> The Web Serial API is supported in Google Chrome, Firefox, Microsoft
+                Edge, and Opera. Please switch to a compatible desktop browser.
+            </div>
+
+            <div class="card">
+                <div class="controls">
+                    <button id="connectBtn" class="btn">Connect Scanner</button>
+                    
+                    <button id="exportTtlBtn" class="btn-secondary">Export (.TTL)</button>
+                    <button id="exportTxtBtn" class="btn-secondary">Export (.TXT)</button>
+                    <button id="exportCsvBtn" class="btn-secondary">Export (.CSV)</button>
+                    
+                    <button id="clearBtn" class="btn-danger">Clear History</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="stats-bar">
+                    <strong>Live Scan Console</strong>
+                    <span id="scanCount">Total Scans: 0</span>
+                </div>
+                <textarea id="logConsole" readonly
+                    placeholder="Connect your scanner to begin logging badge data..."></textarea>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-12 mx-auto">
+                    <div class="row">
+                        <div class="col-lg-12 mx-auto">
+                            <zero-md src="../content/badges.md">
+                            <template>
+                                <link href="../css/md-style.css" rel="stylesheet" />
+                            </template>
+                            </zero-md>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    </main>
+
+    <script>
+        let port = null;
+        let reader = null;
+        let totalScans = 0;
+
+        const connectBtn = document.getElementById('connectBtn');
+        const exportTxtBtn = document.getElementById('exportTxtBtn');
+        const exportCsvBtn = document.getElementById('exportCsvBtn');
+        const exportTtlBtn = document.getElementById('exportTtlBtn');
+        const clearBtn = document.getElementById('clearBtn');
+        const statusBadge = document.getElementById('statusBadge');
+        const logConsole = document.getElementById('logConsole');
+        const scanCount = document.getElementById('scanCount');
+        const unsupportedAlert = document.getElementById('unsupportedAlert');
+
+        // Check API Compatibility
+        if (!('serial' in navigator)) {
+            unsupportedAlert.style.display = 'block';
+            connectBtn.disabled = true;
+        }
+
+        // Load saved scans on page load
+        window.addEventListener('DOMContentLoaded', () => {
+            const savedData = localStorage.getItem('badge_scans') || '';
+            if (savedData) {
+                logConsole.value = savedData;
+                logConsole.scrollTop = logConsole.scrollHeight;
+                updateCount();
+            }
+            autoReconnect();
+        });
+
+        // Auto-reconnect to previously paired device
+        async function autoReconnect() {
+            if (!('serial' in navigator)) return;
+            const ports = await navigator.serial.getPorts();
+            if (ports.length > 0) {
+                port = ports[0];
+                startSerialConnection(port);
+            }
+        }
+
+        // Handle connection button click
+        connectBtn.addEventListener('click', async () => {
+            try {
+                port = await navigator.serial.requestPort();
+                startSerialConnection(port);
+            } catch (err) {
+                console.warn('User cancelled port selection or connection failed:', err);
+            }
+        });
+
+        // Establish serial connection loop
+        async function startSerialConnection(selectedPort) {
+            try {
+                await selectedPort.open({ baudRate: 9600 });
+                updateStatus(true);
+
+                const textDecoder = new TextDecoderStream();
+                const readableStreamClosed = selectedPort.readable.pipeTo(textDecoder.writable);
+                reader = textDecoder.readable.getReader();
+
+                let buffer = '';
+
+                while (true) {
+                    const { value, done } = await reader.read();
+                    if (done) {
+                        reader.releaseLock();
+                        break;
+                    }
+                    if (value) {
+                        buffer += value;
+                        if (buffer.includes('\n') || buffer.includes('\r')) {
+                            const lines = buffer.split(/\r?\n/);
+                            buffer = lines.pop(); // Retain unfinished chunk
+                            lines.forEach(line => {
+                                const clean = line.trim();
+                                if (clean) processScan(clean);
+                            });
+                        }
+                    }
+                }
+            } catch (err) {
+                console.error('Serial connection error:', err);
+                updateStatus(false);
+            }
+        }
+
+        // Process and record incoming scan
+        function processScan(data) {
+            const now = new Date();
+            const timestamp = now.toISOString().replace('T', ' ').substring(0, 19);
+            const logEntry = `[${timestamp}] ${data}\n`;
+
+            // Update UI Console
+            logConsole.value += logEntry;
+            logConsole.scrollTop = logConsole.scrollHeight;
+
+            // Persist to local storage immediately
+            const existingData = localStorage.getItem('badge_scans') || '';
+            localStorage.setItem('badge_scans', existingData + logEntry);
+
+            updateCount();
+        }
+
+        function updateCount() {
+            const lines = logConsole.value.trim().split('\n').filter(l => l.length > 0);
+            totalScans = lines.length;
+            scanCount.innerText = `Total Scans: ${totalScans}`;
+        }
+
+        function updateStatus(isConnected) {
+            if (isConnected) {
+                statusBadge.innerText = 'Connected';
+                statusBadge.className = 'status-badge connected';
+                connectBtn.innerText = 'Scanner Active';
+                connectBtn.disabled = true;
+            } else {
+                statusBadge.innerText = 'Disconnected';
+                statusBadge.className = 'status-badge error';
+                connectBtn.innerText = 'Connect Scanner';
+                connectBtn.disabled = false;
+            }
+        }
+
+        // Export functionality
+        function downloadFile(content, filename, type) {
+            const blob = new Blob([content], { type: type });
+            const url = URL.createObjectURL(blob);
+            const a = document.createElement('a');
+            a.href = url;
+            a.download = filename;
+            document.body.appendChild(a);
+            a.click();
+            document.body.removeChild(a);
+            URL.revokeObjectURL(url);
+        }
+
+        exportTxtBtn.addEventListener('click', () => {
+            const data = localStorage.getItem('badge_scans');
+            if (!data) return alert('No scans to export.');
+            const dateStr = new Date().toISOString().slice(0, 10);
+            downloadFile(data, `badge_scans_${dateStr}.txt`, 'text/plain;charset=utf-8');
+        });
+
+        exportCsvBtn.addEventListener('click', () => {
+            const data = localStorage.getItem('badge_scans');
+            if (!data) return alert('No scans to export.');
+
+            const lines = data.trim().split('\n');
+            let csvContent = 'Timestamp,Badge Data\n';
+
+            lines.forEach(line => {
+                const match = line.match(/^\[(.*?)\] (.*)$/);
+                if (match) {
+                    const time = match[1];
+                    const content = match[2].replace(/"/g, '""'); // Escape quotes
+                    csvContent += `"${time}","${content}"\n`;
+                }
+            });
+
+            const dateStr = new Date().toISOString().slice(0, 10);
+            downloadFile(csvContent, `badge_scans_${dateStr}.csv`, 'text/csv;charset=utf-8');
+        });
+
+        exportTtlBtn.addEventListener('click', () => {
+            const data = localStorage.getItem('badge_scans');
+            if (!data) return alert('No scans to export.');
+
+            const lines = data.trim().split('\n');
+            let ttlContent = `@prefix rdf: <http://www.w3.org/1999/02/22-rdf-syntax-ns#> .\n` +
+                             `@prefix xsd: <http://www.w3.org/2001/XMLSchema#> .\n` +
+                             `@prefix sosa: <http://www.w3.org/ns/sosa/> .\n` +
+                             `@prefix schema: <http://schema.org/> .\n` +
+                             `@prefix : <http://semantics.cc/ns/badge#> .\n\n`;
+
+            lines.forEach((line, index) => {
+                const match = line.match(/^\[(.*?)\] (.*)$/);
+                if (match) {
+                    const timeRaw = match[1]; // e.g. "2026-08-06 15:37:38"
+                    const time = timeRaw.replace(' ', 'T') + 'Z';
+                    const timeClean = timeRaw.replace(/[^0-9]/g, ''); // e.g. "20260806153738"
+                    const badge = match[2];
+                    
+                    const id = `scan_${timeClean}_${index + 1}`;
+                    const parts = badge.split(';').map(p => p.trim());
+
+                    if (parts.length === 3) {
+                        const [name, affiliation, email] = parts;
+                        const personId = `person_${timeClean}_${index + 1}`;
+
+                        ttlContent += `:${id} a sosa:Observation ;\n` +
+                                     `    sosa:resultTime "${time}"^^xsd:dateTime ;\n` +
+                                     `    sosa:hasSimpleResult "${badge.replace(/"/g, '\\"')}" ;\n` +
+                                     `    sosa:hasFeatureOfInterest :${personId} .\n\n`;
+
+                        ttlContent += `:${personId} a schema:Person ;\n` +
+                                     `    schema:name "${name.replace(/"/g, '\\"')}" ;\n` +
+                                     `    schema:email "${email.replace(/"/g, '\\"')}" ;\n` +
+                                     `    schema:affiliation [\n` +
+                                     `        a schema:Organization ;\n` +
+                                     `        schema:name "${affiliation.replace(/"/g, '\\"')}"\n` +
+                                     `    ] .\n\n`;
+                    } else {
+                        ttlContent += `:${id} a sosa:Observation ;\n` +
+                                     `    sosa:resultTime "${time}"^^xsd:dateTime ;\n` +
+                                     `    sosa:hasSimpleResult "${badge.replace(/"/g, '\\"')}" .\n\n`;
+                    }
+                }
+            });
+
+            const dateStr = new Date().toISOString().slice(0, 10);
+            downloadFile(ttlContent, `badge_scans_${dateStr}.ttl`, 'text/turtle;charset=utf-8');
+        });
+
+        // Clear Storage
+        clearBtn.addEventListener('click', () => {
+            if (confirm('Are you sure you want to clear all log history?')) {
+                localStorage.removeItem('badge_scans');
+                logConsole.value = '';
+                updateCount();
+            }
+        });
+
+        // Warn user before closing tab while scanning
+        window.addEventListener('beforeunload', (e) => {
+            if (port && port.readable) {
+                e.preventDefault();
+                e.returnValue = '';
+            }
+        });
+    </script>
+
+    <!-- Footer -->
+    <footer id="page-footer"></footer>
+
+    <!-- Bootstrap core JavaScript -->
+
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+    <!-- Custom JavaScript for this theme -->
+    <script src="../js/scrolling-nav.js"></script>
+  </body>
+</html>
