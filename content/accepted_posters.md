@@ -390,7 +390,7 @@
 </div>
 
 <div class="accepted-item">
-    <div class="accepted-title">From Text to Knowledge Gems: A Case Study of Hybrid AI-Supported Knowledge Curation
+    <div class="accepted-title">From Text to Knowledge Gems: Design Principles and a Hybrid AI Approach for Knowledge Curation
     </div>
     <div class="accepted-subtitle"></div>
     <p>Authors: Lucia Cvitanic, Heidelinde Hobel, Verena Parzer, Denis Havlik and Ghazal Etminan</p>
