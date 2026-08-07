@@ -73,7 +73,7 @@ Submissions can be made through the SEMANTiCS 2026 EasyChair link. Authors must 
 7.  **Maturity indicator**. A 1- or 2-line statement of development stage (prototype, production readiness).
 8.  **Data sources used**. Given the semantics focus, a short line on which KGs/ontologies/standards the system builds on, if any.
 
-EasyChair submission link: <https://easychair.org/conferences/?conf=semantics26>
+EasyChair submission link: <https://easychair.org/conferences/?conf=semantics2026>
 
 ## Important Dates
 
