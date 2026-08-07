@@ -6,8 +6,8 @@
     --border-color: #153b51;
     --primary: #2563eb;
     --primary-hover: #1d4ed8;
-    --danger: #ef4444;
-    --danger-hover: #dc2626;
+    --danger: var(--semantics-orange);
+    --danger-hover: var(--semantics-orange-dark);
     --success-bg: #dcfce7;
     --success-text: #15803d;
     --error-bg: #fee2e2;
@@ -136,16 +136,23 @@ button {
     color: var(--text-main);
 }
 
-.btn-danger {
+.btn-clear {
     background-color: var(--semantics-orange-light);
     color: var(--semantics-orange);
-    border: 1px solid #fecdd3;
+    border: 1px solid var(--semantics-orange);
     margin-left: auto;
 }
 
-.btn-danger:hover {
+.btn-clear:hover {
     background-color: var(--semantics-orange);
     color: var(--semantics-orange-dark);
+    border: 1px solid var(--semantics-orange-light);
+}
+
+.btn-clear:visited {
+    background-color: var(--semantics-orange);
+    color: var(--semantics-orange-dark);
+    border: 1px solid var(--semantics-orange-light);
 }
 
 .stats-bar {
@@ -180,9 +187,10 @@ textarea:focus {
 
 .alert-box {
     padding: 1rem;
+    border: 1px solid var(--semantics-orange-dark);
     border-radius: 0.5rem;
-    background-color: var(--error-bg);
-    color: var(--error-text);
+    background-color: var(--semantics-orange);
+    color: var(--semantics-orange-dark);
     font-size: 0.9rem;
     display: none;
 }
