@@ -24,3 +24,6 @@ If the scanner fails to connect or throws an access error, it is almost certainl
 
 ### Browser Compatibility
 This web application relies on the Web Serial API to communicate directly with your USB hardware. It is fully supported on desktop versions of **Google Chrome**, **Firefox**, **Microsoft Edge**, and **Opera**. It will not function on Apple Safari or Mozilla Firefox, as those browsers do not support direct serial hardware access.
+
+### Where is Your Data Stored? (Privacy & Security)
+**This application runs entirely client-side inside your web browser.** No scan data, timestamps, or personal information are ever transmitted to an external server or remote database over the internet. Everything is processed locally on your machine and stored strictly within your browser's private localStorage. Because no remote database or server communication is involved, no user login or authentication layer is required. Your data remains completely private to your device and is only accessible by you when you choose to export it.
