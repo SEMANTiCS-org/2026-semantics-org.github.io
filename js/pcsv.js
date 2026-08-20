@@ -874,3 +874,713 @@ function build_news_blog(conf) {
     conf["baseurl"],
   );
 }
+function populate_pd_container(fcsv, page, container, baseurl) {
+
+  $.ajax({
+
+    url: fcsv,
+
+    dataType: "text",
+
+    success: function (fdata) {
+
+      var json_data = $.csv.toObjects(fdata);
+
+      var body_html =
+        `<div class="pd-row">
+          __PD__
+        </div>`;
+
+      var all_html_elems = "";
+
+
+      json_data.forEach(function (entry) {
+
+        var id = entry["id"].trim();
+
+        var title = entry["title"].trim();
+
+        var authors = entry["authors"].trim();
+
+
+        all_html_elems +=
+
+          `<div class="pd-box">
+
+            <a
+              href="` +
+          baseurl +
+          `page/p&d-detail?page=` +
+          id +
+          `"
+              class="pd-link"
+            >
+
+              <div class="pd-id">
+                #` +
+          id +
+          `
+              </div>
+
+
+              <div class="pd-title">
+                ` +
+          title +
+          `
+              </div>
+
+
+              <div class="pd-authors">
+                <strong>Authors:</strong> ` +
+          authors +
+          `
+              </div>
+
+            </a>
+
+          </div>`;
+
+      });
+
+
+      body_html = body_html.replace(
+        "__PD__",
+        all_html_elems
+      );
+
+
+      $("#" + container).append(body_html);
+
+    },
+
+
+    error: function (xhr, status, error) {
+
+      console.error(
+        "Error loading p&d.csv:",
+        error
+      );
+
+    }
+
+  });
+
+}
+
+
+
+function build_pd(conf) {
+
+  populate_pd_container(
+
+    conf["baseurl"] + "content/p&d.csv",
+
+    "p&d-detail",
+
+    "pd_list",
+
+    conf["baseurl"]
+
+  );
+
+}
+function populate_pd_detail(fcsv, container, baseurl) {
+
+  const queryString = window.location.search;
+
+  const urlParams =
+    new URLSearchParams(queryString);
+
+  const current_id =
+    urlParams.get("page");
+
+
+  /* =========================================
+     CHECK ID
+     ========================================= */
+
+  if (!current_id) {
+
+    $("#" + container).html(
+
+      `<div class="pd-detail-card">
+
+        <p>
+          Poster or demo ID was not specified.
+        </p>
+
+      </div>`
+
+    );
+
+    return;
+
+  }
+
+
+  /* =========================================
+     LOAD CSV
+     ========================================= */
+
+  $.ajax({
+
+    url: fcsv,
+
+    dataType: "text",
+
+
+    success: function (fdata) {
+
+      var json_data =
+        $.csv.toObjects(fdata);
+
+
+      /* =========================================
+         FIND CURRENT ENTRY
+         ========================================= */
+
+      var entry =
+        json_data.find(function (item) {
+
+          return (
+            item["id"] &&
+            item["id"].trim() ===
+            current_id.trim()
+          );
+
+        });
+
+
+      /* =========================================
+         NOT FOUND
+         ========================================= */
+
+      if (!entry) {
+
+        $("#" + container).html(
+
+          `<div class="pd-detail-card">
+
+            <p>
+              Poster or demo not found.
+            </p>
+
+          </div>`
+
+        );
+
+        return;
+
+      }
+
+
+      /* =========================================
+         CSV FIELDS
+         ========================================= */
+
+      var id =
+        entry["id"]
+          ? entry["id"].trim()
+          : "";
+
+
+      var title =
+        entry["title"]
+          ? entry["title"].trim()
+          : "";
+
+
+      var authors =
+        entry["authors"]
+          ? entry["authors"].trim()
+          : "";
+
+
+      var abstracts =
+        entry["abstracts"]
+          ? entry["abstracts"].trim()
+          : "";
+
+
+      var image =
+        entry["img"]
+          ? entry["img"].trim()
+          : "";
+
+
+      var video_link =
+        entry["video_link"]
+          ? entry["video_link"].trim()
+          : "";
+
+
+      var doc_link =
+        entry["doc_link"]
+          ? entry["doc_link"].trim()
+          : "";
+
+
+      var track =
+        entry["Track"]
+          ? entry["Track"].trim()
+          : "";
+
+
+      var keywords =
+        entry["Keywords"]
+          ? entry["Keywords"].trim()
+          : "";
+
+
+      /* =========================================
+         POSTER
+         ========================================= */
+
+      var html_image = "";
+
+
+      if (image !== "") {
+
+        var google_file_id = "";
+
+
+        /*
+         * Google Drive file URL:
+         *
+         * https://drive.google.com/file/d/FILE_ID/view
+         */
+
+
+        var drive_match =
+          image.match(
+            /drive\.google\.com\/file\/d\/([^/]+)/
+          );
+
+
+        if (
+          drive_match &&
+          drive_match[1]
+        ) {
+
+          google_file_id =
+            drive_match[1];
+
+        }
+
+
+        /*
+         * GOOGLE DRIVE PDF
+         */
+
+        if (google_file_id !== "") {
+
+          var google_preview_url =
+            "https://drive.google.com/file/d/" +
+            google_file_id +
+            "/preview";
+
+
+          html_image =
+
+            `<div class="pd-detail-section">
+
+              <h2>Poster</h2>
+
+              <div class="pd-detail-pdf">
+
+                <iframe
+                  src="${google_preview_url}"
+                  title="${title}"
+                  loading="lazy"
+                  allow="autoplay">
+                </iframe>
+
+              </div>
+
+            </div>`;
+
+        }
+
+
+        /*
+         * LOCAL IMAGE
+         */
+
+        else {
+
+          html_image =
+
+            `<div class="pd-detail-section">
+
+              <h2>Poster</h2>
+
+              <div class="pd-detail-image">
+
+                <img
+                  src="../img/pd/${image}"
+                  alt="${title}"
+                >
+
+              </div>
+
+            </div>`;
+
+        }
+
+      }
+
+
+      /* =========================================
+         TRACK
+         ========================================= */
+
+      var html_track = "";
+
+
+      if (track !== "") {
+
+        html_track =
+
+          `<div class="pd-detail-track">
+
+            ${track}
+
+          </div>`;
+
+      }
+
+
+      /* =========================================
+         ABSTRACT
+         ========================================= */
+
+      var html_abstract = "";
+
+
+      if (abstracts !== "") {
+
+        html_abstract =
+
+          `<div class="pd-detail-section">
+
+            <h2>Abstract</h2>
+
+            <div class="pd-detail-abstract">
+
+              ${abstracts}
+
+            </div>
+
+          </div>`;
+
+      }
+
+
+      /* =========================================
+         KEYWORDS
+         ========================================= */
+
+      var html_keywords = "";
+
+
+      if (keywords !== "") {
+
+        html_keywords =
+
+          `<div class="pd-detail-section">
+
+            <h2>Keywords</h2>
+
+            <div class="pd-detail-keywords">
+
+              ${keywords}
+
+            </div>
+
+          </div>`;
+
+      }
+
+
+      /* =========================================
+         YOUTUBE
+         ========================================= */
+
+      var html_video = "";
+
+
+      if (video_link !== "") {
+
+        var youtube_id = "";
+
+
+        /*
+         * youtube.com/watch?v=VIDEO_ID
+         */
+
+        if (
+          video_link.includes(
+            "youtube.com/watch"
+          )
+        ) {
+
+          try {
+
+            var youtube_url =
+              new URL(video_link);
+
+
+            youtube_id =
+              youtube_url.searchParams.get(
+                "v"
+              );
+
+          }
+
+          catch (e) {
+
+            console.error(
+              "Invalid YouTube URL:",
+              video_link
+            );
+
+          }
+
+        }
+
+
+        /*
+         * youtu.be/VIDEO_ID
+         */
+
+        else if (
+          video_link.includes(
+            "youtu.be/"
+          )
+        ) {
+
+          youtube_id =
+            video_link
+              .split("youtu.be/")[1]
+              .split("?")[0]
+              .split("&")[0];
+
+        }
+
+
+        /*
+         * youtube.com/embed/VIDEO_ID
+         */
+
+        else if (
+          video_link.includes(
+            "youtube.com/embed/"
+          )
+        ) {
+
+          youtube_id =
+            video_link
+              .split(
+                "youtube.com/embed/"
+              )[1]
+              .split("?")[0]
+              .split("&")[0];
+
+        }
+
+
+        /*
+         * CREATE YOUTUBE PLAYER
+         */
+
+        if (youtube_id) {
+
+          var youtube_embed =
+            "https://www.youtube.com/embed/" +
+            encodeURIComponent(
+              youtube_id
+            );
+
+
+          html_video =
+
+            `<div class="pd-detail-section">
+
+              <h2>Video</h2>
+
+              <div class="pd-detail-video">
+
+                <iframe
+                  src="${youtube_embed}"
+                  title="${title}"
+                  loading="lazy"
+                  allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                  allowfullscreen>
+                </iframe>
+
+              </div>
+
+            </div>`;
+
+        }
+
+      }
+
+
+      /* =========================================
+         DOCUMENT LINK
+         ========================================= */
+
+      var html_document = "";
+
+
+      if (doc_link !== "") {
+
+        html_document =
+
+          `<div class="pd-detail-buttons">
+
+            <a
+              href="${doc_link}"
+              target="_blank"
+              rel="noopener noreferrer"
+              class="pd-detail-button">
+
+              View Document
+
+            </a>
+
+          </div>`;
+
+      }
+
+
+      /* =========================================
+         FINAL HTML
+         ========================================= */
+
+      var html =
+
+        `<div class="pd-detail-card">
+
+
+          <!-- ID -->
+
+          <div class="pd-detail-id">
+
+            #${id}
+
+          </div>
+
+
+          <!-- TITLE -->
+
+          <h1 class="pd-detail-title">
+
+            ${title}
+
+          </h1>
+
+
+          <!-- AUTHORS -->
+
+          <div class="pd-detail-authors">
+
+            <strong>Authors:</strong>
+
+            ${authors}
+
+          </div>
+
+
+          <!-- TRACK -->
+
+          ${html_track}
+
+
+          <!-- POSTER -->
+
+          ${html_image}
+
+
+          <!-- ABSTRACT -->
+
+          ${html_abstract}
+
+
+          <!-- KEYWORDS -->
+
+          ${html_keywords}
+
+
+          <!-- VIDEO -->
+
+          ${html_video}
+
+
+          <!-- DOCUMENT -->
+
+          ${html_document}
+
+
+        </div>`;
+
+
+      $("#" + container).html(html);
+
+    },
+
+
+    /* =========================================
+       AJAX ERROR
+       ========================================= */
+
+    error: function (
+      xhr,
+      status,
+      error
+    ) {
+
+      console.error(
+        "Error loading p&d.csv:",
+        error
+      );
+
+
+      $("#" + container).html(
+
+        `<div class="pd-detail-card">
+
+          <p>
+            Error loading poster/demo information.
+          </p>
+
+        </div>`
+
+      );
+
+    }
+
+  });
+
+}
+
+
+/* =========================================
+   BUILD P&D DETAIL
+   ========================================= */
+
+function build_pd_detail(conf) {
+
+  populate_pd_detail(
+
+    conf["baseurl"] +
+    "content/p&d.csv",
+
+    "pd_detail",
+
+    conf["baseurl"]
+
+  );
+
+}

@@ -1,0 +1,501 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>SEMANTICS-2026</title>
+
+  <!-- Bootstrap -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom styles -->
+  <link href="../css/scrolling-nav.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+
+  <link rel="icon" href="../img/semantics-logo-browser.ico" />
+
+  <!-- jQuery -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="../js/getconf.js"></script>
+  <script src="../js/pcontent.js"></script>
+  <script src="../js/pcsv.js"></script>
+
+
+  <style>
+    /* =====================================================
+       P&D DETAIL CONTAINER
+       ===================================================== */
+
+    #pd_detail {
+      width: 100%;
+      max-width: none;
+      margin: 0 auto;
+    }
+
+
+    /* =====================================================
+       MAIN CARD
+       ===================================================== */
+
+    .pd-detail-card {
+      width: 100%;
+      box-sizing: border-box;
+
+      background-color: var(--news-background);
+
+      border: solid var(--news-border) 3px;
+
+      border-radius: 18px;
+
+      padding: 35px;
+    }
+
+
+    /* =====================================================
+       ID
+       ===================================================== */
+
+    .pd-detail-id {
+
+      font-size: 14px;
+
+      font-weight: bold;
+
+      color: var(--highlight);
+
+      margin-bottom: 12px;
+    }
+
+
+    /* =====================================================
+       TITLE
+       ===================================================== */
+
+    .pd-detail-title {
+
+      font-size: 30px;
+
+      line-height: 1.4;
+
+      font-weight: bold;
+
+      margin-bottom: 20px;
+
+      color: var(--news-body);
+    }
+
+
+    /* =====================================================
+       AUTHORS
+       ===================================================== */
+
+    .pd-detail-authors {
+
+      font-size: 16px;
+
+      line-height: 1.6;
+
+      margin-bottom: 25px;
+
+      color: var(--news-body);
+    }
+
+
+    .pd-detail-authors strong {
+
+      font-weight: bold;
+    }
+
+
+    /* =====================================================
+       TRACK
+       ===================================================== */
+
+    .pd-detail-track {
+
+      display: inline-block;
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+      padding: 7px 14px;
+
+      border-radius: 20px;
+
+      background-color: var(--highlight);
+
+      color: white;
+
+      margin-bottom: 30px;
+    }
+
+
+    /* =====================================================
+       SECTION
+       ===================================================== */
+
+    .pd-detail-section {
+
+      margin-top: 30px;
+    }
+
+
+    .pd-detail-section h2 {
+
+      font-size: 22px;
+
+      font-weight: bold;
+
+      margin-bottom: 15px;
+
+      color: var(--news-body);
+    }
+
+
+    /* =====================================================
+       ABSTRACT
+       ===================================================== */
+
+    .pd-detail-abstract {
+
+      font-size: 15px;
+
+      line-height: 1.8;
+
+      color: var(--news-body);
+    }
+
+
+    /* =====================================================
+       KEYWORDS
+       ===================================================== */
+
+    .pd-detail-keywords {
+
+      font-size: 14px;
+
+      line-height: 1.8;
+
+      color: var(--news-body);
+    }
+
+
+    /* =====================================================
+       POSTER / IMAGE
+       ===================================================== */
+
+    .pd-detail-image {
+
+      width: 100%;
+
+      margin: 0;
+
+      padding: 0;
+
+      text-align: center;
+    }
+
+
+    .pd-detail-image img {
+
+      display: block;
+
+      width: 100%;
+
+      max-width: 100%;
+
+      height: auto;
+
+      margin: 0;
+
+      border-radius: 15px;
+
+      border: solid var(--news-border) 2px;
+
+      box-sizing: border-box;
+    }
+
+
+    /* =====================================================
+       PDF
+       ===================================================== */
+
+    .pd-detail-pdf {
+
+      width: 100%;
+
+      margin: 0;
+
+      padding: 0;
+
+      overflow: hidden;
+
+      border-radius: 15px;
+    }
+
+
+    .pd-detail-pdf iframe {
+
+      display: block;
+
+      width: 100%;
+
+      height: 1000px;
+
+      border: none;
+
+      border-radius: 15px;
+    }
+
+
+    /* =====================================================
+       VIDEO
+       ===================================================== */
+
+    .pd-detail-video {
+
+      width: 100%;
+
+      margin-top: 30px;
+    }
+
+
+    .pd-detail-video iframe {
+
+      display: block;
+
+      width: 100%;
+
+      aspect-ratio: 16 / 9;
+
+      border: none;
+
+      border-radius: 15px;
+    }
+
+
+    /* =====================================================
+       BUTTONS
+       ===================================================== */
+
+    .pd-detail-buttons {
+
+      display: flex;
+
+      flex-wrap: wrap;
+
+      gap: 12px;
+
+      margin-top: 30px;
+    }
+
+
+    .pd-detail-button {
+
+      display: inline-block;
+
+      padding: 10px 20px;
+
+      border-radius: 8px;
+
+      background-color: var(--highlight);
+
+      color: white !important;
+
+      text-decoration: none !important;
+
+      font-size: 14px;
+
+      font-weight: bold;
+    }
+
+
+    .pd-detail-button:hover {
+
+      color: white !important;
+
+      text-decoration: none !important;
+    }
+
+
+    /* =====================================================
+       BACK BUTTON
+       ===================================================== */
+
+    .pd-back {
+
+      margin-bottom: 25px;
+    }
+
+
+    .pd-back a {
+
+      font-size: 14px;
+
+      color: var(--news-body);
+
+      text-decoration: none;
+    }
+
+
+    .pd-back a:hover {
+
+      color: var(--highlight);
+
+      text-decoration: none;
+    }
+
+
+    /* =====================================================
+       MOBILE
+       ===================================================== */
+
+    @media (max-width: 767px) {
+
+      .pd-detail-card {
+
+        padding: 20px;
+      }
+
+
+      .pd-detail-title {
+
+        font-size: 23px;
+      }
+
+
+      .pd-detail-authors {
+
+        font-size: 14px;
+      }
+
+
+      .pd-detail-pdf iframe {
+
+        height: 700px;
+      }
+
+    }
+  </style>
+
+</head>
+
+
+<body id="page-top">
+
+
+  <!-- =====================================================
+       NAVIGATION
+       ===================================================== -->
+
+  <div id="nav-placeholder"></div>
+
+
+  <script>
+
+    $(function () {
+
+      $("#nav-placeholder").load("nav.html", function () {
+
+        apply_conf_onfunc(update_nav, false);
+
+      });
+
+
+      $("#page-footer").load("footer.html", function () {
+
+        apply_conf_onfunc(update_footer, false);
+
+      });
+
+    });
+
+  </script>
+
+
+  <!-- =====================================================
+       MAIN CONTENT
+       ===================================================== -->
+
+  <main id="main-content">
+
+    <section>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-12 mx-auto">
+
+
+            <!-- BACK -->
+
+            <div class="pd-back">
+
+              <a href="javascript:history.back();">
+
+                ← Back to Accepted Posters and Demos
+
+              </a>
+
+            </div>
+
+
+            <!-- DETAIL -->
+
+            <div id="pd_detail"></div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+  <!-- =====================================================
+       FOOTER
+       ===================================================== -->
+
+  <footer id="page-footer"></footer>
+
+
+  <!-- =====================================================
+       JAVASCRIPT
+       ===================================================== -->
+
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="../js/scrolling-nav.js"></script>
+
+  <script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
+
+
+  <script>
+
+    /*
+     * Build P&D detail page
+     */
+
+    apply_conf_onfunc(build_pd_detail, false);
+
+  </script>
+
+
+</body>
+
+</html>

@@ -1,0 +1,440 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+  <meta name="description" content="" />
+  <meta name="author" content="" />
+
+  <title>SEMANTICS-2026</title>
+
+  <!-- Bootstrap core CSS -->
+  <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
+
+  <!-- Custom styles -->
+  <link href="../css/scrolling-nav.css" rel="stylesheet" />
+  <link href="../css/style.css" rel="stylesheet" />
+
+  <link rel="icon" href="../img/semantics-logo-browser.ico" />
+
+  <!-- jQuery -->
+  <script src="../vendor/jquery/jquery.min.js"></script>
+
+  <!-- Custom JavaScript -->
+  <script src="../js/getconf.js"></script>
+  <script src="../js/pcontent.js"></script>
+  <script src="../js/pcsv.js"></script>
+
+  <style>
+    /* =========================================
+       P&D LIST
+       ========================================= */
+
+    #pd_list {
+      width: 100%;
+    }
+
+
+    /* =========================================
+       P&D ROW
+       ========================================= */
+
+    #pd_list .pd-row {
+      display: flex;
+      flex-wrap: wrap;
+      justify-content: center;
+
+      transform: none !important;
+      transition: none !important;
+      animation: none !important;
+    }
+
+
+    /* =========================================
+       P&D CARD
+       ========================================= */
+
+    #pd_list .pd-box {
+
+      background-color: var(--news-background);
+
+      border: solid var(--news-border) 3px;
+
+      padding: 20px;
+
+      border-radius: 18px;
+
+      margin-left: 1%;
+      margin-right: 1%;
+      margin-top: 0;
+      margin-bottom: 20px;
+
+      max-width: 31%;
+
+      position: relative;
+
+      transform: none !important;
+      translate: none !important;
+      scale: 1 !important;
+      rotate: none !important;
+
+      top: 0 !important;
+      left: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+
+      transition: none !important;
+      animation: none !important;
+
+      box-shadow: none;
+    }
+
+
+    /* =========================================
+       CARD HOVER
+       ========================================= */
+
+    #pd_list .pd-box:hover,
+    #pd_list .pd-box:focus,
+    #pd_list .pd-box:active {
+
+      transform: none !important;
+      translate: none !important;
+      scale: 1 !important;
+      rotate: none !important;
+
+      top: 0 !important;
+      left: auto !important;
+      right: auto !important;
+      bottom: auto !important;
+
+      margin-top: 0 !important;
+      margin-bottom: 20px !important;
+
+      transition: none !important;
+      animation: none !important;
+
+      box-shadow: none !important;
+    }
+
+
+    /* =========================================
+       LINK
+       ========================================= */
+
+    #pd_list .pd-link {
+
+      display: block;
+
+      width: 100%;
+      height: 100%;
+
+      color: var(--news-body);
+
+      text-decoration: none !important;
+
+      transform: none !important;
+      translate: none !important;
+      scale: 1 !important;
+      rotate: none !important;
+
+      transition: none !important;
+      animation: none !important;
+    }
+
+
+    #pd_list .pd-link:hover,
+    #pd_list .pd-link:focus,
+    #pd_list .pd-link:active {
+
+      color: var(--news-body) !important;
+
+      text-decoration: none !important;
+
+      transform: none !important;
+      translate: none !important;
+      scale: 1 !important;
+      rotate: none !important;
+
+      transition: none !important;
+      animation: none !important;
+    }
+
+
+    /* =========================================
+       ID
+       ========================================= */
+
+    #pd_list .pd-id {
+
+      font-size: 13px;
+
+      font-weight: bold;
+
+      margin-bottom: 8px;
+
+      color: var(--highlight);
+
+      transform: none !important;
+      transition: none !important;
+    }
+
+
+    /* =========================================
+       TITLE
+       ========================================= */
+
+    #pd_list .pd-title {
+
+      font-weight: bold;
+
+      font-size: 17px;
+
+      line-height: 1.5;
+
+      margin-bottom: 12px;
+
+      color: var(--news-body);
+
+      transform: none !important;
+      transition: none !important;
+    }
+
+
+    /* =========================================
+       AUTHORS
+       ========================================= */
+
+    #pd_list .pd-authors {
+
+      font-size: 14px;
+
+      line-height: 1.5;
+
+      color: var(--news-body);
+
+      transform: none !important;
+      transition: none !important;
+    }
+
+
+    #pd_list .pd-authors strong {
+
+      font-weight: bold;
+    }
+
+
+    /* =========================================
+       PREVENT HOVER TRANSFORM ON ALL CHILDREN
+       ========================================= */
+
+    #pd_list .pd-box:hover *,
+    #pd_list .pd-box:focus *,
+    #pd_list .pd-box:active * {
+
+      transform: none !important;
+
+      transition: none !important;
+
+      animation: none !important;
+    }
+
+
+    /* =========================================
+       DESKTOP
+       3 CARDS PER ROW
+       ========================================= */
+
+    @media (min-width: 992px) {
+
+      #pd_list .pd-box {
+
+        max-width: 31%;
+
+        margin-left: 1%;
+        margin-right: 1%;
+
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+      }
+
+    }
+
+
+    /* =========================================
+       TABLET
+       ========================================= */
+
+    @media (min-width: 768px) and (max-width: 991px) {
+
+      #pd_list .pd-box {
+
+        max-width: 47%;
+
+        margin-left: 1.5%;
+        margin-right: 1.5%;
+
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+      }
+
+    }
+
+
+    /* =========================================
+       MOBILE
+       ========================================= */
+
+    @media (max-width: 767px) {
+
+      #pd_list .pd-box {
+
+        max-width: 100%;
+
+        width: 100%;
+
+        margin-left: 0;
+        margin-right: 0;
+
+        margin-top: 0 !important;
+        margin-bottom: 20px !important;
+      }
+
+    }
+
+
+    /* =========================================
+       ABSOLUTELY NO HOVER MOVEMENT
+       ========================================= */
+
+    #pd_list .pd-box,
+    #pd_list .pd-box:hover,
+    #pd_list .pd-link,
+    #pd_list .pd-link:hover {
+
+      -webkit-transform: none !important;
+      -moz-transform: none !important;
+      -ms-transform: none !important;
+      -o-transform: none !important;
+      transform: none !important;
+
+      -webkit-transition: none !important;
+      -moz-transition: none !important;
+      -o-transition: none !important;
+      transition: none !important;
+
+      animation: none !important;
+    }
+  </style>
+
+</head>
+
+
+<body id="page-top">
+
+
+  <!-- =========================================
+       NAVIGATION
+       ========================================= -->
+
+  <div id="nav-placeholder"></div>
+
+
+  <script>
+
+    $(function () {
+
+      $("#nav-placeholder").load("nav.html", function () {
+
+        apply_conf_onfunc(update_nav, false);
+
+      });
+
+
+      $("#page-footer").load("footer.html", function () {
+
+        apply_conf_onfunc(update_footer, false);
+
+      });
+
+    });
+
+  </script>
+
+
+
+  <!-- =========================================
+       MAIN CONTENT
+       ========================================= -->
+
+  <main id="main-content">
+
+    <section>
+
+      <div class="container">
+
+        <div class="row">
+
+          <div class="col-lg-12 mx-auto">
+
+
+            <!-- PAGE TITLE -->
+
+            <h1 class="text-left mb-4" style="font-weight: bold;">
+              Accepted Posters and Demos
+            </h1>
+
+
+            <!-- P&D LIST -->
+
+            <div id="pd_list"></div>
+
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+
+
+  <!-- =========================================
+       FOOTER
+       ========================================= -->
+
+  <footer id="page-footer"></footer>
+
+
+
+  <!-- =========================================
+       JAVASCRIPT
+       ========================================= -->
+
+  <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
+
+  <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
+
+  <script src="../js/scrolling-nav.js"></script>
+
+  <script src="../vendor/jquery-csv/jquery.csv.min.js"></script>
+
+
+  <script>
+
+    /*
+     * Build Posters & Demos list
+     */
+
+    apply_conf_onfunc(build_pd, false);
+
+  </script>
+
+
+</body>
+
+</html>
