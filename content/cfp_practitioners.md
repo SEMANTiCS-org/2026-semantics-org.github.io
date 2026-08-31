@@ -104,13 +104,13 @@ Being a live demonstration to the SEMANTiCS 2026 participants, each accepted Pra
 
 ## Practitioners Track Chairs
 
+**Eleni Ilkou**, TIB - German National Library of Science and Technology, Hannover, Germany
+
 **Marco Brattinga**, Sopra Steria, Netherlands
 
 **Kathrin Füllenbach**, TDCC-NES, Netherlands
 
 **Genet Asefa Gesese**, FIZ Karlsruhe, Karlsruhe Institute of Technology (KIT) Karlsruhe, Germany
-
-**Eleni Ilkou**, TIB - German National Library of Science and Technology, Hannover, Germany
 
 **Aad Versteden**, redpencil.io, Belgium
 
