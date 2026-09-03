@@ -899,7 +899,7 @@ function populate_pd(fcsv, page, container, baseurl) {
                 },
                 {
                     key: "pd",
-                    title: "Posters & Demos"
+                    title: "Posters"
                 }
             ];
 
