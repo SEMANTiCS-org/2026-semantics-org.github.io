@@ -881,7 +881,6 @@ function build_news_blog(conf) {
 function populate_pd(fcsv, page, container, baseurl) {
 
     $.ajax({
-
         url: fcsv,
         dataType: "text",
 
@@ -930,26 +929,12 @@ function populate_pd(fcsv, page, container, baseurl) {
                         <div class="pd-table">
 
                             <div class="pd-table-header">
-
-                                <div class="pd-col-id">
-                                    ID
-                                </div>
-
-                                <div class="pd-col-title">
-                                    Title
-                                </div>
-
-                                <div class="pd-col-authors">
-                                    Authors
-                                </div>
-
-                                <div class="pd-col-media">
-                                    Multimedia
-                                </div>
-
+                                <div class="pd-col-id">ID</div>
+                                <div class="pd-col-title">Title</div>
+                                <div class="pd-col-authors">Authors</div>
+                                <div class="pd-col-media">Multimedia</div>
                             </div>
                 `;
-
 
                 group_entries.forEach(function (entry) {
 
@@ -961,6 +946,7 @@ function populate_pd(fcsv, page, container, baseurl) {
                         <a
                             class="pd-table-row"
                             href="${baseurl}page/p&d-detail?page=${encodeURIComponent(id)}"
+                            aria-label="Open ${title}"
                         >
 
                             <div class="pd-col-id">
@@ -976,6 +962,7 @@ function populate_pd(fcsv, page, container, baseurl) {
                             </div>
 
                             <div class="pd-col-media">
+
                                 <svg
                                     xmlns="http://www.w3.org/2000/svg"
                                     width="20"
@@ -986,28 +973,25 @@ function populate_pd(fcsv, page, container, baseurl) {
                                     stroke-width="2"
                                     stroke-linecap="round"
                                     stroke-linejoin="round"
-                                    aria-label="Multimedia available"
+                                    aria-hidden="true"
                                 >
                                     <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
                                     <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
                                 </svg>
+
                             </div>
+
                         </a>
                     `;
-
                 });
-
 
                 html += `
                         </div>
                     </section>
                 `;
-
             });
 
-
             $("#" + container).html(html);
-
         },
 
         error: function () {
@@ -1015,11 +999,8 @@ function populate_pd(fcsv, page, container, baseurl) {
             $("#" + container).html(
                 "<p>Unable to load P&D data.</p>"
             );
-
         }
-
     });
-
 }
 
 
@@ -1087,9 +1068,11 @@ function populate_pd_detail(fcsv, container, baseurl) {
     const requested_id = params.get("page");
 
     if (!requested_id) {
+
         $("#" + container).html(
             "<p>Paper not found.</p>"
         );
+
         return;
     }
 
@@ -1102,34 +1085,47 @@ function populate_pd_detail(fcsv, container, baseurl) {
             const entries = $.csv.toObjects(data);
 
             const entry = entries.find(function (item) {
-                return String(item.id).trim() === String(requested_id).trim();
+
+                return String(item.id).trim() ===
+                       String(requested_id).trim();
+
             });
 
             if (!entry) {
+
                 $("#" + container).html(
                     "<p>Paper not found.</p>"
                 );
+
                 return;
             }
 
 
-            /* -----------------------------------------
+            /* =================================================
                BASIC DATA
-            ----------------------------------------- */
+            ================================================= */
 
             const id = (entry.id || "").trim();
             const title = (entry.title || "").trim();
             const authors = (entry.authors || "").trim();
             const abstracts = (entry.abstracts || "").trim();
+
             const image = (entry.img || "").trim();
+
+            /* ACCESSIBILITY DATA */
+            const alt_text = (entry.alt_text || "").trim();
+            const captions = (entry.captions || "").trim();
+            const transcript = (entry.transcript || "").trim();
+
             const video_link = (entry.video_link || "").trim();
             const doc_link = (entry.doc_link || "").trim();
+
             const keywords = (entry.Keywords || "").trim();
 
 
-            /* -----------------------------------------
-               POSTER
-            ----------------------------------------- */
+            /* =================================================
+               POSTER / PDF / IMAGE
+            ================================================= */
 
             let poster_html = "";
 
@@ -1139,6 +1135,11 @@ function populate_pd_detail(fcsv, container, baseurl) {
                     /drive\.google\.com\/file\/d\/([^/]+)/
                 );
 
+
+                /* ---------------------------------------------
+                   GOOGLE DRIVE PDF
+                --------------------------------------------- */
+
                 if (google_match) {
 
                     const file_id = google_match[1];
@@ -1147,6 +1148,7 @@ function populate_pd_detail(fcsv, container, baseurl) {
                         `https://drive.google.com/file/d/${file_id}/preview`;
 
                     poster_html = `
+
                         <div class="pd-detail-pdf">
 
                             <div class="pd-media-loader">
@@ -1157,20 +1159,28 @@ function populate_pd_detail(fcsv, container, baseurl) {
 
                             <iframe
                                 src="${google_preview_url}"
-                                title="${title}"
+                                title="${alt_text || title}"
                                 allow="autoplay"
                                 onload="this.parentElement.classList.add('pd-media-loaded')"
                             ></iframe>
 
                         </div>
-                    `;
 
-                } else {
+                    `;
+                }
+
+
+                /* ---------------------------------------------
+                   LOCAL IMAGE
+                --------------------------------------------- */
+
+                else {
 
                     const local_image =
                         `${baseurl}img/pd/${image}`;
 
                     poster_html = `
+
                         <div class="pd-detail-image">
 
                             <div class="pd-media-loader">
@@ -1181,59 +1191,70 @@ function populate_pd_detail(fcsv, container, baseurl) {
 
                             <img
                                 src="${local_image}"
-                                alt="${title}"
+                                alt="${alt_text || title}"
                                 onload="this.parentElement.classList.add('pd-media-loaded')"
                             >
 
                         </div>
+
                     `;
                 }
             }
 
 
-            /* -----------------------------------------
-               YOUTUBE
-            ----------------------------------------- */
+            /* =================================================
+               YOUTUBE VIDEO
+            ================================================= */
 
             let video_html = "";
 
-            const youtube_id = get_youtube_id(video_link);
+            const youtube_id =
+                get_youtube_id(video_link);
 
             if (youtube_id) {
 
                 video_html = `
+
                     <div class="pd-detail-video">
 
                         <iframe
                             src="https://www.youtube.com/embed/${youtube_id}"
-                            title="${title}"
+                            title="${alt_text || title}"
                             frameborder="0"
                             allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
                             allowfullscreen>
                         </iframe>
 
                     </div>
+
                 `;
             }
 
 
-            /* -----------------------------------------
+            /* =================================================
                MEDIA TABS
-            ----------------------------------------- */
+            ================================================= */
 
             let media_html = "";
 
             const has_poster = !!image;
             const has_video = !!youtube_id;
 
+
             if (has_poster || has_video) {
 
                 let tabs_html = "";
                 let content_html = "";
 
+
+                /* ---------------------------------------------
+                   POSTER + VIDEO
+                --------------------------------------------- */
+
                 if (has_poster && has_video) {
 
                     tabs_html = `
+
                         <div class="pd-media-tabs">
 
                             <button
@@ -1251,9 +1272,11 @@ function populate_pd_detail(fcsv, container, baseurl) {
                             </button>
 
                         </div>
+
                     `;
 
                     content_html = `
+
                         <div class="pd-media-content">
 
                             <div
@@ -1273,11 +1296,19 @@ function populate_pd_detail(fcsv, container, baseurl) {
                             </div>
 
                         </div>
-                    `;
 
-                } else if (has_poster) {
+                    `;
+                }
+
+
+                /* ---------------------------------------------
+                   POSTER ONLY
+                --------------------------------------------- */
+
+                else if (has_poster) {
 
                     content_html = `
+
                         <div class="pd-media-content">
 
                             <div class="pd-media-panel active">
@@ -1287,11 +1318,19 @@ function populate_pd_detail(fcsv, container, baseurl) {
                             </div>
 
                         </div>
-                    `;
 
-                } else if (has_video) {
+                    `;
+                }
+
+
+                /* ---------------------------------------------
+                   VIDEO ONLY
+                --------------------------------------------- */
+
+                else if (has_video) {
 
                     content_html = `
+
                         <div class="pd-media-content">
 
                             <div class="pd-media-panel active">
@@ -1301,10 +1340,13 @@ function populate_pd_detail(fcsv, container, baseurl) {
                             </div>
 
                         </div>
+
                     `;
                 }
 
+
                 media_html = `
+
                     <div class="pd-detail-media">
 
                         ${tabs_html}
@@ -1312,20 +1354,21 @@ function populate_pd_detail(fcsv, container, baseurl) {
                         ${content_html}
 
                     </div>
+
                 `;
             }
 
 
-
-            /* -----------------------------------------
+            /* =================================================
                ABSTRACT
-            ----------------------------------------- */
+            ================================================= */
 
             let abstract_html = "";
 
             if (abstracts) {
 
                 abstract_html = `
+
                     <div class="pd-detail-section">
 
                         <h3>Abstract</h3>
@@ -1335,19 +1378,21 @@ function populate_pd_detail(fcsv, container, baseurl) {
                         </div>
 
                     </div>
+
                 `;
             }
 
 
-            /* -----------------------------------------
+            /* =================================================
                KEYWORDS
-            ----------------------------------------- */
+            ================================================= */
 
             let keywords_html = "";
 
             if (keywords) {
 
                 keywords_html = `
+
                     <div class="pd-detail-section">
 
                         <h3>Keywords</h3>
@@ -1357,19 +1402,71 @@ function populate_pd_detail(fcsv, container, baseurl) {
                         </div>
 
                     </div>
+
                 `;
             }
 
 
-            /* -----------------------------------------
+            /* =================================================
+               ACCESSIBILITY - CAPTIONS
+               Visible to screen readers, hidden visually
+            ================================================= */
+
+            let captions_html = "";
+
+            if (captions) {
+
+                captions_html = `
+
+                    <div class="sr-only">
+
+                        <h2>Captions</h2>
+
+                        <p>
+                            ${captions}
+                        </p>
+
+                    </div>
+
+                `;
+            }
+
+
+            /* =================================================
+               ACCESSIBILITY - TRANSCRIPT
+               Visible to screen readers, hidden visually
+            ================================================= */
+
+            let transcript_html = "";
+
+            if (transcript) {
+
+                transcript_html = `
+
+                    <div class="sr-only">
+
+                        <h2>Transcript</h2>
+
+                        <p>
+                            ${transcript}
+                        </p>
+
+                    </div>
+
+                `;
+            }
+
+
+            /* =================================================
                DOCUMENT
-            ----------------------------------------- */
+            ================================================= */
 
             let document_html = "";
 
             if (doc_link) {
 
                 document_html = `
+
                     <div class="pd-detail-buttons">
 
                         <a
@@ -1377,17 +1474,20 @@ function populate_pd_detail(fcsv, container, baseurl) {
                             href="${doc_link}"
                             target="_blank"
                             rel="noopener noreferrer">
+
                             View Paper
+
                         </a>
 
                     </div>
+
                 `;
             }
 
 
-            /* -----------------------------------------
+            /* =================================================
                FINAL HTML
-            ----------------------------------------- */
+            ================================================= */
 
             $("#" + container).html(`
 
@@ -1402,15 +1502,19 @@ function populate_pd_detail(fcsv, container, baseurl) {
                     </h1>
 
                     <div class="pd-detail-authors">
-                      <span>Authors: </span>  ${authors}
+                        <span>Authors: </span>
+                        ${authors}
                     </div>
-
 
                     ${media_html}
 
                     ${abstract_html}
 
                     ${keywords_html}
+
+                    ${captions_html}
+
+                    ${transcript_html}
 
                     ${document_html}
 
@@ -1419,31 +1523,36 @@ function populate_pd_detail(fcsv, container, baseurl) {
             `);
 
 
-            /* -----------------------------------------
+            /* =================================================
                MEDIA TAB CLICK
-            ----------------------------------------- */
+            ================================================= */
 
             $("#" + container).on(
                 "click",
                 ".pd-media-tab",
                 function () {
 
-                    const selected = $(this).data("media");
+                    const selected =
+                        $(this).data("media");
 
-                    $(".pd-media-tab")
+                    $("#" + container)
+                        .find(".pd-media-tab")
                         .removeClass("active");
 
-                    $(this)
+                    $(this).addClass("active");
+
+                    $("#" + container)
+                        .find(".pd-media-panel")
+                        .removeClass("active");
+
+                    $("#" + container)
+                        .find(
+                            `.pd-media-panel[data-panel="${selected}"]`
+                        )
                         .addClass("active");
-
-                    $(".pd-media-panel")
-                        .removeClass("active");
-
-                    $(
-                        `.pd-media-panel[data-panel="${selected}"]`
-                    ).addClass("active");
                 }
             );
+
         },
 
         error: function () {
