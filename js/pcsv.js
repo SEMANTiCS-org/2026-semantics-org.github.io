@@ -1124,7 +1124,6 @@ function populate_pd_detail(fcsv, container, baseurl) {
             const image = (entry.img || "").trim();
             const video_link = (entry.video_link || "").trim();
             const doc_link = (entry.doc_link || "").trim();
-            const track = (entry.Track || "").trim();
             const keywords = (entry.Keywords || "").trim();
 
 
@@ -1317,21 +1316,6 @@ function populate_pd_detail(fcsv, container, baseurl) {
             }
 
 
-            /* -----------------------------------------
-               TRACK
-            ----------------------------------------- */
-
-            let track_html = "";
-
-            if (track) {
-
-                track_html = `
-                    <div class="pd-detail-track">
-                        ${track}
-                    </div>
-                `;
-            }
-
 
             /* -----------------------------------------
                ABSTRACT
@@ -1421,7 +1405,6 @@ function populate_pd_detail(fcsv, container, baseurl) {
                       <span>Authors: </span>  ${authors}
                     </div>
 
-                    ${track_html}
 
                     ${media_html}
 
