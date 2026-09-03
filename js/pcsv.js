@@ -894,12 +894,12 @@ function populate_pd(fcsv, page, container, baseurl) {
                     title: "R&I Fast-tracked Posters"
                 },
                 {
-                    key: "demos",
-                    title: "Demos"
-                },
-                {
                     key: "pd",
                     title: "Posters"
+                },
+                {
+                    key: "demos",
+                    title: "Demos"
                 }
             ];
 
