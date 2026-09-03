@@ -892,7 +892,7 @@ function populate_pd(fcsv, page, container, baseurl) {
             const groups = [
                 {
                     key: "ri",
-                    title: "R&I"
+                    title: "R&I Fast-tracked Posters"
                 },
                 {
                     key: "demos",
