@@ -881,23 +881,25 @@ function build_news_blog(conf) {
 function populate_pd(fcsv, page, container, baseurl) {
 
     $.ajax({
+
         url: fcsv,
         dataType: "text",
+
         success: function (data) {
 
             const entries = $.csv.toObjects(data);
 
             const groups = [
                 {
-                    key: "posters",
-                    title: "Posters"
+                    key: "ri",
+                    title: "R&I"
                 },
                 {
                     key: "demos",
                     title: "Demos"
                 },
                 {
-                    key: "posters and demos",
+                    key: "pd",
                     title: "Posters & Demos"
                 }
             ];
@@ -907,7 +909,11 @@ function populate_pd(fcsv, page, container, baseurl) {
             groups.forEach(function (group) {
 
                 const group_entries = entries.filter(function (entry) {
-                    return (entry.group || "").trim().toLowerCase() === group.key;
+
+                    return (entry.group || "")
+                        .trim()
+                        .toLowerCase() === group.key;
+
                 });
 
                 if (group_entries.length === 0) {
@@ -924,11 +930,26 @@ function populate_pd(fcsv, page, container, baseurl) {
                         <div class="pd-table">
 
                             <div class="pd-table-header">
-                                <div class="pd-col-id">ID</div>
-                                <div class="pd-col-title">Title</div>
-                                <div class="pd-col-authors">Authors</div>
+
+                                <div class="pd-col-id">
+                                    ID
+                                </div>
+
+                                <div class="pd-col-title">
+                                    Title
+                                </div>
+
+                                <div class="pd-col-authors">
+                                    Authors
+                                </div>
+
+                                <div class="pd-col-media">
+                                    Multimedia
+                                </div>
+
                             </div>
                 `;
+
 
                 group_entries.forEach(function (entry) {
 
@@ -954,25 +975,51 @@ function populate_pd(fcsv, page, container, baseurl) {
                                 ${authors}
                             </div>
 
+                            <div class="pd-col-media">
+                                <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="20"
+                                    height="20"
+                                    viewBox="0 0 24 24"
+                                    fill="none"
+                                    stroke="currentColor"
+                                    stroke-width="2"
+                                    stroke-linecap="round"
+                                    stroke-linejoin="round"
+                                    aria-label="Multimedia available"
+                                >
+                                    <path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/>
+                                    <path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/>
+                                </svg>
+                            </div>
                         </a>
                     `;
+
                 });
+
 
                 html += `
                         </div>
                     </section>
                 `;
+
             });
 
+
             $("#" + container).html(html);
+
         },
 
         error: function () {
+
             $("#" + container).html(
-                '<p>Unable to load P&D data.</p>'
+                "<p>Unable to load P&D data.</p>"
             );
+
         }
+
     });
+
 }
 
 
