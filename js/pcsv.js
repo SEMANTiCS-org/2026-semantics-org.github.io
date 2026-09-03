@@ -889,16 +889,16 @@ function populate_pd(fcsv, page, container, baseurl) {
 
             const groups = [
                 {
-                    key: "poster",
-                    title: "Poster"
+                    key: "posters",
+                    title: "Posters"
                 },
                 {
-                    key: "demo",
-                    title: "Demo"
+                    key: "demos",
+                    title: "Demos"
                 },
                 {
-                    key: "poster and demo",
-                    title: "Poster & Demo"
+                    key: "posters and demos",
+                    title: "Posters & Demos"
                 }
             ];
 
