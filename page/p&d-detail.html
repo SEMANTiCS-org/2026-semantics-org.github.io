@@ -27,362 +27,582 @@
   <script src="../js/pcontent.js"></script>
   <script src="../js/pcsv.js"></script>
 
-
   <style>
-    /* =====================================================
-       P&D DETAIL CONTAINER
-       ===================================================== */
+    /* =========================================================
+   P&D GROUPS
+========================================================= */
 
-    #pd_detail {
+    .pd-group {
       width: 100%;
-      max-width: none;
-      margin: 0 auto;
+      margin-bottom: 45px;
+    }
+
+    .pd-group:last-child {
+      margin-bottom: 0;
+    }
+
+    .pd-group-title {
+      margin: 0 0 18px;
+      color: #153B51;
+      font-size: 26px;
+      font-weight: 700;
+      line-height: 1.4;
     }
 
 
-    /* =====================================================
-       MAIN CARD
-       ===================================================== */
+    /* =========================================================
+   P&D TABLE
+========================================================= */
+
+    .pd-table {
+      width: 100%;
+    }
+
+
+    /* Header */
+
+    .pd-table-header {
+      display: grid;
+      grid-template-columns: 80px minmax(0, 2fr) minmax(0, 1.5fr);
+      column-gap: 24px;
+
+      padding: 0 22px 10px;
+
+      color: #153B51;
+      font-size: 14px;
+      font-weight: 700;
+
+      box-sizing: border-box;
+    }
+
+    .pd-table-header>div {
+      min-width: 0;
+    }
+
+
+    /* Rows */
+
+    .pd-table-row {
+      display: grid;
+      grid-template-columns: 80px minmax(0, 2fr) minmax(0, 1.5fr);
+      column-gap: 24px;
+      align-items: start;
+
+      width: 100%;
+      margin-bottom: 14px;
+      padding: 18px 22px;
+
+      background: #153B51;
+      border: 2px solid #EB8C34;
+      border-radius: 18px;
+
+      box-sizing: border-box;
+
+      color: #fff;
+      text-decoration: none;
+
+      transition:
+        transform 0.2s ease,
+        box-shadow 0.2s ease;
+    }
+
+    .pd-table-row:last-child {
+      margin-bottom: 0;
+    }
+
+    .pd-table-row:hover {
+      background: #153B51;
+      color: #fff;
+      transform: translateY(-1px);
+      box-shadow: 0 5px 15px rgba(0, 0, 0, 0.08);
+    }
+
+    .pd-table-row>div {
+      min-width: 0;
+      margin: 0;
+      padding: 0;
+
+      text-align: left;
+      line-height: 1.5;
+    }
+
+    .pd-col-id {
+      font-weight: 600;
+    }
+
+    .pd-col-title {
+      font-weight: 600;
+    }
+
+    .pd-col-authors {
+      font-weight: 400;
+    }
+
+
+    /* =========================================================
+   DETAIL CARD
+========================================================= */
 
     .pd-detail-card {
       width: 100%;
       box-sizing: border-box;
-
-      background-color: var(--news-background);
-
-      border: solid var(--news-border) 3px;
-
-      border-radius: 18px;
-
-      padding: 35px;
     }
-
-
-    /* =====================================================
-       ID
-       ===================================================== */
 
     .pd-detail-id {
+      margin-bottom: 8px;
 
-      font-size: 14px;
-
-      font-weight: bold;
-
-      color: var(--highlight);
-
-      margin-bottom: 12px;
+      color: #153B51;
+      font-size: 15px;
+      font-weight: 600;
     }
-
-
-    /* =====================================================
-       TITLE
-       ===================================================== */
 
     .pd-detail-title {
+      margin: 0 0 12px;
 
-      font-size: 30px;
-
-      line-height: 1.4;
-
-      font-weight: bold;
-
-      margin-bottom: 20px;
-
-      color: var(--news-body);
+      color: #153B51;
+      font-size: 32px;
+      line-height: 1.35;
+      font-weight: 700;
     }
-
-
-    /* =====================================================
-       AUTHORS
-       ===================================================== */
 
     .pd-detail-authors {
+      margin-bottom: 18px;
 
+      color: #555;
       font-size: 16px;
-
       line-height: 1.6;
-
-      margin-bottom: 25px;
-
-      color: var(--news-body);
     }
-
-
-    .pd-detail-authors strong {
-
-      font-weight: bold;
-    }
-
-
-    /* =====================================================
-       TRACK
-       ===================================================== */
 
     .pd-detail-track {
-
       display: inline-block;
 
-      font-size: 13px;
-
-      font-weight: bold;
-
+      margin-bottom: 25px;
       padding: 7px 14px;
 
-      border-radius: 20px;
+      color: #153B51;
+      background: rgba(235, 140, 52, 0.12);
 
-      background-color: var(--highlight);
-
-      color: white;
-
-      margin-bottom: 30px;
-    }
-
-
-    /* =====================================================
-       SECTION
-       ===================================================== */
-
-    .pd-detail-section {
-
-      margin-top: 30px;
-    }
-
-
-    .pd-detail-section h2 {
-
-      font-size: 22px;
-
-      font-weight: bold;
-
-      margin-bottom: 15px;
-
-      color: var(--news-body);
-    }
-
-
-    /* =====================================================
-       ABSTRACT
-       ===================================================== */
-
-    .pd-detail-abstract {
-
-      font-size: 15px;
-
-      line-height: 1.8;
-
-      color: var(--news-body);
-    }
-
-
-    /* =====================================================
-       KEYWORDS
-       ===================================================== */
-
-    .pd-detail-keywords {
+      border: 1px solid #EB8C34;
+      border-radius: 18px;
 
       font-size: 14px;
-
-      line-height: 1.8;
-
-      color: var(--news-body);
+      font-weight: 600;
     }
 
 
-    /* =====================================================
-       POSTER / IMAGE
-       ===================================================== */
+    /* =========================================================
+   MEDIA TABS
+========================================================= */
 
-    .pd-detail-image {
-
+    .pd-detail-media {
       width: 100%;
-
-      margin: 0;
-
-      padding: 0;
-
-      text-align: center;
+      margin: 30px 0 35px;
     }
 
 
-    .pd-detail-image img {
+    /* Tabs */
 
+    .pd-media-tabs {
+      display: flex;
+      align-items: center;
+      gap: 8px;
+
+      margin-bottom: 15px;
+    }
+
+    .pd-media-tab {
+      appearance: none;
+      border: 2px solid #EB8C34;
+      border-radius: 18px;
+
+      padding: 10px 22px;
+
+      background: transparent;
+      color: #153B51;
+
+      font-family: inherit;
+      font-size: 15px;
+      font-weight: 600;
+
+      cursor: pointer;
+
+      transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
+    }
+
+    .pd-media-tab:hover {
+      background: rgba(235, 140, 52, 0.1);
+    }
+
+    .pd-media-tab.active {
+      background: #153B51;
+      color: #fff;
+    }
+
+
+    /* =========================================================
+   MEDIA PANELS
+========================================================= */
+
+    .pd-media-content {
+      width: 100%;
+    }
+
+    .pd-media-panel {
+      display: none;
+      width: 100%;
+    }
+
+    .pd-media-panel.active {
       display: block;
-
-      width: 100%;
-
-      max-width: 100%;
-
-      height: auto;
-
-      margin: 0;
-
-      border-radius: 15px;
-
-      border: solid var(--news-border) 2px;
-
-      box-sizing: border-box;
     }
 
 
-    /* =====================================================
-       PDF
-       ===================================================== */
+    /* =========================================================
+   GOOGLE DRIVE POSTER
+========================================================= */
 
     .pd-detail-pdf {
-
+      position: relative;
       width: 100%;
-
       margin: 0;
-
       padding: 0;
 
       overflow: hidden;
-
-      border-radius: 15px;
     }
 
+
+    /*
+   Before loading:
+   iframe has no height, so there is no
+   large empty placeholder.
+*/
 
     .pd-detail-pdf iframe {
-
       display: block;
 
       width: 100%;
+      height: 0;
 
-      height: 1000px;
+      margin: 0;
+      padding: 0;
 
-      border: none;
+      border: 0;
 
-      border-radius: 15px;
+      opacity: 0;
+      visibility: hidden;
     }
 
 
-    /* =====================================================
-       VIDEO
-       ===================================================== */
+    /*
+   After loading:
+   restore the viewer height.
+*/
+
+    .pd-detail-pdf.pd-media-loaded iframe {
+      height: 80vh;
+      min-height: 600px;
+
+      opacity: 1;
+      visibility: visible;
+    }
+
+
+    /* =========================================================
+   MEDIA LOADER
+========================================================= */
+
+    .pd-media-loader {
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      gap: 6px;
+
+      width: 100%;
+      height: 60px;
+    }
+
+    .pd-media-loader span {
+      display: block;
+
+      width: 8px;
+      height: 8px;
+
+      border-radius: 50%;
+      background: #EB8C34;
+
+      animation: pd-loader 1.2s infinite ease-in-out;
+    }
+
+    .pd-media-loader span:nth-child(2) {
+      animation-delay: 0.15s;
+    }
+
+    .pd-media-loader span:nth-child(3) {
+      animation-delay: 0.3s;
+    }
+
+    .pd-detail-pdf.pd-media-loaded .pd-media-loader {
+      display: none;
+    }
+
+    @keyframes pd-loader {
+
+      0%,
+      80%,
+      100% {
+        opacity: 0.3;
+        transform: scale(0.8);
+      }
+
+      40% {
+        opacity: 1;
+        transform: scale(1);
+      }
+    }
+
+
+    /* =========================================================
+   LOCAL POSTER IMAGE
+========================================================= */
+
+    .pd-detail-image {
+      position: relative;
+      width: 100%;
+      margin: 0;
+      padding: 0;
+    }
+
+    .pd-detail-image img {
+      display: block;
+
+      width: 100%;
+      height: auto;
+
+      margin: 0;
+      padding: 0;
+
+      opacity: 0;
+      visibility: hidden;
+
+      transition: opacity 0.25s ease;
+    }
+
+    .pd-detail-image.pd-media-loaded img {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .pd-detail-image.pd-media-loaded .pd-media-loader {
+      display: none;
+    }
+
+
+    /* =========================================================
+   YOUTUBE VIDEO
+========================================================= */
 
     .pd-detail-video {
+      position: relative;
 
       width: 100%;
-
-      margin-top: 30px;
-    }
-
-
-    .pd-detail-video iframe {
-
-      display: block;
-
-      width: 100%;
-
       aspect-ratio: 16 / 9;
 
-      border: none;
+      overflow: hidden;
 
-      border-radius: 15px;
+      background: #153B51;
+
+      border: 2px solid #EB8C34;
+      border-radius: 18px;
+    }
+
+    .pd-detail-video iframe {
+      position: absolute;
+
+      top: 0;
+      left: 0;
+
+      width: 100%;
+      height: 100%;
+
+      margin: 0;
+      padding: 0;
+
+      border: 0;
     }
 
 
-    /* =====================================================
-       BUTTONS
-       ===================================================== */
+    /* =========================================================
+   DETAIL SECTIONS
+========================================================= */
 
-    .pd-detail-buttons {
-
-      display: flex;
-
-      flex-wrap: wrap;
-
-      gap: 12px;
-
+    .pd-detail-section {
       margin-top: 30px;
     }
 
+    .pd-detail-section h3 {
+      margin: 0 0 12px;
+
+      color: #153B51;
+      font-size: 22px;
+      font-weight: 700;
+    }
+
+    .pd-detail-abstract,
+    .pd-detail-keywords {
+      color: #333;
+      font-size: 16px;
+      line-height: 1.8;
+    }
+
+    .pd-detail-keywords {
+      color: #153B51;
+      font-weight: 500;
+    }
+
+
+    /* =========================================================
+   DOCUMENT BUTTON
+========================================================= */
+
+    .pd-detail-buttons {
+      margin-top: 30px;
+    }
 
     .pd-detail-button {
-
       display: inline-block;
 
-      padding: 10px 20px;
+      padding: 11px 22px;
 
-      border-radius: 8px;
+      background: #153B51;
+      color: #fff;
 
-      background-color: var(--highlight);
+      border: 2px solid #EB8C34;
+      border-radius: 18px;
 
-      color: white !important;
+      text-decoration: none;
+      font-size: 15px;
+      font-weight: 600;
 
-      text-decoration: none !important;
-
-      font-size: 14px;
-
-      font-weight: bold;
+      transition:
+        background-color 0.2s ease,
+        color 0.2s ease;
     }
-
 
     .pd-detail-button:hover {
-
-      color: white !important;
-
-      text-decoration: none !important;
+      background: #EB8C34;
+      color: #153B51;
     }
 
 
-    /* =====================================================
-       BACK BUTTON
-       ===================================================== */
+    /* =========================================================
+   TABLET
+========================================================= */
 
-    .pd-back {
+    @media (max-width: 768px) {
 
-      margin-bottom: 25px;
-    }
-
-
-    .pd-back a {
-
-      font-size: 14px;
-
-      color: var(--news-body);
-
-      text-decoration: none;
-    }
-
-
-    .pd-back a:hover {
-
-      color: var(--highlight);
-
-      text-decoration: none;
-    }
-
-
-    /* =====================================================
-       MOBILE
-       ===================================================== */
-
-    @media (max-width: 767px) {
-
-      .pd-detail-card {
-
-        padding: 20px;
+      .pd-group {
+        margin-bottom: 35px;
       }
 
-
-      .pd-detail-title {
-
-        font-size: 23px;
+      .pd-group-title {
+        font-size: 22px;
       }
 
+      .pd-table-header {
+        grid-template-columns:
+          60px minmax(0, 1fr) minmax(0, 1fr);
 
-      .pd-detail-authors {
+        column-gap: 15px;
+        padding: 0 16px 9px;
+      }
 
+      .pd-table-row {
+        grid-template-columns:
+          60px minmax(0, 1fr) minmax(0, 1fr);
+
+        column-gap: 15px;
+        padding: 15px 16px;
+      }
+
+      .pd-table-row>div {
         font-size: 14px;
       }
 
-
-      .pd-detail-pdf iframe {
-
-        height: 700px;
+      .pd-detail-title {
+        font-size: 26px;
       }
 
+      .pd-detail-video {
+        border-radius: 18px;
+      }
+
+      .pd-detail-pdf.pd-media-loaded iframe {
+        height: 70vh;
+        min-height: 500px;
+      }
+    }
+
+
+    /* =========================================================
+   MOBILE
+========================================================= */
+
+    @media (max-width: 480px) {
+
+      .pd-group-title {
+        font-size: 20px;
+      }
+
+      .pd-table-header {
+        grid-template-columns:
+          45px minmax(0, 1fr) minmax(0, 1fr);
+
+        column-gap: 10px;
+
+        padding-left: 12px;
+        padding-right: 12px;
+
+        font-size: 12px;
+      }
+
+      .pd-table-row {
+        grid-template-columns:
+          45px minmax(0, 1fr) minmax(0, 1fr);
+
+        column-gap: 10px;
+
+        padding: 14px 12px;
+        border-radius: 18px;
+      }
+
+      .pd-table-row>div {
+        font-size: 13px;
+        line-height: 1.45;
+      }
+
+      .pd-detail-title {
+        font-size: 22px;
+      }
+
+      .pd-detail-authors {
+        font-size: 14px;
+      }
+
+      .pd-media-tabs {
+        gap: 6px;
+      }
+
+      .pd-media-tab {
+        padding: 9px 16px;
+        font-size: 14px;
+      }
+
+      .pd-detail-pdf.pd-media-loaded iframe {
+        height: 65vh;
+        min-height: 450px;
+      }
     }
   </style>
 
