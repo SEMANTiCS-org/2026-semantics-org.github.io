@@ -98,7 +98,7 @@
     </section>
     </main>
 
-    <script>
+      <script>
         let port = null;
         let reader = null;
         let totalScans = 0;
@@ -223,6 +223,188 @@
             }
         }
 
+            // Helper to escape CSV values
+        function escapeCsv(val) {
+            if (val === null || val === undefined) return '';
+            return String(val).replace(/"/g, '""');
+        }
+
+        // Helper to escape Turtle (TTL) string literals
+        function escapeTurtle(val) {
+            if (val === null || val === undefined) return '';
+            return String(val).replace(/\\/g, '\\\\').replace(/"/g, '\\"').replace(/\r?\n/g, '\\n');
+        }
+
+        // Parse MECARD standard format (e.g. MECARD:N:Pieter Colpaert;ORG:Ghent University;EMAIL:pieter.colpaert@ugent.be;;)
+        function parseMecard(str) {
+            const body = str.replace(/^MECARD:/i, '');
+            const fields = {};
+            let currentKey = null;
+            let currentValue = '';
+            let isEscaped = false;
+            let readingKey = true;
+            let keyBuffer = '';
+
+            for (let i = 0; i < body.length; i++) {
+                const char = body[i];
+                if (isEscaped) {
+                    if (readingKey) keyBuffer += char;
+                    else currentValue += char;
+                    isEscaped = false;
+                    continue;
+                }
+                if (char === '\\') {
+                    isEscaped = true;
+                    continue;
+                }
+                if (readingKey) {
+                    if (char === ':') {
+                        currentKey = keyBuffer.trim().toUpperCase();
+                        keyBuffer = '';
+                        currentValue = '';
+                        readingKey = false;
+                    } else if (char === ';') {
+                        keyBuffer = '';
+                    } else {
+                        keyBuffer += char;
+                    }
+                } else {
+                    if (char === ';') {
+                        if (currentKey) {
+                            if (!fields[currentKey]) {
+                                fields[currentKey] = currentValue.trim();
+                            } else {
+                                fields[currentKey] += ', ' + currentValue.trim();
+                            }
+                        }
+                        readingKey = true;
+                        currentKey = null;
+                        currentValue = '';
+                    } else {
+                        currentValue += char;
+                    }
+                }
+            }
+            return fields;
+        }
+
+        // Generic badge data parser supporting MECARD, vCard, Delimited (CSV/Semicolon/Pipe/Tab), and JSON
+        function parseBadgeData(badge) {
+            if (!badge) return null;
+            const raw = badge.trim();
+
+            // 1. MECARD Format
+            if (/^MECARD:/i.test(raw)) {
+                const fields = parseMecard(raw);
+                let name = fields['N'] || fields['FN'] || fields['NAME'] || '';
+                if (name.includes(',')) {
+                    const parts = name.split(',').map(s => s.trim()).filter(Boolean);
+                    if (parts.length >= 2) {
+                        name = `${parts.slice(1).join(' ')} ${parts[0]}`;
+                    }
+                }
+                const affiliation = fields['ORG'] || fields['AFFILIATION'] || fields['COMPANY'] || '';
+                const email = fields['EMAIL'] || fields['MAIL'] || fields['EM'] || '';
+
+                return {
+                    name: name || null,
+                    affiliation: affiliation || null,
+                    email: email || null,
+                    format: 'MECARD'
+                };
+            }
+
+            // 2. vCard Format
+            if (/BEGIN:VCARD/i.test(raw)) {
+                const fnMatch = raw.match(/(?:^|\r?\n)FN:(.*?)(?:\r?\n|$)/i);
+                const nMatch = raw.match(/(?:^|\r?\n)N:(.*?)(?:\r?\n|$)/i);
+                let name = fnMatch ? fnMatch[1].trim() : '';
+                if (!name && nMatch) {
+                    const parts = nMatch[1].split(';').map(s => s.trim()).filter(Boolean);
+                    name = parts.reverse().join(' ');
+                }
+                const orgMatch = raw.match(/(?:^|\r?\n)ORG:(.*?)(?:\r?\n|$)/i);
+                const emailMatch = raw.match(/(?:^|\r?\n)EMAIL[^:]*:(.*?)(?:\r?\n|$)/i);
+
+                return {
+                    name: name || null,
+                    affiliation: orgMatch ? orgMatch[1].replace(/;/g, ' ').trim() : null,
+                    email: emailMatch ? emailMatch[1].trim() : null,
+                    format: 'vCard'
+                };
+            }
+
+            // 3. JSON Format
+            if (raw.startsWith('{') && raw.endsWith('}')) {
+                try {
+                    const obj = JSON.parse(raw);
+                    const name = obj.name || obj.fullName || obj.fn || obj.n || '';
+                    const affiliation = obj.affiliation || obj.organization || obj.org || obj.company || '';
+                    const email = obj.email || obj.mail || '';
+                    if (name || affiliation || email) {
+                        return {
+                            name: name || null,
+                            affiliation: affiliation || null,
+                            email: email || null,
+                            format: 'JSON'
+                        };
+                    }
+                } catch (e) {
+                    // Ignore JSON parsing errors
+                }
+            }
+
+            // 4. Delimited formats (Semicolon, Tab, Pipe)
+            let delimiter = null;
+            if (raw.includes(';')) delimiter = ';';
+            else if (raw.includes('\t')) delimiter = '\t';
+            else if (raw.includes('|')) delimiter = '|';
+
+            if (delimiter) {
+                const parts = raw.split(delimiter).map(p => p.trim()).filter(p => p.length > 0);
+                if (parts.length >= 2) {
+                    let name = null, affiliation = null, email = null;
+                    let isKeyVal = false;
+
+                    for (const part of parts) {
+                        if (/^(?:N|NAME|FN):/i.test(part)) {
+                            name = part.replace(/^(?:N|NAME|FN):/i, '').trim();
+                            isKeyVal = true;
+                        } else if (/^(?:ORG|AFFILIATION|COMPANY):/i.test(part)) {
+                            affiliation = part.replace(/^(?:ORG|AFFILIATION|COMPANY):/i, '').trim();
+                            isKeyVal = true;
+                        } else if (/^(?:EMAIL|MAIL|EM):/i.test(part)) {
+                            email = part.replace(/^(?:EMAIL|MAIL|EM):/i, '').trim();
+                            isKeyVal = true;
+                        }
+                    }
+
+                    if (isKeyVal) {
+                        return { name, affiliation, email, format: 'Delimited-Tagged' };
+                    }
+
+                    if (parts.length === 3) {
+                        let pName = parts[0];
+                        let pAffil = parts[1];
+                        let pEmail = parts[2];
+                        if (pAffil.includes('@') && !pEmail.includes('@')) {
+                            pEmail = parts[1];
+                            pAffil = parts[2];
+                        }
+                        return { name: pName, affiliation: pAffil, email: pEmail, format: 'Positional' };
+                    } else if (parts.length === 2) {
+                        let pName = parts[0];
+                        let pOther = parts[1];
+                        let pEmail = pOther.includes('@') ? pOther : null;
+                        let pAffil = !pOther.includes('@') ? pOther : null;
+                        return { name: pName, affiliation: pAffil, email: pEmail, format: 'Positional' };
+                    }
+                }
+            }
+
+            return null;
+        }
+
         // Export functionality
         function downloadFile(content, filename, type) {
             const blob = new Blob([content], { type: type });
@@ -248,14 +430,20 @@
             if (!data) return alert('No scans to export.');
 
             const lines = data.trim().split('\n');
-            let csvContent = 'Timestamp,Badge Data\n';
+            let csvContent = 'Timestamp,Name,Affiliation,Email,Raw Data\n';
 
             lines.forEach(line => {
                 const match = line.match(/^\[(.*?)\] (.*)$/);
                 if (match) {
                     const time = match[1];
-                    const content = match[2].replace(/"/g, '""'); // Escape quotes
-                    csvContent += `"${time}","${content}"\n`;
+                    const rawContent = match[2];
+                    const parsed = parseBadgeData(rawContent);
+
+                    const name = parsed ? (parsed.name || '') : '';
+                    const affiliation = parsed ? (parsed.affiliation || '') : '';
+                    const email = parsed ? (parsed.email || '') : '';
+
+                    csvContent += `"${escapeCsv(time)}","${escapeCsv(name)}","${escapeCsv(affiliation)}","${escapeCsv(email)}","${escapeCsv(rawContent)}"\n`;
                 }
             });
 
@@ -283,28 +471,35 @@
                     const badge = match[2];
                     
                     const id = `scan_${timeClean}_${index + 1}`;
-                    const parts = badge.split(';').map(p => p.trim());
+                    const parsed = parseBadgeData(badge);
 
-                    if (parts.length === 3) {
-                        const [name, affiliation, email] = parts;
+                    if (parsed && (parsed.name || parsed.affiliation || parsed.email)) {
                         const personId = `person_${timeClean}_${index + 1}`;
 
                         ttlContent += `:${id} a sosa:Observation ;\n` +
                                      `    sosa:resultTime "${time}"^^xsd:dateTime ;\n` +
-                                     `    sosa:hasSimpleResult "${badge.replace(/"/g, '\\"')}" ;\n` +
+                                     `    sosa:hasSimpleResult "${escapeTurtle(badge)}" ;\n` +
                                      `    sosa:hasFeatureOfInterest :${personId} .\n\n`;
 
-                        ttlContent += `:${personId} a schema:Person ;\n` +
-                                     `    schema:name "${name.replace(/"/g, '\\"')}" ;\n` +
-                                     `    schema:email "${email.replace(/"/g, '\\"')}" ;\n` +
-                                     `    schema:affiliation [\n` +
-                                     `        a schema:Organization ;\n` +
-                                     `        schema:name "${affiliation.replace(/"/g, '\\"')}"\n` +
-                                     `    ] .\n\n`;
+                        let personTtl = `:${personId} a schema:Person`;
+                        if (parsed.name) {
+                            personTtl += ` ;\n    schema:name "${escapeTurtle(parsed.name)}"`;
+                        }
+                        if (parsed.email) {
+                            personTtl += ` ;\n    schema:email "${escapeTurtle(parsed.email)}"`;
+                        }
+                        if (parsed.affiliation) {
+                            personTtl += ` ;\n    schema:affiliation [\n` +
+                                         `        a schema:Organization ;\n` +
+                                         `        schema:name "${escapeTurtle(parsed.affiliation)}"\n` +
+                                         `    ]`;
+                        }
+                        personTtl += ` .\n\n`;
+                        ttlContent += personTtl;
                     } else {
                         ttlContent += `:${id} a sosa:Observation ;\n` +
                                      `    sosa:resultTime "${time}"^^xsd:dateTime ;\n` +
-                                     `    sosa:hasSimpleResult "${badge.replace(/"/g, '\\"')}" .\n\n`;
+                                     `    sosa:hasSimpleResult "${escapeTurtle(badge)}" .\n\n`;
                     }
                 }
             });
