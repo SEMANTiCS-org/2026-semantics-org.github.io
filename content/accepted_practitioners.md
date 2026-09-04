@@ -1,4 +1,4 @@
-# Accepted Papers (Practitioners Track)
+# Accepted Submissions (Practitioners Track)
 
 <div class="accepted-item">
     <div class="accepted-title">Semantic Technologies for Situational Awareness in Critical Care Medicine</div>
