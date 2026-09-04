@@ -1,4 +1,4 @@
-# Accepted workshops and tutorials
+# Accepted Workshops and Tutorials
 
 ## Accepted workshops
 
