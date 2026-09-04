@@ -9,7 +9,7 @@
 <div class="accepted-item">
     <div class="accepted-title">DEMO of AI-Driven Ontology Development for Multi-Lingual and Multi-Jurisdiction Services</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Leon Roseleur</p>
+    <p>Author: Leon Roseleur</p>
 </div>
 
 <div class="accepted-item">
@@ -27,13 +27,13 @@
 <div class="accepted-item">
     <div class="accepted-title">Conformance Over Nothing: Validating a National Metadata Profile Against Its Own Published Artifacts</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Fabio Rovai</p>
+    <p>Author: Fabio Rovai</p>
 </div>
 
 <div class="accepted-item">
     <div class="accepted-title">AI-friendly Cross-Language Data and Domain Modelling with LinkML-Scala</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Piotr Sowi?ski</p>
+    <p>Author: Piotr Sowiński</p>
 </div>
 
 <div class="accepted-item">
@@ -63,31 +63,31 @@
 <div class="accepted-item">
     <div class="accepted-title">The Resonant Interval: Provenance-Anchored Claim Extraction from a Spoken-Word Corpus</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Chad Nantais</p>
+    <p>Author: Chad Nantais</p>
 </div>
 
 <div class="accepted-item">
     <div class="accepted-title">HIVE: Natural-language stakeholder intelligence over a PROV-based EU public-affairs knowledge graph</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Niels Vandekeybus</p>
+    <p>Author: Niels Vandekeybus</p>
 </div>
 
 <div class="accepted-item">
     <div class="accepted-title">Semantic Harness for Community-Centric Energy Flexibility: Boosting User Acceptance through Explainable Agentic AI</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Milorad Tosic, Nenad Petrovi? and Olivera Tosic</p>
+    <p>Authors: Milorad Tosic, Nenad Petrović and Olivera Tosic</p>
 </div>
 
 <div class="accepted-item">
     <div class="accepted-title">Semantic Data Management in Practice: Demonstrating a Data Handover Workflow on One of Europe's Largest Infrastructure Projects</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Eyosias Guyo</p>
+    <p>Author: Eyosias Guyo</p>
 </div>
 
 <div class="accepted-item">
     <div class="accepted-title">Nanodash: A Universal and Globally Integrated Knowledge Sharing Platform for Researchers</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Tobias Kuhn</p>
+    <p>Author: Tobias Kuhn</p>
 </div>
 
 <div class="accepted-item">
@@ -99,7 +99,7 @@
 <div class="accepted-item">
     <div class="accepted-title">Sampo-UI Framework: Building portals easily for semantic searching, browsing and data analyses on any SPARQL endpoint</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Annastiina Ahola, Heikki Rantala and Eero Hyv?nen</p>
+    <p>Authors: Annastiina Ahola, Heikki Rantala and Eero Hyvönen</p>
 </div>
 
 <div class="accepted-item">
@@ -111,13 +111,13 @@
 <div class="accepted-item">
     <div class="accepted-title">SHACL automated UI for Reuse of Data and Services</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Jeroen Wouters</p>
+    <p>Author: Jeroen Wouters</p>
 </div>
 
 <div class="accepted-item">
     <div class="accepted-title">Ask Wol: A Single-Pass Review Tool for OWL Ontologies</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Dani Metilli and Kathrin F?llenbach</p>
+    <p>Authors: Dani Metilli and Kathrin Füllenbach</p>
 </div>
 
 <div class="accepted-item">
@@ -129,7 +129,7 @@
 <div class="accepted-item">
     <div class="accepted-title">From Scattered Models to Architecture Intelligence: Ontology-Guided AI over an Enterprise Knowledge Graph</div>
     <div class="accepted-subtitle"></div>
-    <p>Authors: Kalin Maldzhanski</p>
+    <p>Author: Kalin Maldzhanski</p>
 </div>
 
 <div class="accepted-item">
