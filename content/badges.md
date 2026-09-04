@@ -3,6 +3,10 @@
 ### Initial Hardware Configuration
 Before using this webpage for the first time, your badge scanner must be configured to **Virtual COM Port (Serial) Mode**. By default, most scanners operate in Keyboard Emulation mode. Locate the instruction manual that came with your hardware and scan the configuration barcode or QR code labeled **USB COM Port Emulation**, **Virtual COM**, or **USB Serial**. This changes the internal mode of the scanner so it communicates via a dedicated serial stream rather than typing characters like a keyboard.
 
+Here is the QR to set the scanner in USB COM mode. Works for Eyoyo EY-H2 and EY-034Y.
+
+<img src="../img/apps/qr_settings.jpg" width="100px">
+
 ### Connecting the Device
 Plug your badge scanner into a USB port on your computer. Click the blue **Connect Scanner** button at the top of this page. A pop-up menu will display your available hardware devices. Select your badge scanner from the list, typically appearing under a name such as **TOT2D PRODUCT USB UART** or **USB Serial Device**, and click **Connect**. Once successfully paired, the status indicator in the top-right corner will switch to green and show **Connected**.
 
