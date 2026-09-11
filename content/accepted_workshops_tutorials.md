@@ -231,10 +231,38 @@ structurally consistent, ensuring a high degree of data quality.</p>
 </div>
 
 <div class="accepted-item" id="ESL">
-<div class="accepted-title">Enterprise Semantic Layer for SOP Automation and Agentic AI</div>
-<p>Enterprises rely on Standard Operating Procedures (SOPs) to govern critical operational decisions, yet these procedures are often maintained as static documents that require manual interpretation by employees. In practice, a human agent reads an SOP, identifies the relevant business concepts, retrieves data from fragmented systems such as CRM, billing, payment platforms, case management tools, data warehouses, and BigQuery, and then applies the required policy or process rule.
-This tutorial introduces an Enterprise Semantic Layer approach for transforming SOPs into agent-ready semantic assets. Participants will learn how to extract operational business rules from SOP documents, normalize them into reusable rule statements, tag them with Business Objects, and connect those Business Objects to source systems, datasets, tables, and data products. The tutorial will demonstrate how these semantic connections provide the grounding needed for multi-agent systems to retrieve the right enterprise data, explain their reasoning, identify missing Business Objects, and trigger ontology modeling tasks.
-Using a realistic billing/refund SOP scenario, the tutorial will walk through the full workflow: SOP ingestion, business rule extraction, Business Object identification, RDF materialization, source-system mapping, and agentic retrieval through a semantic layer. The session is intended for practitioners and researchers interested in knowledge graphs, semantic governance, enterprise AI, ontology engineering, and trustworthy multi-agent automation.</p>
+<div class="accepted-title">From SOPs to Agent-Ready Semantic Layers: Business Rules, Business Objects, and Data Grounding for Enterprise AI</div>
+<p>Enterprises have built extensive data infrastructure, but their data products, operational guidance, and AI agents often lack a shared business context. Concepts such as Customer, Account, or Policy are defined differently across systems. SOPs and policy documents refer to these concepts without explicit connections to the underlying data, while agents are developed with their own tools and hand-wired grounding. Connecting these assets through shared business meaning creates a foundation for reuse, traceability, and governed enterprise AI.
+
+This tutorial introduces the Enterprise Semantic Layer as a machine-readable abstraction spanning physical assets such as schemas, APIs, and services; logical mappings; and business definitions, processes, capabilities, and ownership. Its central argument is that Business Object ontologies provide a common point of connection for data, operational guidance, and agents.
+
+Data product schemas are represented in RDF and mapped to these ontologies, establishing how business concepts are represented across heterogeneous sources and where their data can be found. SOPs, policy documents, and individual rules are represented as entities in the same graph and linked to the Business Objects they reference. A rule containing a condition about a customer can therefore connect to a shared definition of Customer and, through the mappings, to the data products supplying the relevant information. The rule retains its authored wording while gaining a traceable path to the data needed to apply it.
+
+Cataloguing agents, the rules they handle, and the tools they use brings execution into this shared context. Recording what tools read, what they write, and which systems they act against makes dependencies visible across operational guidance, agents, and data. Links to business processes, capabilities, and functions extend this traceability to the enterprise activities they support.
+
+A live demonstration will show a Customer Business Object ontology mapped across four non-semantic data products, enabling unified discovery and federated queries across sources with no common schema. The tutorial will also explain how the same Business Objects connect procedural guidance and agents to this data foundation, and how open semantic standards keep these connections portable across systems and vendors.
+
+The session is intended for practitioners and researchers working on knowledge graphs, semantic governance, enterprise AI, ontology engineering, and multi-agent systems.</br>
+
+<b>Learning objectives</b>
+
+By the end of the session, participants will understand how to:</br>
+
+- Construct an Enterprise Semantic Layer across physical, logical, and business levels.</br>
+
+- Represent data product schemas in RDF and map them to shared Business Object ontologies.</br>
+
+- Enable semantic discovery and federated queries across heterogeneous data products.</br>
+
+- Connect SOPs, policy documents, and individually referenceable rules to Business Objects while preserving their authored text.</br>
+
+- Trace business concepts referenced in rules to the data products supplying the relevant information.</br>
+
+- Catalogue agents, the rules they handle, and their tools, including inputs, outputs, and target systems.</br>
+
+- Trace dependencies across rules, agents, data sources, and business capabilities to support governance and change impact analysis.</br>
+
+</p>
 <div class="accepted-subtitle">Organisers:</div>
 <ul>
 <li>Thomas Kaminski, Digital Science (Metaphacts), Germany</li>
