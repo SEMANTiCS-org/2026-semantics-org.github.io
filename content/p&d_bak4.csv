@@ -1,0 +1,1404 @@
+id,submi_id,title,authors,video_link,img,Keywords,group,type,abstracts,alt_text,captions,transcript,doc_link
+1,19,"AIDGO: A FAIR, Ontology for Aligning the EU AI Act Data Governance Obligations with ISO/IEC Technical Standards",Kuruvilla George Aiyankovil and David Lewis,,https://drive.google.com/file/d/1uOv8gtSVFP9er5dIEz7uJzUavt4JxRAp/view?usp=drive_link,"ontology engineering, EU AI Act, ISO 5259, legal-technical alignment, knowledge graph, SPARQL, SKOS, data governance, FAIR, compliance",pd,Poster,"Research poster for AIDGO, an OWL 2 ontology mapping EU AI Act Article 10 onto ISO/IEC 5259-3:2025. Twelve numbered sections in three columns cover the problem, an ontology schema diagram, a four-phase methodology pipeline, the decision sequence, the alignment taxonomy, a worked example, competency questions and findings. The headline result, shown as a row of 17 colour-coded tiles, is that of 17 atomic Article 10 obligations only 2 are completely satisfied by the standard, 12 are partially satisfied and 3 have no aligned requirement.","Research poster for AIDGO, an OWL 2 ontology mapping EU AI Act Article 10 onto ISO/IEC 5259-3:2025. Twelve numbered sections in three columns cover the problem, an ontology schema diagram, a four-phase methodology pipeline, the decision sequence, the alignment taxonomy, a worked example, competency questions and findings. The headline result, shown as a row of 17 colour-coded tiles, is that of 17 atomic Article 10 obligations only 2 are completely satisfied by the standard, 12 are partially satisfied and 3 have no aligned requirement.",,,
+2,159,An AI-Assisted Semantic Platform enabling Pesticide Risk Assessment,"Ugo Gentile, Till Goldmann, Francesco Carratta and Julie Moulin",,https://drive.google.com/file/d/13xBFqoEr5av4_1XAYd6q-bd0LvuNGu5Z/view?usp=drive_link,"AI, NLP, Ontology, Chemical Risk Assessment, Pesticides",pd,Poster,"This research poster presents an AI-assisted semantic platform designed to support pesticide risk assessment in food safety. The platform addresses the challenge of integrating heterogeneous regulatory, scientific, and analytical information originating from multiple sources that use different terminologies and representations.
+
+
+The proposed approach combines transformer-based natural language processing with a domain-specific pesticide ontology. Natural language processing is used to automatically identify and normalize entities such as pesticides, foods, and locations from unstructured documents. The extracted information is then integrated into a semantic knowledge model that harmonizes concepts and relationships across data sources.
+
+
+A key innovation is the introduction of the concept of a “denominator”, which groups chemically related entities, including active substances, salts, metabolites, and residue definitions, under a common reference compound. This enables consistent interpretation and integration of information originating from different regulatory and analytical datasets.
+
+
+The poster illustrates a workflow in which heterogeneous data sources are processed through Named Entity Recognition and Entity Linking components, mapped to a pesticide ontology, and consolidated into a knowledge base supporting expert-driven risk assessment and decision making. The ontology is created through entity consolidation, property harmonization, establishment of denominator relationships, and semantic reasoning based on expert-defined rules.
+
+
+Evaluation results demonstrate strong performance of the information extraction components. Named Entity Recognition achieved an F1 score of 90%, with precision of 89% and recall of 91%. Entity Linking achieved F1 scores of 81% for contaminants, 90% for foods, and 87% for locations. The ontology consolidates more than 34,000 fragmented chemical representations into fewer than 6,000 harmonized concepts connected through over 22,000 semantic relationships.
+
+ 
+The work demonstrates that combining artificial intelligence with semantic technologies can substantially improve the efficiency, consistency, scalability, and explainability of pesticide risk assessment. The resulting framework supports evidence-based decision making and proactive monitoring while reducing the effort required for expert assessment.","This research poster presents an AI-assisted semantic platform designed to support pesticide risk assessment in food safety. The platform addresses the challenge of integrating heterogeneous regulatory, scientific, and analytical information originating from multiple sources that use different terminologies and representations.
+
+
+The proposed approach combines transformer-based natural language processing with a domain-specific pesticide ontology. Natural language processing is used to automatically identify and normalize entities such as pesticides, foods, and locations from unstructured documents. The extracted information is then integrated into a semantic knowledge model that harmonizes concepts and relationships across data sources.
+
+
+A key innovation is the introduction of the concept of a “denominator”, which groups chemically related entities, including active substances, salts, metabolites, and residue definitions, under a common reference compound. This enables consistent int",,,
+3,25,Towards Understanding Causality in Judicial Narratives: A Simple Approach using Event-Centric Knowledge Graphs,"Ngoc-Duy Mai, Ha-Thanh Nguyen, Ken Satoh and Hideaki Takeda",,https://drive.google.com/file/d/1LSQIgZ4P5569b7H9m13ea_x2M-8dZ39a/view?usp=drive_link,"Knowledge Graph, Causality, Event-Centric, Legal, Natural Language Processing",pd,Poster,"Towards Understanding Causality in Judicial Narratives: A Simple Approach using Event-Centric Knowledge Graphs
+
+Authors:
+Ngoc-Duy Mai, Ha-Thanh Nguyen, Ken Satoh, and Hideaki Takeda
+
+Affiliation:
+National Institute of Informatics, Japan
+
+Poster type:
+Research poster presented at the 22nd International Conference on Semantic Systems (SEMANTiCS 2026).
+
+Short alternative text:
+A research poster presenting an event-centric causality knowledge graph pipeline for transforming judicial narratives into structured representations of entities, events, temporal relations, and causal explanations. The poster includes the proposed pipeline, supported legal queries, an example graph, evaluation results, limitations, and conclusions.
+
+Detailed alternative description:
+The poster has a dark blue title banner at the top and a light blue and white multi-section layout below. Logos of SOKENDAI, the National Institute of Informatics, and the Center for Juris-Informatics appear in the title area. The title is “Towards Understanding Causality in Judicial Narratives: A Simple Approach using Event-Centric Knowledge Graphs.”
+
+The abstract explains that judicial decisions are complex narratives containing events, actors, and reasoning about legal outcomes. Existing legal knowledge graphs often focus on entities or isolated events and give limited attention to explicit causal relations. The proposed approach is an event-centric causality knowledge graph that jointly represents events, temporal relations, and causal explanations extracted from judicial narratives.","Towards Understanding Causality in Judicial Narratives: A Simple Approach using Event-Centric Knowledge Graphs
+
+Authors:
+Ngoc-Duy Mai, Ha-Thanh Nguyen, Ken Satoh, and Hideaki Takeda
+
+Affiliation:
+National Institute of Informatics, Japan
+
+Poster type:
+Research poster presented at the 22nd International Conference on Semantic Systems (SEMANTiCS 2026).
+
+Short alternative text:
+A research poster presenting an event-centric causality knowledge graph pipeline for transforming judicial narratives into structured representations of entities, events, temporal relations, and causal explanations. The poster includes the proposed pipeline, supported legal queries, an example graph, evaluation results, limitations, and conclusions.
+
+Detailed alternative description:
+The poster has a dark blue title banner at the top and a light blue and white multi-section layout below. Logos of SOKENDAI, the National Institute of Informatics, and the Center for Juris-Informatics appear in the title area. The title",,,
+4,31,Semantic MediaWiki as a Governed Architecture for Ontology‑Driven Collaborative Knowledge Engineering,"Rajesh Piryani, Sadeq Zougari, Yannick Hersant, Benoit Dalet, Carole Convers and Benoit Baurens",,https://drive.google.com/file/d/1sH91dRv_4XrawwiYe8GuJwrE4sMIuaB4/view?usp=drive_link,"Semantic MediaWiki, Knowledge graphs, Ontology engineering, Semantic annotation, Collaborative Knowledge Base, RDF, SPARQL, Human‑in‑the‑Loop AI",pd,Poster,"Semantic MediaWiki as a Governed Architecture for Ontology‑Driven Collaborative Knowledge Engineering
+
+Introduction:
+The SCIMIN-CRM (Sustainable and CIrcular production of MINeral Critical Raw Materials) project:
+- aims to support the characterization, valorization, and recovery of materials from historical mining waste facilities,
+- produces a large collection of heterogeneous knowledge assets, including technical reports, environmental assessments, sustainability studies, datasets, and guidelines,
+- requires collaborative management, structured organization, and controlled publication.
+To address these requirements, the SCIMIN-CRM digital platform adopts a Semantic MediaWiki (SMW)-based approach supported by the SCIMIN-CRM ontology. The platform combines collaborative authoring, ontology-grounded semantic annotation, semantic search, RDF generation, and interoperable access through standardized APIs. This work presents the SCIMIN-CRM Open Collaborative Knowledge Base and its governance-oriented workflow for ontology-driven semantic annotation, human validation, and controlled publication.
+
+Main Contributions:
+The main contributions are: 
+i) a service-oriented semantic architecture combining ontology alignment and AI-based enrichment within a Wikimedia-style CMS; 
+ii) a hybrid human–machine validation workflow supporting semantic annotation validation and controlled publication; and 
+iii) practical insights into challenges of deploying an ontology-based knowledge base in a multidomain research context. 
+The platform demonstrates how SMW infrastructures can enable structured, interoperable, and sustainable knowledge management for multidomain research initiatives.","Semantic MediaWiki as a Governed Architecture for Ontology‑Driven Collaborative Knowledge Engineering
+
+Introduction:
+The SCIMIN-CRM (Sustainable and CIrcular production of MINeral Critical Raw Materials) project:
+- aims to support the characterization, valorization, and recovery of materials from historical mining waste facilities,
+- produces a large collection of heterogeneous knowledge assets, including technical reports, environmental assessments, sustainability studies, datasets, and guidelines,
+- requires collaborative management, structured organization, and controlled publication.
+To address these requirements, the SCIMIN-CRM digital platform adopts a Semantic MediaWiki (SMW)-based approach supported by the SCIMIN-CRM ontology. The platform combines collaborative authoring, ontology-grounded semantic annotation, semantic search, RDF generation, and interoperable access through standardized APIs. This work presents the SCIMIN-CRM Open Collaborative Knowledge Base and its governan",,,
+5,35,Cost-Preserving Distributed Approximate Pattern Mining for Scalable RDF Graph Summarization,Mussab Zneika,,https://drive.google.com/file/d/1ORzZ1TSmhmKYZqy1qzYF6bHyL85gXIqB/view?usp=drive_link,"RDF Graph Summarization, Knowledge Graphs, Approximate Pattern Mining, Distributed Data Mining, MapReduce, Cost-Based Optimization, Semantic Technologies, Scalability",pd,Poster,"Cost-Preserving Distributed Approximate Pattern Mining for
+Scalable RDF Graph Summarization Author: Mussab Zneika, Independent
+Researcher, Paris, France
+
+This is a one-page landscape academic poster about a distributed
+approach to RDF graph summarization using cost-based approximate pattern
+mining.
+
+The poster is organized into seven numbered sections.
+
+1.  PROBLEM & MOTIVATION This section explains that SemSum+ formulates
+    RDF graph summarization as cost-based approximate pattern mining,
+    but its complete binary representation must fit in the memory of a
+    single machine. Existing distributed approaches partition the data
+    to improve scalability but do not preserve the global reconstruction
+    cost. The proposed solution is distributed approximate pattern
+    mining with cost-preserving merging using the Missing-Neighbors
+    Index (MNI).
+
+2.  PROPOSED FRAMEWORK A workflow diagram shows the distributed process.
+    An RDF graph is converted into a binary matrix and partitioned by
+    rows. In Phase 1, multiple workers independently extract local
+    approximate patterns and build Missing-Neighbors information. In
+    Phase 2, candidate patterns are evaluated for merging using the
+    stored information. Accepted merges are combined into a final RDF
+    summary.","Cost-Preserving Distributed Approximate Pattern Mining for
+Scalable RDF Graph Summarization Author: Mussab Zneika, Independent
+Researcher, Paris, France
+
+This is a one-page landscape academic poster about a distributed
+approach to RDF graph summarization using cost-based approximate pattern
+mining.
+
+The poster is organized into seven numbered sections.
+
+1.  PROBLEM & MOTIVATION This section explains that SemSum+ formulates
+    RDF graph summarization as cost-based approximate pattern mining,
+    but its complete binary representation must fit in the memory of a
+    single machine. Existing distributed approaches partition the data
+    to improve scalability but do not preserve the global reconstruction
+    cost. The proposed solution is distributed approximate pattern
+    mining with cost-preserving merging using the Missing-Neighbors
+    Index (MNI).
+
+2.  PROPOSED FRAMEWORK A workflow diagram shows the distributed process.
+    An RDF graph is converted into a binary matrix and partiti",,,
+6,36,Automated Consent Form Generation: Using Ontology for Model Configuration,"Maryam Mohammadi, Aliena Strathmann, Katja Politt, Hendrik Buschmeier and Annett Jorschick",,https://drive.google.com/file/d/1PbVOHtaUwioHfnOstDBRTNjgIENNAuSv/view?usp=drive_link,"consent forms, taxonomy, ontology, linked data, modules",pd,Poster,"Automated Consent Form Generation: Using Ontologies for Model Configuration
+
+AUTHORS: Maryam Mohammadi, Aliena Strathmann, Katja Politt, Annett Jorschick, and Hendrik Buschmeier.
+Affiliations: University of Bielefeld, CRC 1646 – INF; Rostock University.
+
+1. BACKGROUND
+
+The project aims to develop RUDI, an end-to-end data management platform for the diverse types of empirical linguistic data collected within Collaborative Research Centre 1646. RUDI is intended to support project-specific data management, effective collaboration, legal and ethical compliance, and research data reuse.
+
+The poster argues that structured research data management can improve documentation and collaboration efficiency. At the same time, data management strategies need to be adaptable to the needs of individual research projects.
+
+2. RUDI STRUCTURE DIAGRAM
+
+The RUDI data mangement platform consists of three components: a Consent Form Generation Wizard, Consent Instance Management, and a metadata repository for research data.
+
+A central diagram illustrates how these components are integrated into the Data Management Platform. Researchers provide research metadata and resources when generating consent forms for their study; participants sign consent on the generated forms; consent information is managed through Consent Instance Management; and the Research Data Meta-Repository maps study and consent information to research datasets. 
+
+The diagram also shows that the platform is configured using ontology informed by interdisciplinary expertise, and the ontology is in turn informed by usage and feedback from researchers using the platform.
+","Automated Consent Form Generation: Using Ontologies for Model Configuration
+
+AUTHORS: Maryam Mohammadi, Aliena Strathmann, Katja Politt, Annett Jorschick, and Hendrik Buschmeier.
+Affiliations: University of Bielefeld, CRC 1646 – INF; Rostock University.
+
+1. BACKGROUND
+
+The project aims to develop RUDI, an end-to-end data management platform for the diverse types of empirical linguistic data collected within Collaborative Research Centre 1646. RUDI is intended to support project-specific data management, effective collaboration, legal and ethical compliance, and research data reuse.
+
+The poster argues that structured research data management can improve documentation and collaboration efficiency. At the same time, data management strategies need to be adaptable to the needs of individual research projects.
+
+2. RUDI STRUCTURE DIAGRAM
+
+The RUDI data mangement platform consists of three components: a Consent Form Generation Wizard, Consent Instance Management, and a metadata repository for",,,
+7,44,Beyond Similarity: LLM-Based Generation of Typed Semantic Links for Ontology Networks,"Nouha Hayouni, Sheeba Samuel and Alsayed Algergawy",,https://drive.google.com/file/d/1yT74nR2y2ZzWp3Uon0bnhzzFxAbG4SXR/view?usp=drive_link,"Ontology Network, Knowledge Interoperability, Large Language Model, Ontology Alignment, Scientific Reproducibility",pd,Poster,"Beyond Similarity: LLM-Based Generation of Typed Semantic Links for Ontology Networks
+* Authors: Nouha Hayouni (1), Sheeba Samuel (2), Alsayed Algergawy (3)
+* Affiliations: (1) Chair of Data and Knowledge Engineering, University of Passau, Germany; (2) Distributed and Self-organizing Systems, Chemnitz University of Technology, Germany; (3) FIZ Karlsruhe – Leibniz Institute for Information Infrastructure, Germany
+* Conference: Semantics 2026
+* Poster Number: 44
+* Contact: sheeba.samuel@informatik.tu-chemnitz.de; alsayed.algergawy@uni-jena.de
+
+## Section 1: Introduction
+Ontology networks enable interoperability by connecting independently developed ontologies through meaningful semantic relationships, but curating such links manually does not scale to large interdisciplinary collections
+
+## Section 2: Motivations
+### Figure 1: Motivation example
+### Figure 2: An ontology network from the biology domain
+
+We utilized a mixed-methods approach combining satellite thermal imaging with ground-level sensors.
+1. Satellite Data: Landsat 8 thermal infrared sensor data from July 2025.
+2. Ground Sensors: 15 temperature/humidity loggers placed radially outward from 3 target parks.
+3. Analysis: Buffer zones were mapped at 25-meter intervals up to 200 meters outside park boundaries.
+
+## Section 3: ReproduceMeON
+
+### Figure 3: Ontology network layers 
+### Figure 4: Overview of Intra- and Inter-Relationships in ReproduceMeON
+
+
+## Section 3.1: ReproduceMeON Pipeline
+### Figure 5: The general architecture and pipeline overview of RepreduceMeON  
+
+
+## Section 3.2: Embedding Generation
+### Figure 6: Outline of the embedding generation  
+
+
+## Section 3.3: Clustering
+### Figure 7: Outline of the clustering steps 
+
+
+## Section 3.4: Relationships Generation
+### Figure 8: Outline of the prompt refinement for relationships generation using LLMs 
+
+
+## Section 4: Datasets
+### Table 1: Datasets used for evaluation
+
+## Section 5: Results
+
+### Table 2: Relationship distribution from sampled pairs 
+### Figure 9: Relation types across different domains 
+
+## Section 6: Conclusions
+- an end-to-end pipeline for enhancing ontology network development discovering intra- and inter-domain relationships.
+- combines fine-tuned DistilBERT embeddings, clustering-based candidate selection, iterative GPT-4o prompt engineering, and role-based relationship materialization 
+- Four domains, dual expert validation of 429 generated relationships confirms an overall precision of 80.19% (rising to 91.49% on high-certainty annotations), with an F1 of 0.890 on a balanced evaluation set.","Beyond Similarity: LLM-Based Generation of Typed Semantic Links for Ontology Networks
+* Authors: Nouha Hayouni (1), Sheeba Samuel (2), Alsayed Algergawy (3)
+* Affiliations: (1) Chair of Data and Knowledge Engineering, University of Passau, Germany; (2) Distributed and Self-organizing Systems, Chemnitz University of Technology, Germany; (3) FIZ Karlsruhe – Leibniz Institute for Information Infrastructure, Germany
+* Conference: Semantics 2026
+* Poster Number: 44
+* Contact: sheeba.samuel@informatik.tu-chemnitz.de; alsayed.algergawy@uni-jena.de
+
+## Section 1: Introduction
+Ontology networks enable interoperability by connecting independently developed ontologies through meaningful semantic relationships, but curating such links manually does not scale to large interdisciplinary collections
+
+## Section 2: Motivations
+### Figure 1: Motivation example
+### Figure 2: An ontology network from the biology domain
+
+We utilized a mixed-methods approach combining satellite thermal imaging with ground-",,,
+8,57,SC-RED: A Knowledge-Graph-Grounded Supply Chain Relation Extraction Dataset,"Siva Indraneel Dhulipala, Debayan Banerjee and Ricardo Usbeck",,https://drive.google.com/file/d/15TxyOvtSEFA1fm9VgtjTFCrpzk3BtSn4/view?usp=drive_link,"relation extraction, supply chain, knowledge graphs",pd,Poster,"A Silver-Standard Dataset for Supply Chain Relation Extraction
+
+SHORT ALT TEXT (primary alt attribute):
+Research poster presenting SC-RED, a supply chain relation extraction dataset built from Wikidata and Wikipedia, comprising 1,150 text-triplet sample pairs across 11 relation types and 5 entity types.
+
+LONG DESCRIPTION (accompanying metadata field):
+This poster introduces SC-RED (Supply Chain Relation Extraction Dataset), a benchmark dataset comprising 1,150 text-triplet pairs, spanning 11 relations and 5 entity types across 1,671 triples and 2,328 unique entities. Relations cover the supply chain network, including ""has subsidiary,"" ""is in partnership with,"" ""sources energy from,"" and ""processes raw material."" The underlying ontology defines 15 relations and 5 entity types, combining the SCOR-DS supply chain framework with an Enterprise Ontology to formally ground supply chain actors rather than define them freely. The current dataset covers a subset of these 15 relations, scoped from Wikidata and Wikipedia for low-resource testing; running the pipeline further would extend coverage to the remaining relations.
+
+The poster presents an 8-step construction pipeline: (1) sourcing data from Wikidata and Wikipedia, (2) defining relevant relationships and company types using supply chain standards, (3) drafting and verifying seed tags (QIDs and PIDs) using an LLM with extensive manual correction, (4) organizing tags into 5 groups for the extraction model, (5) pulling matching triples from Wikidata in the form of source entity, relation, target entity, (6) fetching the Wikipedia article for each source entity in the list of triples, (7) filtering out triples not supported by article text and stratifying by company and relation type, and (8) compiling the final SC-RED dataset of 1,150 documents, 1,671 triples, 2,328 entities, and 11 relations.
+
+The poster also evaluates AgentRE, an agentic framework for relation extraction, on SC-RED. An audit of AgentRE's released implementation found four unimplemented components: Shallow Memory's correct/incorrect split, Deep Memory's reflexion and correct-prediction storage, and Relevant Information Retrieval for entity context. The authors reconstruct these gaps as AgentRE_redux and ablate five configurations on DuIE2.0, finding that ReAct_FSL, a retrieval-only variant, matches memory-augmented pipelines with lower variance. Evaluated on the full SC-RED test set, ReAct_FSL more than doubles the zero-shot baseline's Macro F1 (3.23 to 6.89) but remains low overall. The key finding attributes this to Wikidata's label noise and incomplete coverage, recursive self-verification loops, and hallucinated pseudo-chunking, pointing to document chunking and step-constrained execution as next steps.
+
+
+FIGURE: RELATION EXTRACTION IN SUPPLY CHAIN: 
+A figure showing how relation extraction works. An unstructured text corpus is subjected to relation extraction resulting in the formulation of triples, which can then be used to create the knowledge graph in supply chain.  
+
+
+FIGURE: QR CODE FOR REPO: 
+A QR Code pointing to the GitHub link: https://github.com/semantic-systems/AgentRE_redux
+
+
+FIGURE: FLOWCHART FOR DATASET PREPARATION:
+An 8-step vertical flowchart with numbered stages connected by a conveyor-belt illustration in dark maroon and gold steampunk-style icons. Step 1 shows a database and Wikipedia icon labeled ""Data Sources: Wikidata + Wikipedia."" Step 2 shows a diagram/ontology screen labeled ""Define What to Look For."" Step 3 shows a circuit chip with a pencil and checkmark labeled ""Draft and Verify Seed Tags."" Step 4 shows five entity icons (person, building, location, flask, gear) labeled ""Organize Tags for Extraction."" Step 5 shows a robotic arm labeled ""Pull Matching Triples."" Step 6 shows a document scanner labeled ""Find Supporting Text."" Step 7 shows a funnel/filter labeled ""Filter and Balance the Dataset."" Step 8 shows a suitcase labeled ""SC-RED Dataset"" with triples falling into it, displaying stats: 1,150 docs, 1,671 triples, 2,328 entities, 11 relations. A footnote at the bottom right reads ""Generated with Claude Sonnet 5.0.""","A Silver-Standard Dataset for Supply Chain Relation Extraction
+
+SHORT ALT TEXT (primary alt attribute):
+Research poster presenting SC-RED, a supply chain relation extraction dataset built from Wikidata and Wikipedia, comprising 1,150 text-triplet sample pairs across 11 relation types and 5 entity types.
+
+LONG DESCRIPTION (accompanying metadata field):
+This poster introduces SC-RED (Supply Chain Relation Extraction Dataset), a benchmark dataset comprising 1,150 text-triplet pairs, spanning 11 relations and 5 entity types across 1,671 triples and 2,328 unique entities. Relations cover the supply chain network, including ""has subsidiary,"" ""is in partnership with,"" ""sources energy from,"" and ""processes raw material."" The underlying ontology defines 15 relations and 5 entity types, combining the SCOR-DS supply chain framework with an Enterprise Ontology to formally ground supply chain actors rather than define them freely. The current dataset covers a subset of these 15 relations, scoped fr",,,
+9,67,From Documents to Decisions: Ontology-Driven Knowledge Graph Construction for Collective Intelligence Using Agentic AI,"Felix Neubürger, Ole Katzenberger, Salvador Cantuarias and Thomas Kopinski",,https://drive.google.com/file/d/1wL2ntIDXJwc3nhdqtGagRJddgKjs-fOr/view?usp=drive_link,"Knowledge Graph Construction, Ontology-Driven Extraction, Large Language Models, Agentic AI, Competency Questions, SHACL Validation, Information Extraction, Semantic Web",pd,Poster,"Poster titled ""From Documents to Decisions: Ontology-Driven Knowledge Graph Construction Using Iterative LLM Pipelines."" Presents an iterative, ontology-driven pipeline for building knowledge graphs from documents using local LLMs, with a six-stage confidence pipeline, SHACL validation, and a companion legal-statute graph.
+
+
+LONG DESCRIPTION
+================
+
+Title and authors: ""From Documents to Decisions: Ontology-Driven Knowledge Graph Construction Using Iterative LLM Pipelines."" Authors: Felix Neuburger, Ole Katzenberger, Salvador Cantuarias, and Thomas Kopinski, from South Westphalia University of Applied Sciences and GAIA Lab. Presented at SEMANTICS 2026, Ghent, Belgium.
+
+Motivation: In specialized domains like nuclear engineering and legal compliance, critical decisions depend on synthesizing knowledge from large document collections. Knowledge graphs help by making this knowledge queryable, but building them usually requires costly manual curation or expensive cloud LLM APIs. This work proposes a multi-step pipeline using local LLMs as an alternative.
+
+Contributions: Four contributions are listed: an autonomous competency-question-driven discovery loop; a six-stage confidence pipeline combining rule-based and LLM-based extraction; integrated SHACL validation to enforce ontological consistency during construction; and a domain-agnostic architecture.
+
+CQ discovery loop figure: Flowchart of the CQ-driven discovery loop. On the left, a purple box labeled ""Ontology"" contains three stacked elements connected top to bottom: OWL Ontology, SHACL Shapes, and Competency Questions, with arrows labeled ""class defs"" and ""constraints"" feeding into the main pipeline. On the right, a blue box labeled ""Discovery Iteration"" shows a sequential flow: CQ Generation (per class) leads to Hybrid Retrieval (dense + BM25), which leads to Tiered Extraction (rules to LLM), which leads to Deduplication (embedding sim.), which leads to Relation Extraction, which leads to a 6-Stage Confidence Pipeline, which leads to SHACL Validation, which leads to Coverage Measurement. This feeds into a diamond decision node labeled ""Converged?"" If yes, the flow exits to a green box labeled ""Knowledge Graph."" If no, it routes to a red box labeled ""Follow-up CQs,"" which loops back (dashed red arrow labeled ""next iteration"") to the CQ Generation step, restarting the cycle.
+","Poster titled ""From Documents to Decisions: Ontology-Driven Knowledge Graph Construction Using Iterative LLM Pipelines."" Presents an iterative, ontology-driven pipeline for building knowledge graphs from documents using local LLMs, with a six-stage confidence pipeline, SHACL validation, and a companion legal-statute graph.
+
+
+LONG DESCRIPTION
+================
+
+Title and authors: ""From Documents to Decisions: Ontology-Driven Knowledge Graph Construction Using Iterative LLM Pipelines."" Authors: Felix Neuburger, Ole Katzenberger, Salvador Cantuarias, and Thomas Kopinski, from South Westphalia University of Applied Sciences and GAIA Lab. Presented at SEMANTICS 2026, Ghent, Belgium.
+
+Motivation: In specialized domains like nuclear engineering and legal compliance, critical decisions depend on synthesizing knowledge from large document collections. Knowledge graphs help by making this knowledge queryable, but building them usually requires costly manual curation or expensive cloud LLM APIs. T",,,
+10,46,From Fragmentation to Fidelity: Can Partially Harmonized Knowledge Graphs Support Reliable Clinical Question Answering?,"Astha Anand, Martin Hofmann-Apitius, Maria Vehreschild, Jörg Janne Vehreschild and Marc Jacobs",,https://drive.google.com/file/d/1Ad3COE7icuEsaokGlH-mSdhSotxFj9Jy/view?usp=drive_link,"Knowledge Graphs (KG), Retrieval-Augmented Generation (RAG), Generative AI and Knowledge Graphs, Reasoning on RAG, Provenance, Explainable AI, Biomedicine and Health",pd,Poster,"Alternative description for the A1 poster “From Fragmentation to Fidelity: Can Partially Harmonized Knowledge Graphs Support Reliable Clinical Question Answering?”
+
+This landscape-format scientific poster presents a constrained knowledge-graph retrieval-augmented generation, or KG-RAG, system for evidence-grounded clinical question answering. The poster is arranged in three main columns beneath a turquoise header containing the title, authors, affiliations, the Fraunhofer SCAI logo, and the COMMUTE project logo.
+
+The Introduction explains that clinical question answering often requires evidence from disconnected clinical guidelines, trials, and biomedical knowledge. Fully harmonized knowledge graphs are rarely available, while conventional large language models may produce unsupported claims and weak provenance. The work therefore investigates whether a partially harmonized knowledge graph can still support reliable, evidence-grounded clinical question answering.
+
+The Methods section describes two linked knowledge-graph layers. The clinical evidence subgraph contains guidelines, clinical trials, and biomedical entity mentions. The biomedical hypothesis subgraph contains diseases, phenotypes, genes, and biological processes. Shared bridge entities connect both layers and are the only admissible anchors for downstream retrieval.
+
+A central workflow diagram shows the KG-RAG pipeline from left to right. A user clinical question is converted into clinical anchors, which are mapped to runtime-derived shared bridge entities or proxies. Evidence is then retrieved and ranked deterministically using fixed Cypher templates rather than large-language-model-generated queries. The retrieval returns guideline chunks, linked clinical trials, biomedical neighbours, and graph paths. These are compacted into a bounded EvidencePack. The final language-model step synthesizes provenance-linked guidance that distinguishes guideline-backed recommendations, trial-supported emerging evidence, and graph-based mechanistic support.
+
+The diagram distinguishes precomputed knowledge-graph data from the AI pipeline: the precomputed data feeds into deterministic evidence retrieval, while the AI pipeline covers the initial question-processing steps.
+
+The Results section reports evaluation on three post-COVID olfactory dysfunction questions covering clinical evaluation, appropriate assessments, and neurodegenerative risk. Responses from the agentic system and a standalone large language model were scored independently by two domain experts.
+
+A summary table gives mean scores across the three questions and both experts on a five-point scale. For guideline adherence, the agentic system scored 4.2 and the standalone model 4.5. For evidence traceability, the agentic system scored 5.0 and the standalone model 1.5. For evidence reliability, the agentic system scored 3.8 and the standalone model 1.0. For clinical plausibility and safety, the agentic system scored 3.0 and the standalone model 4.3. For question-intent alignment, the agentic system scored 3.0 and the standalone model 4.3.
+
+The main finding is a clear trade-off. The agentic system performs substantially better in evidence traceability and reliability, while the standalone model performs better in clinical completeness and question-intent alignment. The poster concludes that the approach improves evidence fidelity and offers a reusable design for clinical question answering over partially harmonized, cross-domain knowledge infrastructures.
+
+The Outlook proposes expanding neurological concepts, guideline coverage, and knowledge-graph connectivity to improve clinical completeness and question alignment. It also proposes integrating the framework into the COMMUTE EvidenceBase alongside agents over patient cohorts, networks, and experimental data.
+
+The footer states that the work was supported by Fraunhofer SCAI and the European Union-funded COMMUTE project under grant agreement 101136957. It provides the source-code repository at github.com/SCAI-BIO/Guidelines_Store_Agent, the corresponding author’s contact details, and two references.","Alternative description for the A1 poster “From Fragmentation to Fidelity: Can Partially Harmonized Knowledge Graphs Support Reliable Clinical Question Answering?”
+
+This landscape-format scientific poster presents a constrained knowledge-graph retrieval-augmented generation, or KG-RAG, system for evidence-grounded clinical question answering. The poster is arranged in three main columns beneath a turquoise header containing the title, authors, affiliations, the Fraunhofer SCAI logo, and the COMMUTE project logo.
+
+The Introduction explains that clinical question answering often requires evidence from disconnected clinical guidelines, trials, and biomedical knowledge. Fully harmonized knowledge graphs are rarely available, while conventional large language models may produce unsupported claims and weak provenance. The work therefore investigates whether a partially harmonized knowledge graph can still support reliable, evidence-grounded clinical question answering.
+
+The Methods section d",,,
+11,158,Towards Neurosymbolic Learning for the Semantic Web with Kolibrie,Volodymyr Kadzhaia and Pieter Bonte,,https://drive.google.com/file/d/16E7D_jE2WrzNdn9JwafbTAWFJPCiz6q0/view?usp=drive_link,"Neuro-symbolic learning, Semantic Web, RDF 1.2, SPARQL-star",pd,Poster,"Conference poster: Towards Neurosymbolic Learning for the Semantic Web with
+Kolibrie. Six sections argue that neural learning can be made native to the
+Semantic Web stack by storing neural predictions as weighted RDF-star
+statements, computing probabilities of rule-derived conclusions with Sentential
+Decision Diagrams, and declaring models, features and training data as
+SPARQL-shaped statements inside the Kolibrie engine. Full description below.","Conference poster: Towards Neurosymbolic Learning for the Semantic Web with
+Kolibrie. Six sections argue that neural learning can be made native to the
+Semantic Web stack by storing neural predictions as weighted RDF-star
+statements, computing probabilities of rule-derived conclusions with Sentential
+Decision Diagrams, and declaring models, features and training data as
+SPARQL-shaped statements inside the Kolibrie engine. Full description below.",,,
+12,16,OWL-SDA: A Multi-Agent System for Generating Synthetic Data to Support Ontology Evaluation,Maxim Van de Wynckel and Emmelien De Roock,,https://drive.google.com/file/d/1SL8ZohaoViJkDeH-6LL8VaM1-mLslmqz/view?usp=drive_link,"synthetic data, OWL, AI-agents, ontology-driven documentation",pd,Poster,"Academic poster titled ""OWL-SDA: A Multi-Agent System for Generating Synthetic Data to Support Ontology Evaluation"", presented at SEMANTiCS 2026 in Ghent, Belgium, by Dr. Maxim Van de Wynckel (Flemish Government, Department of Environment and Spatial Development; Vrije Universiteit Brussel, Web & Information Systems Engineering Lab) and Dr. Emmelien De Roock (UZ Brussel and Vrije Universiteit Brussel, Data Analytics Laboratory).
+
+Abstract: ""Ontology engineers often need representative RDF instances to validate and document an ontology, but such data may be unavailable, incomplete, too sensitive to share or simply too much work. We present OWL-SDA, an open-source toolkit that uses worker, supervisor and reviewer AI agents to generate synthetic RDF data from ontology context and SHACL constraints. The workflow combines shape-level task decomposition, direct manipulation of an in-memory triple store, iterative SHACL repair and a final review stage aimed at catching issues that remain possible even after SHACL conformance. We evaluate OWL-SDA on two contrasting ontologies, one for industrial emissions reporting and one for healthcare records. The results show that richer ontology constraints lead to faster convergence and more informative examples, while sparse ontologies require more supervision and still yield less detailed data. We therefore position the toolkit for ontology engineers to help document their ontology, but also to validate if the ontology alone is sufficiently rich to be understood by non-experts.""","Academic poster titled ""OWL-SDA: A Multi-Agent System for Generating Synthetic Data to Support Ontology Evaluation"", presented at SEMANTiCS 2026 in Ghent, Belgium, by Dr. Maxim Van de Wynckel (Flemish Government, Department of Environment and Spatial Development; Vrije Universiteit Brussel, Web & Information Systems Engineering Lab) and Dr. Emmelien De Roock (UZ Brussel and Vrije Universiteit Brussel, Data Analytics Laboratory).
+
+Abstract: ""Ontology engineers often need representative RDF instances to validate and document an ontology, but such data may be unavailable, incomplete, too sensitive to share or simply too much work. We present OWL-SDA, an open-source toolkit that uses worker, supervisor and reviewer AI agents to generate synthetic RDF data from ontology context and SHACL constraints. The workflow combines shape-level task decomposition, direct manipulation of an in-memory triple store, iterative SHACL repair and a final review stage aimed at catching issues that remain poss",,,
+13,20,ODDToolkit: An Open-Source Toolkit to Help Bridge the Developer Gap in Ontology Driven Design,Maxim Van de Wynckel and Geert Van Haute,,https://drive.google.com/file/d/1ErF5EPtN9ixHwsGQjCkRTSLI3wXdCQiP/view?usp=drive_link,"ontology driven design, documentation, code generation, data modelling, software development",pd,Poster,"Academic poster titled ""ODDToolkit: An Open-Source Toolkit to Help Bridge the Developer Gap in Ontology Driven Design"", by Maxim Van de Wynckel and Geert Van Haute.
+
+Problem statement: How can an ontology be engineered iteratively so developers unfamiliar with linked data can validate it without heavy documentation, while still becoming familiar with linked data over time?
+
+Pipeline diagram with four steps: (1) input consists of an OWL ontology, SKOS concepts, and developer preferences; (2) main classes and attributes are inferred; (3) SKOS concepts are mapped; (4) developer artefacts are generated as output, referencing the ontology. Example code snippets show generated Java classes with embedded links back to the linked data.
+
+Abstract: Linked open data is difficult for software teams to use when OWL models are documented for ontology engineers rather than implementers, and keeping implementer documentation current is time-consuming while an ontology is under development. ODDToolkit is an open-source Ontology Driven Design toolkit that generates developer-facing artefacts from three inputs: an OWL ontology, a SKOS concept scheme with business-specific names, and a configuration file for developer-specific design choices. It emits SQL DDL, Java and TypeScript models, SHACL shapes, diagrams, and documentation. Rather than fully automating translation of arbitrary vocabularies, the goal is repeatable regeneration of implementation artefacts as an ontology evolves. The pipeline is used in a Flemish government environmental reporting project, where generated artefacts support implementation, documentation, and validation around a shared, evolving ontology.
+
+Closing statement: ODDToolkit's philosophy is to bring linked data to the IDE.","Academic poster titled ""ODDToolkit: An Open-Source Toolkit to Help Bridge the Developer Gap in Ontology Driven Design"", by Maxim Van de Wynckel and Geert Van Haute.
+
+Problem statement: How can an ontology be engineered iteratively so developers unfamiliar with linked data can validate it without heavy documentation, while still becoming familiar with linked data over time?
+
+Pipeline diagram with four steps: (1) input consists of an OWL ontology, SKOS concepts, and developer preferences; (2) main classes and attributes are inferred; (3) SKOS concepts are mapped; (4) developer artefacts are generated as output, referencing the ontology. Example code snippets show generated Java classes with embedded links back to the linked data.
+
+Abstract: Linked open data is difficult for software teams to use when OWL models are documented for ontology engineers rather than implementers, and keeping implementer documentation current is time-consuming while an ontology is under development. ODDToolkit ",,,
+14,24,Chemical Identity Lost in Regulation: A Study of Semantic Interoperability in European Chemical Substance Data,"Geert Van Haute, Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel",,https://drive.google.com/file/d/1xJ7WJXx9ruF0t1AWX8I0cwpNKc_Yz17a/view?usp=drive_link,"semantic interoperability, regulatory interoperability, Interoperable Europe, chemical substance identification",pd,Poster,"Short alt text (for the <img alt=""...""> attribute):
+Academic conference poster titled ""Chemical Identity Lost in Regulation: A Study of
+Semantic Interoperability in European Chemical Substance Data"" by Geert Van Haute,
+Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel (Flemish Government,
+SEMANTiCS 2026). A full text description of the poster's content follows in this file.
+
+Long description:
+
+Header
+The poster is titled ""Chemical Identity Lost in Regulation"", subtitled ""A Study of
+Semantic Interoperability in European Chemical Substance Data"". Authors: Geert Van
+Haute, Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel, Department of
+Environment & Spatial Development, Flemish Government, Brussels, presented at
+SEMANTiCS 2026, Ghent. The Flanders State of the Art logo appears top right.
+
+Central diagram: ""One semantic model over 18 regulatory sources""
+A node-and-arrow diagram shows five regulatory/chemical data sources on the left
+(18 regulatory lists such as ECHA, Pesticides, OSPAR, VMM; PubChem, mapping CAS to
+InChIKey; ClassyFire, mapping InChIKey to parent class; the ChEBI ontology; and
+Embeddings + LLM sources such as MiniLM and Claude) all feeding into a central
+highlighted box, ""Regulatory substances"" (17,523 dbo:ChemicalSubstance /
+skos:Concept records, keyed by CAS, EC number and InChIKey). From this central box,
+solid arrows (asserted RDF relations) lead to: a ""13 skos:Collection"" box (7
+linkability tiers, 6 embedding clusters), which links onward to ""ChemOnt 2.1"" (3,943
+skos:Concept entries across 4 XKOS levels, kingdom to subclass); and to ""ChEBI
+substances"" (owl:Class, SMILES, InChI), which links onward to ""ChEBI roles""
+(owl:Class in an rdfs:subClassOf hierarchy, agrochemical roles). A dashed arrow
+(deliberately not merged) connects the ChemOnt classification to a separate ""Scope
+mapping"" box (304 SKOS triples, kept separate). Below the central box, an
+""oa:Annotation"" box (48,438 annotations: 40,644 list memberships + 7,794 ChEBI
+roles) links via oa:hasTarget to the regulatory substances and via oa:hasBody to
+the ChEBI roles, preserving provenance for every cross-source claim. Caption below
+the diagram: ""Regulatory substances form one SKOS concept scheme; ChemOnt supplies
+chemical classification over four XKOS levels, ChEBI an orthogonal axis of
+biological roles, and an annotation layer keeps regulatory provenance attached to
+every claim.""","Short alt text (for the <img alt=""...""> attribute):
+Academic conference poster titled ""Chemical Identity Lost in Regulation: A Study of
+Semantic Interoperability in European Chemical Substance Data"" by Geert Van Haute,
+Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel (Flemish Government,
+SEMANTiCS 2026). A full text description of the poster's content follows in this file.
+
+Long description:
+
+Header
+The poster is titled ""Chemical Identity Lost in Regulation"", subtitled ""A Study of
+Semantic Interoperability in European Chemical Substance Data"". Authors: Geert Van
+Haute, Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel, Department of
+Environment & Spatial Development, Flemish Government, Brussels, presented at
+SEMANTiCS 2026, Ghent. The Flanders State of the Art logo appears top right.
+
+Central diagram: ""One semantic model over 18 regulatory sources""
+A node-and-arrow diagram shows five regulatory/chemical data sources on the left
+(18 regulatory lists such as ECHA, Pestici",,,
+15,73,LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph,"Génesis Montenegro, Mokhtar Boumedyen Billami, Fabien Gandon, Catherine Faron and Pierre Monnin",,https://drive.google.com/file/d/1nevmSRR5JIVZ7Z9VX4ckxqqaMtJtm5Z4/view?usp=drive_link,"ontology, knowledge graph, knowledge engineering, language models, legal texts, maintenance regulation",pd,Poster,"Scientific poster with a multi-section layout containing workflow diagrams, an example of legal triple extraction and normalization, summary tables, and evaluation metrics. The poster describes a workflow for constructing a French legal knowledge graph from industrial maintenance regulations using large language models. The workflow is organized into two stages. The first stage, ontology engineering, includes class-guided triple extraction, embedding-based entity fusion, and object property induction using domain and range signatures. The second stage constructs the knowledge graph through signature-guided triple extraction, embedding-based fusion, and RDF transformation. A central example illustrates how the extracted relation ""operator – responsibleFor – post-intervention inspection"" is normalized to ""technical inspection"" before being represented in RDF. The results section compares OpenAI and Mistral models, reporting ontology and knowledge graph statistics together with evaluation metrics. Both approaches achieve nearly complete ontology class coverage, while embedding-based fusion improves signature compliance. The poster presents an ontology-guided workflow for automatically building a legal knowledge graph from 6,370 French maintenance regulations and highlights future work on predicate normalization, GraphRAG-based legal retrieval, and continuous knowledge graph updates.","Scientific poster with a multi-section layout containing workflow diagrams, an example of legal triple extraction and normalization, summary tables, and evaluation metrics. The poster describes a workflow for constructing a French legal knowledge graph from industrial maintenance regulations using large language models. The workflow is organized into two stages. The first stage, ontology engineering, includes class-guided triple extraction, embedding-based entity fusion, and object property induction using domain and range signatures. The second stage constructs the knowledge graph through signature-guided triple extraction, embedding-based fusion, and RDF transformation. A central example illustrates how the extracted relation ""operator – responsibleFor – post-intervention inspection"" is normalized to ""technical inspection"" before being represented in RDF. The results section compares OpenAI and Mistral models, reporting ontology and knowledge graph statistics together with evaluation",,,
+16,87,Datalens: A Semantic Model and Knowledge Graph for Discovery and Exploration of Machine Learning Resources,"Zachari Arnaud, Aline Menin, Anaïs Ollagnier and Catherine Faron",,https://drive.google.com/file/d/16GWEgtHdhqfHW8N_79hYktOapknk-Ar_/view?usp=drive_link,"Knowledge Graphs, Ontology Engineering, Machine Learning Metadata, Dataset Discovery, Semantic Web",pd,Poster,"DATALENS: A Semantic Model and Knowledge Graph for Discovery and Exploration of Machine Learning Resources
+The poster presents DATALENS, a semantic approach for discovering and exploring machine learning (ML) resources beyond keyword-based search.
+The Goals section states three objectives:
+* Enable semantic discovery and exploration of ML resources.
+* Support exploratory search across heterogeneous repositories.
+* Promote interoperability across ML repositories.
+The Motivation section highlights that current ML repositories primarily rely on keyword-based search, while existing machine learning knowledge graphs mainly target recommendation, scholarly resources, or platform-specific analytics. DATALENS addresses this gap by enabling interoperable semantic discovery and exploration.
+The central part of the poster illustrates the DATALENS workflow in five steps:
+1. Semantic Model: an OWL ontology and a SKOS thesaurus that reuse established Semantic Web vocabularies (DCAT, PROV-O, Schema.org, Open Annotation, and SKOS). The contribution is a unified semantic model supporting ML resource discovery.
+2. Data Lifting: metadata are extracted from the Hugging Face API, mapped to the ontology, and transformed into RDF using Morph-xR2RML.
+3. RDF Knowledge Graph: the resulting knowledge graph contains approximately 62 million RDF triples describing about 968 thousand datasets, 2.8 million models, 56 machine learning tasks, and 74 sub-tasks.
+4. Querying: competency questions are implemented as SPARQL queries over the knowledge graph.
+5. Interactive Exploration: query results are explored through graph visualizations, relationship analysis, and statistical summaries to support semantic discovery of ML resources.
+The lower part of the poster demonstrates the approach using the competency question:
+""How are ML resources connected through training, derivation, and reuse relationships?""
+A SPARQL query retrieving training and derivation relationships is shown alongside the resulting network visualization, where datasets and models are connected according to these semantic relationships.
+A QR code links to an interactive online demonstration of the DATALENS dashboard.
+The poster concludes with the message:
+""Helping researchers discover datasets and models beyond keyword search.""","DATALENS: A Semantic Model and Knowledge Graph for Discovery and Exploration of Machine Learning Resources
+The poster presents DATALENS, a semantic approach for discovering and exploring machine learning (ML) resources beyond keyword-based search.
+The Goals section states three objectives:
+* Enable semantic discovery and exploration of ML resources.
+* Support exploratory search across heterogeneous repositories.
+* Promote interoperability across ML repositories.
+The Motivation section highlights that current ML repositories primarily rely on keyword-based search, while existing machine learning knowledge graphs mainly target recommendation, scholarly resources, or platform-specific analytics. DATALENS addresses this gap by enabling interoperable semantic discovery and exploration.
+The central part of the poster illustrates the DATALENS workflow in five steps:
+1. Semantic Model: an OWL ontology and a SKOS thesaurus that reuse established Semantic Web vocabularies (DCAT, PROV-O, Schema.o",,,
+17,109,Schema Injection in the Wild for Link Prediction: Lessons Learned from Incomplete Schema Cases,"Nicolas Robert, Pierre Monnin and Catherine Faron",,https://drive.google.com/file/d/1DhgpH-lAIZUnxyVSz8U42Z1Dso8cEjHl/view?usp=drive_link,"Link Prediction, Knowledge Graph Embedding, Loss functions, Schema injection, Neurosymbolic AI",pd,Poster,"Schema Injection in the Wild for Link Prediction: Lessons Learned from Incomplete Schema Cases
+
+Authors:
+Nicolas Robert, Pierre Monnin, Catherine Faron
+
+Affiliation:
+Université Côte d'Azur, Inria, CNRS, I3S, Sophia-Antipolis, France.
+
+Overview
+
+This academic research poster presents a study on the use of schema-driven loss functions for knowledge graph link prediction when knowledge graph schemas are incomplete. The poster is organized into multiple clearly separated sections with a title, author information, explanatory text, examples, mathematical formulations, research questions, dataset statistics, experimental results, conclusions, references, institutional logos, and a QR code.
+
+Layout
+
+The poster has a vertical layout on a light gray background. The title spans the top of the poster, followed by the authors and their institutional affiliation. The content is divided into several rounded rectangular panels arranged in rows. The lower portion contains result tables and concluding remarks. Along the bottom edge are institutional logos and a QR code that provides access to additional information.
+
+Content Description
+
+Introduction
+
+The poster introduces the problem of link prediction in knowledge graphs. It explains that knowledge graphs are inherently incomplete and that link prediction aims to predict missing entities in triples represented as (head, relation, ?) or (?, relation, tail).
+
+It states that one common approach is to use Knowledge Graph Embedding Models (KGEMs). During training, loss functions encourage models to assign high scores to positive triples and low scores to negative triples.
+
+Schema-driven Loss Functions
+
+A section explains that not all negative examples are equally informative.
+
+Two examples illustrate this concept:
+
+• Semantically coherent negative:
+  (Paris, capitalOf, Italy)
+
+• Semantically incoherent negative:
+  (Paris, capitalOf, Tulip)
+
+The poster explains that relation signatures determine whether a negative example is semantically coherent or incoherent. The poster recalls three schema-driven loss functions that distinguish between different types of negatives rather than treating them equally, that were previously introduced in the literature.
+
+These three mathematical formulations are shown and represent different approaches based on:
+
+• Different margins
+• Soft labeling
+• Coherent negatives sampled as positives
+
+Another note explains that previous work evaluated schema-driven loss functions only on knowledge graphs with fully typed entities and complete relation signatures.","Schema Injection in the Wild for Link Prediction: Lessons Learned from Incomplete Schema Cases
+
+Authors:
+Nicolas Robert, Pierre Monnin, Catherine Faron
+
+Affiliation:
+Université Côte d'Azur, Inria, CNRS, I3S, Sophia-Antipolis, France.
+
+Overview
+
+This academic research poster presents a study on the use of schema-driven loss functions for knowledge graph link prediction when knowledge graph schemas are incomplete. The poster is organized into multiple clearly separated sections with a title, author information, explanatory text, examples, mathematical formulations, research questions, dataset statistics, experimental results, conclusions, references, institutional logos, and a QR code.
+
+Layout
+
+The poster has a vertical layout on a light gray background. The title spans the top of the poster, followed by the authors and their institutional affiliation. The content is divided into several rounded rectangular panels arranged in rows. The lower portion contains result tables and concluding ",,,
+18,83,Tokenizing the Graph: Attentive Byte-pair Encoding for Knowledge Graph Embeddings,"N'Dah Jean Kouagou, Arnab Sharma, Harshit Purohit, Caglar Demir and Axel-Cyrille Ngonga Ngomo",,https://drive.google.com/file/d/1asuTNVD5RxH44RYV2LTypKvLsrWS16OO/view?usp=drive_link,"Knowledge graph embedding, Link prediction, Tokenization, Transformer",pd,Poster,"Tokenizing the Graph: Attentive Byte-Pair Encoding for Knowledge Graph
+       Embeddings (BytE)
+
+Authors: N'Dah Jean Kouagou, Arnab Sharma, Harshit Purohit, Caglar Demir,
+         Axel-Cyrille Ngonga Ngomo
+
+Affiliation: Data Science Research Group, Heinz Nixdorf Institute,
+             Paderborn University
+
+Conference: SEMANTiCS 2026, Ghent, Belgium
+
+Associated multimedia file: poster.pdf (or poster.png)
+
+License: CC BY 4.0
+
+================================================================================
+SHORT ALTERNATIVE TEXT (for brief alt-text fields)
+================================================================================
+
+Research poster presenting BytE, a method that tokenizes knowledge graph
+entity and relation names with byte-pair encoding and attentive composition,
+then plugs the resulting vectors into standard knowledge graph embedding (KGE)
+models. Experiments on eight benchmark graphs and four KGE backbones show
+improved link prediction and robustness to lexical perturbation.
+
+================================================================================
+LONG DESCRIPTION (for screen readers and assistive technologies)
+================================================================================
+
+This is a portrait-format academic poster (A0) with a blue header and footer,
+a light background, and three columns of white content boxes. Orange and teal
+are used for highlights. The poster explains the motivation, method, experiments,
+results, and conclusions of the BytE approach.
+
+--------------------------------------------------------------------------------
+HEADER
+--------------------------------------------------------------------------------
+
+Title:
+  Tokenizing the Graph: Attentive Byte-Pair Encoding for Knowledge Graph
+  Embeddings
+
+Authors:
+  N'Dah Jean Kouagou, Arnab Sharma, Harshit Purohit, Caglar Demir,
+  Axel-Cyrille Ngonga Ngomo
+
+Affiliation:
+  Data Science Research Group, Heinz Nixdorf Institute, Paderborn University
+
+Event:
+  SEMANTiCS 2026, Ghent, Belgium
+
+--------------------------------------------------------------------------------
+LEFT COLUMN
+--------------------------------------------------------------------------------
+
+Section: Why tokenize a graph?
+
+Conventional knowledge graph embedding (KGE) models assign one vector to every
+entity and relation. This creates a fixed vocabulary and cannot naturally reuse
+information across related names.
+
+Example shown on the poster:
+  ""western_europe"" is split into subword tokens: {western, _, europe}
+
+Goal:
+  Reuse meaningful lexical pieces while preserving efficient KGE scoring.","Tokenizing the Graph: Attentive Byte-Pair Encoding for Knowledge Graph
+       Embeddings (BytE)
+
+Authors: N'Dah Jean Kouagou, Arnab Sharma, Harshit Purohit, Caglar Demir,
+         Axel-Cyrille Ngonga Ngomo
+
+Affiliation: Data Science Research Group, Heinz Nixdorf Institute,
+             Paderborn University
+
+Conference: SEMANTiCS 2026, Ghent, Belgium
+
+Associated multimedia file: poster.pdf (or poster.png)
+
+License: CC BY 4.0
+
+================================================================================
+SHORT ALTERNATIVE TEXT (for brief alt-text fields)
+================================================================================
+
+Research poster presenting BytE, a method that tokenizes knowledge graph
+entity and relation names with byte-pair encoding and attentive composition,
+then plugs the resulting vectors into standard knowledge graph embedding (KGE)
+models. Experiments on eight benchmark graphs and four KGE backbones show
+improved link prediction and robustness to lexical per",,,
+19,84,Parameterized Fuzzy Negation for Complex Query Answering over Knowledge Graphs,"Sourabh Kapoor, Arnab Sharma, Stefan Heindorf, Caglar Demir and Axel-Cyrille Ngonga Ngomo",,https://drive.google.com/file/d/1ikxAI5yMj7exJYCBb5ZPNquFvi8nu6ia/view?usp=drive_link,"Question answering, Knowledge Graph Embedding, Fuzzy Logic Norms",pd,Poster,"Parameterized Fuzzy Negation for Complex Query Answering over Knowledge Graphs
+
+Authors: Sourabh Kapoor, Arnab Sharma, Stefan Heindorf, Caglar Demir,
+Axel-Cyrille Ngonga Ngomo
+
+Affiliation: Data Science Research Group, Heinz Nixdorf Institute,
+Paderborn University, Germany
+
+Conference: SEMANTiCS 2026 Poster Track, Ghent, Belgium
+
+Associated multimedia file: poster_84.pdf
+
+License: CC BY 4.0
+
+Research poster presenting a training-free extension of Continuous Query
+Decomposition (CQD) for complex query answering over incomplete knowledge
+graphs. The method replaces the fixed standard fuzzy negation operator with
+parameterized Sugeno or Yager negation. The parameters are selected on
+validation queries, while the underlying knowledge graph embedding (KGE)
+model remains frozen. Experiments with five neural link predictors on four
+knowledge graphs and five negated query structures show that parameterized
+negation generally improves mean reciprocal rank (MRR), with the strongest
+gains on the intersection-heavy 2in and 3in query structures.
+
+This is a landscape-format academic poster with a dark blue header and footer,
+a light background, and a three-column grid of content boxes. Blue section
+headers are used throughout, while teal and orange highlight selected formulas,
+workflow elements, and result summaries. The poster explains the motivation,
+parameterized negation operators, CQD workflow, experimental results,
+interpretation, and conclusions.
+
+---
+
+## HEADER
+
+Title:
+Parameterized Fuzzy Negation for Complex Query Answering over Knowledge Graphs
+
+Authors:
+Sourabh Kapoor, Arnab Sharma, Stefan Heindorf, Caglar Demir,
+Axel-Cyrille Ngonga Ngomo
+
+Affiliation:
+Data Science Research Group, Heinz Nixdorf Institute,
+Paderborn University, Germany
+
+Event:
+SEMANTiCS 2026 Poster Track, Ghent, Belgium
+
+---
+
+## LEFT COLUMN
+
+Section: Negation needs more flexibility
+
+Knowledge graphs are incomplete, so complex query answering uses neural
+predictors to score missing links.
+
+Key points:
+
+- Conjunction and disjunction have several useful continuous operators.
+- In CQD-style query answering, negation is typically modeled using the
+  standard operator N(x) = 1 - x, regardless of the score distribution of
+  the underlying link predictor.
+
+A small query graph illustrates a multi-hop query. It contains nodes labeled
+e, E1, E?, and b. Relations r1 and r2 connect e to E1 and E1 to the target
+entity E?, while a negated relation, shown as not-r3, connects b to E?.","Parameterized Fuzzy Negation for Complex Query Answering over Knowledge Graphs
+
+Authors: Sourabh Kapoor, Arnab Sharma, Stefan Heindorf, Caglar Demir,
+Axel-Cyrille Ngonga Ngomo
+
+Affiliation: Data Science Research Group, Heinz Nixdorf Institute,
+Paderborn University, Germany
+
+Conference: SEMANTiCS 2026 Poster Track, Ghent, Belgium
+
+Associated multimedia file: poster_84.pdf
+
+License: CC BY 4.0
+
+Research poster presenting a training-free extension of Continuous Query
+Decomposition (CQD) for complex query answering over incomplete knowledge
+graphs. The method replaces the fixed standard fuzzy negation operator with
+parameterized Sugeno or Yager negation. The parameters are selected on
+validation queries, while the underlying knowledge graph embedding (KGE)
+model remains frozen. Experiments with five neural link predictors on four
+knowledge graphs and five negated query structures show that parameterized
+negation generally improves mean reciprocal rank (MRR), with the strongest
+gains on the ",,,
+20,131,The Semantic Immune System: Adaptive Knowledge Integrity in the Era of Induced Semantics,"Manzoor Ali, Yasir Mahmood, Muhammad Saleem and Axel-Cyrille Ngonga Ngomo",,https://drive.google.com/file/d/1CEn6-sULOyGAAUA4o8VQuffHBBwgYBje/view?usp=drive_link,"Induced Semantics, Neuro-Symbolic AI, Artificial Immune Systems, Self repair, Semantic Web",pd,Poster,"The Semantic Immune System: Adaptive Knowledge Integrity in the Era of Induced Semantics
+
+This scientific poster presents the Semantic Immune System (SIS), a biologically inspired framework for protecting Knowledge Graphs (KGs) from semantic errors introduced by Large Language Models (LLMs). The poster argues that existing validation approaches such as SHACL and OWL verify structural correctness but cannot detect semantic hallucinations—facts that satisfy ontology constraints while being factually incorrect.
+
+The poster begins by motivating the problem of LLM-generated semantic hallucinations in Knowledge Graph construction. A summary explains that LLMs accelerate KG creation but may introduce incorrect knowledge, creating a need for adaptive semantic validation. The proposed Semantic Immune System addresses this challenge by learning to detect, remember, and repair semantic inconsistencies over time.
+
+A challenge section illustrates semantic hallucinations using three example triples: ""Marie Curie won the Nobel Prize in Literature"", ""Paris is located in Germany"", and ""Albert Einstein was born in 2010"". Although each example satisfies structural constraints enforced by SHACL and OWL, all are factually incorrect. The poster uses these examples to demonstrate that structural validation alone is insufficient for ensuring semantic correctness.
+
+The central figure presents the architecture of the Semantic Immune System. Incoming triples first undergo innate validation using SHACL and OWL. Structurally valid triples are then analysed by an adaptive semantic validation pipeline consisting of embedding similarity, negative selection, detector evolution, semantic memory, and semantic vaccination. Triples identified as semantic pathogens are quarantined or repaired before being accepted into the Knowledge Graph, while trusted triples become part of the semantic memory used for future detection.
+
+A comparison chart contrasts traditional ontology validation with the Semantic Immune System. Existing approaches perform well for domain, range, and ontology consistency checks but do not support hallucination detection, semantic drift detection, continual learning, detector evolution, semantic memory, or semantic vaccination. The Semantic Immune System supports all of these capabilities, extending validation from structural correctness to semantic integrity.
+
+Another section maps concepts from the biological immune system to Knowledge Graph validation. Trusted knowledge corresponds to the biological ""self""; semantic hallucinations correspond to pathogens; semantic detectors correspond to antibodies; semantic memory corresponds to immune memory; synthetic hallucination generation corresponds to vaccination; and triple repair corresponds to biological recovery.
+
+The poster also summarises the five adaptive mechanisms of the Semantic Immune System: innate validation using SHACL and OWL, negative selection to generate detectors that do not match trusted knowledge, clonal selection to evolve successful detectors, semantic memory for remembering previously detected hallucinations, and semantic vaccination through synthetic semantic errors that improve future detection.","The Semantic Immune System: Adaptive Knowledge Integrity in the Era of Induced Semantics
+
+This scientific poster presents the Semantic Immune System (SIS), a biologically inspired framework for protecting Knowledge Graphs (KGs) from semantic errors introduced by Large Language Models (LLMs). The poster argues that existing validation approaches such as SHACL and OWL verify structural correctness but cannot detect semantic hallucinations—facts that satisfy ontology constraints while being factually incorrect.
+
+The poster begins by motivating the problem of LLM-generated semantic hallucinations in Knowledge Graph construction. A summary explains that LLMs accelerate KG creation but may introduce incorrect knowledge, creating a need for adaptive semantic validation. The proposed Semantic Immune System addresses this challenge by learning to detect, remember, and repair semantic inconsistencies over time.
+
+A challenge section illustrates semantic hallucinations using three example triples:",,,
+21,161,Integrating Domain Experts and Large Language Models for CQ Generation,Maryam Sefidbari and Leyla Jael Castro,,https://drive.google.com/file/d/1d4ePhvpKDrwy5AVTgAPS-cToQXLqP_95/view?usp=drive_link,"Competency Questions, Ontology Engineering, Ontology Validation, Large Language Models, Requirement Elicitation, Automated Competency Question Generation",pd,Poster,"Integrating Domain Experts and Large Language Models for Competency Question Generation.
+Poster describes a six-phase framework combining domain expert input with Large Language Models to generate competency questions for ontology engineering. The phases are: expert-led scoping, building a domain corpus, competency question generation, refinement, filtering, and clustering. A benchmarks panel reports clarity, semantic coverage, and atomicity scores comparing expert-authored versus framework-generated competency questions. By Maryam Sefidbari and Leyla Jael Castro, ZB MED, presented at SEMANTiCS Ghent 2026. A QR code links to the project's GitHub repository (https://github.com/Maryam-sfb/CQ-Generation-Framework).","Integrating Domain Experts and Large Language Models for Competency Question Generation.
+Poster describes a six-phase framework combining domain expert input with Large Language Models to generate competency questions for ontology engineering. The phases are: expert-led scoping, building a domain corpus, competency question generation, refinement, filtering, and clustering. A benchmarks panel reports clarity, semantic coverage, and atomicity scores comparing expert-authored versus framework-generated competency questions. By Maryam Sefidbari and Leyla Jael Castro, ZB MED, presented at SEMANTiCS Ghent 2026. A QR code links to the project's GitHub repository (https://github.com/Maryam-sfb/CQ-Generation-Framework).",,,
+22,144,Towards Claim-Centered Biomedical Knowledge Representation: A Pilot Annotation Corpus,"Rohitha Ravinder, Leyla Jael Castro and Dietrich Rebholz-Schuhmann",,https://drive.google.com/file/d/11cvnV_ioUpOJkXUdBffA9np9PI9Y2IV8/view?usp=drive_link,"claim annotation, biomedical knowledge graphs, knowledge representation, scientific claims",pd,Poster,"Towards Claim-Centered Biomedical Knowledge Representation: A Pilot Annotation Corpus
+
+Authors: Rohitha Ravinder (1,2), Leyla Jael Castro (2), Dietrich Rebholz-Schuhmann (1,2)
+Affiliations: (1) University of Cologne; (2) ZB MED - Information Centre for Life Sciences
+Venue: SEMANTiCS Ghent 2026
+
+The poster presents a claim-centered annotation framework for enriching BioRED biomedical relation annotations. Its central idea is that scientific findings should be represented not only as biomedical relations, but also in terms of the primary claim, its epistemic properties and the relations that support or contextualize it.
+
+The poster is arranged from top to bottom and from left to right. A short introduction at the top explains the motivation: conventional biomedical relation extraction can obscure which finding constitutes the primary scientific claim and how supporting relations relate to it. The proposed approach adds a claim-centric layer to BioRED.
+
+The large Annotation Dimensions panel on the left shows three levels of annotation. First, claim identification captures the exact evidence sentences and a normalized main claim. Second, claim characterization describes the claim's type, expression mode, polarity and assertion strength. Third, relation context assigns BioRED relations the roles core claim, claim-related or contextual. The colored boxes visually distinguish these different annotation dimensions.
+
+The Pilot Corpus panel on the right shows the data-selection process as a flowchart. Abstracts from the BioRED training split containing at least one novel relation are sampled to obtain 150 abstracts for manual annotation. Two annotators independently annotate the abstracts, producing a claim-centered pilot corpus containing the claim layer and triple roles.
+","Towards Claim-Centered Biomedical Knowledge Representation: A Pilot Annotation Corpus
+
+Authors: Rohitha Ravinder (1,2), Leyla Jael Castro (2), Dietrich Rebholz-Schuhmann (1,2)
+Affiliations: (1) University of Cologne; (2) ZB MED - Information Centre for Life Sciences
+Venue: SEMANTiCS Ghent 2026
+
+The poster presents a claim-centered annotation framework for enriching BioRED biomedical relation annotations. Its central idea is that scientific findings should be represented not only as biomedical relations, but also in terms of the primary claim, its epistemic properties and the relations that support or contextualize it.
+
+The poster is arranged from top to bottom and from left to right. A short introduction at the top explains the motivation: conventional biomedical relation extraction can obscure which finding constitutes the primary scientific claim and how supporting relations relate to it. The proposed approach adds a claim-centric layer to BioRED.
+
+The large Annotation Dimensions pan",,,
+23,147,A Functional and Distributed RML Processor,Corentin Michaux and Christophe Debruyne,,https://drive.google.com/file/d/1t2Q-6znMPgnmr130haTta4WB1kB09OyR/view?usp=drive_link,"Knowledge Graph Construction, RDF Mapping Language, RML",pd,Poster,"Research poster titled ""A Functional and Distributed RML Processor"" by Corentin Michaux and Christophe Debruyne, University of Liège. The poster presents FPMapper, a Scala/Apache Spark-based RML processor that models RML mapping rules as pure, composable functions. It reports full conformance with core RML test suites and shows, via two line charts benchmarking execution time and peak memory against RMLMapper, SDM-RDFizer, and RMLStreamer on datasets from 1,000 to 1,000,000 rows, that FPMapper has a high fixed startup cost but becomes the fastest engine at 1 million rows while also using the most memory, indicating a speed-versus-memory trade-off.
+
+LONG DESCRIPTION (structured, for assistive technology/screen reader users):
+
+The poster is organized into a header and eight boxed sections arranged in a grid.
+
+Header:
+Shows the Liège Université logo, the poster title ""A Functional and Distributed RML Processor,"" the authors' names (Corentin Michaux, underlined/presenting author, and Christophe Debruyne), and their affiliation (Montefiore Institute, University of Liège, 4000 Liège, Belgium).
+
+1. Research Question:
+States the central question: ""Can a distributed RML processor for bounded batches be fully conformant with the RML specification and scale on large datasets?""
+
+2. Related Work:
+Explains that RML (RDF Mapping Language) is a declarative language for mapping heterogeneous, non-RDF sources to RDF, and that most existing engines run on a single machine, leaving distributed processing of large bounded batches underexplored. It lists three prior approaches: Morph-KGC and SDM-RDFizer, which parallelize RDF generation on a single machine; RMLStreamer, which is distributed but designed for streaming data; and Stadler et al. (reference 1), which rewrites RML into extended SPARQL CONSTRUCT queries evaluated through a SPARQL-to-RDD algebra layer. The section concludes that the proposed system, FPMapper, instead models RML constructs directly as composable functions, avoiding any intermediate SPARQL rewriting or query-algebra layer.
+
+3. Design & Implementation: FPMapper:
+Describes FPMapper as an RML processor written in Scala on top of Apache Spark. Key design points, presented as three short paragraphs:
+- RML constructs are modeled as pure, composable functions, so the same pipeline runs unchanged whether executed locally or distributed across Spark partitions. Effectful operations such as file I/O are isolated using Cats Effect IO, and Apache Jena handles RDF serialization.
+- Logical iterations are parallelized into a Resilient Distributed Dataset (RDD), with term-map evaluation running independently per iteration in a single mapPartitionsWithIndex pass. Some ""clever"" management is used to avoid data shuffles when generating blank nodes.
+- Deduplication of output triples is exact but graph-local in the default output mode; a fully deduplicated ""--stdout"" mode exists but requires collecting all output to the driver node, at a performance cost. Join resolution for RML Logical Views (RML-LV) and Referencing Object Maps currently happens once, before distributed term-map evaluation.
+","Research poster titled ""A Functional and Distributed RML Processor"" by Corentin Michaux and Christophe Debruyne, University of Liège. The poster presents FPMapper, a Scala/Apache Spark-based RML processor that models RML mapping rules as pure, composable functions. It reports full conformance with core RML test suites and shows, via two line charts benchmarking execution time and peak memory against RMLMapper, SDM-RDFizer, and RMLStreamer on datasets from 1,000 to 1,000,000 rows, that FPMapper has a high fixed startup cost but becomes the fastest engine at 1 million rows while also using the most memory, indicating a speed-versus-memory trade-off.
+
+LONG DESCRIPTION (structured, for assistive technology/screen reader users):
+
+The poster is organized into a header and eight boxed sections arranged in a grid.
+
+Header:
+Shows the Liège Université logo, the poster title ""A Functional and Distributed RML Processor,"" the authors' names (Corentin Michaux, underlined/presenting author, and Chris",,,
+24,157,Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC,"Phearun Ol, Deperias Kerre, Christophe Debruyne, Dona Valy and Sotheany Nou",,https://drive.google.com/file/d/1rS_VBdbikJtyckw4NnLLUUWaOf0qP1fp/view?usp=drive_link,"Research Management System, Ontology-based Data Access, Virtual Knowledge Graph, Data Integration",pd,Poster,"Research poster titled ""Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC,"" by Phearun Ol, Deperias Kerre, Christophe Debruyne, Dona Valy, and Sotheany Nou. The poster describes a Virtual Knowledge Graph (VKG) built with Trino and Ontop to integrate three separate institutional databases at the Institute of Technology of Cambodia (student records, a student portal, and research management data) without modifying the source systems. It presents box-plot benchmark results showing that adding Trino workers helps query performance over a slow VPN connection but becomes counterproductive over a fast direct connection, where distributed-execution overhead outweighs the benefit for these small queries. It concludes that the OBDA/VKG approach is a viable, cost-conscious foundation for read-only integration of live institutional data.
+
+LONG DESCRIPTION (structured, for assistive technology / screen reader users):
+
+The poster is organized into a header and eight boxed sections arranged in a two-column grid, plus an ARES program logo in the bottom right corner.
+
+Header:
+Shows two logos (the Institute of Technology of Cambodia, ITC, and Liège Université), the poster title ""Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC,"" the authors' names (Phearun Ol; Deperias Kerre, underlined as presenting author; Christophe Debruyne; Dona Valy; and Sotheany Nou), and three numbered affiliations: the Graduate School, Institute of Technology of Cambodia, Phnom Penh, Cambodia; the Montefiore Institute, University of Liège, Belgium; and the Research and Innovation Center, Institute of Technology of Cambodia, Phnom Penh, Cambodia.
+
+1. Motivation & Context:
+Explains that ITC (Institute of Technology of Cambodia) runs three independent information systems that are individually valuable but hard to see across: SMIS (students, staff, departments, academic records), the Student Portal (student-facing academic data), and RMIS/RIC (research profiles, projects, publications). It lists two challenges: heterogeneous representations across systems, and no single global identifier shared across them. It concludes that this separation limits the visibility and reuse of institutional knowledge.
+
+2. Approach: OBDA / Virtual Knowledge Graph:
+Contains a simple flow diagram showing three source systems (SMIS, Student Portal, RMIS/RIC) feeding into ""Trino federation,"" which feeds into ""Ontop (OBDA mappings + ontology),"" which produces a ""SPARQL endpoint."" Below the diagram, text explains that this work is part of the ARES Institutional Support Program 2022-2027 at ITC, which favors reusing existing infrastructure over replacing it, and that a Virtual Knowledge Graph (VKG) offers a cost-conscious solution.
+
+3. Ontology & Mapping:
+States that since the focus was assessing the viability of VKGs, the ontology was kept simple and built from scratch, with example classes (Employee, Student, Researcher, Department, Branch) and example properties (hasDepartment, hasAcademicRecord, participatesInProject). It explains that linking entities relies on source-specific IDs and bridge columns: the Student Portal links to SMIS students via an id_card field, and SMIS links to RMIS/RIC via a bridge table accessed through Trino. It notes that mappings were authored in Ontop's native OBDA syntax rather than R2RML, because it was faster to write and iterate on for the conditional joins needed here.
+","Research poster titled ""Assessing the Viability of an OBDA Approach to Integrating Databases into a Virtual Knowledge Graph for Research Management at ITC,"" by Phearun Ol, Deperias Kerre, Christophe Debruyne, Dona Valy, and Sotheany Nou. The poster describes a Virtual Knowledge Graph (VKG) built with Trino and Ontop to integrate three separate institutional databases at the Institute of Technology of Cambodia (student records, a student portal, and research management data) without modifying the source systems. It presents box-plot benchmark results showing that adding Trino workers helps query performance over a slow VPN connection but becomes counterproductive over a fast direct connection, where distributed-execution overhead outweighs the benefit for these small queries. It concludes that the OBDA/VKG approach is a viable, cost-conscious foundation for read-only integration of live institutional data.
+
+LONG DESCRIPTION (structured, for assistive technology / screen reader users):
+
+",,,
+25,173,Agentic Competency Question Generation for Copolymer Domain Ontologies,"Vishvapalsinhji Parmar, Vamsi Krishna Kommineni and Birgitta König-Ries",,https://drive.google.com/file/d/1Ls77CR0mfRO2NR5vWOe2WMo7qndxzOqv/view?usp=drive_link,"CQ Generation, Agentic Pipeline, Ontology Engineering",pd,Poster,"A research poster presenting a two-phase, agentic, retrieval-augmented
+pipeline that automatically generates, validates, and consolidates
+competency questions from scientific papers to support building a
+copolymer domain ontology; applied to 14 papers it produced 682
+competency questions with 0.98 mean faithfulness and zero off-paper
+questions, consolidated into 120 ontology-ready questions.
+
+=====================================================================
+LONG STRUCTURED DESCRIPTION
+=====================================================================
+The poster is in portrait orientation and is organised into a header
+band followed by three columns read left to right. Authors:
+Vishvapalsinhji Parmar, Vamsi Krishna Kommineni, and Birgitta
+Koenig-Ries, Heinz Nixdorf Chair for Distributed Information Systems,
+Friedrich Schiller University Jena, Germany. The header carries the
+university, COIN, and Fusion logos.
+
+--- LEFT COLUMN: motivation ---
+
+The bottleneck. Competency questions (CQs) are the requirements
+artefact of ontology engineering. Generating a good question set by
+hand needs repeated back-and-forth between domain experts and ontology
+engineers.
+
+Three LLM failure modes, each of which shaped a design decision. Given
+as a three-row table with columns ""Failure mode"", ""Consequence"", and
+""Our countermeasure"":
+1. Lost in the middle. Consequence: long papers give uneven grounding.
+   Countermeasure: full text never enters one prompt.
+2. Persona collapse. Consequence: one prompt yields homogeneous
+   questions. Countermeasure: seven personas times ten archetypes.
+3. Sycophancy and self-preference. Consequence: the judge agrees and
+   the refiner rewrites blindly. Countermeasure: a different model
+   family per role.
+
+No gold standard exists. Most LLM-based CQ work scores generated
+questions against a reference set. For the copolymer domain no such set
+exists. The VSPO work shows that similarity to a benchmark misses the
+modelling defects that matter most, and Alharbi et al. note that the
+CQs used during ontology development are often not published at all.
+Therefore the evaluation used here is reference-free.","A research poster presenting a two-phase, agentic, retrieval-augmented
+pipeline that automatically generates, validates, and consolidates
+competency questions from scientific papers to support building a
+copolymer domain ontology; applied to 14 papers it produced 682
+competency questions with 0.98 mean faithfulness and zero off-paper
+questions, consolidated into 120 ontology-ready questions.
+
+=====================================================================
+LONG STRUCTURED DESCRIPTION
+=====================================================================
+The poster is in portrait orientation and is organised into a header
+band followed by three columns read left to right. Authors:
+Vishvapalsinhji Parmar, Vamsi Krishna Kommineni, and Birgitta
+Koenig-Ries, Heinz Nixdorf Chair for Distributed Information Systems,
+Friedrich Schiller University Jena, Germany. The header carries the
+university, COIN, and Fusion logos.
+
+--- LEFT COLUMN: motivation ---
+
+The bottleneck. Competency questions ",,,
+26,164,Towards a Gold Dataset for Cross-Perspective Ontology Alignment in the Food Domain,Divyasha Sunil Naik and Birgitta König-Ries,,https://drive.google.com/file/d/1cftR-T0y29N0FVBu0DS_dOSGsyVWYSXz/view?usp=drive_link,"Food ontologies, Semantic heterogeneity, Cross-perspective alignment dataset, Benchmark creation",pd,Poster,"Towards a Gold Dataset for Cross-Perspective Ontology Alignment in the Food Domain
+
+Description: This A1 conference poster presents CrossAligner-Food, an ongoing effort to create an expert-curated gold-standard dataset for cross-perspective ontology alignment in the food domain. The work investigates whether ontology alignment systems, including large language model-based methods, can identify meaningful relations beyond equivalence and hierarchy. These relations are called semantic bridges: directed properties that connect concepts from different ontology perspectives while preserving their distinct meanings. The dataset draws on three ontology subsets: the Ontology for Nutritional Studies (ONS), Medical Subject Headings (MeSH), and the Ontology of Culinary Occupations (OccO).
+
+Layout: The poster is arranged vertically. A full-width header is followed by a two-column conceptual section, a full-width six-step workflow, a two-column results section, and a full-width footer. The intended reading order is from top to bottom and, within each two-column section, from left to right.
+
+Header: The header contains the poster title, the authors, and the affiliation. It also states the event information.
+
+Top section, left column: One domain—three conceptual commitments: This section explains that food is modelled through dietary, public-health, and occupational perspectives.
+
+Top section, right column: Why semantic bridges?: This section states the important research gap/limitation and the main goal of the work in bullet points. It also describes the new term “semantic bridges.”
+
+Middle section: Gold Standard Dataset Creation - A horizontal workflow contains six stages connected by right-pointing arrows. Step 1 selects complementary ontologies. Step 2 extracts ontology subsets with ROBOT and seed terms while preserving local structure. Step 3 profiles concepts using labels, definitions, hierarchy, properties, and restrictions. Step 4 groups candidate concepts using optional neutral meta-tags. Step 5 asks five domain experts to annotate candidate relations, bridge labels, and reasons. Step 6 consolidates agreement and checks relation direction to produce the final gold dataset. The candidate relation types are equivalent, narrower, broader, related_to, and no_relation.
+
+Lower section, left column: The benchmark captures semantic bridges across perspectives: Three directed concept-to-concept examples are displayed from three different ontology subsets.
+
+Lower section, right column: Ontology statistics and expert review: Statistics for the three ontology subsets are presented here. A horizontal bar chart summarizes semantic bridge groups (meta-tags) after expert review.
+
+Footer: The footer includes a QR code that links to the CrossAligner-Food dataset repository. The footer also includes the logos of the FUSION research group, Friedrich Schiller University Jena, and the relevant funding partner, ThWIC.","Towards a Gold Dataset for Cross-Perspective Ontology Alignment in the Food Domain
+
+Description: This A1 conference poster presents CrossAligner-Food, an ongoing effort to create an expert-curated gold-standard dataset for cross-perspective ontology alignment in the food domain. The work investigates whether ontology alignment systems, including large language model-based methods, can identify meaningful relations beyond equivalence and hierarchy. These relations are called semantic bridges: directed properties that connect concepts from different ontology perspectives while preserving their distinct meanings. The dataset draws on three ontology subsets: the Ontology for Nutritional Studies (ONS), Medical Subject Headings (MeSH), and the Ontology of Culinary Occupations (OccO).
+
+Layout: The poster is arranged vertically. A full-width header is followed by a two-column conceptual section, a full-width six-step workflow, a two-column results section, and a full-width footer. The intended",,,
+27,61,Bridging Theory and Practice in Semantic Data Science,"Dmitrii Orlov, Lise Stork, Nikolay Yakovets and Daphne Miedema",,https://drive.google.com/file/d/1ItNlqRaZCTe0srhvO-Bh3uDKsS8ON8f5/view?usp=drive_link,"Data Science Practice, Knowledge Graphs, Data Science Pipelines, Kaggle Notebooks, Dissemination",pd,Poster,"Bridging Theory and Practice in Semantic Data Science
+AUTHORS: 
+  - Dmitrii Orlov (University of Amsterdam) - d.s.orlov@uva.nl
+  - Lise Stork (University of Amsterdam)
+  - Nikolay Yakovets (Eindhoven University of Technology)
+  - Daphne Miedema (University of Amsterdam)
+CONFERENCE: SEMANTiCS 2026 - Poster & Demo Track
+
+----------------------------------------------------------------------
+1. POSTER LAYOUT & READING ORDER OVERVIEW
+----------------------------------------------------------------------
+This vertical (portrait) poster is structured into three main horizontal sections:
+
+- UPPER SECTION (2 Vertical Columns):
+  - Left Column: Motivation, Approach (including Figure 1 process illustration), and Implications.
+  - Right Column: Research Question, Findings, and Conclusion.
+
+- MIDDLE BLOCK (""Intermediate Observations"", Spans across both columns):
+  - Core Figures 2 through 5 (containing 5 individual plots/diagrams total).
+
+- FOOTER (Spans across both columns):
+  - References and Contact Details.
+
+RECOMMENDED READING ORDER FOR SCREEN READERS:
+1. Poster Metadata
+2. Left Column (Motivation, Approach, Implications)
+3. Right Column (Research Question, Findings, Conclusion)
+4. Middle Block Figures (Figure 1 through Figure 5)
+5. Footer (References)
+
+======================================================================
+2. DETAILED POSTER CONTENT
+======================================================================
+
+--- LEFT COLUMN ---
+
+## Section: Motivation
+Many studies conceptually represent data science and knowledge graph work [1,2], but diverge from practice [1]. This relationship is not yet known for knowledge graphs. We believe understanding how practitioners build, and work with, knowledge graphs in diverse contexts is crucial for designing better tools and methodologies.
+
+## Section: Approach
+Thematic analysis on:
+1. Theory (ACM DL): 42 workflows in theory, inductive codebook creation.
+2. Practice (Kaggle): 39 workflows in notebooks, deductive codebook use.
+
+[FIGURE 1 DESCRIPTION]
+- Caption: Figure 1: two-stage study: comparing theory and practice via a shared thematic codebook.
+- Type: Conceptual Diagram / Two-Stage Study Workflow
+- Detailed Description: 
+  The plot illustrates a two-stage research approach. It starts on the left with a ""1. Theory Thematic Analysis"" step. The plot indicates symbolically how from a collection of 35 ""ACM DL DIGITAL LIBRARY"" articles, we extract 42 workflows. Thick arrows leading from it over the top part of the plot lead to the creation of a symbolically illustrated ""Shared Codebook"" with 5 top and 15 core themes. Continuing from it, the research moves into the second stage ""2. Practice Thematic Analysis"". This area illustrates how we extract 39 workflows from 39 computational notebooks from Kaggle. Next, dashed arrows coming from the representations in literature and the shared codebook show how we quantify the findings in a form of stylized plots representing insights from theory. The right side of the plot uses dashed arrows from the shared codebook and the notebook workflows to illustrate how we quantify it into insights from practice. A thick gray arrow from the latter element points to a comparison step that overlays a dotted arrow connecting the two insight illustrations (shown as stylized, iconographic, bar charts).
+","Bridging Theory and Practice in Semantic Data Science
+AUTHORS: 
+  - Dmitrii Orlov (University of Amsterdam) - d.s.orlov@uva.nl
+  - Lise Stork (University of Amsterdam)
+  - Nikolay Yakovets (Eindhoven University of Technology)
+  - Daphne Miedema (University of Amsterdam)
+CONFERENCE: SEMANTiCS 2026 - Poster & Demo Track
+
+----------------------------------------------------------------------
+1. POSTER LAYOUT & READING ORDER OVERVIEW
+----------------------------------------------------------------------
+This vertical (portrait) poster is structured into three main horizontal sections:
+
+- UPPER SECTION (2 Vertical Columns):
+  - Left Column: Motivation, Approach (including Figure 1 process illustration), and Implications.
+  - Right Column: Research Question, Findings, and Conclusion.
+
+- MIDDLE BLOCK (""Intermediate Observations"", Spans across both columns):
+  - Core Figures 2 through 5 (containing 5 individual plots/diagrams total).
+
+- FOOTER (Spans across both columns):
+  - References and Co",,,
+28,65,The EOBS Knowledge Graph: A Knowledge Graph of European Climate Observations,Ammar Yousaf and Auriol Degbelo,,https://drive.google.com/file/d/1b9n6rcrR68ySVOABqvszSn8GWbQVQOQk/view?usp=drive_link,"climate data, geographic knowledge graph, scientific knowledge graph, llm agent",pd,Poster,"This poster contribution is motivated by the research gap that raw observations about the climate are currently rarely semantically annotated, which limits their reuse by machines.
+
+    To address this gap, the paper proposes a novel dataset: a knowledge graph (3.2 Billion Triples) about European climate observations (1950-2024).
+
+    The authors used a Python-based NetCDF-to-RDF conversion pipeline to generate the knowledge graph. 
+
+    They demonstrated the usefulness of the knowledge graph through a LLM Agent that supports text-to-SPARQL query generation (template-based) and federated search on Wikidata.
+
+    The poster shows screenshots about the data model and the conversion pipeline used in the process of generating the knowledge graph. 
+
+    The poster also shows an architecture of the agent, which demonstrates the usefulness of the graph, as well as images of the frontend. 
+
+    The authors tested the agent using 16 categories of questions, with 3 examples per category (that is, a total of 48 questions).
+
+    The results are promising, because the average accuracy rate was 80% (range: [68.8% - 87.5%]) when an LLM-as-a-Judge is used to test accuracy. That rate amounts to 90% (range: [81.2% - 100%]) after the manual inspection of all the results by a human.
+
+    The average execution time across all questions and tests was 30.71 seconds (range: [1.38s – 61.11s]). 
+
+    The poster also shows a link to the dump of the knowledge graph on Kaggle (as a QR code), a link to the code of the agent on GitHub (as a QR code), and a link to the demo of the agent on YouTube (as a QR code).","This poster contribution is motivated by the research gap that raw observations about the climate are currently rarely semantically annotated, which limits their reuse by machines.
+
+    To address this gap, the paper proposes a novel dataset: a knowledge graph (3.2 Billion Triples) about European climate observations (1950-2024).
+
+    The authors used a Python-based NetCDF-to-RDF conversion pipeline to generate the knowledge graph. 
+
+    They demonstrated the usefulness of the knowledge graph through a LLM Agent that supports text-to-SPARQL query generation (template-based) and federated search on Wikidata.
+
+    The poster shows screenshots about the data model and the conversion pipeline used in the process of generating the knowledge graph. 
+
+    The poster also shows an architecture of the agent, which demonstrates the usefulness of the graph, as well as images of the frontend. 
+
+    The authors tested the agent using 16 categories of questions, with 3 examples per category (that is",,,
+29,66,From Text to Knowledge Gems: Design Principles and a Hybrid AI Approach for Sustainable Knowledge Curation,"Lucia Cvitanic, Heidelinde Hobel, Verena Parzer, Denis Havlik and Ghazal Etminan",,https://drive.google.com/file/d/1p8m4Pqp2JIo8DpoaSKcRJm0Sh2Pdeppa/view?usp=drive_link,"Neurosymbolic AI, Knowledge Graphs, Generative AI, Retrieval-Augmented Generation, Hybrid AI, Knowledge Engineering, Knowledge Curation, Agent-based Systems, Provenance-aware AI, Human-in-the-loop AI",pd,Poster,"""From Text to Knowledge Gems: Design Principles and a Hybrid AI Approach for Sustainable Knowledge Curation.""
+
+Poster by Lucia Cvitanic, Heidelinde Hobel, Verena Parzer, Denis Havlik, and Ghazal Etminan, AIT Austrian Institute of Technology.
+
+The poster presents an investigation into hybrid AI-supported knowledge curation using the NEB Junction EU project as a case study. The central problem is how to convert diverse project documents into structured knowledge. The approach develops and evaluates a hybrid AI workflow for creating structured knowledge artifacts and derives five design principles for maintainable hybrid AI knowledge systems.
+
+Knowledge Gems are described as compact, structured knowledge artefacts that capture practical insights from project documentation, support both human and machine use, preserve links to original sources, and enable discovery, comparison, and reuse of knowledge. Within the NEB Junction case study, these structured knowledge artefacts are implemented as Knowledge Gems, or more specifically, NEB Gems.
+
+The methodology is presented as a progression through four stages leading to the derivation of design principles. First, innovation managers manually curated high-quality knowledge artefacts and defined their initial structure, tone, and vocabulary. Second, AI-supported artefact generation was tested using a retrieval-augmented generation pipeline, with the manually curated artefacts and their template used as reference examples. Third, challenges encountered during these experiments motivated a modular hybrid AI workflow combining retrieval, knowledge graphs, LLM generation, validation, and human review. Fourth, the workflow was iteratively refined through generated artefacts, validation results, expert review, prompt adjustments, and schema evolution. Experiences and recurring challenges across these stages were then synthesized into five design principles.
+
+Figure 1, labelled “Hybrid AI pipeline for semi-automatic Knowledge Gem creation,” shows the workflow used to create Knowledge Gems. Source documents feed a knowledge base with vector and graph databases. A retriever assembles grounded prompts for generation and structuring, followed by human validation and a final Knowledge Gem in the Knowledge Base.
+
+","""From Text to Knowledge Gems: Design Principles and a Hybrid AI Approach for Sustainable Knowledge Curation.""
+
+Poster by Lucia Cvitanic, Heidelinde Hobel, Verena Parzer, Denis Havlik, and Ghazal Etminan, AIT Austrian Institute of Technology.
+
+The poster presents an investigation into hybrid AI-supported knowledge curation using the NEB Junction EU project as a case study. The central problem is how to convert diverse project documents into structured knowledge. The approach develops and evaluates a hybrid AI workflow for creating structured knowledge artifacts and derives five design principles for maintainable hybrid AI knowledge systems.
+
+Knowledge Gems are described as compact, structured knowledge artefacts that capture practical insights from project documentation, support both human and machine use, preserve links to original sources, and enable discovery, comparison, and reuse of knowledge. Within the NEB Junction case study, these structured knowledge artefacts are implemented ",,,
+30,71,Neurosymbolic Join Resolution for Enterprise Text-to-SQL,"Silvan Wiedmer, Albert Weichselbraun, Adrian M.P. Brasoveanu and Norman Süsstrunk",,https://drive.google.com/file/d/1Ql3AMRhpoBI0RbwmVQEiemK08jJE5_xS/view?usp=drive_link,"Enterprise Data, Knowledge Graph, Natural Language Interface, Neurosymbolic AI, Text2SQL",pd,Poster,"Neurosymbolic Join Resolution
+for Enterprise Text-to-SQL
+
+Affiliation: Fachhochschule Graubünden - University of Applied Sciences
+
+Introduction:
+
+Lack of explainability and reliability (e.g., due to hallucinations, misleading information or biased outputs) are serious obstacles towards the adaptation of LLMs in high-stake environments. We try to tackles this shortcoming by developing neurosymbolic AI
+models that combine embedding-based language models (sub-symbolic reasoning) with machine-readable domain knowledge(symbolic reasoning), organized in knowledge graphs.
+
+Section 1: Neurosymbolic AI
+
+Neurosymbolic AI is a hybrid approach that combines the
+strengths of neural networks (subsymbolic AI) and symbolic
+reasoning systems.
+- Neural networks facilitate the construction of knowledge graphs and ontologies by mapping natural language to structured inputs and understanding user intent.
+- Symbolic AI leverages background knowledge to guide and constrain subsymbolic reasoning, and to perform precise, logical inference whenever sufficient information is available.
+- Integration: The two paradigms are coupled through context provisioning and tool calling.
+
+Alt Text:
+A Venn diagram illustrating the synergy between Symbolic AI and Subsymbolic AI.
+Symbolic AI (left, purple circle) is represented by a structured logic icon, and Subsymbolic AI (right, orange circle) is represented by a neural network brain icon.
+The overlap between the two circles is labeled ""Reliability, Explainability, and Performance"".
+Two curved arrows create a feedback loop: an arrow from Symbolic to Subsymbolic is labeled ""Background knowledge"", and an arrow from Subsymbolic to Symbolic is labeled ""Knowledge graph learning"".
+","Neurosymbolic Join Resolution
+for Enterprise Text-to-SQL
+
+Affiliation: Fachhochschule Graubünden - University of Applied Sciences
+
+Introduction:
+
+Lack of explainability and reliability (e.g., due to hallucinations, misleading information or biased outputs) are serious obstacles towards the adaptation of LLMs in high-stake environments. We try to tackles this shortcoming by developing neurosymbolic AI
+models that combine embedding-based language models (sub-symbolic reasoning) with machine-readable domain knowledge(symbolic reasoning), organized in knowledge graphs.
+
+Section 1: Neurosymbolic AI
+
+Neurosymbolic AI is a hybrid approach that combines the
+strengths of neural networks (subsymbolic AI) and symbolic
+reasoning systems.
+- Neural networks facilitate the construction of knowledge graphs and ontologies by mapping natural language to structured inputs and understanding user intent.
+- Symbolic AI leverages background knowledge to guide and constrain subsymbolic reasoning, and to perfo",,,
+31,72,Evaluating SHACL Constraints with RDF Rules,Alexander Posselt and Dörthe Arndt,,https://drive.google.com/file/d/18ingOvUWupV9yhlphIZ2qdjPVXRt7Igb/view?usp=drive_link,"SHACL, N3, SHACL rules, Existential Rules",pd,Poster,"Validating SHACL constraints with Notation3 Rules. A poster presenting an approach for translating SHACL constraints into Notation3 (N3) rules and using the generated rules to validate N3 data.
+The central diagram shows a workflow from left to right. A SHACL shape is provided as input to a translation process. The translation produces two types of N3 rules: target rules and constraint rules. The target rules determine which resources in the data are subject to a shape. The constraint rules check whether these resources satisfy the constraints defined by the shape. The generated rules are then executed by an N3 reasoner together with an N3 data document. The result is a validation report.
+The poster illustrates the translation with a Pokémon example. The SHACL shape PokeTeamShape targets instances of PokeTeam. It specifies that each team must have between one and six teamMember values and that each team member must conform to PokemonShape. The corresponding N3 rules are shown below the SHACL shape. The rules first establish targets for PokeTeamShape and PokemonShape. Further rules collect the team members of a targeted team and check whether their number is below one or above six. A violation is produced when either the minimum or maximum cardinality constraint is not satisfied.
+The poster describes an implementation of the approach using the Euler Yet another proof Engine, or EYE, as the N3 reasoner. The implementation uses auxiliary N3 files and queries for the translation. EYE executes the generated rules on the given turtle data to perform the validation.
+The poster reports 97 percent compliance with the SHACL test suite. It highlights reasoner independence, integration with other N3 projects, prospective support for SHACL rules, and support for recursion as advantages of the approach.
+Additional information on the poster describes N3 as a rule-based Web Logic supporting rule-producing rules and built-in functions, and notes differences between N3 and SHACL, including that lists are first-class citizens in N3 and that graphs are sets.
+","Validating SHACL constraints with Notation3 Rules. A poster presenting an approach for translating SHACL constraints into Notation3 (N3) rules and using the generated rules to validate N3 data.
+The central diagram shows a workflow from left to right. A SHACL shape is provided as input to a translation process. The translation produces two types of N3 rules: target rules and constraint rules. The target rules determine which resources in the data are subject to a shape. The constraint rules check whether these resources satisfy the constraints defined by the shape. The generated rules are then executed by an N3 reasoner together with an N3 data document. The result is a validation report.
+The poster illustrates the translation with a Pokémon example. The SHACL shape PokeTeamShape targets instances of PokeTeam. It specifies that each team must have between one and six teamMember values and that each team member must conform to PokemonShape. The corresponding N3 rules are shown below the ",,,
+32,98,From Server-centric to Client-centric Data Integration over Decentralized Knowledge Graphs with Personal Query Engines,Ruben Taelman,,https://drive.google.com/file/d/1gwOnR68poPCelHfONw8y1geuZ4PPBkGi/view?usp=drive_link,"Decentralized Knowledge Graphs, Query Processing, Personalization",pd,Poster,,"Client-centric query engines enabling personal, transparent, and privacy-preserving data integration over decentralized knowledge graphs.",,,
+33,104,Towards a Semantic Dataspace for Interoperable and Transparent Local Council Decision Data,"Leila Feddoul, Stefanie Kerkhof, Antje Dietrich, Hannes Köninger and Marianne Mauch",,https://drive.google.com/file/d/1gBmosrDosw1f6O25jac00K76LTxTIIlL/view?usp=drive_link,"Dataspace, Knowledge Graph, Information Extraction, E-government, Public Administration",pd,Poster,"Towards a Semantic Dataspace for Interoperable and Transparent Local Council Decision Data
+
+Description: This A1 conference poster presents insights from the DECIDe (Data Driven Exploration in Contextual Information on DEcisions) project, which aims to establish a semantic dataspace for local decision data from two countries (Germany and Belgium). The dataspace provides a policy-aware infrastructure for secure and sovereign data exchange, while knowledge graphs ensure semantic harmonization and machine-interpretable data structures. The poster describes the motivation, goal, system architecture, and practical use cases.
+
+Layout: The poster is arranged in three vertical columns. The first column is split into two boxes, whereas the second and third columns each contain one main section.
+
+Header: The header contains the poster title, the authors, and their affiliations.
+
+First column (left box): Describes the motivation behind the work in three bullet points.
+
+First column (right box): Describes the goal of the work in three bullet points.
+
+Second column: Describes the system architecture. On the left-hand side, an explanatory text describes the architecture. On the right-hand side, a figure illustrates the system components. 
+
+Third column: shows 3 practical use cases derived from the project. The first one consists of generating policy impact reports. We find a screenshot of the website for displaying reports on decision data on the left-hand side and a descriptive text explaining the approach on the right-hand side. The second use case, mapping decision data to geolocations, is presented next. A descriptive text appears on the left-hand side, while a screenshot of the system is shown on the right-hand side. The final use case presents a Retrieval-Augmented Generation (RAG) system for searching municipal decisions. A screenshot of the system is shown on the left-hand side, accompanied by a descriptive text explaining the approach on the right-hand side.
+
+Footer: Contains the logos of the project partners and funding organizations. It also includes QR codes linking to the project documentation, as well as the affiliations and contact information of the first author.","Towards a Semantic Dataspace for Interoperable and Transparent Local Council Decision Data
+
+Description: This A1 conference poster presents insights from the DECIDe (Data Driven Exploration in Contextual Information on DEcisions) project, which aims to establish a semantic dataspace for local decision data from two countries (Germany and Belgium). The dataspace provides a policy-aware infrastructure for secure and sovereign data exchange, while knowledge graphs ensure semantic harmonization and machine-interpretable data structures. The poster describes the motivation, goal, system architecture, and practical use cases.
+
+Layout: The poster is arranged in three vertical columns. The first column is split into two boxes, whereas the second and third columns each contain one main section.
+
+Header: The header contains the poster title, the authors, and their affiliations.
+
+First column (left box): Describes the motivation behind the work in three bullet points.
+
+First column (right box): D",,,
+34,111,PROV-CRED: Rated Provenance for Knowledge Graphs,"Mary Ann Tan, Christian Nennemann, Genet Asefa Gesese and Harald Sack",,https://drive.google.com/file/d/1jMzZV0wbnQiDSdOmGlpP5oxATauZTIrB/view?usp=drive_link,"knowledge graph provenance, knowledge graph enrichment, credibility annotation, PROV-O extension, RDF-Star, AI accountability",pd,Poster,"“PROV-CRED: Rated Provenance for Knowledge Graphs” by Mary Ann Tan, Christian Nennemann, Genet Asefa Gesese, and Harald Sack.
+
+
+The poster is divided into four sections. The first argues that knowledge graphs are built from heterogeneous methods with different levels of reliability and credibility. A diagram shows four sources of triples: human editorial review, deterministic rules, heuristic matching, and model inference. These sources contribute facts with different reliability scores to a single knowledge graph. An LLM queries the graph, illustrating that retrieved evidence can be opaque and is distinct from an LLM’s own confidence. 
+
+The next two sections, titled “Opacity Problem” and “EU AI Act”, connect inaccessible provenance and credibility information to accuracy, failure modes, institutional accreditation, and documentation requirements for high-risk systems using AI models. 
+
+The final section introduces PROV-CRED through a detailed provenance graph showing how reliability information is attached to a knowledge graph statement. A ""Legend"" panel describing the graph elements is shown below the section banner. To the right of this panel is a QR code that provides access to PROV-CRED serialized in Turtle format (.ttl).
+
+At the center of the provenance graph, a provcred:Model is linked to its model card, KGE completion task type, and biomedical benchmark domain. The model is associated with a provcred:ModelEnrichment activity representing the process that generated new triple. This activity is linked to a provcred:InferenceSetting, which records runtime parameters such as a score threshold of 0.80 and a seed of 42. The enrichment activity generates an annotated knowledge graph triple stating that a coagulation analyzer is contraindicated with a heparinized sample. This triple is also attributed back to the model that produced it.
+
+A separate provcred:ReliabilityAttribution connects the model and generated triple to evidence about the method’s reliability. It specifies MRR (Mean Reciprocal Rank) as the reliability measure, identifies the basis as benchmark-derived, and records an MRR value of 0.7452. Together, these relationships make it possible to trace a generated triple from the statement itself through the inference activity and its settings, to the producing model and the benchmark evidence supporting its reliability. Callouts emphasize that PROV-CRED extends PROV-O, uses RDF-Star triple-level annotations, and grounds triples in the documented reliability of their producing methods. 
+
+A “Blue Sky Provocation” raises three questions: (1) Who has the authority to conduct accreditation? (2) Under what criteria? and (3) How should method reliability be composed at query time?
+
+The footer contains the authors’ institutional affiliations (FIZ Karlsruhe, KIT), along with academic references.
+","“PROV-CRED: Rated Provenance for Knowledge Graphs” by Mary Ann Tan, Christian Nennemann, Genet Asefa Gesese, and Harald Sack.
+
+
+The poster is divided into four sections. The first argues that knowledge graphs are built from heterogeneous methods with different levels of reliability and credibility. A diagram shows four sources of triples: human editorial review, deterministic rules, heuristic matching, and model inference. These sources contribute facts with different reliability scores to a single knowledge graph. An LLM queries the graph, illustrating that retrieved evidence can be opaque and is distinct from an LLM’s own confidence. 
+
+The next two sections, titled “Opacity Problem” and “EU AI Act”, connect inaccessible provenance and credibility information to accuracy, failure modes, institutional accreditation, and documentation requirements for high-risk systems using AI models. 
+
+The final section introduces PROV-CRED through a detailed provenance graph showing how reliability i",,,
+35,112,Scaling Ontology Engineering with LLMs: Semantic Alignment and Coverage Evaluation,"Sebastian Neumaier, Tobias Dam and Fabian Kovac",,https://drive.google.com/file/d/1nGHEy4BJdGsZn0uJmw1hwXnEQpaDXn2b/view?usp=drive_link,"Ontology Engineering, LLM, EU AI Act, Technical Documentation, Compliance, AI System",pd,Poster,"Two-column A1 poster on AIDOC-AP, showing an LLM-assisted ontology pipeline for EU AI Act Annex IV compliance documentation.
+
+Long description:
+
+Title: Scaling Ontology Engineering with LLMs: Semantic Alignment and Coverage Evaluation
+Authors: Sebastian Neumaier, Tobias Dam, Fabian Kovac
+Affiliations: University of Applied Sciences St. Poelten; Vienna University of Economics and Business
+Project: CERTAIN (Certification for Ethical and Regulatory Transparency in Artificial Intelligence), grant 101189650
+
+Purpose:
+The poster presents a semantic machine-learning operations approach for technical documentation of high-risk artificial intelligence systems under Annex IV of the European Union Artificial Intelligence Act. It introduces AIDOC-AP, an ontology profile grounded in Annex IV, and explains how the profile is engineered and evaluated with a pipeline called NeOn-ACE.
+
+Reading order and structure:
+1. Top-left: Introduction
+2. Top-right: CERTAIN framework diagram
+3. Middle-left: NeOn-ACE pipeline diagram and method text
+4. Middle-right: AIDOC-AP ontology section with class diagram and two Resource Description Framework examples in Turtle syntax
+5. Bottom-right: Further work and citation note
+
+Section content:
+Introduction:
+Annex IV requires comprehensive technical documentation for high-risk artificial intelligence systems. Existing documentation artifacts, such as model cards and datasheets, are often informal and not machine-readable. Existing vocabularies, including Artificial Intelligence Risk Ontology, Vocabulary for AI Risk, and Machine Learning Schema, are related but not explicitly grounded in Annex IV.
+
+CERTAIN framework diagram:
+The diagram shows an end-to-end workflow.
+- Artificial intelligence lifecycle stages (data preparation, training, deployment) are instrumented with MLflow.
+- A semantic machine-learning operations engine collects metadata and stores artifacts with version control.
+- AIDOC-AP provides schema terms for mappings.
+- R2RML mappings with Ontop expose a virtual knowledge graph.
+- A completeness dashboard queries compliance readiness.
+- A human reviewer inspects results and reconfigures the pipeline.","Two-column A1 poster on AIDOC-AP, showing an LLM-assisted ontology pipeline for EU AI Act Annex IV compliance documentation.
+
+Long description:
+
+Title: Scaling Ontology Engineering with LLMs: Semantic Alignment and Coverage Evaluation
+Authors: Sebastian Neumaier, Tobias Dam, Fabian Kovac
+Affiliations: University of Applied Sciences St. Poelten; Vienna University of Economics and Business
+Project: CERTAIN (Certification for Ethical and Regulatory Transparency in Artificial Intelligence), grant 101189650
+
+Purpose:
+The poster presents a semantic machine-learning operations approach for technical documentation of high-risk artificial intelligence systems under Annex IV of the European Union Artificial Intelligence Act. It introduces AIDOC-AP, an ontology profile grounded in Annex IV, and explains how the profile is engineered and evaluated with a pipeline called NeOn-ACE.
+
+Reading order and structure:
+1. Top-left: Introduction
+2. Top-right: CERTAIN framework diagram
+3. Middle-left: NeOn-AC",,,
+36,117,Knowledge Tectonics: A Geodynamic Inspired Framework for Modeling Epistemic Changes,"Thomas Van Erven, Stelios Kontogiannis, Efstratios Kontopoulos, Konstantinos Avgerinakis, Andrea Scharnhorst and Sándor Darányi",,https://drive.google.com/file/d/13WpNzczLMzYFNNiwcPbi5Th_axtKO0D_/view?usp=drive_link,"Knowledge Tectonics, Knowledge Graphs, Semantic Web, Vector-Augmented Knowledge Graphs, Evolving Epistemic Changes",pd,Poster,"“Knowledge Tectonics: A Geodynamic Inspired Framework for Modelling Epistemic Changes”
+
+The poster presents Knowledge Tectonics, a physics-inspired framework for modelling how concepts and cultural artefacts change over time. It uses the WikiArt Emotions dataset, containing 4,105 paintings spanning about 600 years.
+
+Artwork metadata and image-derived information are represented in an RDF knowledge graph. Image embeddings determine where artworks are positioned in a two-dimensional semantic landscape, while knowledge-graph structure contributes information about semantic resistance to change.
+
+The workflow has four main stages:
+
+1. Artwork images and metadata are processed to generate captions, affective scores, PageRank values, and an RDF knowledge graph.
+2. Knowledge-graph embeddings are generated using PyKEEN.
+3. CLIP image embeddings are reduced to a shared two-dimensional space with UMAP and divided into temporal slices.
+4. Mathematical methods calculate density, pressure, viscosity, velocity, divergence, and rotational movement between consecutive periods.
+
+Kernel density estimation converts artwork positions into a continuous landscape. Changes in density between time slices create a pressure field. The resulting velocity field represents the inferred direction of stylistic or semantic drift.
+
+Knowledge-graph edge weights are used to create a viscosity field. Strongly connected semantic regions resist movement more than weakly connected ones. Helmholtz–Hodge decomposition separates directional change, associated with expansion or innovation, from rotational change, associated with stylistic cycles or revivals.
+","“Knowledge Tectonics: A Geodynamic Inspired Framework for Modelling Epistemic Changes”
+
+The poster presents Knowledge Tectonics, a physics-inspired framework for modelling how concepts and cultural artefacts change over time. It uses the WikiArt Emotions dataset, containing 4,105 paintings spanning about 600 years.
+
+Artwork metadata and image-derived information are represented in an RDF knowledge graph. Image embeddings determine where artworks are positioned in a two-dimensional semantic landscape, while knowledge-graph structure contributes information about semantic resistance to change.
+
+The workflow has four main stages:
+
+1. Artwork images and metadata are processed to generate captions, affective scores, PageRank values, and an RDF knowledge graph.
+2. Knowledge-graph embeddings are generated using PyKEEN.
+3. CLIP image embeddings are reduced to a shared two-dimensional space with UMAP and divided into temporal slices.
+4. Mathematical methods calculate density, pressure, viscosit",,,
+37,129,Efficient RAG for MediaWiki and Wikibase: Hyperparameter Tuning for Semantic Retrieval under Resource Constraints,"Kolja Bailly, Lozana Rossenova and Ina Blümel",,https://drive.google.com/file/d/1Rz6e_yMNl2CArgx-83bnGil94RrXEo2C/view?usp=drive_link,"RAG, Hyperparameter Optimization, Sustainable AI, MediaWiki, Retrieval, Small Language Models",pd,Poster,"Efficient RAG for MediaWiki and Wikibase
+
+The poster is a vertically oriented research poster with a white background. It uses dark blue headings, light blue and yellow background shapes, and blue accent lines. The title at the top reads **“Efficient RAG for MediaWiki and Wikibase: Hyperparameter Tuning for Semantic Retrieval under Resource Constraints.”** The authors are Kolja Bailly, Lozana Rossenova, and Ina Blümel.
+
+### Header graphic
+
+In the upper-left corner is the **Wikibase4Research** logo. It visually combines the Semantic MediaWiki and Wikibase logos, connected by a curved line, with a Docker logo underneath. The graphic represents the integration of Semantic MediaWiki and Wikibase within the Wikibase4Research project.
+
+### RAG workflow diagram
+
+Below the title, in the center of the poster, is a graphical representation of a RAG workflow. A user sitting at a laptop sends a question, represented by a question-mark icon, toward a **Retriever**. The retriever accesses a **Context** represented by a database icon. The retrieved context and question are passed to an **LLM**, represented by a processor-chip icon containing the letters “LLM.” The LLM produces an **Answer**, represented by a speech-bubble icon.
+
+A circular AutoRAG icon appears below the retriever and context components, indicating that AutoRAG controls or optimizes the retrieval process.
+
+### Wikibase4Research section
+
+On the upper left, the **Wikibase4Research** section contains a short list describing the platform. No additional conceptual diagram is used in this section.
+
+### AutoRAG section
+
+On the upper right, the **AutoRAG** section describes the automated RAG optimization approach. The adjacent central RAG diagram provides a visual representation of the question, retrieval, context, language-model processing, and answer generation.
+
+### Experiment workflow diagram
+
+In the large light-blue area in the lower-left portion of the poster, the **Experiment** section contains a multi-stage workflow diagram.
+
+The workflow consists of numbered boxes connected by arrows:
+
+1. **Knowledge Base:** MediaWiki/Wikibase sources are used as the knowledge base.
+2. **Data Sampling:** random pages are selected.
+3. **Persona Definition:** a researcher persona is defined.
+4. **Persona-Aware Prompting:** the persona is incorporated into prompting for question generation.
+5. **Synthetic Dataset Generation:** an SLM generates a question/context dataset.
+6. **RAG Index Construction:** documents are processed and indexed.
+7. **Chunk Size & Overlap Optimization:** different chunking configurations are evaluated.
+8. **Semantic Retrieval:** relevant chunks are retrieved for generated questions.
+9. **Retrieval Evaluation:** retrieval quality is evaluated using Mean Reciprocal Rank (MRR).
+10. **Greedy Hyperparameter Search:** parameter configurations are iteratively optimized.
+11. **Optimized RAG Pipeline:** the optimized configuration is selected and applied to the RAG pipeline.","Efficient RAG for MediaWiki and Wikibase
+
+The poster is a vertically oriented research poster with a white background. It uses dark blue headings, light blue and yellow background shapes, and blue accent lines. The title at the top reads **“Efficient RAG for MediaWiki and Wikibase: Hyperparameter Tuning for Semantic Retrieval under Resource Constraints.”** The authors are Kolja Bailly, Lozana Rossenova, and Ina Blümel.
+
+### Header graphic
+
+In the upper-left corner is the **Wikibase4Research** logo. It visually combines the Semantic MediaWiki and Wikibase logos, connected by a curved line, with a Docker logo underneath. The graphic represents the integration of Semantic MediaWiki and Wikibase within the Wikibase4Research project.
+
+### RAG workflow diagram
+
+Below the title, in the center of the poster, is a graphical representation of a RAG workflow. A user sitting at a laptop sends a question, represented by a question-mark icon, toward a **Retriever**. The retriever accesses a **Contex",,,
+38,163,Decompose Before You Match: Mapping Complex Terms to FoodOn by Their Parts,"Tadeusz Price, Jens Ruhof, Ido Toxopeus, Marga Ocké and Anna Fensel",,https://drive.google.com/file/d/1HLjXMcG9xHIqMF3ZzYSbqFDgynpYEITw/view?usp=drive_link,"ontology matching, complex term mapping, knowledge graph construction, FoodOn, large language models",pd,Poster,"Research poster: mapping complex food terms to the FoodOn ontology by decomposing them into a base plus modifiers.
+
+Header. A title banner reads ""BIGFOOD, food-data interoperability at RIVM,"" with the RIVM logo. Poster title: ""Decompose Before You Match: Mapping Complex Food Terms to FoodOn by Their Parts."" Authors: T. Price, J. Ruhof, I. Toxopeus and M. Ocke of RIVM, the National Institute for Public Health and the Environment, Bilthoven, the Netherlands, and A. Fensel of Wageningen University and Research, the Netherlands. Contact: tadeusz.price@rivm.nl. The poster is laid out in columns and reads left to right.
+
+Section 1, ""The term-matching problem."" The goal is to align food datasets with the FoodOn ontology for interoperability and for building knowledge graphs. Terms that name more than a plain food, that is a base such as potato together with a process, fraction, or form such as baked, match poorly to FoodOn classes: coverage is low and the classes that do match are thinly axiomatized. The study took 118 ingredient terms from meat-alternative products in the NICE-Food knowledge graph, labelled each as simple or complex, and compared two strategies, matching the whole term to a FoodOn class versus decomposing it into a base plus modifiers and matching those parts.
+","Research poster: mapping complex food terms to the FoodOn ontology by decomposing them into a base plus modifiers.
+
+Header. A title banner reads ""BIGFOOD, food-data interoperability at RIVM,"" with the RIVM logo. Poster title: ""Decompose Before You Match: Mapping Complex Food Terms to FoodOn by Their Parts."" Authors: T. Price, J. Ruhof, I. Toxopeus and M. Ocke of RIVM, the National Institute for Public Health and the Environment, Bilthoven, the Netherlands, and A. Fensel of Wageningen University and Research, the Netherlands. Contact: tadeusz.price@rivm.nl. The poster is laid out in columns and reads left to right.
+
+Section 1, ""The term-matching problem."" The goal is to align food datasets with the FoodOn ontology for interoperability and for building knowledge graphs. Terms that name more than a plain food, that is a base such as potato together with a process, fraction, or form such as baked, match poorly to FoodOn classes: coverage is low and the classes that do match are thinly axio",,,
+39,165,Modeling the Letters of Nobel Laureate Ivo Andrić as a Knowledge Graph,"Marija Đokić Petrović, Mihajlo Stojanović and Branko Tošović",,https://drive.google.com/file/d/1_Rw20SAAxDMFNZXGQpxhWPrXfgboDWFq/view?usp=drive_link,"Knowledge Graph, Linked Data, Named Entity Recognition, Transkribus, RDF, Digital Humanities, Ivo Andrić",pd,Poster,"Research poster, ""Modeling the Letters of Nobel Laureate Ivo Andrić as a
+Knowledge Graph,"" presenting a workflow that turns 15 of Andrić's letters into
+an RDF knowledge graph of 1,667 triples. Full description follows.
+
+
+LONG DESCRIPTION
+----------------
+
+OVERALL LAYOUT
+A portrait poster in dark navy, white and terracotta. Reading order is: a title
+banner; a full-width workflow diagram; three columns of text, statistics and
+tables; a full-width results section built around a large network diagram; and a
+closing row containing the conclusion, references and project links. Numbered
+section labels correspond to the sections of the accompanying paper.
+
+TITLE BANNER
+Title: ""Modeling the Letters of Nobel Laureate Ivo Andrić as a Knowledge Graph.""
+Authors: Marija Đokić Petrović (affiliation 1, corresponding author), Mihajlo
+Stojanović (affiliation 1) and Branko Tošović (affiliation 2); a footnote states
+that all three authors contributed equally. Affiliation 1 is the Department of
+Computer Science, School of Computing, Union University, Belgrade, Serbia.
+Affiliation 2 is the Department of Slavic Studies, University of Graz, Austria.
+At the right of the banner is the conference logo, reading ""SEMANTiCS"" with
+""Ghent 2026"" beneath it.
+
+WORKFLOW PANEL — ""Workflow: From Letters to Knowledge Graph""
+Figure 1 is a left-to-right flow diagram of the processing pipeline. A box
+labelled ""Subset of Andrić's letters"" leads to ""Transkribus transcription"", then
+""PAGE XML processing"", then ""Named Entity Recognition"". Next comes a grouped
+pair of steps, ""Entity Normalization"" followed by ""Entity Linking"", enclosed
+together in a dashed outline. This leads to ""RDF generation"", which finally
+branches into two outputs: ""SPARQL querying"" and ""Knowledge Graph visualization"".
+Caption: ""Figure 1. Letters are transcribed in Transkribus, parsed from PAGE XML
+into structured records, processed with NER, normalized and linked to Wikidata,
+then converted to RDF for SPARQL querying and graph visualization.""
+","Research poster, ""Modeling the Letters of Nobel Laureate Ivo Andrić as a
+Knowledge Graph,"" presenting a workflow that turns 15 of Andrić's letters into
+an RDF knowledge graph of 1,667 triples. Full description follows.
+
+
+LONG DESCRIPTION
+----------------
+
+OVERALL LAYOUT
+A portrait poster in dark navy, white and terracotta. Reading order is: a title
+banner; a full-width workflow diagram; three columns of text, statistics and
+tables; a full-width results section built around a large network diagram; and a
+closing row containing the conclusion, references and project links. Numbered
+section labels correspond to the sections of the accompanying paper.
+
+TITLE BANNER
+Title: ""Modeling the Letters of Nobel Laureate Ivo Andrić as a Knowledge Graph.""
+Authors: Marija Đokić Petrović (affiliation 1, corresponding author), Mihajlo
+Stojanović (affiliation 1) and Branko Tošović (affiliation 2); a footnote states
+that all three authors contributed equally. Affiliation 1 is the Department of
+Computer Sc",,,
+40,174,A Semantic Backend Architecture for Digital Twin Spacecraft Lifecycle Integration,"Rojina Shrestha, Björn Beyreuther, Harald Eisenmann, Ken Wenzel and Armin Müller",,https://drive.google.com/file/d/1IADzhfvaXbZ8eXZiUe-XIAYb_FXsUwtr/view?usp=drive_link,"Semantic interoperability, Semantic Web technologies, RDF, OWL, SPARQL, SHACL",pd,Poster,"The poster presents a semantic backend architecture for integrating heterogeneous data across the lifecycle of a Digital Twin Spacecraft (DTSC). It is organized into three main sections: the spacecraft lifecycle integration challenge, the proposed DTSC semantic backend architecture, and a running example demonstrating semantic and time-series data capabilities.
+Section 1 – The Challenge:
+The first section illustrates heterogeneous data across the spacecraft lifecycle. The lifecycle progresses through System Definition, System Design, Production, Assembly, Integration and Testing (AIT), and Operations/Telemetry. Data generated across these phases can remain in separate data silos, use proprietary formats, and provide limited integration. The section motivates the need for semantic integration across lifecycle phases and heterogeneous data sources.
+Section 2 – DTSC Semantic Backend:
+The second section presents the proposed DTSC semantic backend architecture. Data sources include engineering tools such as Cameo and Windchill, production systems, test systems such as OCEAN, telemetry and time-series sources, and other data sources.
+These sources are connected to the DTSC Semantic Backend. The backend contains three principal groups of functionality.
+The Management Service provides Project Management, Dataset Management, Vocabulary Management, Configuration Management, and SHACL Shapes Management.
+","The poster presents a semantic backend architecture for integrating heterogeneous data across the lifecycle of a Digital Twin Spacecraft (DTSC). It is organized into three main sections: the spacecraft lifecycle integration challenge, the proposed DTSC semantic backend architecture, and a running example demonstrating semantic and time-series data capabilities.
+Section 1 – The Challenge:
+The first section illustrates heterogeneous data across the spacecraft lifecycle. The lifecycle progresses through System Definition, System Design, Production, Assembly, Integration and Testing (AIT), and Operations/Telemetry. Data generated across these phases can remain in separate data silos, use proprietary formats, and provide limited integration. The section motivates the need for semantic integration across lifecycle phases and heterogeneous data sources.
+Section 2 – DTSC Semantic Backend:
+The second section presents the proposed DTSC semantic backend architecture. Data sources include engineer",,,
+41,178,Nahuatl Dialectal Varieties Classification,"Juan-José Guzmán-Landa, Daniela Juárez-Morales, Juan-Manuel Torres-Moreno, Luis-Gil Moreno-Jiménez, Miguel Figueroa-Saavedra, Rémy Kessler, Graham Ranger and Martha-Lorena Avendaño-Garrido",,https://drive.google.com/file/d/1LdoZVZGAzTaIjYVJcoZGadszGnAghYtF/view?usp=drive_link,"Nahuatl, Dialectal varieties, Classification, Low-resourced Languages, Transformers",pd,Poster,"Figure 1 : Shows a map of Mexico, highlighting in different colours the 30 Nahuatl dialect varieties found in different regions of the country.
+
+Figure 2 : Demonstrates the importance of having a dialect identification system. This is because it can be used to develop other highly useful tools
+
+Table 1 : Give an example of an English phrase translated into Nahuatl and show how this translation varies across different regions
+
+Figure 3 : On the left-hand side is a graph showing the distribution of tokens for the first 18 dialectal varieties in the π-yalli corpus. On the right-hand side is the average length of tokens within the π-yalli vocabulary
+
+Table 2 : Shows the F1-score achieved by each of the models in the classification task. It also shows the F1-score using soft voting in the last column and the average of all the scores in the last row
+
+Figure 4 : Shows the confusion matrix for the prediction of each variety using soft voting
+","Figure 1 : Shows a map of Mexico, highlighting in different colours the 30 Nahuatl dialect varieties found in different regions of the country.
+
+Figure 2 : Demonstrates the importance of having a dialect identification system. This is because it can be used to develop other highly useful tools
+
+Table 1 : Give an example of an English phrase translated into Nahuatl and show how this translation varies across different regions
+
+Figure 3 : On the left-hand side is a graph showing the distribution of tokens for the first 18 dialectal varieties in the π-yalli corpus. On the right-hand side is the average length of tokens within the π-yalli vocabulary
+
+Table 2 : Shows the F1-score achieved by each of the models in the classification task. It also shows the F1-score using soft voting in the last column and the average of all the scores in the last row
+
+Figure 4 : Shows the confusion matrix for the prediction of each variety using soft voting
+",,,
+42,187,Investigating Stability and Consensus in LLM Taxonomy Generation,Alison Yearsley and Anelia Kurteva,,https://drive.google.com/file/d/1vmjpzrX4lW3QR3ytU5Ph_D62i_Hf8It7/view?usp=drive_link,"Large language models, Taxonomy, Output stability, Self-consistency, Knowledge graphs, Nikoli puzzles",pd,Poster,"Does model, prompt, temperature, or added context change how stable a
+generated taxonomy is?
+
+Does giving the model source material, in this case a rules PDF, help or
+interact with model capacity?
+
+Can a reliable consensus taxonomy be extracted from repeated,
+inconsistent runs, without a ground truth?
+
+Domain: 42 Nikoli logic puzzles (Sudoku, Slitherlink, and others).
+
+--------------------------------------------------------------
+SECTION: METHODS - PIPELINE OVERVIEW
+--------------------------------------------------------------
+[Figure description: a flowchart of a three-stage pipeline]
+
+Five inputs feed the first stage: p (prompt), T (temperature), G (game
+list), m (model), and d (document, i.e. the rules PDF).
+
+Stage 1, Generate: takes the five inputs and produces ""Run JSON"".
+
+Stage 2, Ingest: takes ""Run JSON"" as input and produces two outputs,
+""Run graph"" and ""Hallucination Log"".
+
+Stage 3, Evaluate: takes the outputs of Ingest and produces two further
+outputs, ""Summary CSV"" and ""Metrics Node"".
+
+Figure caption: Flow diagram of the three-stage Generate, Ingest,
+Evaluate pipeline. p = prompt, G = game list, m = model, T = temperature,
+d = document (rules PDF).
+
+Supporting text: LLM APIs are prompted to Generate taxonomies. Taxonomies
+are then Ingested into a Neo4j graph database. Evaluate computes
+structural and stability measures over the resulting taxonomies using
+Python scripts. Experiments isolate the effects of provider, model
+capacity, prompt, temperature, and additional context.
+
+Supporting text: To evaluate stability below full (100%) consensus, a
+weighted relationship graph is calculated, where the weight of the
+relation between two games is the percentage of runs in which they were
+placed in the same category. The loop-drawing group, centred on the game
+Masyu, is the strongest and most interpretable grouping found.","Does model, prompt, temperature, or added context change how stable a
+generated taxonomy is?
+
+Does giving the model source material, in this case a rules PDF, help or
+interact with model capacity?
+
+Can a reliable consensus taxonomy be extracted from repeated,
+inconsistent runs, without a ground truth?
+
+Domain: 42 Nikoli logic puzzles (Sudoku, Slitherlink, and others).
+
+--------------------------------------------------------------
+SECTION: METHODS - PIPELINE OVERVIEW
+--------------------------------------------------------------
+[Figure description: a flowchart of a three-stage pipeline]
+
+Five inputs feed the first stage: p (prompt), T (temperature), G (game
+list), m (model), and d (document, i.e. the rules PDF).
+
+Stage 1, Generate: takes the five inputs and produces ""Run JSON"".
+
+Stage 2, Ingest: takes ""Run JSON"" as input and produces two outputs,
+""Run graph"" and ""Hallucination Log"".
+
+Stage 3, Evaluate: takes the outputs of Ingest and produces two further
+outputs, ""Summary CSV"" and ""Me",,,
+43,188,LLM-Leaderboard for Knowledge Graph related Tasks - Finding the Best Language Model with Data from LLM-KG-Bench,"Lars-Peter Meyer, Felix Brei, Johannes Frey and Marvin Hofer",,https://drive.google.com/file/d/1nya1cozO4r5JmTW8FsTICIaelaASiBTT/view?usp=drive_link,"Knowledge Graph, RDF, Large Language Model, LLM-Leaderboard, LLM-KG-Bench",pd,Poster,"Poster for the Article ""LLM-Leaderboard for KG related Tasks - Finding the Best Language Model with Data from LLM-KG-Bench"" by Lars-Peter Meyer, Felix Brei, Johannes Frey and Marvin Hofer.
+After a short Motivation section (LLMs show high potential with KGs but the number of LLMs and results is growing) a short overview on the leaderboard is given. Beside a short listing of the 8 aggregated scores a table shows values for this scores for all >40 LLMs. 8 example capability plots are given and a short summary on the LLM-KG-Bench framework.","Poster for the Article ""LLM-Leaderboard for KG related Tasks - Finding the Best Language Model with Data from LLM-KG-Bench"" by Lars-Peter Meyer, Felix Brei, Johannes Frey and Marvin Hofer.
+After a short Motivation section (LLMs show high potential with KGs but the number of LLMs and results is growing) a short overview on the leaderboard is given. Beside a short listing of the 8 aggregated scores a table shows values for this scores for all >40 LLMs. 8 example capability plots are given and a short summary on the LLM-KG-Bench framework.",,,
+44,192,Using Linked Data for Monitoring Administrative Persecution Targeting LGBTQIA+ Expression,Andrei Nesterov and Sergey Katsuba,,https://drive.google.com/file/d/1BB_XAAKchh6aiSDVAHTnZs3rQluSHgcq/view?usp=drive_link,"Linked Open Data, Knowledge Management, Ontology Engineering, Knowledge Graph, Human Rights",pd,Poster,"The poster consists of several blocks arranged vertically: title; a two-column introduction; example; ontology scheme; a section with bullet points about the dataset, ontology & controlled vocabularies, and knowledge graph; and a footer with the Dataout Foundation's logo, its description, links to social media, and a QR code for donations.
+
+The example consists of a citation from a court document and includes a hand-drawn image on the right. The image is used only for decorative purposes: it depicts a social media post with blacked-out content. There is a dashed line connecting the example with the ontology scheme below. 
+
+The ontology scheme represents the main classes and properties. The class ""MonitoringRecord"" is in the centre top. This class is connected with arrows to others. On the left, three classes are grouped in a block with a dashed line and labelled as ""Provenance"". On the right, four classes are grouped and labelled as ""Content"".
+
+Other content is given in text.","The poster consists of several blocks arranged vertically: title; a two-column introduction; example; ontology scheme; a section with bullet points about the dataset, ontology & controlled vocabularies, and knowledge graph; and a footer with the Dataout Foundation's logo, its description, links to social media, and a QR code for donations.
+
+The example consists of a citation from a court document and includes a hand-drawn image on the right. The image is used only for decorative purposes: it depicts a social media post with blacked-out content. There is a dashed line connecting the example with the ontology scheme below. 
+
+The ontology scheme represents the main classes and properties. The class ""MonitoringRecord"" is in the centre top. This class is connected with arrows to others. On the left, three classes are grouped in a block with a dashed line and labelled as ""Provenance"". On the right, four classes are grouped and labelled as ""Content"".
+
+Other content is given in text.",,,
+45,108,Demonstration of RDF and SPARQL 1.2 Interoperability through Query Rewriting,Jitse De Smet and Maxime Jakubowski,https://www.youtube.com/watch?v=d7yZH_uSRTo,,"SPARQL 1.2, RDF 1.2, Reification, Metadata, Data Integration, Query Rewriting",demos,Demo,,,,,
+46,110,The Eyeling Playground: N3 rules in your browser,"Patrick Hochstenbach, Jos De Roo, Wout Slabbinck, Beatriz Esteves and Pieter Colpaert",https://www.youtube.com/watch?v=gJ6GiUEbxQU,,"Notation3, Rules, Reasoning, ODRL, Usage control, Neurosymbolic AI",demos,Demo,,,,,
+47,113,ArcUno: A Topology-Sensing Tangible Toolkit for Lean Knowledge Graph Modeling,Filippos Taprantzis and Victor de Boer,https://www.youtube.com/watch?v=GFCiPsGaBjY,,"Tangible user interfaces, conceptual modeling, knowledge graphs, ArUco fiducials, topology sensing",demos,Demo,,,,,
+48,167,FnO-Convert: Automatic Semantic Annotation of ML Pipelines Using the Function Ontology,"Pol Nachtergaele, Ben De Meester and Femke Ongenae",https://www.youtube.com/watch?v=baRpsWvo5Pc,,"Prospective provenance, Function ontology, Semantic annotation, Machine learning scripts, PROV-O",demos,Demo,,,,,
+49,175,Putting the Athlete in Control of their Performance Data through Privacy-Preserving Aggregators across Data Vaults,"Maarten Vandenbrande, Pieter Bonte and Femke Ongenae",https://www.youtube.com/watch?v=RqNAAcu4VnY,,"Athlete performance monitoring, Personal Data Vault, Aggregator, Privacy-preserving",demos,Demo,,,,,
+50,156,Urban Drone Traffic Safety with Semantic Web Enhanced Stream Reasoning through DatalogMTL^RDF,Volodymyr Kadzhaia and Pieter Bonte,https://www.youtube.com/watch?v=YCxMSC2qJQ8,,"Stream Reasoning, Drones, DatalogMTL, RDF Stream Processing",demos,Demo,,,,,
+51,185,Enforcing fine-grained data governance for Wikibase via generic and declarative filter rules,Sven Lieber,,https://drive.google.com/file/d/1X592NU-9OPgfJ9suf0zmIYj1-hWur54z/view?usp=drive_link,"Wikibase, Data governance, Privacy",pd,Poster,"The title of the poster on the top left is ""Enforcing declarative data access rules for personal data in an operational Wikibase""
+The subtitle below in a smaller font is ""To keep our almost 1 million person records as open as possible and as closed as necessary"", 
+whereas the part ""as closed as necessary"" is underlined, highlighting the focus of the poster.
+Below is the following text to provide context: ""Default visibility is encoded on the global property, but how can it be overwritten for specific items (e.g. for GDPR requests while remaining expressive and user-friendly?""
+Other than that, there are three Wikibase screenshots arranged on an exponential curve.
+The first is showing statement-level annotations, accompanied by a green box with the advantage ""Intuitive and straightforward"" and a red box with the disadvantage ""Semantic Issues"".
+The second screenshot in the middle of the curve shows the option ""centralized visibility property"", accompanied by a green box stating the advantage ""expressive and easy to find"" and a red box stating the disadvantage ""ambiguous edge cases"".
+The third screenshot on top of the curve shows the option ""explicit rule entities"", accompanied by a green box stating the advantage ""very expressive"" and a red box stating the disadvantage ""high curation burden"".
+At the bottom is a banner with the logos of the Royal Library of Belgium, the Belgian Science Policy Office and the MetaBelgica project.
+Furthermore, the E-mail of the author Sven.Lieber@kbr.be is provided, a link to the website https://metabelgica.be
+as well as the DOI identifier of the poster https://doi.org/10.5281/zenodo.21915884","The title of the poster on the top left is ""Enforcing declarative data access rules for personal data in an operational Wikibase""
+The subtitle below in a smaller font is ""To keep our almost 1 million person records as open as possible and as closed as necessary"", 
+whereas the part ""as closed as necessary"" is underlined, highlighting the focus of the poster.
+Below is the following text to provide context: ""Default visibility is encoded on the global property, but how can it be overwritten for specific items (e.g. for GDPR requests while remaining expressive and user-friendly?""
+Other than that, there are three Wikibase screenshots arranged on an exponential curve.
+The first is showing statement-level annotations, accompanied by a green box with the advantage ""Intuitive and straightforward"" and a red box with the disadvantage ""Semantic Issues"".
+The second screenshot in the middle of the curve shows the option ""centralized visibility property"", accompanied by a green box stating the advant",,,
+52,177,Explore Intra-Belgian book translation flows with a SAMPO-UI,"Sven Lieber, Ann Van Camp, Joren Six and Julie Birkholz",https://www.youtube.com/watch?v=uKUMy-XhK4M,,"Big Translation History, Semantic Portal, Library Science",demos,Demo,,,,,
+53,106,Sampo-UI Meets Ontop: Publishing Relational Digital Humanities Data on the Semantic Web,"Joren Six, Jahid Chetti, Annastiina Ahola, Frederic Lamsens, Heikki Rantala and Eero Hyvönen",https://www.youtube.com/watch?v=9MSau4_7YNM,,"Linked data, SPARQL, Sampo-UI, Semantic Web, Virtual Knowledge Graph, Ontop-VKG",demos,Demo,,,,,
+54,137,Using ParliamentSampo Linked Open Data Service and Portal for Analyzing Interruptions and Laughter in the Plenary Sessions of the Parliament of Finland,"Eero Hyvönen, Petri Leskinen, Heikki Rantala, Jouni Tuominen and Annastiina Ahola",https://www.youtube.com/watch?v=H0t3Cx7JskM,,"linked data, parliamentary data, digital humanities, user interface, semantic portal, SPARQL",demos,Demo,,,,,
+55,166,EthnoBot: A Semantic Platform for Ethnobotanical Data Collection and LLM-Aided Plant Name Resolution,"Theodora Manika, Michail Tsenos, Christian Ebeling, Vijay Ingalalli, Antigoni Cheilari, Evanthia Dina, Avni Hajdari, Andrea Pieroni, Dimitrios Gunopoulos, Marc Jacobs and Nektarios Aligiannis",https://www.youtube.com/watch?v=HwZJe6j_DAg,,"ethnobotany, semantic web, knowledge graphs, Darwin Core, plant name resolution, large language models, linked data, biodiversity informatics",demos,Demo,,,,,
+56,107,KGWorkbench: From Modular Ontologies to Human-Reviewed Knowledge Graphs - A Human-in-the-Loop Tool for LLM-assisted Knowledge Graph Construction,"Ole Katzenberger, Ferdinand Moritz Schreiber, Christos Vagkidis, Alf Köhn-Seemann and Thomas Kopinski",https://www.youtube.com/watch?v=BpO-RszuRP8,,"Knowledge Graph Construction, Modular Ontology Modeling (MOMo), Large Language Models, GraphRAG",demos,Demo,,,,,
+57,121,Montage: LLM-driven Expert-in-loop Schema-Ontology Mapper,"Siddhesh Thombre, Manasi Patwardhan and Sunita Sarawagi",https://www.youtube.com/watch?v=Ce9NfnA3fMQ,,"Database-Ontology mapping, data integration, enterprise search, R2RML generation",demos,Demo,,,,,
+58,122,Towards ATIC: A Specialized Quadstore Tailored for Corporate Memories,"Markus Schröder, Desiree Heim, Christian Jilek and Andreas Dengel",https://www.youtube.com/watch?v=bKEHptIYK1k,,"Resource Description Framework (RDF), Triplestore, Quadstore, Access Control, Corporate Memory",demos,Demo,,,,,
+59,155,MCP-over-SPARQL : Giving AI the tools to query knowledge graphs,"Tarek Bouzelat, Thomas Francart, Badisse Dahamna, Flavien Disson, Romain Lelong, Catherine Letord and Stefan Darmoni",https://www.youtube.com/watch?v=iUlBUIXGxY4,,"Knowledge Graph, Model Context Protocol (MCP), SPARQL, SHACL",demos,Demo,,,,,
+60,162,Streaming Interoperable Construction Data with LDES,Carlos Ramonell and Mathias Bonduel,https://www.youtube.com/watch?v=bX0UqZ7oGwI,,"Linked Data Event Streams, Construction Information Management, Interoperability",demos,Demo,,,,,
+61,170,Robot Capability Assessment in Manufacturing Using Semantic XAI and Neuro-Symbolic Reasoning,"Muhammad Raza Naqvi, Arkopaul Sarkar, Linda Elmhadhbi, Antoine Zimmermann and Hedi Karray",https://www.youtube.com/watch?v=t7HNxGwg94I,,"Knowledge Engineering, Manufacturing Common-Sense knowledge, Semantic Explainable AI",demos,Demo,,,,,
+62,172,The FAIR Humanitarian Data Space,"Rens Kievit, Joëlle Stocker and Mirjam van Reisen",https://www.youtube.com/watch?v=FytrM8POLCQ,,"FAIR Data, Data Space, Interoperability, Federated Querying",demos,Demo,,,,,
+63,181,Session Graph: A Provenance-Aware Semantic Memory Layer for AI-Assisted Development,Roberto Shimizu,https://www.youtube.com/watch?v=54VL71-UfeU,,"Knowledge graph, Provenance, PROV-O, Wikidata linking, LLM knowledge extraction, Agent memory, SPARQL",demos,Demo,,,,,
+64,184,AMA-KBQA: An Adaptable Multi-Agent Framework for Generalizable Knowledge Base Question Answering,"Yannic Duan, Maximilian Klattig, Maurice Bardenhagen, Yuyang Li and Tobias Käfer",https://www.youtube.com/watch?v=0sW_jHzXhlI,,"KBQA, SPARQL, Large Language Models, Model Context Protocol, Knowledge Graphs, RAG",demos,Demo,,,,,
+65,190,"Trust Chains for AI-Assisted Heritage Knowledge: A Wiki-Backed, Tradition-Aware Pipeline",Vijendra Kushwaha,https://www.youtube.com/watch?v=y8iJf9haLJc,,"human-AI knowledge engineering, provenance, PROV-O, cultural heritage, multilinguality",demos,Demo,,,,,
+66,191,Knowledge-Graph Scope Expansion for Text-to-SQL RAG over Czech Public-Health Tables: A Demo,Peter Vajdecka,https://www.youtube.com/watch?v=0f9w-IB1jgg,,"retrieval-augmented generation, knowledge graphs, KG-RAG, semantic retrieval, text-to-SQL, public-health open data, tabular summarization",demos,Demo,,,,,
+67,183,OBIS Extractor: Create a Schema for Your Knowledge Graph,"Kārlis Čerāns, Aiga Romane-Ritmane, Mikus Grasmanis and Lelde Lāce",https://www.youtube.com/watch?v=1_aBqujVOZE,,"Knowledge graphs, Knowledge graph schema, Visual schema diagrams, Visual queries",demos,Demo,,,,,
+68,189,Agentic exploration of knowledge graph data schemas,"Uldis Bojārs, Lelde Lāce, Mikus Grasmanis and Kārlis Čerāns",https://www.youtube.com/watch?v=y8K_WSaH-jY,,"knowledge graphs, SPARQL endpoints, data schemas, Model Context Protocol, large language models, agentic AI",demos,Demo,,,,,
