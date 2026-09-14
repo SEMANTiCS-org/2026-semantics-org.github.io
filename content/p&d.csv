@@ -120,22 +120,22 @@ Problem statement: How can an ontology be engineered iteratively so developers u
 Pipeline diagram with four steps: (1) input consists of an OWL ontology, SKOS concepts, and developer preferences; (2) main classes and attributes are inferred; (3) SKOS concepts are mapped; (4) developer artefacts are generated as output, referencing the ontology. Example code snippets show generated Java classes with embedded links back to the linked data.
 
 Abstract: Linked open data is difficult for software teams to use when OWL models are documented for ontology engineers rather than implementers, and keeping implementer documentation current is time-consuming while an ontology is under development. ODDToolkit ",,,
-14,24,Chemical Identity Lost in Regulation: A Study of Semantic Interoperability in European Chemical Substance Data,"Geert Van Haute, Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel",,https://drive.google.com/file/d/1Gv710pfJrA3c7MKqyselijEtwJ5kGrSy/view,"semantic interoperability, regulatory interoperability, Interoperable Europe, chemical substance identification",pd,Poster,"Short alt text (for the <img alt=""...""> attribute):
-Academic conference poster titled ""Chemical Identity Lost in Regulation: A Study of
-Semantic Interoperability in European Chemical Substance Data"" by Geert Van Haute,
+14,24,Chemical Identity Lost in Regulation: A Study of Semantic Interoperability in European Chemical Substance Data,"Geert Van Haute, Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel",,https://drive.google.com/file/d/1Gv710pfJrA3c7MKqyselijEtwJ5kGrSy/view,"semantic interoperability, regulatory interoperability, Interoperable Europe, chemical substance identification",pd,Poster,"Short alt text (for the <img alt='...'> attribute):
+Academic conference poster titled 'Chemical Identity Lost in Regulation: A Study of
+Semantic Interoperability in European Chemical Substance Data' by Geert Van Haute,
 Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel (Flemish Government,
 SEMANTiCS 2026). A full text description of the poster's content follows in this file.
 
 Long description:
 
 Header
-The poster is titled ""Chemical Identity Lost in Regulation"", subtitled ""A Study of
-Semantic Interoperability in European Chemical Substance Data"". Authors: Geert Van
+The poster is titled 'Chemical Identity Lost in Regulation', subtitled 'A Study of
+Semantic Interoperability in European Chemical Substance Data'. Authors: Geert Van
 Haute, Stijn Goedertier, Pieter Fannes and Maxim Van de Wynckel, Department of
 Environment & Spatial Development, Flemish Government, Brussels, presented at
 SEMANTiCS 2026, Ghent. The Flanders State of the Art logo appears top right.
 
-Central diagram: ""One semantic model over 18 regulatory sources""
+Central diagram: 'One semantic model over 18 regulatory sources'
 A node-and-arrow diagram shows five regulatory/chemical data sources on the left
 (18 regulatory lists such as ECHA, Pestici",,,
 15,73,LLM-Assisted Ontology Engineering and Construction of a French Legal Knowledge Graph,"Génesis Montenegro, Mokhtar Boumedyen Billami, Fabien Gandon, Catherine Faron and Pierre Monnin",,https://drive.google.com/file/d/1nevmSRR5JIVZ7Z9VX4ckxqqaMtJtm5Z4/view?usp=drive_link,"ontology, knowledge graph, knowledge engineering, language models, legal texts, maintenance regulation",pd,Poster,"Scientific poster with a multi-section layout containing workflow diagrams, an example of legal triple extraction and normalization, summary tables, and evaluation metrics. The poster describes a workflow for constructing a French legal knowledge graph from industrial maintenance regulations using large language models. The workflow is organized into two stages. The first stage, ontology engineering, includes class-guided triple extraction, embedding-based entity fusion, and object property induction using domain and range signatures. The second stage constructs the knowledge graph through signature-guided triple extraction, embedding-based fusion, and RDF transformation. A central example illustrates how the extracted relation ""operator – responsibleFor – post-intervention inspection"" is normalized to ""technical inspection"" before being represented in RDF. The results section compares OpenAI and Mistral models, reporting ontology and knowledge graph statistics together with evaluation",,,
