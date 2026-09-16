@@ -5,6 +5,20 @@ This page offers a comprehensive archive of all accepted papers from past SEMANT
 Since 2012, each conference edition has resulted in two distinct publications. The main proceedings showcase the rigorously peer-reviewed papers from the Research and Innovation track, while the companion proceedings include contributions from posters, demos, and workshops.
 
 <div class="timeline-container">
+  <!-- 2026 -->
+  <div class="timeline-item">
+    <img class="timeline-logo" src="../img/semantics2026-logo.png" alt="SEMANTiCS 2026 Logo">
+    <div class="timeline-year">SEMANTiCS 2026</div>
+    <div class="timeline-desc">22nd International Conference on Semantic Systems</div>
+    <div class="timeline-links">
+      Proceedings – 
+      <a href="https://ebooks.iospress.nl/doi/10.3233/SSW63">Bridging the Gap Between Curated and Induced Semantics </a><br>
+    </div>
+    <div class="timeline-website">
+      <a href="https://2026-eu.semantics.cc/">Website</a>
+    </div>
+  </div>
+  <!-- 2024 -->
   <!-- 2025 -->
   <div class="timeline-item">
     <img class="timeline-logo" src="../img/semantics2025-logo.png" alt="SEMANTiCS 2025 Logo">
