@@ -29,7 +29,7 @@ The SEMANTiCS program is committed to delivering cutting-edge content, featuring
 
 ### Best Research Paper
 
-Lucia Giagnolini and Paolo Bonora. From File Systems to Knowledge Graphs: A Multi-Phase Workflow for the Description of Born-Digital Personal Archives
+* Lucia Giagnolini and Paolo Bonora. **From File Systems to Knowledge Graphs: A Multi-Phase Workflow for the Description of Born-Digital Personal Archives**
 
 
 ### Nominations for Best Student Research Paper
@@ -42,7 +42,7 @@ Lucia Giagnolini and Paolo Bonora. From File Systems to Knowledge Graphs: A Mult
 
 ### Best Student Paper
 
-Emilija Gjorgjevska, David Riccitelli, Milos Jovanovik and Andrea Volpini.   SEOntology: A Domain Ontology for Semantic Modeling of Search Engine Optimization Workflows
+* Emilija Gjorgjevska, David Riccitelli, Milos Jovanovik and Andrea Volpini.   **SEOntology: A Domain Ontology for Semantic Modeling of Search Engine Optimization Workflows**
 
 
 
@@ -61,15 +61,15 @@ Emilija Gjorgjevska, David Riccitelli, Milos Jovanovik and Andrea Volpini.   SEO
 
 ### Nomination for the Industry and Use Case Presentation
 
-* Andrew Fergusson and Chris Jarvis - From Spreadsheets to Shared Understanding: Navigating Water Catchment Data with a Composable Linked Data Architecture
+* Andrew Fergusson and Chris Jarvis. From Spreadsheets to Shared Understanding: Navigating Water Catchment Data with a Composable Linked Data Architecture
 
-* Ad Ruijl and Jakko Heinen - Schiphol’s Linked Data Approach for Aviation Asset Information Exchange
+* Ad Ruijl and Jakko Heinen. Schiphol’s Linked Data Approach for Aviation Asset Information Exchange
 
-* Filip Pattyn - Semantic Annotation of Vaccination and Medication Information for Cross-Border Healthcare
+* Filip Pattyn. Semantic Annotation of Vaccination and Medication Information for Cross-Border Healthcare
 
 ### Best Industry and Use Case Presentation
 
-Filip Pattyn - Semantic Annotation of Vaccination and Medication Information for Cross-Border Healthcare
+* Filip Pattyn. **Semantic Annotation of Vaccination and Medication Information for Cross-Border Healthcare**
 
 
 ## Poster and Demo Track
@@ -99,20 +99,20 @@ Filip Pattyn - Semantic Annotation of Vaccination and Medication Information for
 
 ### Best Poster
 
-Poster #44 - Andrei Nesterov and Sergey Katsuba. Using Linked Data for Monitoring Administrative Persecution Targeting LGBTQIA+ Expression
+* Poster #44 - Andrei Nesterov and Sergey Katsuba. **Using Linked Data for Monitoring Administrative Persecution Targeting LGBTQIA+ Expression**
 
 
 ### Nominations for Best Demo
 
-Demo #46 - Patrick Hochstenbach, Jos De Roo, Wout Slabbinck, Beatriz Esteves and Pieter Colpaert. The Eyeling Playground: N3 rules in your browser
+* Demo #46 - Patrick Hochstenbach, Jos De Roo, Wout Slabbinck, Beatriz Esteves and Pieter Colpaert. The Eyeling Playground: N3 rules in your browser
 
-Demo #54 - Eero Hyvönen, Petri Leskinen, Heikki Rantala, Jouni Tuominen and Annastiina Ahola. Using ParliamentSampo Linked Open Data Service and Portal for Analyzing Interruptions and Laughter in the Plenary Sessions of the Parliament of Finland 
+* Demo #54 - Eero Hyvönen, Petri Leskinen, Heikki Rantala, Jouni Tuominen and Annastiina Ahola. Using ParliamentSampo Linked Open Data Service and Portal for Analyzing Interruptions and Laughter in the Plenary Sessions of the Parliament of Finland 
 
-Demo #63 - Roberto Shimizu. Session Graph: A Provenance-Aware Semantic Memory Layer for AI-Assisted Development 
+* Demo #63 - Roberto Shimizu. Session Graph: A Provenance-Aware Semantic Memory Layer for AI-Assisted Development 
 
 ### Best Demo
 
-Demo #63 - Roberto Shimizu. Session Graph: A Provenance-Aware Semantic Memory Layer for AI-Assisted Development
+* Demo #63 - Roberto Shimizu. **Session Graph: A Provenance-Aware Semantic Memory Layer for AI-Assisted Development**
 
 
 ## Blue Sky Track
@@ -149,15 +149,15 @@ Submit an original paper to the [Blue Sky Track](../page/cfp_bluesky) presenting
 
 ### Best Blue Sky Paper
 
-Anna Sofia Lippolis and Luiz Do Valle Miranda. From Fact to Feeling: Narrative Knowledge Graphs for Human-AI Interaction
+* Anna Sofia Lippolis and Luiz Do Valle Miranda. **From Fact to Feeling: Narrative Knowledge Graphs for Human-AI Interaction**
 
 ### Second Best Blue Sky Paper
 
-Blerina Spahiu and Loris Roveda. Can a Knowledge Graph Fall Down? Embodied Knowledge Graphs for Humanoid Robots
+* Blerina Spahiu and Loris Roveda. **Can a Knowledge Graph Fall Down? Embodied Knowledge Graphs for Humanoid Robots**
 
 ### Third Best Blue Sky Paper
 
-Alex Romanova. From Sequential Language to Structural Intelligence: Toward Relationship-Aware AI
+* Alex Romanova. **From Sequential Language to Structural Intelligence: Toward Relationship-Aware AI**
 
 ## ORKG Content Track
 
