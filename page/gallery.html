@@ -1,286 +1,202 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
 
-<head>
+    <title>SEMANTICS-2026</title>
 
-	<meta charset="utf-8">
-	<meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-	<meta name="description" content="">
-	<meta name="author" content="">
+    <!-- Bootstrap core CSS -->
+    <link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
-	<title>SEMANTICS-2026</title>
+    <!-- Custom styles for this template -->
+    <link href="../css/scrolling-nav.css" rel="stylesheet" />
 
-	<!-- Bootstrap core CSS -->
-	<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <link href="../css/style.css" rel="stylesheet" />
+    <link rel="icon" href="../img/semantics-logo-browser.ico" />
 
-	<!-- Custom styles for this template -->
-	<link href="../css/scrolling-nav.css" rel="stylesheet">
+    <!-- Mark down -->
+    <script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
 
-	<link href="../css/style.css" rel="stylesheet">
-	<link rel="icon" href="../img/semantics-logo-browser.ico">
+    <script src="../vendor/jquery/jquery.min.js"></script>
 
-	<!-- Mark down -->
-	<script type="module" src="../vendor/zero-md-v2/zero-md.min.js"></script>
+    <script src="../js/getconf.js"></script>
+    <script src="../js/pcontent.js"></script>
 
-	<script src="../vendor/jquery/jquery.min.js"></script>
+    <!-- Include Lightbox -->
+    <link rel="stylesheet" href="../vendor/lightbox/css/lightbox.css" />
+    <script src="../vendor/lightbox/js/lightbox.js"></script>
+  </head>
 
-	<script src="../js/getconf.js"></script>
-	<script src="../js/pcontent.js"></script>
+  <body id="page-top">
+    <div id="nav-placeholder"></div>
 
-	<!-- Include Lightbox -->
-	<link rel="stylesheet" href="../vendor/lightbox/css/lightbox.css">
-	<script src="../vendor/lightbox/js/lightbox.js"></script>
+    <script>
+      $(function () {
+        $("#nav-placeholder").load("nav.html", function functionName() {
+          apply_conf_onfunc(update_nav, false);
+        });
+        //$("#sidecol").load("side.html");
+        $("#page-footer").load("footer.html", function functionName() {
+          apply_conf_onfunc(update_footer, false);
+        });
+      });
+    </script>
 
-</head>
+    <main id="main-content">
+      <section>
+        <div class="container">
+          <div class="row">
+            <div class="col-lg-12 mx-auto">
+              <zero-md src="../content/gallery.md">
+                <template>
+                  <link href="../css/md-style.css" rel="stylesheet" />
+                  <link
+                    href="../vendor/bootstrap/css/bootstrap.min.css"
+                    rel="stylesheet"
+                  />
+                </template>
+              </zero-md>
+            </div>
+          </div>
 
-<body id="page-top">
+          <!-- Gallery -->
 
-	<div id="nav-placeholder">
+          <div class="row">
+            <div class="col-lg-8 col-md-12 mb-4 mb-lg-0">
+              <a
+                href="../img/gallery/group photo.jpg"
+                data-lightbox="image-set"
+                aria-label="View group photo full size"
+              >
+                <img
+                  src="../img/gallery/group photo.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  loading="lazy"
+                  alt="Group Photo"
+                />
+              </a>
+            </div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a
+                href="../img/gallery/Women in STEM photo.jpg"
+                data-lightbox="image-set"
+                aria-label="View Women in STEM photo"
+              >
+                <img
+                  src="../img/gallery/Women in STEM photo.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  loading="lazy"
+                  alt="Women in STEM"
+                />
+              </a>
+              <a href="../img/gallery/DSCF4691.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4691.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  loading="lazy"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
 
-	</div>
+          <div class="row">
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <a href="../img/gallery/DSCF4602.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4602.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  loading="lazy"
+                  alt=""
+                />
+              </a>
+            </div>
+            <div class="col-lg-6 mb-4 mb-lg-0">
+              <a href="../img/gallery/DSCF4567.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4567.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  loading="lazy"
+                  alt=""
+                />
+              </a>
+            </div>
+          </div>
 
-	<script>
-		$(function () {
-			$("#nav-placeholder").load("nav.html", function functionName() { apply_conf_onfunc(update_nav, false); });
-			//$("#sidecol").load("side.html");
-			$("#page-footer").load("footer.html", function functionName() { apply_conf_onfunc(update_footer, false); });
-		});
-	</script>
+          <div class="row">
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a href="../img/gallery/DSCF4619.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4619.jpg"
+                  class="w-100 shadow-1-strong rounded"
+                  loading="lazy"
+                  alt="Vertical Photo 1"
+                />
+              </a>
+            </div>
 
-	<main id="main-content">
-	<section>
-		<div class="container">
+            <div
+              class="col-lg-4 mb-4 mb-lg-0 d-flex flex-column justify-content-between"
+            >
+              <a href="../img/gallery/DSCF4542.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4542.jpg"
+                  class="w-100 shadow-1-strong rounded mb-4"
+                  loading="lazy"
+                  alt=""
+                />
+              </a>
+              <a href="../img/gallery/DSCF4550.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4550.jpg"
+                  class="w-100 shadow-1-strong rounded"
+                  loading="lazy"
+                  alt=""
+                />
+              </a>
+            </div>
 
-			<div class="row">
-				<div class="col-lg-12 mx-auto">
-					<zero-md src="../content/gallery.md">
-						<template>
-							<link href="../css/md-style.css" rel="stylesheet" />
-							<link href="../vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-						</template>
-					</zero-md>
-				</div>
-			</div>
+            <div class="col-lg-4 mb-4 mb-lg-0">
+              <a href="../img/gallery/DSCF4706.jpg" data-lightbox="image-set">
+                <img
+                  src="../img/gallery/DSCF4706.jpg"
+                  class="w-100 shadow-1-strong rounded"
+                  loading="lazy"
+                  alt="Vertical Photo 2"
+                />
+              </a>
+            </div>
+          </div>
 
-			<!-- Gallery
+          <!-- End Gallery -->
+        </div>
+      </section>
+    </main>
 
-			<a href="highres-image-1.jpeg" data-lightbox="image-set-1">
-			<img src="thumbnail-1.jpeg" alt="Image 1">
-			</a>
+    <!-- Footer -->
+    <footer id="page-footer"></footer>
 
-			<a href="highres-image-2.jpeg" data-lightbox="image-set-1">
-			<img src="thumbnail-2.jpeg" alt="Image 2">
-			</a>
+    <!-- Bootstrap core JavaScript -->
 
-			-->
-			<br>
-			<div class="row">
-				<div class="col-lg-8 col-md-12 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(1).jpg" data-lightbox="image-set" aria-label="View conference photo 1 full size">
-						<img src="../img/gallery/G(1).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
+    <script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
 
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(2).jpg" data-lightbox="image-set" aria-label="View conference photo 2 full size">
-						<img src="../img/gallery/G(2).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
+    <!-- Plugin JavaScript -->
+    <script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
 
-					<a href="../img/gallery/G(3).jpg" data-lightbox="image-set" aria-label="View conference photo 3 full size">
-						<img src="../img/gallery/G(3).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
+    <!-- Custom JavaScript for this theme -->
+    <script src="../js/scrolling-nav.js"></script>
 
-				</div>
-
-			</div>
-
-			<div class="row">
-				<div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(4).jpg" data-lightbox="image-set" aria-label="View conference photo 4 full size">
-						<img src="../img/gallery/G(4).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-					<a href="../img/gallery/G(5).jpg" data-lightbox="image-set" aria-label="View conference photo 5 full size">
-						<img src="../img/gallery/G(5).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-
-				<div class="col-lg-6 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(6).jpg" data-lightbox="image-set" aria-label="View conference photo 6 full size">
-						<img src="../img/gallery/G(6).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-					<a href="../img/gallery/G(7).jpg" data-lightbox="image-set" aria-label="View conference photo 7 full size">
-						<img src="../img/gallery/G(7).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-
-					<!-- vertical -->
-					<a href="../img/gallery/IMG_8993.jpeg" data-lightbox="image-set" aria-label="View conference photo 8 full size">
-						<img src="../img/gallery/IMG_8993.jpeg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-
-				</div>
-				<!--
-					<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-						
-						<a href="../img/gallery/G(17).jpg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/G(17).jpg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-					<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-						<a href="../img/gallery/G(17).jpg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/G(17).jpg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-
-						<a href="../img/gallery/G(8).jpg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/G(8).jpg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-				-->
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(9).jpg" data-lightbox="image-set" aria-label="View conference photo 9 full size">
-						<img src="../img/gallery/G(9).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(10).jpg" data-lightbox="image-set" aria-label="View conference photo 10 full size">
-						<img src="../img/gallery/G(10).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(11).jpg" data-lightbox="image-set" aria-label="View conference photo 11 full size">
-						<img src="../img/gallery/G(11).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-			</div>
-			<div class="row">
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(12).jpg" data-lightbox="image-set" aria-label="View conference photo 12 full size">
-						<img src="../img/gallery/G(12).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-					<a href="../img/gallery/G(13).jpg" data-lightbox="image-set" aria-label="View conference photo 13 full size">
-						<img src="../img/gallery/G(13).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-
-				<div class="col-lg-8 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(14).jpg" data-lightbox="image-set" aria-label="View conference photo 14 full size">
-						<img src="../img/gallery/G(14).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-			</div>
-
-			<div class="row">
-				<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(15).jpg" data-lightbox="image-set" aria-label="View conference photo 15 full size">
-						<img src="../img/gallery/G(15).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(16).jpg" data-lightbox="image-set" aria-label="View conference photo 16 full size">
-						<img src="../img/gallery/G(16).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-
-				<div class="col-lg-4 mb-4 mb-lg-0">
-					<a href="../img/gallery/G(17).jpg" data-lightbox="image-set" aria-label="View conference photo 17 full size">
-						<img src="../img/gallery/G(17).jpg" class="w-100 shadow-1-strong rounded mb-4" loading="lazy" alt="" />
-					</a>
-				</div>
-			</div>
-			<!--
-			<div class="row">
-					<div class="col-lg-4 col-md-12 mb-4 mb-lg-0">
-						<a href="../img/gallery/IMG_8931.jpeg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/IMG_8931.jpeg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-					<div class="col-lg-4 mb-4 mb-lg-0">
-						<a href="../img/gallery/IMG_8929.jpeg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/IMG_8929.jpeg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-
-					<div class="col-lg-4 mb-4 mb-lg-0">
-						<a href="../img/gallery/IMG_8656.jpeg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/IMG_8656.jpeg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-			</div>
-
-			<div class="row">
-					<div class="col-lg-6 col-md-12 mb-4 mb-lg-0">
-						<a href="../img/gallery/IMG_8651.jpeg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/IMG_8651.jpeg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-					<div class="col-lg-6 mb-4 mb-lg-0">
-						<a href="../img/gallery/IMG_8670.jpeg" loading="lazy" data-lightbox="image-set">
-						<img
-							src="../img/gallery/IMG_8670.jpeg"
-							class="w-100 shadow-1-strong rounded mb-4"
-						/>
-						</a>
-					</div>
-			</div>
-		-->
-
-			<!-- Gallery -->
-		</div>
-	</section>
-	</main>
-
-	<!-- Footer -->
-	<footer id="page-footer"></footer>
-
-	<!-- Bootstrap core JavaScript -->
-
-	<script src="../vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-
-	<!-- Plugin JavaScript -->
-	<script src="../vendor/jquery-easing/jquery.easing.min.js"></script>
-
-	<!-- Custom JavaScript for this theme -->
-	<script src="../js/scrolling-nav.js"></script>
-
-	<script>
-		lightbox.option({
-			'resizeDuration': 200,
-			'wrapAround': true
-		})
-	</script>
-
-
-</body>
-
+    <script>
+      lightbox.option({
+        resizeDuration: 200,
+        wrapAround: true,
+      });
+    </script>
+  </body>
 </html>
