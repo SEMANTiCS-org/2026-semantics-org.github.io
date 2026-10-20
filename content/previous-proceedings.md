@@ -14,8 +14,10 @@ Since 2012, each conference edition has resulted in two distinct publications. T
       Proceedings – 
       <a href="https://ebooks.iospress.nl/doi/10.3233/SSW63">Bridging the Gap Between Curated and Induced Semantics </a><br>
       Posters, Demos, Blue Sky, and Tutorials – 
-      <a href="https://ceur-ws.org/Vol-4293/">SEMANTiCS-C 2026</a>
-    </div>
+      <a href="https://ceur-ws.org/Vol-4293/">SEMANTiCS-C 2026</a><br>
+      Workshops – 
+      <a href="https://ceur-ws.org/Vol-4292/">SEMANTiCS-WS 2026</a>
+</div>
     <div class="timeline-website">
       <a href="https://2026-eu.semantics.cc/">Website</a>
     </div>
